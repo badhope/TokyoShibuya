@@ -1,0 +1,202 @@
+{
+    "Prefabs": {},
+    "StoryTeller": {
+        "groupData": {},
+        "layoutPanels": 0,
+        "lineData": [
+            {
+                "endNode": "msg1",
+                "endPort": "__in__",
+                "startNode": "input1",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg2",
+                "endPort": "__in__",
+                "startNode": "msg1",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg3",
+                "endPort": "__in__",
+                "startNode": "msg2",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg4",
+                "endPort": "__in__",
+                "startNode": "msg3",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg5",
+                "endPort": "__in__",
+                "startNode": "msg4",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg6",
+                "endPort": "__in__",
+                "startNode": "msg5",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "output1",
+                "endPort": "__in__",
+                "startNode": "msg6",
+                "startPort": "__out__"
+            }
+        ],
+        "nodeData": {
+            "input1": {
+                "Data": {"Type": "MacroInput", "desc": "", "parameters": [], "title": ""},
+                "NodeID": "input1",
+                "Pos": [-200.0, -400.0],
+                "Type": "MacroInput",
+                "VarData": {"input": {}, "local": {}}
+            },
+            "msg1": {
+                "Data": {"Type": "SayNode"},
+                "NodeID": "msg1",
+                "Pos": [-200.0, -360.0],
+                "Type": "SayNode",
+                "VarData": {"input": {"msg": ["line1"]}, "local": {}}
+            },
+            "line1": {
+                "Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "═══════════════════════════════════════", "value": "═══════════════════════════════════════"},
+                "NodeID": "line1",
+                "Pos": [0.0, 0.0],
+                "Type": "StrParameter",
+                "VarData": {"input": {}, "local": {"__out__": "═══════════════════════════════════════"}}
+            },
+            "msg2": {
+                "Data": {"Type": "SayNode"},
+                "NodeID": "msg2",
+                "Pos": [-200.0, -320.0],
+                "Type": "SayNode",
+                "VarData": {"input": {"msg": ["line2"]}, "local": {}}
+            },
+            "line2": {
+                "Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "🏙️  涩谷城市地图  🏙️", "value": "🏙️  涩谷城市地图  🏙️"},
+                "NodeID": "line2",
+                "Pos": [0.0, 0.0],
+                "Type": "StrParameter",
+                "VarData": {"input": {}, "local": {"__out__": "🏙️  涩谷城市地图  🏙️"}}
+            },
+            "msg3": {
+                "Data": {"Type": "SayNode"},
+                "NodeID": "msg3",
+                "Pos": [-200.0, -280.0],
+                "Type": "SayNode",
+                "VarData": {"input": {"msg": ["line3"]}, "local": {}}
+            },
+            "line3": {
+                "Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "═══════════════════════════════════════", "value": "═══════════════════════════════════════"},
+                "NodeID": "line3",
+                "Pos": [0.0, 0.0],
+                "Type": "StrParameter",
+                "VarData": {"input": {}, "local": {"__out__": "═══════════════════════════════════════"}}
+            },
+            "msg4": {
+                "Data": {"Type": "SayNode"},
+                "NodeID": "msg4",
+                "Pos": [-200.0, -240.0],
+                "Type": "SayNode",
+                "VarData": {"input": {"msg": ["cmd1"]}, "local": {}}
+            },
+            "cmd1": {
+                "Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "🗺️ shibuya_core - 生成涩谷城市", "value": "🗺️ shibuya_core - 生成涩谷城市"},
+                "NodeID": "cmd1",
+                "Pos": [0.0, 0.0],
+                "Type": "StrParameter",
+                "VarData": {"input": {}, "local": {"__out__": "🗺️ shibuya_core - 生成涩谷城市"}}
+            },
+            "msg5": {
+                "Data": {"Type": "SayNode"},
+                "NodeID": "msg5",
+                "Pos": [-200.0, -200.0],
+                "Type": "SayNode",
+                "VarData": {"input": {"msg": ["cmd2"]}, "local": {}}
+            },
+            "cmd2": {
+                "Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "🏠 shibuya_buildings - 生成建筑", "value": "🏠 shibuya_buildings - 生成建筑"},
+                "NodeID": "cmd2",
+                "Pos": [0.0, 0.0],
+                "Type": "StrParameter",
+                "VarData": {"input": {}, "local": {"__out__": "🏠 shibuya_buildings - 生成建筑"}}
+            },
+            "msg6": {
+                "Data": {"Type": "SayNode"},
+                "NodeID": "msg6",
+                "Pos": [-200.0, -160.0],
+                "Type": "SayNode",
+                "VarData": {"input": {"msg": ["cmd3"]}, "local": {}}
+            },
+            "cmd3": {
+                "Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "⭐ shibuya_landmarks - 生成地标", "value": "⭐ shibuya_landmarks - 生成地标"},
+                "NodeID": "cmd3",
+                "Pos": [0.0, 0.0],
+                "Type": "StrParameter",
+                "VarData": {"input": {}, "local": {"__out__": "⭐ shibuya_landmarks - 生成地标"}}
+            },
+            "output1": {
+                "Data": {"Type": "MacroOutput", "parameters": []},
+                "NodeID": "output1",
+                "Pos": [-200.0, -120.0],
+                "Type": "MacroOutput",
+                "VarData": {"input": {}, "local": {}}
+            }
+        },
+        "variableData": {
+            "═══════════════════════════════════════": "═══════════════════════════════════════",
+            "🏙️  涩谷城市地图  🏙️": "🏙️  涩谷城市地图  🏙️",
+            "🗺️ shibuya_core - 生成涩谷城市": "🗺️ shibuya_core - 生成涩谷城市",
+            "🏠 shibuya_buildings - 生成建筑": "🏠 shibuya_buildings - 生成建筑",
+            "⭐ shibuya_landmarks - 生成地标": "⭐ shibuya_landmarks - 生成地标"
+        },
+        "saveTimes": 1,
+        "version": 3.0
+    },
+    "Storyline": {
+        "groupData": {},
+        "lineData": [
+            {"endNode": "msg1", "endPort": "__in__", "startNode": "input1", "startPort": "__out__"},
+            {"endNode": "line1", "endPort": "__out__", "startNode": "msg1", "startPort": "msg"},
+            {"endNode": "msg2", "endPort": "__in__", "startNode": "msg1", "startPort": "__out__"},
+            {"endNode": "line2", "endPort": "__out__", "startNode": "msg2", "startPort": "msg"},
+            {"endNode": "msg3", "endPort": "__in__", "startNode": "msg2", "startPort": "__out__"},
+            {"endNode": "line3", "endPort": "__out__", "startNode": "msg3", "startPort": "msg"},
+            {"endNode": "msg4", "endPort": "__in__", "startNode": "msg3", "startPort": "__out__"},
+            {"endNode": "cmd1", "endPort": "__out__", "startNode": "msg4", "startPort": "msg"},
+            {"endNode": "msg5", "endPort": "__in__", "startNode": "msg4", "startPort": "__out__"},
+            {"endNode": "cmd2", "endPort": "__out__", "startNode": "msg5", "startPort": "msg"},
+            {"endNode": "msg6", "endPort": "__in__", "startNode": "msg5", "startPort": "__out__"},
+            {"endNode": "cmd3", "endPort": "__out__", "startNode": "msg6", "startPort": "msg"},
+            {"endNode": "output1", "endPort": "__in__", "startNode": "msg6", "startPort": "__out__"}
+        ],
+        "nodeData": {
+            "input1": {
+                "Data": {"Type": "MacroInput", "desc": "", "parameters": [], "title": ""},
+                "NodeID": "input1",
+                "Pos": [-200.0, -400.0],
+                "Type": "MacroInput"
+            },
+            "msg1": {"Data": {"Type": "SayNode"}, "NodeID": "msg1", "Pos": [-200.0, -360.0], "Type": "SayNode"},
+            "line1": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "═══════════════════════════════════════", "value": "═══════════════════════════════════════"}, "NodeID": "line1", "Pos": [0.0, 0.0], "Type": "StrParameter"},
+            "msg2": {"Data": {"Type": "SayNode"}, "NodeID": "msg2", "Pos": [-200.0, -320.0], "Type": "SayNode"},
+            "line2": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "🏙️  涩谷城市地图  🏙️", "value": "🏙️  涩谷城市地图  🏙️"}, "NodeID": "line2", "Pos": [0.0, 0.0], "Type": "StrParameter"},
+            "msg3": {"Data": {"Type": "SayNode"}, "NodeID": "msg3", "Pos": [-200.0, -280.0], "Type": "SayNode"},
+            "line3": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "═══════════════════════════════════════", "value": "═══════════════════════════════════════"}, "NodeID": "line3", "Pos": [0.0, 0.0], "Type": "StrParameter"},
+            "msg4": {"Data": {"Type": "SayNode"}, "NodeID": "msg4", "Pos": [-200.0, -240.0], "Type": "SayNode"},
+            "cmd1": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "🗺️ shibuya_core - 生成涩谷城市", "value": "🗺️ shibuya_core - 生成涩谷城市"}, "NodeID": "cmd1", "Pos": [0.0, 0.0], "Type": "StrParameter"},
+            "msg5": {"Data": {"Type": "SayNode"}, "NodeID": "msg5", "Pos": [-200.0, -200.0], "Type": "SayNode"},
+            "cmd2": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "🏠 shibuya_buildings - 生成建筑", "value": "🏠 shibuya_buildings - 生成建筑"}, "NodeID": "cmd2", "Pos": [0.0, 0.0], "Type": "StrParameter"},
+            "msg6": {"Data": {"Type": "SayNode"}, "NodeID": "msg6", "Pos": [-200.0, -160.0], "Type": "SayNode"},
+            "cmd3": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "⭐ shibuya_landmarks - 生成地标", "value": "⭐ shibuya_landmarks - 生成地标"}, "NodeID": "cmd3", "Pos": [0.0, 0.0], "Type": "StrParameter"},
+            "output1": {"Data": {"Type": "MacroOutput", "parameters": []}, "NodeID": "output1", "Pos": [-200.0, -120.0], "Type": "MacroOutput"}
+        },
+        "version": 3.0
+    },
+    "Type": "Macro",
+    "Version": 1.0
+}

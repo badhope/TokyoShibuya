@@ -1,0 +1,241 @@
+{
+    "editor": {
+        "name": "涩谷收集系统",
+        "description": "生成涩谷特色收藏品（12种）",
+        "autoRun": false
+    },
+    "tasks": [
+        {
+            "id": "shibuya_collectibles",
+            "name": "涩谷收集系统",
+            "nodeList": [
+                {
+                    "blockPosition": {"x": -2, "y": 0, "z": 0},
+                    "Type": "FillBlockNode",
+                    "blockName": "diamond_block",
+                    "blockPositionList": [
+                        {"x": -60, "y": 69, "z": -60}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": -2, "y": 0, "z": 1},
+                    "Type": "SetBlockNode",
+                    "blockName": "oak_sign",
+                    "blockPositionList": [
+                        {"x": -60, "y": 70, "z": -60}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 0, "y": 0, "z": 0},
+                    "Type": "FillBlockNode",
+                    "blockName": "gold_block",
+                    "blockPositionList": [
+                        {"x": -58, "y": 69, "z": -58}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 0, "y": 0, "z": 1},
+                    "Type": "SetBlockNode",
+                    "blockName": "oak_sign",
+                    "blockPositionList": [
+                        {"x": -58, "y": 70, "z": -58}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 2, "y": 0, "z": 0},
+                    "Type": "FillBlockNode",
+                    "blockName": "emerald_block",
+                    "blockPositionList": [
+                        {"x": -56, "y": 69, "z": -56}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 2, "y": 0, "z": 1},
+                    "Type": "SetBlockNode",
+                    "blockName": "oak_sign",
+                    "blockPositionList": [
+                        {"x": -56, "y": 70, "z": -56}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 4, "y": 0, "z": 0},
+                    "Type": "FillBlockNode",
+                    "blockName": "iron_block",
+                    "blockPositionList": [
+                        {"x": -54, "y": 69, "z": -54}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 4, "y": 0, "z": 1},
+                    "Type": "SetBlockNode",
+                    "blockName": "oak_sign",
+                    "blockPositionList": [
+                        {"x": -54, "y": 70, "z": -54}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 6, "y": 0, "z": 0},
+                    "Type": "FillBlockNode",
+                    "blockName": "lapis_block",
+                    "blockPositionList": [
+                        {"x": -52, "y": 69, "z": -52}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 6, "y": 0, "z": 1},
+                    "Type": "SetBlockNode",
+                    "blockName": "oak_sign",
+                    "blockPositionList": [
+                        {"x": -52, "y": 70, "z": -52}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 8, "y": 0, "z": 0},
+                    "Type": "FillBlockNode",
+                    "blockName": "redstone_block",
+                    "blockPositionList": [
+                        {"x": -50, "y": 69, "z": -50}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 8, "y": 0, "z": 1},
+                    "Type": "SetBlockNode",
+                    "blockName": "oak_sign",
+                    "blockPositionList": [
+                        {"x": -50, "y": 70, "z": -50}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": -4, "y": 0, "z": 0},
+                    "Type": "FillBlockNode",
+                    "blockName": "coal_block",
+                    "blockPositionList": [
+                        {"x": -62, "y": 69, "z": -62}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": -4, "y": 0, "z": 1},
+                    "Type": "SetBlockNode",
+                    "blockName": "oak_sign",
+                    "blockPositionList": [
+                        {"x": -62, "y": 70, "z": -62}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": -6, "y": 0, "z": 0},
+                    "Type": "FillBlockNode",
+                    "blockName": "quartz_block",
+                    "blockPositionList": [
+                        {"x": -64, "y": 69, "z": -64}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": -6, "y": 0, "z": 1},
+                    "Type": "SetBlockNode",
+                    "blockName": "oak_sign",
+                    "blockPositionList": [
+                        {"x": -64, "y": 70, "z": -64}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 10, "y": 0, "z": 0},
+                    "Type": "FillBlockNode",
+                    "blockName": "prismarine",
+                    "blockPositionList": [
+                        {"x": -48, "y": 69, "z": -48}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 10, "y": 0, "z": 1},
+                    "Type": "SetBlockNode",
+                    "blockName": "oak_sign",
+                    "blockPositionList": [
+                        {"x": -48, "y": 70, "z": -48}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 12, "y": 0, "z": 0},
+                    "Type": "FillBlockNode",
+                    "blockName": "sea_lantern",
+                    "blockPositionList": [
+                        {"x": -46, "y": 69, "z": -46}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 12, "y": 0, "z": 1},
+                    "Type": "SetBlockNode",
+                    "blockName": "oak_sign",
+                    "blockPositionList": [
+                        {"x": -46, "y": 70, "z": -46}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 14, "y": 0, "z": 0},
+                    "Type": "FillBlockNode",
+                    "blockName": "glowstone",
+                    "blockPositionList": [
+                        {"x": -44, "y": 69, "z": -44}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 14, "y": 0, "z": 1},
+                    "Type": "SetBlockNode",
+                    "blockName": "oak_sign",
+                    "blockPositionList": [
+                        {"x": -44, "y": 70, "z": -44}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 16, "y": 0, "z": 0},
+                    "Type": "FillBlockNode",
+                    "blockName": "end_stone",
+                    "blockPositionList": [
+                        {"x": -42, "y": 69, "z": -42}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 16, "y": 0, "z": 1},
+                    "Type": "SetBlockNode",
+                    "blockName": "oak_sign",
+                    "blockPositionList": [
+                        {"x": -42, "y": 70, "z": -42}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 18, "y": 0, "z": 0},
+                    "Type": "FillBlockNode",
+                    "blockName": "nether_brick",
+                    "blockPositionList": [
+                        {"x": -40, "y": 69, "z": -40}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": 18, "y": 0, "z": 1},
+                    "Type": "SetBlockNode",
+                    "blockName": "oak_sign",
+                    "blockPositionList": [
+                        {"x": -40, "y": 70, "z": -40}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": -8, "y": 0, "z": 0},
+                    "Type": "FillBlockNode",
+                    "blockName": "purpur_block",
+                    "blockPositionList": [
+                        {"x": -66, "y": 69, "z": -66}
+                    ]
+                },
+                {
+                    "blockPosition": {"x": -8, "y": 0, "z": 1},
+                    "Type": "SetBlockNode",
+                    "blockName": "oak_sign",
+                    "blockPositionList": [
+                        {"x": -66, "y": 70, "z": -66}
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditions": [],
+    "globalVariables": []
+}

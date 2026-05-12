@@ -1,0 +1,19 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "涩谷城市地图 - 东京涩谷完整城市体验",
+        "name": "ShibuyaCityMap",
+        "uuid": "fdc938a6-258f-4b63-a100-fae1360f9826",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 18, 0]
+    },
+    "modules": [
+        {
+            "description": "涩谷城市数据包 - 包含建筑、地标、交通、餐饮等系统",
+            "type": "data",
+            "uuid": "be8eead9-abac-4588-a3ef-f46857805416",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": []
+}
