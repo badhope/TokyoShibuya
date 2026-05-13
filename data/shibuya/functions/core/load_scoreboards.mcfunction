@@ -60,3 +60,7 @@ scoreboard objectives add building_name dummy
 scoreboard objectives add env_type dummy
 scoreboard objectives add crowd_density dummy
 scoreboard objectives add gen_progress dummy
+# === v3.7.0 新增计分板 ===
+scoreboard objectives add stamp_reward_3 dummy
+scoreboard objectives add stamp_reward_5 dummy
+scoreboard objectives add stamp_reward_10 dummy
