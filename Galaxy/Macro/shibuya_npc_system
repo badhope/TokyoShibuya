@@ -1,3190 +1,3190 @@
 {
-    "Prefabs": {},
-    "StoryTeller": {
-        "groupData": {},
-        "layoutPanels": 0,
-        "lineData": [
-            {
-                "endNode": "step1",
-                "endPort": "__in__",
-                "startNode": "input1",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "intro_msg",
-                "endPort": "__out__",
-                "startNode": "step1",
-                "startPort": "msg"
-            },
-            {
-                "endNode": "step2",
-                "endPort": "__in__",
-                "startNode": "intro_msg",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity1_pos",
-                "endPort": "__out__",
-                "startNode": "step2",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity1_type",
-                "endPort": "__out__",
-                "startNode": "step2",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity1_name",
-                "endPort": "__out__",
-                "startNode": "step2",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step3",
-                "endPort": "__in__",
-                "startNode": "entity1_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity2_pos",
-                "endPort": "__out__",
-                "startNode": "step3",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity2_type",
-                "endPort": "__out__",
-                "startNode": "step3",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity2_name",
-                "endPort": "__out__",
-                "startNode": "step3",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step4",
-                "endPort": "__in__",
-                "startNode": "entity2_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity3_pos",
-                "endPort": "__out__",
-                "startNode": "step4",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity3_type",
-                "endPort": "__out__",
-                "startNode": "step4",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity3_name",
-                "endPort": "__out__",
-                "startNode": "step4",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step5",
-                "endPort": "__in__",
-                "startNode": "entity3_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity4_pos",
-                "endPort": "__out__",
-                "startNode": "step5",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity4_type",
-                "endPort": "__out__",
-                "startNode": "step5",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity4_name",
-                "endPort": "__out__",
-                "startNode": "step5",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step6",
-                "endPort": "__in__",
-                "startNode": "entity4_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity5_pos",
-                "endPort": "__out__",
-                "startNode": "step6",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity5_type",
-                "endPort": "__out__",
-                "startNode": "step6",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity5_name",
-                "endPort": "__out__",
-                "startNode": "step6",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step7",
-                "endPort": "__in__",
-                "startNode": "entity5_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity6_pos",
-                "endPort": "__out__",
-                "startNode": "step7",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity6_type",
-                "endPort": "__out__",
-                "startNode": "step7",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity6_name",
-                "endPort": "__out__",
-                "startNode": "step7",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step8",
-                "endPort": "__in__",
-                "startNode": "entity6_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity7_pos",
-                "endPort": "__out__",
-                "startNode": "step8",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity7_type",
-                "endPort": "__out__",
-                "startNode": "step8",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity7_name",
-                "endPort": "__out__",
-                "startNode": "step8",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step9",
-                "endPort": "__in__",
-                "startNode": "entity7_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity8_pos",
-                "endPort": "__out__",
-                "startNode": "step9",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity8_type",
-                "endPort": "__out__",
-                "startNode": "step9",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity8_name",
-                "endPort": "__out__",
-                "startNode": "step9",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step10",
-                "endPort": "__in__",
-                "startNode": "entity8_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity9_pos",
-                "endPort": "__out__",
-                "startNode": "step10",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity9_type",
-                "endPort": "__out__",
-                "startNode": "step10",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity9_name",
-                "endPort": "__out__",
-                "startNode": "step10",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step11",
-                "endPort": "__in__",
-                "startNode": "entity9_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity10_pos",
-                "endPort": "__out__",
-                "startNode": "step11",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity10_type",
-                "endPort": "__out__",
-                "startNode": "step11",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity10_name",
-                "endPort": "__out__",
-                "startNode": "step11",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step12",
-                "endPort": "__in__",
-                "startNode": "entity10_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity11_pos",
-                "endPort": "__out__",
-                "startNode": "step12",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity11_type",
-                "endPort": "__out__",
-                "startNode": "step12",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity11_name",
-                "endPort": "__out__",
-                "startNode": "step12",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step13",
-                "endPort": "__in__",
-                "startNode": "entity11_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity12_pos",
-                "endPort": "__out__",
-                "startNode": "step13",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity12_type",
-                "endPort": "__out__",
-                "startNode": "step13",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity12_name",
-                "endPort": "__out__",
-                "startNode": "step13",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step14",
-                "endPort": "__in__",
-                "startNode": "entity12_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity13_pos",
-                "endPort": "__out__",
-                "startNode": "step14",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity13_type",
-                "endPort": "__out__",
-                "startNode": "step14",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity13_name",
-                "endPort": "__out__",
-                "startNode": "step14",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step15",
-                "endPort": "__in__",
-                "startNode": "entity13_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity14_pos",
-                "endPort": "__out__",
-                "startNode": "step15",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity14_type",
-                "endPort": "__out__",
-                "startNode": "step15",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity14_name",
-                "endPort": "__out__",
-                "startNode": "step15",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step16",
-                "endPort": "__in__",
-                "startNode": "entity14_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity15_pos",
-                "endPort": "__out__",
-                "startNode": "step16",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity15_type",
-                "endPort": "__out__",
-                "startNode": "step16",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity15_name",
-                "endPort": "__out__",
-                "startNode": "step16",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step17",
-                "endPort": "__in__",
-                "startNode": "entity15_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "final_msg",
-                "endPort": "__out__",
-                "startNode": "step17",
-                "startPort": "msg"
-            },
-            {
-                "endNode": "output1",
-                "endPort": "__in__",
-                "startNode": "final_msg",
-                "startPort": "__out__"
-            }
+  "Prefabs": {},
+  "StoryTeller": {
+    "groupData": {},
+    "layoutPanels": 0,
+    "lineData": [
+      {
+        "endNode": "step1",
+        "endPort": "__in__",
+        "startNode": "input1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "intro_msg",
+        "endPort": "__out__",
+        "startNode": "step1",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "step2",
+        "endPort": "__in__",
+        "startNode": "intro_msg",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity1_pos",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity1_type",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity1_name",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step3",
+        "endPort": "__in__",
+        "startNode": "entity1_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity2_pos",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity2_type",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity2_name",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step4",
+        "endPort": "__in__",
+        "startNode": "entity2_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity3_pos",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity3_type",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity3_name",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step5",
+        "endPort": "__in__",
+        "startNode": "entity3_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity4_pos",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity4_type",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity4_name",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step6",
+        "endPort": "__in__",
+        "startNode": "entity4_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity5_pos",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity5_type",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity5_name",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step7",
+        "endPort": "__in__",
+        "startNode": "entity5_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity6_pos",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity6_type",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity6_name",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step8",
+        "endPort": "__in__",
+        "startNode": "entity6_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity7_pos",
+        "endPort": "__out__",
+        "startNode": "step8",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity7_type",
+        "endPort": "__out__",
+        "startNode": "step8",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity7_name",
+        "endPort": "__out__",
+        "startNode": "step8",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step9",
+        "endPort": "__in__",
+        "startNode": "entity7_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity8_pos",
+        "endPort": "__out__",
+        "startNode": "step9",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity8_type",
+        "endPort": "__out__",
+        "startNode": "step9",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity8_name",
+        "endPort": "__out__",
+        "startNode": "step9",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step10",
+        "endPort": "__in__",
+        "startNode": "entity8_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity9_pos",
+        "endPort": "__out__",
+        "startNode": "step10",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity9_type",
+        "endPort": "__out__",
+        "startNode": "step10",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity9_name",
+        "endPort": "__out__",
+        "startNode": "step10",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step11",
+        "endPort": "__in__",
+        "startNode": "entity9_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity10_pos",
+        "endPort": "__out__",
+        "startNode": "step11",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity10_type",
+        "endPort": "__out__",
+        "startNode": "step11",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity10_name",
+        "endPort": "__out__",
+        "startNode": "step11",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step12",
+        "endPort": "__in__",
+        "startNode": "entity10_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity11_pos",
+        "endPort": "__out__",
+        "startNode": "step12",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity11_type",
+        "endPort": "__out__",
+        "startNode": "step12",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity11_name",
+        "endPort": "__out__",
+        "startNode": "step12",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step13",
+        "endPort": "__in__",
+        "startNode": "entity11_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity12_pos",
+        "endPort": "__out__",
+        "startNode": "step13",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity12_type",
+        "endPort": "__out__",
+        "startNode": "step13",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity12_name",
+        "endPort": "__out__",
+        "startNode": "step13",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step14",
+        "endPort": "__in__",
+        "startNode": "entity12_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity13_pos",
+        "endPort": "__out__",
+        "startNode": "step14",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity13_type",
+        "endPort": "__out__",
+        "startNode": "step14",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity13_name",
+        "endPort": "__out__",
+        "startNode": "step14",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step15",
+        "endPort": "__in__",
+        "startNode": "entity13_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity14_pos",
+        "endPort": "__out__",
+        "startNode": "step15",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity14_type",
+        "endPort": "__out__",
+        "startNode": "step15",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity14_name",
+        "endPort": "__out__",
+        "startNode": "step15",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step16",
+        "endPort": "__in__",
+        "startNode": "entity14_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity15_pos",
+        "endPort": "__out__",
+        "startNode": "step16",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity15_type",
+        "endPort": "__out__",
+        "startNode": "step16",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity15_name",
+        "endPort": "__out__",
+        "startNode": "step16",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step17",
+        "endPort": "__in__",
+        "startNode": "entity15_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "final_msg",
+        "endPort": "__out__",
+        "startNode": "step17",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "output1",
+        "endPort": "__in__",
+        "startNode": "final_msg",
+        "startPort": "__out__"
+      }
+    ],
+    "nodeData": {
+      "input1": {
+        "Data": {
+          "Type": "MacroInput",
+          "desc": "",
+          "parameters": [],
+          "title": ""
+        },
+        "NodeID": "input1",
+        "Pos": [
+          -200.0,
+          -300.0
         ],
-        "nodeData": {
-            "input1": {
-                "Data": {
-                    "Type": "MacroInput",
-                    "desc": "",
-                    "parameters": [],
-                    "title": ""
-                },
-                "NodeID": "input1",
-                "Pos": [
-                    -200.0,
-                    -300.0
-                ],
-                "Type": "MacroInput",
-                "VarData": {
-                    "input": {},
-                    "local": {}
-                }
-            },
-            "step1": {
-                "Data": {
-                    "Type": "SayNode"
-                },
-                "NodeID": "step1",
-                "Pos": [
-                    -200.0,
-                    -250.0
-                ],
-                "Type": "SayNode",
-                "VarData": {
-                    "input": {
-                        "msg": [
-                            "intro_msg"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "intro_msg": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "msg",
-                    "parameterStyle": "Input",
-                    "parameterText": "生成涩谷NPC v2...",
-                    "value": "生成涩谷NPC v2..."
-                },
-                "NodeID": "intro_msg",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "生成涩谷NPC v2..."
-                    }
-                }
-            },
-            "step2": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step2",
-                "Pos": [
-                    -200.0,
-                    -200.0
-                ],
-                "Type": "SpawnEntityNode",
-                "VarData": {
-                    "input": {
-                        "des": [
-                            "entity1_name"
-                        ],
-                        "entityType": [
-                            "entity1_type"
-                        ],
-                        "pos": [
-                            "entity1_pos"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "entity1_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "0 65 10",
-                    "value": "0 65 10"
-                },
-                "NodeID": "entity1_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "0 65 10"
-                    }
-                }
-            },
-            "entity1_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity1_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "villager"
-                    }
-                }
-            },
-            "entity1_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "涩谷向导",
-                    "value": "涩谷向导"
-                },
-                "NodeID": "entity1_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "涩谷向导"
-                    }
-                }
-            },
-            "step3": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step3",
-                "Pos": [
-                    -200.0,
-                    -150.0
-                ],
-                "Type": "SpawnEntityNode",
-                "VarData": {
-                    "input": {
-                        "des": [
-                            "entity2_name"
-                        ],
-                        "entityType": [
-                            "entity2_type"
-                        ],
-                        "pos": [
-                            "entity2_pos"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "entity2_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "97 68 13",
-                    "value": "97 68 13"
-                },
-                "NodeID": "entity2_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "97 68 13"
-                    }
-                }
-            },
-            "entity2_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity2_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "villager"
-                    }
-                }
-            },
-            "entity2_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "便利店店员",
-                    "value": "便利店店员"
-                },
-                "NodeID": "entity2_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "便利店店员"
-                    }
-                }
-            },
-            "step4": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step4",
-                "Pos": [
-                    -200.0,
-                    -100.0
-                ],
-                "Type": "SpawnEntityNode",
-                "VarData": {
-                    "input": {
-                        "des": [
-                            "entity3_name"
-                        ],
-                        "entityType": [
-                            "entity3_type"
-                        ],
-                        "pos": [
-                            "entity3_pos"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "entity3_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "115 68 -65",
-                    "value": "115 68 -65"
-                },
-                "NodeID": "entity3_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "115 68 -65"
-                    }
-                }
-            },
-            "entity3_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity3_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "villager"
-                    }
-                }
-            },
-            "entity3_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "咖啡师小林",
-                    "value": "咖啡师小林"
-                },
-                "NodeID": "entity3_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "咖啡师小林"
-                    }
-                }
-            },
-            "step5": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step5",
-                "Pos": [
-                    -200.0,
-                    -50.0
-                ],
-                "Type": "SpawnEntityNode",
-                "VarData": {
-                    "input": {
-                        "des": [
-                            "entity4_name"
-                        ],
-                        "entityType": [
-                            "entity4_type"
-                        ],
-                        "pos": [
-                            "entity4_pos"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "entity4_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "-125 68 65",
-                    "value": "-125 68 65"
-                },
-                "NodeID": "entity4_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "-125 68 65"
-                    }
-                }
-            },
-            "entity4_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity4_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "villager"
-                    }
-                }
-            },
-            "entity4_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "拉面师傅田中",
-                    "value": "拉面师傅田中"
-                },
-                "NodeID": "entity4_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "拉面师傅田中"
-                    }
-                }
-            },
-            "step6": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step6",
-                "Pos": [
-                    -200.0,
-                    0.0
-                ],
-                "Type": "SpawnEntityNode",
-                "VarData": {
-                    "input": {
-                        "des": [
-                            "entity5_name"
-                        ],
-                        "entityType": [
-                            "entity5_type"
-                        ],
-                        "pos": [
-                            "entity5_pos"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "entity5_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "-65 68 5",
-                    "value": "-65 68 5"
-                },
-                "NodeID": "entity5_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "-65 68 5"
-                    }
-                }
-            },
-            "entity5_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity5_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "villager"
-                    }
-                }
-            },
-            "entity5_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "站务员佐藤",
-                    "value": "站务员佐藤"
-                },
-                "NodeID": "entity5_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "站务员佐藤"
-                    }
-                }
-            },
-            "step7": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step7",
-                "Pos": [
-                    -200.0,
-                    50.0
-                ],
-                "Type": "SpawnEntityNode",
-                "VarData": {
-                    "input": {
-                        "des": [
-                            "entity6_name"
-                        ],
-                        "entityType": [
-                            "entity6_type"
-                        ],
-                        "pos": [
-                            "entity6_pos"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "entity6_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "-155 68 -115",
-                    "value": "-155 68 -115"
-                },
-                "NodeID": "entity6_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "-155 68 -115"
-                    }
-                }
-            },
-            "entity6_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity6_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "villager"
-                    }
-                }
-            },
-            "entity6_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "卡拉OK主持",
-                    "value": "卡拉OK主持"
-                },
-                "NodeID": "entity6_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "卡拉OK主持"
-                    }
-                }
-            },
-            "step8": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step8",
-                "Pos": [
-                    -200.0,
-                    100.0
-                ],
-                "Type": "SpawnEntityNode",
-                "VarData": {
-                    "input": {
-                        "des": [
-                            "entity7_name"
-                        ],
-                        "entityType": [
-                            "entity7_type"
-                        ],
-                        "pos": [
-                            "entity7_pos"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "entity7_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "30 65 20",
-                    "value": "30 65 20"
-                },
-                "NodeID": "entity7_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "30 65 20"
-                    }
-                }
-            },
-            "entity7_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity7_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "villager"
-                    }
-                }
-            },
-            "entity7_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "游客美咲",
-                    "value": "游客美咲"
-                },
-                "NodeID": "entity7_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "游客美咲"
-                    }
-                }
-            },
-            "step9": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step9",
-                "Pos": [
-                    -200.0,
-                    150.0
-                ],
-                "Type": "SpawnEntityNode",
-                "VarData": {
-                    "input": {
-                        "des": [
-                            "entity8_name"
-                        ],
-                        "entityType": [
-                            "entity8_type"
-                        ],
-                        "pos": [
-                            "entity8_pos"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "entity8_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "-20 65 -25",
-                    "value": "-20 65 -25"
-                },
-                "NodeID": "entity8_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "-20 65 -25"
-                    }
-                }
-            },
-            "entity8_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity8_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "villager"
-                    }
-                }
-            },
-            "entity8_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "游客健太",
-                    "value": "游客健太"
-                },
-                "NodeID": "entity8_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "游客健太"
-                    }
-                }
-            },
-            "step10": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step10",
-                "Pos": [
-                    -200.0,
-                    200.0
-                ],
-                "Type": "SpawnEntityNode",
-                "VarData": {
-                    "input": {
-                        "des": [
-                            "entity9_name"
-                        ],
-                        "entityType": [
-                            "entity9_type"
-                        ],
-                        "pos": [
-                            "entity9_pos"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "entity9_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "-25 65 70",
-                    "value": "-25 65 70"
-                },
-                "NodeID": "entity9_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "-25 65 70"
-                    }
-                }
-            },
-            "entity9_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity9_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "villager"
-                    }
-                }
-            },
-            "entity9_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "上班族大辅",
-                    "value": "上班族大辅"
-                },
-                "NodeID": "entity9_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "上班族大辅"
-                    }
-                }
-            },
-            "step11": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step11",
-                "Pos": [
-                    -200.0,
-                    250.0
-                ],
-                "Type": "SpawnEntityNode",
-                "VarData": {
-                    "input": {
-                        "des": [
-                            "entity10_name"
-                        ],
-                        "entityType": [
-                            "entity10_type"
-                        ],
-                        "pos": [
-                            "entity10_pos"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "entity10_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "80 65 -50",
-                    "value": "80 65 -50"
-                },
-                "NodeID": "entity10_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "80 65 -50"
-                    }
-                }
-            },
-            "entity10_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity10_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "villager"
-                    }
-                }
-            },
-            "entity10_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "学生花子",
-                    "value": "学生花子"
-                },
-                "NodeID": "entity10_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "学生花子"
-                    }
-                }
-            },
-            "step12": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step12",
-                "Pos": [
-                    -200.0,
-                    300.0
-                ],
-                "Type": "SpawnEntityNode",
-                "VarData": {
-                    "input": {
-                        "des": [
-                            "entity11_name"
-                        ],
-                        "entityType": [
-                            "entity11_type"
-                        ],
-                        "pos": [
-                            "entity11_pos"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "entity11_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "-95 68 105",
-                    "value": "-95 68 105"
-                },
-                "NodeID": "entity11_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "-95 68 105"
-                    }
-                }
-            },
-            "entity11_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity11_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "villager"
-                    }
-                }
-            },
-            "entity11_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "酒店前台",
-                    "value": "酒店前台"
-                },
-                "NodeID": "entity11_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "酒店前台"
-                    }
-                }
-            },
-            "step13": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step13",
-                "Pos": [
-                    -200.0,
-                    350.0
-                ],
-                "Type": "SpawnEntityNode",
-                "VarData": {
-                    "input": {
-                        "des": [
-                            "entity12_name"
-                        ],
-                        "entityType": [
-                            "entity12_type"
-                        ],
-                        "pos": [
-                            "entity12_pos"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "entity12_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "105 68 105",
-                    "value": "105 68 105"
-                },
-                "NodeID": "entity12_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "105 68 105"
-                    }
-                }
-            },
-            "entity12_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity12_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "villager"
-                    }
-                }
-            },
-            "entity12_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "公寓管理员",
-                    "value": "公寓管理员"
-                },
-                "NodeID": "entity12_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "公寓管理员"
-                    }
-                }
-            },
-            "step14": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step14",
-                "Pos": [
-                    -200.0,
-                    400.0
-                ],
-                "Type": "SpawnEntityNode",
-                "VarData": {
-                    "input": {
-                        "des": [
-                            "entity13_name"
-                        ],
-                        "entityType": [
-                            "entity13_type"
-                        ],
-                        "pos": [
-                            "entity13_pos"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "entity13_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "40 65 -40",
-                    "value": "40 65 -40"
-                },
-                "NodeID": "entity13_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "40 65 -40"
-                    }
-                }
-            },
-            "entity13_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity13_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "villager"
-                    }
-                }
-            },
-            "entity13_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "街头艺人",
-                    "value": "街头艺人"
-                },
-                "NodeID": "entity13_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "街头艺人"
-                    }
-                }
-            },
-            "step15": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step15",
-                "Pos": [
-                    -200.0,
-                    450.0
-                ],
-                "Type": "SpawnEntityNode",
-                "VarData": {
-                    "input": {
-                        "des": [
-                            "entity14_name"
-                        ],
-                        "entityType": [
-                            "entity14_type"
-                        ],
-                        "pos": [
-                            "entity14_pos"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "entity14_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "60 65 30",
-                    "value": "60 65 30"
-                },
-                "NodeID": "entity14_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "60 65 30"
-                    }
-                }
-            },
-            "entity14_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity14_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "villager"
-                    }
-                }
-            },
-            "entity14_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "外卖骑手",
-                    "value": "外卖骑手"
-                },
-                "NodeID": "entity14_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "外卖骑手"
-                    }
-                }
-            },
-            "step16": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step16",
-                "Pos": [
-                    -200.0,
-                    500.0
-                ],
-                "Type": "SpawnEntityNode",
-                "VarData": {
-                    "input": {
-                        "des": [
-                            "entity15_name"
-                        ],
-                        "entityType": [
-                            "entity15_type"
-                        ],
-                        "pos": [
-                            "entity15_pos"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "entity15_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "-50 65 50",
-                    "value": "-50 65 50"
-                },
-                "NodeID": "entity15_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "-50 65 50"
-                    }
-                }
-            },
-            "entity15_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity15_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "villager"
-                    }
-                }
-            },
-            "entity15_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "清洁工",
-                    "value": "清洁工"
-                },
-                "NodeID": "entity15_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "清洁工"
-                    }
-                }
-            },
-            "step17": {
-                "Data": {
-                    "Type": "SayNode"
-                },
-                "NodeID": "step17",
-                "Pos": [
-                    -200.0,
-                    550.0
-                ],
-                "Type": "SayNode",
-                "VarData": {
-                    "input": {
-                        "msg": [
-                            "final_msg"
-                        ]
-                    },
-                    "local": {}
-                }
-            },
-            "final_msg": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "msg",
-                    "parameterStyle": "Input",
-                    "parameterText": "15个NPC已生成！右键互动！",
-                    "value": "15个NPC已生成！右键互动！"
-                },
-                "NodeID": "final_msg",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "15个NPC已生成！右键互动！"
-                    }
-                }
-            },
-            "output1": {
-                "Data": {
-                    "Type": "MacroOutput",
-                    "parameters": []
-                },
-                "NodeID": "output1",
-                "Pos": [
-                    -200.0,
-                    600.0
-                ],
-                "Type": "MacroOutput",
-                "VarData": {
-                    "input": {},
-                    "local": {}
-                }
-            }
+        "Type": "MacroInput",
+        "VarData": {
+          "input": {},
+          "local": {}
+        }
+      },
+      "step1": {
+        "Data": {
+          "Type": "SayNode"
         },
-        "variableData": {
-            "生成涩谷NPC v2...": "生成涩谷NPC v2...",
-            "0 65 10": "0 65 10",
-            "villager": "villager",
-            "涩谷向导": "涩谷向导",
-            "97 68 13": "97 68 13",
-            "便利店店员": "便利店店员",
-            "115 68 -65": "115 68 -65",
-            "咖啡师小林": "咖啡师小林",
-            "-125 68 65": "-125 68 65",
-            "拉面师傅田中": "拉面师傅田中",
-            "-65 68 5": "-65 68 5",
-            "站务员佐藤": "站务员佐藤",
-            "-155 68 -115": "-155 68 -115",
-            "卡拉OK主持": "卡拉OK主持",
-            "30 65 20": "30 65 20",
-            "游客美咲": "游客美咲",
-            "-20 65 -25": "-20 65 -25",
-            "游客健太": "游客健太",
-            "-25 65 70": "-25 65 70",
-            "上班族大辅": "上班族大辅",
-            "80 65 -50": "80 65 -50",
-            "学生花子": "学生花子",
-            "-95 68 105": "-95 68 105",
-            "酒店前台": "酒店前台",
-            "105 68 105": "105 68 105",
-            "公寓管理员": "公寓管理员",
-            "40 65 -40": "40 65 -40",
-            "街头艺人": "街头艺人",
-            "60 65 30": "60 65 30",
-            "外卖骑手": "外卖骑手",
-            "-50 65 50": "-50 65 50",
-            "清洁工": "清洁工",
-            "15个NPC已生成！右键互动！": "15个NPC已生成！右键互动！"
-        },
-        "saveTimes": 1,
-        "version": 3.0
-    },
-    "Storyline": {
-        "groupData": {},
-        "lineData": [
-            {
-                "endNode": "step1",
-                "endPort": "__in__",
-                "startNode": "input1",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "intro_msg",
-                "endPort": "__out__",
-                "startNode": "step1",
-                "startPort": "msg"
-            },
-            {
-                "endNode": "step2",
-                "endPort": "__in__",
-                "startNode": "intro_msg",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity1_pos",
-                "endPort": "__out__",
-                "startNode": "step2",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity1_type",
-                "endPort": "__out__",
-                "startNode": "step2",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity1_name",
-                "endPort": "__out__",
-                "startNode": "step2",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step3",
-                "endPort": "__in__",
-                "startNode": "entity1_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity2_pos",
-                "endPort": "__out__",
-                "startNode": "step3",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity2_type",
-                "endPort": "__out__",
-                "startNode": "step3",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity2_name",
-                "endPort": "__out__",
-                "startNode": "step3",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step4",
-                "endPort": "__in__",
-                "startNode": "entity2_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity3_pos",
-                "endPort": "__out__",
-                "startNode": "step4",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity3_type",
-                "endPort": "__out__",
-                "startNode": "step4",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity3_name",
-                "endPort": "__out__",
-                "startNode": "step4",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step5",
-                "endPort": "__in__",
-                "startNode": "entity3_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity4_pos",
-                "endPort": "__out__",
-                "startNode": "step5",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity4_type",
-                "endPort": "__out__",
-                "startNode": "step5",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity4_name",
-                "endPort": "__out__",
-                "startNode": "step5",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step6",
-                "endPort": "__in__",
-                "startNode": "entity4_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity5_pos",
-                "endPort": "__out__",
-                "startNode": "step6",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity5_type",
-                "endPort": "__out__",
-                "startNode": "step6",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity5_name",
-                "endPort": "__out__",
-                "startNode": "step6",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step7",
-                "endPort": "__in__",
-                "startNode": "entity5_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity6_pos",
-                "endPort": "__out__",
-                "startNode": "step7",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity6_type",
-                "endPort": "__out__",
-                "startNode": "step7",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity6_name",
-                "endPort": "__out__",
-                "startNode": "step7",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step8",
-                "endPort": "__in__",
-                "startNode": "entity6_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity7_pos",
-                "endPort": "__out__",
-                "startNode": "step8",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity7_type",
-                "endPort": "__out__",
-                "startNode": "step8",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity7_name",
-                "endPort": "__out__",
-                "startNode": "step8",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step9",
-                "endPort": "__in__",
-                "startNode": "entity7_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity8_pos",
-                "endPort": "__out__",
-                "startNode": "step9",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity8_type",
-                "endPort": "__out__",
-                "startNode": "step9",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity8_name",
-                "endPort": "__out__",
-                "startNode": "step9",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step10",
-                "endPort": "__in__",
-                "startNode": "entity8_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity9_pos",
-                "endPort": "__out__",
-                "startNode": "step10",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity9_type",
-                "endPort": "__out__",
-                "startNode": "step10",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity9_name",
-                "endPort": "__out__",
-                "startNode": "step10",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step11",
-                "endPort": "__in__",
-                "startNode": "entity9_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity10_pos",
-                "endPort": "__out__",
-                "startNode": "step11",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity10_type",
-                "endPort": "__out__",
-                "startNode": "step11",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity10_name",
-                "endPort": "__out__",
-                "startNode": "step11",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step12",
-                "endPort": "__in__",
-                "startNode": "entity10_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity11_pos",
-                "endPort": "__out__",
-                "startNode": "step12",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity11_type",
-                "endPort": "__out__",
-                "startNode": "step12",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity11_name",
-                "endPort": "__out__",
-                "startNode": "step12",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step13",
-                "endPort": "__in__",
-                "startNode": "entity11_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity12_pos",
-                "endPort": "__out__",
-                "startNode": "step13",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity12_type",
-                "endPort": "__out__",
-                "startNode": "step13",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity12_name",
-                "endPort": "__out__",
-                "startNode": "step13",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step14",
-                "endPort": "__in__",
-                "startNode": "entity12_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity13_pos",
-                "endPort": "__out__",
-                "startNode": "step14",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity13_type",
-                "endPort": "__out__",
-                "startNode": "step14",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity13_name",
-                "endPort": "__out__",
-                "startNode": "step14",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step15",
-                "endPort": "__in__",
-                "startNode": "entity13_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity14_pos",
-                "endPort": "__out__",
-                "startNode": "step15",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity14_type",
-                "endPort": "__out__",
-                "startNode": "step15",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity14_name",
-                "endPort": "__out__",
-                "startNode": "step15",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step16",
-                "endPort": "__in__",
-                "startNode": "entity14_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "entity15_pos",
-                "endPort": "__out__",
-                "startNode": "step16",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "entity15_type",
-                "endPort": "__out__",
-                "startNode": "step16",
-                "startPort": "entityType"
-            },
-            {
-                "endNode": "entity15_name",
-                "endPort": "__out__",
-                "startNode": "step16",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step17",
-                "endPort": "__in__",
-                "startNode": "entity15_name",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "final_msg",
-                "endPort": "__out__",
-                "startNode": "step17",
-                "startPort": "msg"
-            },
-            {
-                "endNode": "output1",
-                "endPort": "__in__",
-                "startNode": "final_msg",
-                "startPort": "__out__"
-            }
+        "NodeID": "step1",
+        "Pos": [
+          -200.0,
+          -250.0
         ],
-        "nodeData": {
-            "input1": {
-                "Data": {
-                    "Type": "MacroInput",
-                    "desc": "",
-                    "parameters": [],
-                    "title": ""
-                },
-                "NodeID": "input1",
-                "Pos": [
-                    -200.0,
-                    -300.0
-                ],
-                "Type": "MacroInput"
-            },
-            "step1": {
-                "Data": {
-                    "Type": "SayNode"
-                },
-                "NodeID": "step1",
-                "Pos": [
-                    -200.0,
-                    -250.0
-                ],
-                "Type": "SayNode"
-            },
-            "intro_msg": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "msg",
-                    "parameterStyle": "Input",
-                    "parameterText": "生成涩谷NPC v2...",
-                    "value": "生成涩谷NPC v2..."
-                },
-                "NodeID": "intro_msg",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step2": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step2",
-                "Pos": [
-                    -200.0,
-                    -200.0
-                ],
-                "Type": "SpawnEntityNode"
-            },
-            "entity1_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "0 65 10",
-                    "value": "0 65 10"
-                },
-                "NodeID": "entity1_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity1_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity1_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity1_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "涩谷向导",
-                    "value": "涩谷向导"
-                },
-                "NodeID": "entity1_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step3": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step3",
-                "Pos": [
-                    -200.0,
-                    -150.0
-                ],
-                "Type": "SpawnEntityNode"
-            },
-            "entity2_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "97 68 13",
-                    "value": "97 68 13"
-                },
-                "NodeID": "entity2_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity2_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity2_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity2_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "便利店店员",
-                    "value": "便利店店员"
-                },
-                "NodeID": "entity2_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step4": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step4",
-                "Pos": [
-                    -200.0,
-                    -100.0
-                ],
-                "Type": "SpawnEntityNode"
-            },
-            "entity3_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "115 68 -65",
-                    "value": "115 68 -65"
-                },
-                "NodeID": "entity3_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity3_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity3_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity3_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "咖啡师小林",
-                    "value": "咖啡师小林"
-                },
-                "NodeID": "entity3_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step5": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step5",
-                "Pos": [
-                    -200.0,
-                    -50.0
-                ],
-                "Type": "SpawnEntityNode"
-            },
-            "entity4_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "-125 68 65",
-                    "value": "-125 68 65"
-                },
-                "NodeID": "entity4_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity4_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity4_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity4_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "拉面师傅田中",
-                    "value": "拉面师傅田中"
-                },
-                "NodeID": "entity4_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step6": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step6",
-                "Pos": [
-                    -200.0,
-                    0.0
-                ],
-                "Type": "SpawnEntityNode"
-            },
-            "entity5_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "-65 68 5",
-                    "value": "-65 68 5"
-                },
-                "NodeID": "entity5_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity5_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity5_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity5_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "站务员佐藤",
-                    "value": "站务员佐藤"
-                },
-                "NodeID": "entity5_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step7": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step7",
-                "Pos": [
-                    -200.0,
-                    50.0
-                ],
-                "Type": "SpawnEntityNode"
-            },
-            "entity6_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "-155 68 -115",
-                    "value": "-155 68 -115"
-                },
-                "NodeID": "entity6_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity6_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity6_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity6_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "卡拉OK主持",
-                    "value": "卡拉OK主持"
-                },
-                "NodeID": "entity6_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step8": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step8",
-                "Pos": [
-                    -200.0,
-                    100.0
-                ],
-                "Type": "SpawnEntityNode"
-            },
-            "entity7_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "30 65 20",
-                    "value": "30 65 20"
-                },
-                "NodeID": "entity7_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity7_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity7_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity7_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "游客美咲",
-                    "value": "游客美咲"
-                },
-                "NodeID": "entity7_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step9": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step9",
-                "Pos": [
-                    -200.0,
-                    150.0
-                ],
-                "Type": "SpawnEntityNode"
-            },
-            "entity8_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "-20 65 -25",
-                    "value": "-20 65 -25"
-                },
-                "NodeID": "entity8_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity8_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity8_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity8_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "游客健太",
-                    "value": "游客健太"
-                },
-                "NodeID": "entity8_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step10": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step10",
-                "Pos": [
-                    -200.0,
-                    200.0
-                ],
-                "Type": "SpawnEntityNode"
-            },
-            "entity9_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "-25 65 70",
-                    "value": "-25 65 70"
-                },
-                "NodeID": "entity9_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity9_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity9_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity9_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "上班族大辅",
-                    "value": "上班族大辅"
-                },
-                "NodeID": "entity9_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step11": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step11",
-                "Pos": [
-                    -200.0,
-                    250.0
-                ],
-                "Type": "SpawnEntityNode"
-            },
-            "entity10_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "80 65 -50",
-                    "value": "80 65 -50"
-                },
-                "NodeID": "entity10_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity10_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity10_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity10_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "学生花子",
-                    "value": "学生花子"
-                },
-                "NodeID": "entity10_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step12": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step12",
-                "Pos": [
-                    -200.0,
-                    300.0
-                ],
-                "Type": "SpawnEntityNode"
-            },
-            "entity11_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "-95 68 105",
-                    "value": "-95 68 105"
-                },
-                "NodeID": "entity11_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity11_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity11_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity11_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "酒店前台",
-                    "value": "酒店前台"
-                },
-                "NodeID": "entity11_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step13": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step13",
-                "Pos": [
-                    -200.0,
-                    350.0
-                ],
-                "Type": "SpawnEntityNode"
-            },
-            "entity12_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "105 68 105",
-                    "value": "105 68 105"
-                },
-                "NodeID": "entity12_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity12_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity12_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity12_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "公寓管理员",
-                    "value": "公寓管理员"
-                },
-                "NodeID": "entity12_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step14": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step14",
-                "Pos": [
-                    -200.0,
-                    400.0
-                ],
-                "Type": "SpawnEntityNode"
-            },
-            "entity13_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "40 65 -40",
-                    "value": "40 65 -40"
-                },
-                "NodeID": "entity13_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity13_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity13_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity13_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "街头艺人",
-                    "value": "街头艺人"
-                },
-                "NodeID": "entity13_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step15": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step15",
-                "Pos": [
-                    -200.0,
-                    450.0
-                ],
-                "Type": "SpawnEntityNode"
-            },
-            "entity14_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "60 65 30",
-                    "value": "60 65 30"
-                },
-                "NodeID": "entity14_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity14_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity14_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity14_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "外卖骑手",
-                    "value": "外卖骑手"
-                },
-                "NodeID": "entity14_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step16": {
-                "Data": {
-                    "Type": "SpawnEntityNode"
-                },
-                "NodeID": "step16",
-                "Pos": [
-                    -200.0,
-                    500.0
-                ],
-                "Type": "SpawnEntityNode"
-            },
-            "entity15_pos": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "-50 65 50",
-                    "value": "-50 65 50"
-                },
-                "NodeID": "entity15_pos",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity15_type": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "entityType",
-                    "parameterStyle": "Input",
-                    "parameterText": "villager",
-                    "value": "villager"
-                },
-                "NodeID": "entity15_type",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "entity15_name": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "清洁工",
-                    "value": "清洁工"
-                },
-                "NodeID": "entity15_name",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "step17": {
-                "Data": {
-                    "Type": "SayNode"
-                },
-                "NodeID": "step17",
-                "Pos": [
-                    -200.0,
-                    550.0
-                ],
-                "Type": "SayNode"
-            },
-            "final_msg": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "msg",
-                    "parameterStyle": "Input",
-                    "parameterText": "15个NPC已生成！右键互动！",
-                    "value": "15个NPC已生成！右键互动！"
-                },
-                "NodeID": "final_msg",
-                "Pos": [
-                    0.0,
-                    0.0
-                ],
-                "Type": "StrParameter"
-            },
-            "output1": {
-                "Data": {
-                    "Type": "MacroOutput",
-                    "parameters": []
-                },
-                "NodeID": "output1",
-                "Pos": [
-                    -200.0,
-                    600.0
-                ],
-                "Type": "MacroOutput"
-            }
+        "Type": "SayNode",
+        "VarData": {
+          "input": {
+            "msg": [
+              "intro_msg"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "intro_msg": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "生成涩谷NPC v2...",
+          "value": "生成涩谷NPC v2..."
         },
-        "version": 3.0
+        "NodeID": "intro_msg",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "生成涩谷NPC v2..."
+          }
+        }
+      },
+      "step2": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step2",
+        "Pos": [
+          -200.0,
+          -200.0
+        ],
+        "Type": "SpawnEntityNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "entity1_name"
+            ],
+            "entityType": [
+              "entity1_type"
+            ],
+            "pos": [
+              "entity1_pos"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "entity1_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "5 65 5",
+          "value": "5 65 5"
+        },
+        "NodeID": "entity1_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "5 65 5"
+          }
+        }
+      },
+      "entity1_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity1_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "villager"
+          }
+        }
+      },
+      "entity1_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "涩谷向导",
+          "value": "涩谷向导"
+        },
+        "NodeID": "entity1_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "涩谷向导"
+          }
+        }
+      },
+      "step3": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step3",
+        "Pos": [
+          -200.0,
+          -150.0
+        ],
+        "Type": "SpawnEntityNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "entity2_name"
+            ],
+            "entityType": [
+              "entity2_type"
+            ],
+            "pos": [
+              "entity2_pos"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "entity2_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-20 68 40",
+          "value": "-20 68 40"
+        },
+        "NodeID": "entity2_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-20 68 40"
+          }
+        }
+      },
+      "entity2_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity2_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "villager"
+          }
+        }
+      },
+      "entity2_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "便利店店员",
+          "value": "便利店店员"
+        },
+        "NodeID": "entity2_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "便利店店员"
+          }
+        }
+      },
+      "step4": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step4",
+        "Pos": [
+          -200.0,
+          -100.0
+        ],
+        "Type": "SpawnEntityNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "entity3_name"
+            ],
+            "entityType": [
+              "entity3_type"
+            ],
+            "pos": [
+              "entity3_pos"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "entity3_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "115 68 -65",
+          "value": "115 68 -65"
+        },
+        "NodeID": "entity3_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "115 68 -65"
+          }
+        }
+      },
+      "entity3_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity3_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "villager"
+          }
+        }
+      },
+      "entity3_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "咖啡师小林",
+          "value": "咖啡师小林"
+        },
+        "NodeID": "entity3_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "咖啡师小林"
+          }
+        }
+      },
+      "step5": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step5",
+        "Pos": [
+          -200.0,
+          -50.0
+        ],
+        "Type": "SpawnEntityNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "entity4_name"
+            ],
+            "entityType": [
+              "entity4_type"
+            ],
+            "pos": [
+              "entity4_pos"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "entity4_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "22 68 -50",
+          "value": "22 68 -50"
+        },
+        "NodeID": "entity4_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "22 68 -50"
+          }
+        }
+      },
+      "entity4_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity4_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "villager"
+          }
+        }
+      },
+      "entity4_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "拉面师傅田中",
+          "value": "拉面师傅田中"
+        },
+        "NodeID": "entity4_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "拉面师傅田中"
+          }
+        }
+      },
+      "step6": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step6",
+        "Pos": [
+          -200.0,
+          0.0
+        ],
+        "Type": "SpawnEntityNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "entity5_name"
+            ],
+            "entityType": [
+              "entity5_type"
+            ],
+            "pos": [
+              "entity5_pos"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "entity5_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-45 68 15",
+          "value": "-45 68 15"
+        },
+        "NodeID": "entity5_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-45 68 15"
+          }
+        }
+      },
+      "entity5_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity5_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "villager"
+          }
+        }
+      },
+      "entity5_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "站务员佐藤",
+          "value": "站务员佐藤"
+        },
+        "NodeID": "entity5_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "站务员佐藤"
+          }
+        }
+      },
+      "step7": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step7",
+        "Pos": [
+          -200.0,
+          50.0
+        ],
+        "Type": "SpawnEntityNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "entity6_name"
+            ],
+            "entityType": [
+              "entity6_type"
+            ],
+            "pos": [
+              "entity6_pos"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "entity6_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-155 68 -115",
+          "value": "-155 68 -115"
+        },
+        "NodeID": "entity6_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-155 68 -115"
+          }
+        }
+      },
+      "entity6_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity6_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "villager"
+          }
+        }
+      },
+      "entity6_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "卡拉OK主持",
+          "value": "卡拉OK主持"
+        },
+        "NodeID": "entity6_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "卡拉OK主持"
+          }
+        }
+      },
+      "step8": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step8",
+        "Pos": [
+          -200.0,
+          100.0
+        ],
+        "Type": "SpawnEntityNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "entity7_name"
+            ],
+            "entityType": [
+              "entity7_type"
+            ],
+            "pos": [
+              "entity7_pos"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "entity7_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "10 65 15",
+          "value": "10 65 15"
+        },
+        "NodeID": "entity7_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "10 65 15"
+          }
+        }
+      },
+      "entity7_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity7_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "villager"
+          }
+        }
+      },
+      "entity7_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "游客美咲",
+          "value": "游客美咲"
+        },
+        "NodeID": "entity7_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "游客美咲"
+          }
+        }
+      },
+      "step9": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step9",
+        "Pos": [
+          -200.0,
+          150.0
+        ],
+        "Type": "SpawnEntityNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "entity8_name"
+            ],
+            "entityType": [
+              "entity8_type"
+            ],
+            "pos": [
+              "entity8_pos"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "entity8_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-20 65 -25",
+          "value": "-20 65 -25"
+        },
+        "NodeID": "entity8_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-20 65 -25"
+          }
+        }
+      },
+      "entity8_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity8_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "villager"
+          }
+        }
+      },
+      "entity8_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "游客健太",
+          "value": "游客健太"
+        },
+        "NodeID": "entity8_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "游客健太"
+          }
+        }
+      },
+      "step10": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step10",
+        "Pos": [
+          -200.0,
+          200.0
+        ],
+        "Type": "SpawnEntityNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "entity9_name"
+            ],
+            "entityType": [
+              "entity9_type"
+            ],
+            "pos": [
+              "entity9_pos"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "entity9_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-30 65 25",
+          "value": "-30 65 25"
+        },
+        "NodeID": "entity9_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-30 65 25"
+          }
+        }
+      },
+      "entity9_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity9_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "villager"
+          }
+        }
+      },
+      "entity9_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "上班族大辅",
+          "value": "上班族大辅"
+        },
+        "NodeID": "entity9_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "上班族大辅"
+          }
+        }
+      },
+      "step11": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step11",
+        "Pos": [
+          -200.0,
+          250.0
+        ],
+        "Type": "SpawnEntityNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "entity10_name"
+            ],
+            "entityType": [
+              "entity10_type"
+            ],
+            "pos": [
+              "entity10_pos"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "entity10_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "80 65 -50",
+          "value": "80 65 -50"
+        },
+        "NodeID": "entity10_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "80 65 -50"
+          }
+        }
+      },
+      "entity10_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity10_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "villager"
+          }
+        }
+      },
+      "entity10_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "学生花子",
+          "value": "学生花子"
+        },
+        "NodeID": "entity10_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "学生花子"
+          }
+        }
+      },
+      "step12": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step12",
+        "Pos": [
+          -200.0,
+          300.0
+        ],
+        "Type": "SpawnEntityNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "entity11_name"
+            ],
+            "entityType": [
+              "entity11_type"
+            ],
+            "pos": [
+              "entity11_pos"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "entity11_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-45 68 45",
+          "value": "-45 68 45"
+        },
+        "NodeID": "entity11_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-45 68 45"
+          }
+        }
+      },
+      "entity11_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity11_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "villager"
+          }
+        }
+      },
+      "entity11_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "酒店前台",
+          "value": "酒店前台"
+        },
+        "NodeID": "entity11_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "酒店前台"
+          }
+        }
+      },
+      "step13": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step13",
+        "Pos": [
+          -200.0,
+          350.0
+        ],
+        "Type": "SpawnEntityNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "entity12_name"
+            ],
+            "entityType": [
+              "entity12_type"
+            ],
+            "pos": [
+              "entity12_pos"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "entity12_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-45 68 -25",
+          "value": "-45 68 -25"
+        },
+        "NodeID": "entity12_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-45 68 -25"
+          }
+        }
+      },
+      "entity12_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity12_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "villager"
+          }
+        }
+      },
+      "entity12_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "公寓管理员",
+          "value": "公寓管理员"
+        },
+        "NodeID": "entity12_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "公寓管理员"
+          }
+        }
+      },
+      "step14": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step14",
+        "Pos": [
+          -200.0,
+          400.0
+        ],
+        "Type": "SpawnEntityNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "entity13_name"
+            ],
+            "entityType": [
+              "entity13_type"
+            ],
+            "pos": [
+              "entity13_pos"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "entity13_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "40 65 -40",
+          "value": "40 65 -40"
+        },
+        "NodeID": "entity13_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "40 65 -40"
+          }
+        }
+      },
+      "entity13_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity13_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "villager"
+          }
+        }
+      },
+      "entity13_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "街头艺人",
+          "value": "街头艺人"
+        },
+        "NodeID": "entity13_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "街头艺人"
+          }
+        }
+      },
+      "step15": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step15",
+        "Pos": [
+          -200.0,
+          450.0
+        ],
+        "Type": "SpawnEntityNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "entity14_name"
+            ],
+            "entityType": [
+              "entity14_type"
+            ],
+            "pos": [
+              "entity14_pos"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "entity14_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "30 65 25",
+          "value": "30 65 25"
+        },
+        "NodeID": "entity14_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "30 65 25"
+          }
+        }
+      },
+      "entity14_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity14_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "villager"
+          }
+        }
+      },
+      "entity14_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "外卖骑手",
+          "value": "外卖骑手"
+        },
+        "NodeID": "entity14_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "外卖骑手"
+          }
+        }
+      },
+      "step16": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step16",
+        "Pos": [
+          -200.0,
+          500.0
+        ],
+        "Type": "SpawnEntityNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "entity15_name"
+            ],
+            "entityType": [
+              "entity15_type"
+            ],
+            "pos": [
+              "entity15_pos"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "entity15_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-20 65 30",
+          "value": "-20 65 30"
+        },
+        "NodeID": "entity15_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-20 65 30"
+          }
+        }
+      },
+      "entity15_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity15_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "villager"
+          }
+        }
+      },
+      "entity15_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "清洁工",
+          "value": "清洁工"
+        },
+        "NodeID": "entity15_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "清洁工"
+          }
+        }
+      },
+      "step17": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step17",
+        "Pos": [
+          -200.0,
+          550.0
+        ],
+        "Type": "SayNode",
+        "VarData": {
+          "input": {
+            "msg": [
+              "final_msg"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "final_msg": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "15个NPC已生成！右键互动！",
+          "value": "15个NPC已生成！右键互动！"
+        },
+        "NodeID": "final_msg",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "15个NPC已生成！右键互动！"
+          }
+        }
+      },
+      "output1": {
+        "Data": {
+          "Type": "MacroOutput",
+          "parameters": []
+        },
+        "NodeID": "output1",
+        "Pos": [
+          -200.0,
+          600.0
+        ],
+        "Type": "MacroOutput",
+        "VarData": {
+          "input": {},
+          "local": {}
+        }
+      }
     },
-    "Type": "Macro",
-    "Version": 1.0
+    "variableData": {
+      "生成涩谷NPC v2...": "生成涩谷NPC v2...",
+      "villager": "villager",
+      "涩谷向导": "涩谷向导",
+      "便利店店员": "便利店店员",
+      "115 68 -65": "115 68 -65",
+      "咖啡师小林": "咖啡师小林",
+      "拉面师傅田中": "拉面师傅田中",
+      "站务员佐藤": "站务员佐藤",
+      "-155 68 -115": "-155 68 -115",
+      "卡拉OK主持": "卡拉OK主持",
+      "游客美咲": "游客美咲",
+      "-20 65 -25": "-20 65 -25",
+      "游客健太": "游客健太",
+      "上班族大辅": "上班族大辅",
+      "80 65 -50": "80 65 -50",
+      "学生花子": "学生花子",
+      "酒店前台": "酒店前台",
+      "公寓管理员": "公寓管理员",
+      "40 65 -40": "40 65 -40",
+      "街头艺人": "街头艺人",
+      "外卖骑手": "外卖骑手",
+      "清洁工": "清洁工",
+      "15个NPC已生成！右键互动！": "15个NPC已生成！右键互动！",
+      "5 65 5": "5 65 5",
+      "-20 68 40": "-20 68 40",
+      "22 68 -50": "22 68 -50",
+      "-45 68 15": "-45 68 15",
+      "10 65 15": "10 65 15",
+      "-30 65 25": "-30 65 25",
+      "-45 68 45": "-45 68 45",
+      "-45 68 -25": "-45 68 -25",
+      "30 65 25": "30 65 25",
+      "-20 65 30": "-20 65 30"
+    },
+    "saveTimes": 1,
+    "version": 3.0
+  },
+  "Storyline": {
+    "groupData": {},
+    "lineData": [
+      {
+        "endNode": "step1",
+        "endPort": "__in__",
+        "startNode": "input1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "intro_msg",
+        "endPort": "__out__",
+        "startNode": "step1",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "step2",
+        "endPort": "__in__",
+        "startNode": "intro_msg",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity1_pos",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity1_type",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity1_name",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step3",
+        "endPort": "__in__",
+        "startNode": "entity1_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity2_pos",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity2_type",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity2_name",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step4",
+        "endPort": "__in__",
+        "startNode": "entity2_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity3_pos",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity3_type",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity3_name",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step5",
+        "endPort": "__in__",
+        "startNode": "entity3_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity4_pos",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity4_type",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity4_name",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step6",
+        "endPort": "__in__",
+        "startNode": "entity4_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity5_pos",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity5_type",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity5_name",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step7",
+        "endPort": "__in__",
+        "startNode": "entity5_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity6_pos",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity6_type",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity6_name",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step8",
+        "endPort": "__in__",
+        "startNode": "entity6_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity7_pos",
+        "endPort": "__out__",
+        "startNode": "step8",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity7_type",
+        "endPort": "__out__",
+        "startNode": "step8",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity7_name",
+        "endPort": "__out__",
+        "startNode": "step8",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step9",
+        "endPort": "__in__",
+        "startNode": "entity7_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity8_pos",
+        "endPort": "__out__",
+        "startNode": "step9",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity8_type",
+        "endPort": "__out__",
+        "startNode": "step9",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity8_name",
+        "endPort": "__out__",
+        "startNode": "step9",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step10",
+        "endPort": "__in__",
+        "startNode": "entity8_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity9_pos",
+        "endPort": "__out__",
+        "startNode": "step10",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity9_type",
+        "endPort": "__out__",
+        "startNode": "step10",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity9_name",
+        "endPort": "__out__",
+        "startNode": "step10",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step11",
+        "endPort": "__in__",
+        "startNode": "entity9_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity10_pos",
+        "endPort": "__out__",
+        "startNode": "step11",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity10_type",
+        "endPort": "__out__",
+        "startNode": "step11",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity10_name",
+        "endPort": "__out__",
+        "startNode": "step11",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step12",
+        "endPort": "__in__",
+        "startNode": "entity10_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity11_pos",
+        "endPort": "__out__",
+        "startNode": "step12",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity11_type",
+        "endPort": "__out__",
+        "startNode": "step12",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity11_name",
+        "endPort": "__out__",
+        "startNode": "step12",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step13",
+        "endPort": "__in__",
+        "startNode": "entity11_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity12_pos",
+        "endPort": "__out__",
+        "startNode": "step13",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity12_type",
+        "endPort": "__out__",
+        "startNode": "step13",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity12_name",
+        "endPort": "__out__",
+        "startNode": "step13",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step14",
+        "endPort": "__in__",
+        "startNode": "entity12_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity13_pos",
+        "endPort": "__out__",
+        "startNode": "step14",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity13_type",
+        "endPort": "__out__",
+        "startNode": "step14",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity13_name",
+        "endPort": "__out__",
+        "startNode": "step14",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step15",
+        "endPort": "__in__",
+        "startNode": "entity13_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity14_pos",
+        "endPort": "__out__",
+        "startNode": "step15",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity14_type",
+        "endPort": "__out__",
+        "startNode": "step15",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity14_name",
+        "endPort": "__out__",
+        "startNode": "step15",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step16",
+        "endPort": "__in__",
+        "startNode": "entity14_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "entity15_pos",
+        "endPort": "__out__",
+        "startNode": "step16",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "entity15_type",
+        "endPort": "__out__",
+        "startNode": "step16",
+        "startPort": "entityType"
+      },
+      {
+        "endNode": "entity15_name",
+        "endPort": "__out__",
+        "startNode": "step16",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step17",
+        "endPort": "__in__",
+        "startNode": "entity15_name",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "final_msg",
+        "endPort": "__out__",
+        "startNode": "step17",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "output1",
+        "endPort": "__in__",
+        "startNode": "final_msg",
+        "startPort": "__out__"
+      }
+    ],
+    "nodeData": {
+      "input1": {
+        "Data": {
+          "Type": "MacroInput",
+          "desc": "",
+          "parameters": [],
+          "title": ""
+        },
+        "NodeID": "input1",
+        "Pos": [
+          -200.0,
+          -300.0
+        ],
+        "Type": "MacroInput"
+      },
+      "step1": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step1",
+        "Pos": [
+          -200.0,
+          -250.0
+        ],
+        "Type": "SayNode"
+      },
+      "intro_msg": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "生成涩谷NPC v2...",
+          "value": "生成涩谷NPC v2..."
+        },
+        "NodeID": "intro_msg",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step2": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step2",
+        "Pos": [
+          -200.0,
+          -200.0
+        ],
+        "Type": "SpawnEntityNode"
+      },
+      "entity1_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "5 65 5",
+          "value": "5 65 5"
+        },
+        "NodeID": "entity1_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity1_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity1_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity1_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "涩谷向导",
+          "value": "涩谷向导"
+        },
+        "NodeID": "entity1_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step3": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step3",
+        "Pos": [
+          -200.0,
+          -150.0
+        ],
+        "Type": "SpawnEntityNode"
+      },
+      "entity2_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-20 68 40",
+          "value": "-20 68 40"
+        },
+        "NodeID": "entity2_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity2_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity2_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity2_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "便利店店员",
+          "value": "便利店店员"
+        },
+        "NodeID": "entity2_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step4": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step4",
+        "Pos": [
+          -200.0,
+          -100.0
+        ],
+        "Type": "SpawnEntityNode"
+      },
+      "entity3_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "115 68 -65",
+          "value": "115 68 -65"
+        },
+        "NodeID": "entity3_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity3_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity3_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity3_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "咖啡师小林",
+          "value": "咖啡师小林"
+        },
+        "NodeID": "entity3_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step5": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step5",
+        "Pos": [
+          -200.0,
+          -50.0
+        ],
+        "Type": "SpawnEntityNode"
+      },
+      "entity4_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "22 68 -50",
+          "value": "22 68 -50"
+        },
+        "NodeID": "entity4_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity4_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity4_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity4_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "拉面师傅田中",
+          "value": "拉面师傅田中"
+        },
+        "NodeID": "entity4_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step6": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step6",
+        "Pos": [
+          -200.0,
+          0.0
+        ],
+        "Type": "SpawnEntityNode"
+      },
+      "entity5_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-45 68 15",
+          "value": "-45 68 15"
+        },
+        "NodeID": "entity5_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity5_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity5_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity5_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "站务员佐藤",
+          "value": "站务员佐藤"
+        },
+        "NodeID": "entity5_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step7": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step7",
+        "Pos": [
+          -200.0,
+          50.0
+        ],
+        "Type": "SpawnEntityNode"
+      },
+      "entity6_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-155 68 -115",
+          "value": "-155 68 -115"
+        },
+        "NodeID": "entity6_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity6_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity6_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity6_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "卡拉OK主持",
+          "value": "卡拉OK主持"
+        },
+        "NodeID": "entity6_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step8": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step8",
+        "Pos": [
+          -200.0,
+          100.0
+        ],
+        "Type": "SpawnEntityNode"
+      },
+      "entity7_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "10 65 15",
+          "value": "10 65 15"
+        },
+        "NodeID": "entity7_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity7_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity7_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity7_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "游客美咲",
+          "value": "游客美咲"
+        },
+        "NodeID": "entity7_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step9": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step9",
+        "Pos": [
+          -200.0,
+          150.0
+        ],
+        "Type": "SpawnEntityNode"
+      },
+      "entity8_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-20 65 -25",
+          "value": "-20 65 -25"
+        },
+        "NodeID": "entity8_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity8_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity8_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity8_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "游客健太",
+          "value": "游客健太"
+        },
+        "NodeID": "entity8_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step10": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step10",
+        "Pos": [
+          -200.0,
+          200.0
+        ],
+        "Type": "SpawnEntityNode"
+      },
+      "entity9_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-30 65 25",
+          "value": "-30 65 25"
+        },
+        "NodeID": "entity9_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity9_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity9_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity9_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "上班族大辅",
+          "value": "上班族大辅"
+        },
+        "NodeID": "entity9_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step11": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step11",
+        "Pos": [
+          -200.0,
+          250.0
+        ],
+        "Type": "SpawnEntityNode"
+      },
+      "entity10_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "80 65 -50",
+          "value": "80 65 -50"
+        },
+        "NodeID": "entity10_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity10_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity10_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity10_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "学生花子",
+          "value": "学生花子"
+        },
+        "NodeID": "entity10_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step12": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step12",
+        "Pos": [
+          -200.0,
+          300.0
+        ],
+        "Type": "SpawnEntityNode"
+      },
+      "entity11_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-45 68 45",
+          "value": "-45 68 45"
+        },
+        "NodeID": "entity11_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity11_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity11_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity11_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "酒店前台",
+          "value": "酒店前台"
+        },
+        "NodeID": "entity11_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step13": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step13",
+        "Pos": [
+          -200.0,
+          350.0
+        ],
+        "Type": "SpawnEntityNode"
+      },
+      "entity12_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-45 68 -25",
+          "value": "-45 68 -25"
+        },
+        "NodeID": "entity12_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity12_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity12_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity12_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "公寓管理员",
+          "value": "公寓管理员"
+        },
+        "NodeID": "entity12_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step14": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step14",
+        "Pos": [
+          -200.0,
+          400.0
+        ],
+        "Type": "SpawnEntityNode"
+      },
+      "entity13_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "40 65 -40",
+          "value": "40 65 -40"
+        },
+        "NodeID": "entity13_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity13_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity13_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity13_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "街头艺人",
+          "value": "街头艺人"
+        },
+        "NodeID": "entity13_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step15": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step15",
+        "Pos": [
+          -200.0,
+          450.0
+        ],
+        "Type": "SpawnEntityNode"
+      },
+      "entity14_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "30 65 25",
+          "value": "30 65 25"
+        },
+        "NodeID": "entity14_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity14_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity14_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity14_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "外卖骑手",
+          "value": "外卖骑手"
+        },
+        "NodeID": "entity14_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step16": {
+        "Data": {
+          "Type": "SpawnEntityNode"
+        },
+        "NodeID": "step16",
+        "Pos": [
+          -200.0,
+          500.0
+        ],
+        "Type": "SpawnEntityNode"
+      },
+      "entity15_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-20 65 30",
+          "value": "-20 65 30"
+        },
+        "NodeID": "entity15_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity15_type": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "entityType",
+          "parameterStyle": "Input",
+          "parameterText": "villager",
+          "value": "villager"
+        },
+        "NodeID": "entity15_type",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "entity15_name": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "清洁工",
+          "value": "清洁工"
+        },
+        "NodeID": "entity15_name",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step17": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step17",
+        "Pos": [
+          -200.0,
+          550.0
+        ],
+        "Type": "SayNode"
+      },
+      "final_msg": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "15个NPC已生成！右键互动！",
+          "value": "15个NPC已生成！右键互动！"
+        },
+        "NodeID": "final_msg",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "output1": {
+        "Data": {
+          "Type": "MacroOutput",
+          "parameters": []
+        },
+        "NodeID": "output1",
+        "Pos": [
+          -200.0,
+          600.0
+        ],
+        "Type": "MacroOutput"
+      }
+    },
+    "version": 3.0
+  },
+  "Type": "Macro",
+  "Version": 1.0
 }

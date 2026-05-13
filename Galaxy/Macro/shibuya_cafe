@@ -1,159 +1,1217 @@
 {
-    "Prefabs": {},
-    "StoryTeller": {
-        "groupData": {},
-        "layoutPanels": 0,
-        "lineData": [
-            {"endNode": "step1", "endPort": "__in__", "startNode": "input1", "startPort": "__out__"},
-            {"endNode": "msg1", "endPort": "__out__", "startNode": "step1", "startPort": "msg"},
-            {"endNode": "step2", "endPort": "__in__", "startNode": "msg1", "startPort": "__out__"},
-            {"endNode": "interior_f", "endPort": "__out__", "startNode": "step2", "startPort": "from"},
-            {"endNode": "interior_t", "endPort": "__out__", "startNode": "step2", "startPort": "to"},
-            {"endNode": "interior_b", "endPort": "__out__", "startNode": "step2", "startPort": "tileName"},
-            {"endNode": "interior_d", "endPort": "__out__", "startNode": "step2", "startPort": "des"},
-            {"endNode": "step3", "endPort": "__in__", "startNode": "interior_d", "startPort": "__out__"},
-            {"endNode": "counter_f", "endPort": "__out__", "startNode": "step3", "startPort": "from"},
-            {"endNode": "counter_t", "endPort": "__out__", "startNode": "step3", "startPort": "to"},
-            {"endNode": "counter_b", "endPort": "__out__", "startNode": "step3", "startPort": "tileName"},
-            {"endNode": "counter_d", "endPort": "__out__", "startNode": "step3", "startPort": "des"},
-            {"endNode": "step4", "endPort": "__in__", "startNode": "counter_d", "startPort": "__out__"},
-            {"endNode": "table_f", "endPort": "__out__", "startNode": "step4", "startPort": "from"},
-            {"endNode": "table_t", "endPort": "__out__", "startNode": "step4", "startPort": "to"},
-            {"endNode": "table_b", "endPort": "__out__", "startNode": "step4", "startPort": "tileName"},
-            {"endNode": "table_d", "endPort": "__out__", "startNode": "step4", "startPort": "des"},
-            {"endNode": "step5", "endPort": "__in__", "startNode": "table_d", "startPort": "__out__"},
-            {"endNode": "coffee1", "endPort": "__out__", "startNode": "step5", "startPort": "pos"},
-            {"endNode": "coffee2", "endPort": "__out__", "startNode": "step5", "startPort": "tileName"},
-            {"endNode": "coffee_d", "endPort": "__out__", "startNode": "step5", "startPort": "des"},
-            {"endNode": "step6", "endPort": "__in__", "startNode": "coffee_d", "startPort": "__out__"},
-            {"endNode": "npc_pos", "endPort": "__out__", "startNode": "step6", "startPort": "pos"},
-            {"endNode": "npc_type", "endPort": "__out__", "startNode": "step6", "startPort": "entityType"},
-            {"endNode": "npc_d", "endPort": "__out__", "startNode": "step6", "startPort": "des"},
-            {"endNode": "step7", "endPort": "__in__", "startNode": "npc_d", "startPort": "__out__"},
-            {"endNode": "msg2", "endPort": "__out__", "startNode": "step7", "startPort": "msg"},
-            {"endNode": "output1", "endPort": "__in__", "startNode": "msg2", "startPort": "__out__"}
+  "Prefabs": {},
+  "StoryTeller": {
+    "groupData": {},
+    "layoutPanels": 0,
+    "lineData": [
+      {
+        "endNode": "step1",
+        "endPort": "__in__",
+        "startNode": "input1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "msg1",
+        "endPort": "__out__",
+        "startNode": "step1",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "step2",
+        "endPort": "__in__",
+        "startNode": "msg1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "interior_f",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "from"
+      },
+      {
+        "endNode": "interior_t",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "to"
+      },
+      {
+        "endNode": "interior_b",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "interior_d",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step3",
+        "endPort": "__in__",
+        "startNode": "interior_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "counter_f",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "from"
+      },
+      {
+        "endNode": "counter_t",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "to"
+      },
+      {
+        "endNode": "counter_b",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "counter_d",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step4",
+        "endPort": "__in__",
+        "startNode": "counter_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "table_f",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "from"
+      },
+      {
+        "endNode": "table_t",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "to"
+      },
+      {
+        "endNode": "table_b",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "table_d",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step5",
+        "endPort": "__in__",
+        "startNode": "table_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "coffee1",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "coffee2",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "coffee_d",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "des"
+      },
+      {
+        "endNode": "msg2",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "output1",
+        "endPort": "__in__",
+        "startNode": "msg2",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "step7",
+        "endPort": "__in__",
+        "startNode": "coffee_d",
+        "startPort": "__out__"
+      }
+    ],
+    "nodeData": {
+      "input1": {
+        "Data": {
+          "Type": "MacroInput",
+          "desc": "",
+          "parameters": [],
+          "title": ""
+        },
+        "NodeID": "input1",
+        "Pos": [
+          -200.0,
+          -700.0
         ],
-        "nodeData": {
-            "input1": {"Data": {"Type": "MacroInput", "desc": "", "parameters": [], "title": ""}, "NodeID": "input1", "Pos": [-200.0, -700.0], "Type": "MacroInput", "VarData": {"input": {}, "local": {}}},
-            "step1": {"Data": {"Type": "SayNode"}, "NodeID": "step1", "Pos": [-200.0, -650.0], "Type": "SayNode", "VarData": {"input": {"msg": ["msg1"]}, "local": {}}},
-            "msg1": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "生成涩谷咖啡厅...", "value": "生成涩谷咖啡厅..."}, "NodeID": "msg1", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "生成涩谷咖啡厅..."}}},
-            "step2": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step2", "Pos": [-200.0, -600.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["interior_d"], "from": ["interior_f"], "to": ["interior_t"], "tileName": ["interior_b"]}, "local": {}}},
-            "interior_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "110 67 -80", "value": "110 67 -80"}, "NodeID": "interior_f", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "110 67 -80"}}},
-            "interior_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "130 70 -60", "value": "130 70 -60"}, "NodeID": "interior_t", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "130 70 -60"}}},
-            "interior_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "air", "value": "air"}, "NodeID": "interior_b", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "air"}}},
-            "interior_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "内部挖空", "value": "内部挖空"}, "NodeID": "interior_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "内部挖空"}}},
-            "step3": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step3", "Pos": [-200.0, -550.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["counter_d"], "from": ["counter_f"], "to": ["counter_t"], "tileName": ["counter_b"]}, "local": {}}},
-            "counter_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "128 67 -78", "value": "128 67 -78"}, "NodeID": "counter_f", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "128 67 -78"}}},
-            "counter_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "130 68 -72", "value": "130 68 -72"}, "NodeID": "counter_t", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "130 68 -72"}}},
-            "counter_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "brown_concrete", "value": "brown_concrete"}, "NodeID": "counter_b", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "brown_concrete"}}},
-            "counter_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "吧台", "value": "吧台"}, "NodeID": "counter_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "吧台"}}},
-            "step4": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step4", "Pos": [-200.0, -500.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["table_d"], "from": ["table_f"], "to": ["table_t"], "tileName": ["table_b"]}, "local": {}}},
-            "table_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "115 67 -75", "value": "115 67 -75"}, "NodeID": "table_f", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "115 67 -75"}}},
-            "table_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "125 67 -65", "value": "125 67 -65"}, "NodeID": "table_t", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "125 67 -65"}}},
-            "table_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_slab", "value": "oak_slab"}, "NodeID": "table_b", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "oak_slab"}}},
-            "table_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "咖啡桌", "value": "咖啡桌"}, "NodeID": "table_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "咖啡桌"}}},
-            "step5": {"Data": {"Type": "SetBlockNode"}, "NodeID": "step5", "Pos": [-200.0, -450.0], "Type": "SetBlockNode", "VarData": {"input": {"des": ["coffee_d"], "pos": ["coffee1"], "tileName": ["coffee2"]}, "local": {}}},
-            "coffee1": {"Data": {"Type": "StrParameter", "parameterName": "pos", "parameterStyle": "Input", "parameterText": "120 68 -70", "value": "120 68 -70"}, "NodeID": "coffee1", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "120 68 -70"}}},
-            "coffee2": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "brown_stained_glass", "value": "brown_stained_glass"}, "NodeID": "coffee2", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "brown_stained_glass"}}},
-            "coffee_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "咖啡杯装饰", "value": "咖啡杯装饰"}, "NodeID": "coffee_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "咖啡杯装饰"}}},
-            "step6": {"Data": {"Type": "SpawnEntityNode"}, "NodeID": "step6", "Pos": [-200.0, -400.0], "Type": "SpawnEntityNode", "VarData": {"input": {"des": ["npc_d"], "entityType": ["npc_type"], "pos": ["npc_pos"]}, "local": {}}},
-            "npc_pos": {"Data": {"Type": "StrParameter", "parameterName": "pos", "parameterStyle": "Input", "parameterText": "129 68 -75", "value": "129 68 -75"}, "NodeID": "npc_pos", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "129 68 -75"}}},
-            "npc_type": {"Data": {"Type": "StrParameter", "parameterName": "entityType", "parameterStyle": "Input", "parameterText": "villager", "value": "villager"}, "NodeID": "npc_type", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "villager"}}},
-            "npc_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "咖啡师", "value": "咖啡师"}, "NodeID": "npc_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "咖啡师"}}},
-            "step7": {"Data": {"Type": "SayNode"}, "NodeID": "step7", "Pos": [-200.0, -350.0], "Type": "SayNode", "VarData": {"input": {"msg": ["msg2"]}, "local": {}}},
-            "msg2": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "咖啡厅生成完成！包含吧台+咖啡桌+咖啡师", "value": "咖啡厅生成完成！包含吧台+咖啡桌+咖啡师"}, "NodeID": "msg2", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "咖啡厅生成完成！包含吧台+咖啡桌+咖啡师"}}},
-            "output1": {"Data": {"Type": "MacroOutput", "parameters": []}, "NodeID": "output1", "Pos": [-200.0, -300.0], "Type": "MacroOutput", "VarData": {"input": {}, "local": {}}}
+        "Type": "MacroInput",
+        "VarData": {
+          "input": {},
+          "local": {}
+        }
+      },
+      "step1": {
+        "Data": {
+          "Type": "SayNode"
         },
-        "variableData": {
-            "生成涩谷咖啡厅...": "生成涩谷咖啡厅...",
-            "110 67 -80": "110 67 -80",
-            "130 70 -60": "130 70 -60",
-            "air": "air",
-            "内部挖空": "内部挖空",
-            "128 67 -78": "128 67 -78",
-            "130 68 -72": "130 68 -72",
-            "brown_concrete": "brown_concrete",
-            "吧台": "吧台",
-            "115 67 -75": "115 67 -75",
-            "125 67 -65": "125 67 -65",
-            "oak_slab": "oak_slab",
-            "咖啡桌": "咖啡桌",
-            "120 68 -70": "120 68 -70",
-            "brown_stained_glass": "brown_stained_glass",
-            "咖啡杯装饰": "咖啡杯装饰",
-            "129 68 -75": "129 68 -75",
-            "villager": "villager",
-            "咖啡师": "咖啡师",
-            "咖啡厅生成完成！包含吧台+咖啡桌+咖啡师": "咖啡厅生成完成！包含吧台+咖啡桌+咖啡师"
-        },
-        "saveTimes": 1,
-        "version": 3.0
-    },
-    "Storyline": {
-        "groupData": {},
-        "lineData": [
-            {"endNode": "step1", "endPort": "__in__", "startNode": "input1", "startPort": "__out__"},
-            {"endNode": "msg1", "endPort": "__out__", "startNode": "step1", "startPort": "msg"},
-            {"endNode": "step2", "endPort": "__in__", "startNode": "msg1", "startPort": "__out__"},
-            {"endNode": "interior_f", "endPort": "__out__", "startNode": "step2", "startPort": "from"},
-            {"endNode": "interior_t", "endPort": "__out__", "startNode": "step2", "startPort": "to"},
-            {"endNode": "interior_b", "endPort": "__out__", "startNode": "step2", "startPort": "tileName"},
-            {"endNode": "interior_d", "endPort": "__out__", "startNode": "step2", "startPort": "des"},
-            {"endNode": "step3", "endPort": "__in__", "startNode": "interior_d", "startPort": "__out__"},
-            {"endNode": "counter_f", "endPort": "__out__", "startNode": "step3", "startPort": "from"},
-            {"endNode": "counter_t", "endPort": "__out__", "startNode": "step3", "startPort": "to"},
-            {"endNode": "counter_b", "endPort": "__out__", "startNode": "step3", "startPort": "tileName"},
-            {"endNode": "counter_d", "endPort": "__out__", "startNode": "step3", "startPort": "des"},
-            {"endNode": "step4", "endPort": "__in__", "startNode": "counter_d", "startPort": "__out__"},
-            {"endNode": "table_f", "endPort": "__out__", "startNode": "step4", "startPort": "from"},
-            {"endNode": "table_t", "endPort": "__out__", "startNode": "step4", "startPort": "to"},
-            {"endNode": "table_b", "endPort": "__out__", "startNode": "step4", "startPort": "tileName"},
-            {"endNode": "table_d", "endPort": "__out__", "startNode": "step4", "startPort": "des"},
-            {"endNode": "step5", "endPort": "__in__", "startNode": "table_d", "startPort": "__out__"},
-            {"endNode": "coffee1", "endPort": "__out__", "startNode": "step5", "startPort": "pos"},
-            {"endNode": "coffee2", "endPort": "__out__", "startNode": "step5", "startPort": "tileName"},
-            {"endNode": "coffee_d", "endPort": "__out__", "startNode": "step5", "startPort": "des"},
-            {"endNode": "step6", "endPort": "__in__", "startNode": "coffee_d", "startPort": "__out__"},
-            {"endNode": "npc_pos", "endPort": "__out__", "startNode": "step6", "startPort": "pos"},
-            {"endNode": "npc_type", "endPort": "__out__", "startNode": "step6", "startPort": "entityType"},
-            {"endNode": "npc_d", "endPort": "__out__", "startNode": "step6", "startPort": "des"},
-            {"endNode": "step7", "endPort": "__in__", "startNode": "npc_d", "startPort": "__out__"},
-            {"endNode": "msg2", "endPort": "__out__", "startNode": "step7", "startPort": "msg"},
-            {"endNode": "output1", "endPort": "__in__", "startNode": "msg2", "startPort": "__out__"}
+        "NodeID": "step1",
+        "Pos": [
+          -200.0,
+          -650.0
         ],
-        "nodeData": {
-            "input1": {"Data": {"Type": "MacroInput", "desc": "", "parameters": [], "title": ""}, "NodeID": "input1", "Pos": [-200.0, -700.0], "Type": "MacroInput"},
-            "step1": {"Data": {"Type": "SayNode"}, "NodeID": "step1", "Pos": [-200.0, -650.0], "Type": "SayNode"},
-            "msg1": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "生成涩谷咖啡厅...", "value": "生成涩谷咖啡厅..."}, "NodeID": "msg1", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step2": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step2", "Pos": [-200.0, -600.0], "Type": "FillBlockNode"},
-            "interior_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "110 67 -80", "value": "110 67 -80"}, "NodeID": "interior_f", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "interior_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "130 70 -60", "value": "130 70 -60"}, "NodeID": "interior_t", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "interior_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "air", "value": "air"}, "NodeID": "interior_b", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "interior_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "内部挖空", "value": "内部挖空"}, "NodeID": "interior_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step3": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step3", "Pos": [-200.0, -550.0], "Type": "FillBlockNode"},
-            "counter_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "128 67 -78", "value": "128 67 -78"}, "NodeID": "counter_f", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "counter_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "130 68 -72", "value": "130 68 -72"}, "NodeID": "counter_t", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "counter_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "brown_concrete", "value": "brown_concrete"}, "NodeID": "counter_b", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "counter_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "吧台", "value": "吧台"}, "NodeID": "counter_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step4": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step4", "Pos": [-200.0, -500.0], "Type": "FillBlockNode"},
-            "table_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "115 67 -75", "value": "115 67 -75"}, "NodeID": "table_f", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "table_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "125 67 -65", "value": "125 67 -65"}, "NodeID": "table_t", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "table_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_slab", "value": "oak_slab"}, "NodeID": "table_b", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "table_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "咖啡桌", "value": "咖啡桌"}, "NodeID": "table_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step5": {"Data": {"Type": "SetBlockNode"}, "NodeID": "step5", "Pos": [-200.0, -450.0], "Type": "SetBlockNode"},
-            "coffee1": {"Data": {"Type": "StrParameter", "parameterName": "pos", "parameterStyle": "Input", "parameterText": "120 68 -70", "value": "120 68 -70"}, "NodeID": "coffee1", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "coffee2": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "brown_stained_glass", "value": "brown_stained_glass"}, "NodeID": "coffee2", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "coffee_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "咖啡杯装饰", "value": "咖啡杯装饰"}, "NodeID": "coffee_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step6": {"Data": {"Type": "SpawnEntityNode"}, "NodeID": "step6", "Pos": [-200.0, -400.0], "Type": "SpawnEntityNode"},
-            "npc_pos": {"Data": {"Type": "StrParameter", "parameterName": "pos", "parameterStyle": "Input", "parameterText": "129 68 -75", "value": "129 68 -75"}, "NodeID": "npc_pos", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "npc_type": {"Data": {"Type": "StrParameter", "parameterName": "entityType", "parameterStyle": "Input", "parameterText": "villager", "value": "villager"}, "NodeID": "npc_type", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "npc_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "咖啡师", "value": "咖啡师"}, "NodeID": "npc_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step7": {"Data": {"Type": "SayNode"}, "NodeID": "step7", "Pos": [-200.0, -350.0], "Type": "SayNode"},
-            "msg2": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "咖啡厅生成完成！包含吧台+咖啡桌+咖啡师", "value": "咖啡厅生成完成！包含吧台+咖啡桌+咖啡师"}, "NodeID": "msg2", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "output1": {"Data": {"Type": "MacroOutput", "parameters": []}, "NodeID": "output1", "Pos": [-200.0, -300.0], "Type": "MacroOutput"}
+        "Type": "SayNode",
+        "VarData": {
+          "input": {
+            "msg": [
+              "msg1"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "msg1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "生成涩谷咖啡厅...",
+          "value": "生成涩谷咖啡厅..."
         },
-        "version": 3.0
+        "NodeID": "msg1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "生成涩谷咖啡厅..."
+          }
+        }
+      },
+      "step2": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step2",
+        "Pos": [
+          -200.0,
+          -600.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "interior_d"
+            ],
+            "from": [
+              "interior_f"
+            ],
+            "to": [
+              "interior_t"
+            ],
+            "tileName": [
+              "interior_b"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "interior_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "15 66 -55",
+          "value": "15 66 -55"
+        },
+        "NodeID": "interior_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "15 66 -55"
+          }
+        }
+      },
+      "interior_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "30 70 -45",
+          "value": "30 70 -45"
+        },
+        "NodeID": "interior_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "30 70 -45"
+          }
+        }
+      },
+      "interior_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "air",
+          "value": "air"
+        },
+        "NodeID": "interior_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "air"
+          }
+        }
+      },
+      "interior_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "内部挖空",
+          "value": "内部挖空"
+        },
+        "NodeID": "interior_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "内部挖空"
+          }
+        }
+      },
+      "step3": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step3",
+        "Pos": [
+          -200.0,
+          -550.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "counter_d"
+            ],
+            "from": [
+              "counter_f"
+            ],
+            "to": [
+              "counter_t"
+            ],
+            "tileName": [
+              "counter_b"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "counter_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "28 66 -53",
+          "value": "28 66 -53"
+        },
+        "NodeID": "counter_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "28 66 -53"
+          }
+        }
+      },
+      "counter_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "30 68 -47",
+          "value": "30 68 -47"
+        },
+        "NodeID": "counter_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "30 68 -47"
+          }
+        }
+      },
+      "counter_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "brown_concrete",
+          "value": "brown_concrete"
+        },
+        "NodeID": "counter_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "brown_concrete"
+          }
+        }
+      },
+      "counter_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "吧台",
+          "value": "吧台"
+        },
+        "NodeID": "counter_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "吧台"
+          }
+        }
+      },
+      "step4": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step4",
+        "Pos": [
+          -200.0,
+          -500.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "table_d"
+            ],
+            "from": [
+              "table_f"
+            ],
+            "to": [
+              "table_t"
+            ],
+            "tileName": [
+              "table_b"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "table_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "17 66 -53",
+          "value": "17 66 -53"
+        },
+        "NodeID": "table_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "17 66 -53"
+          }
+        }
+      },
+      "table_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "27 66 -47",
+          "value": "27 66 -47"
+        },
+        "NodeID": "table_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "27 66 -47"
+          }
+        }
+      },
+      "table_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_slab",
+          "value": "oak_slab"
+        },
+        "NodeID": "table_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "oak_slab"
+          }
+        }
+      },
+      "table_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "咖啡桌",
+          "value": "咖啡桌"
+        },
+        "NodeID": "table_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "咖啡桌"
+          }
+        }
+      },
+      "step5": {
+        "Data": {
+          "Type": "SetBlockNode"
+        },
+        "NodeID": "step5",
+        "Pos": [
+          -200.0,
+          -450.0
+        ],
+        "Type": "SetBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "coffee_d"
+            ],
+            "pos": [
+              "coffee1"
+            ],
+            "tileName": [
+              "coffee2"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "coffee1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "22 68 -50",
+          "value": "22 68 -50"
+        },
+        "NodeID": "coffee1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "22 68 -50"
+          }
+        }
+      },
+      "coffee2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "brown_stained_glass",
+          "value": "brown_stained_glass"
+        },
+        "NodeID": "coffee2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "brown_stained_glass"
+          }
+        }
+      },
+      "coffee_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "咖啡杯装饰",
+          "value": "咖啡杯装饰"
+        },
+        "NodeID": "coffee_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "咖啡杯装饰"
+          }
+        }
+      },
+      "step7": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step7",
+        "Pos": [
+          -200.0,
+          -350.0
+        ],
+        "Type": "SayNode",
+        "VarData": {
+          "input": {
+            "msg": [
+              "msg2"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "msg2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "咖啡厅生成完成！包含吧台+咖啡桌",
+          "value": "咖啡厅生成完成！包含吧台+咖啡桌"
+        },
+        "NodeID": "msg2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "咖啡厅生成完成！包含吧台+咖啡桌"
+          }
+        }
+      },
+      "output1": {
+        "Data": {
+          "Type": "MacroOutput",
+          "parameters": []
+        },
+        "NodeID": "output1",
+        "Pos": [
+          -200.0,
+          -300.0
+        ],
+        "Type": "MacroOutput",
+        "VarData": {
+          "input": {},
+          "local": {}
+        }
+      }
     },
-    "Type": "Macro",
-    "Version": 1.0
+    "variableData": {
+      "生成涩谷咖啡厅...": "生成涩谷咖啡厅...",
+      "air": "air",
+      "内部挖空": "内部挖空",
+      "brown_concrete": "brown_concrete",
+      "吧台": "吧台",
+      "oak_slab": "oak_slab",
+      "咖啡桌": "咖啡桌",
+      "brown_stained_glass": "brown_stained_glass",
+      "咖啡杯装饰": "咖啡杯装饰",
+      "129 68 -75": "129 68 -75",
+      "咖啡师": "咖啡师",
+      "咖啡厅生成完成！包含吧台+咖啡桌": "咖啡厅生成完成！包含吧台+咖啡桌",
+      "15 66 -55": "15 66 -55",
+      "30 70 -45": "30 70 -45",
+      "28 66 -53": "28 66 -53",
+      "30 68 -47": "30 68 -47",
+      "17 66 -53": "17 66 -53",
+      "27 66 -47": "27 66 -47",
+      "22 68 -50": "22 68 -50"
+    },
+    "saveTimes": 1,
+    "version": 3.0
+  },
+  "Storyline": {
+    "groupData": {},
+    "lineData": [
+      {
+        "endNode": "step1",
+        "endPort": "__in__",
+        "startNode": "input1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "msg1",
+        "endPort": "__out__",
+        "startNode": "step1",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "step2",
+        "endPort": "__in__",
+        "startNode": "msg1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "interior_f",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "from"
+      },
+      {
+        "endNode": "interior_t",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "to"
+      },
+      {
+        "endNode": "interior_b",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "interior_d",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step3",
+        "endPort": "__in__",
+        "startNode": "interior_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "counter_f",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "from"
+      },
+      {
+        "endNode": "counter_t",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "to"
+      },
+      {
+        "endNode": "counter_b",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "counter_d",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step4",
+        "endPort": "__in__",
+        "startNode": "counter_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "table_f",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "from"
+      },
+      {
+        "endNode": "table_t",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "to"
+      },
+      {
+        "endNode": "table_b",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "table_d",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step5",
+        "endPort": "__in__",
+        "startNode": "table_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "coffee1",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "coffee2",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "coffee_d",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "des"
+      },
+      {
+        "endNode": "msg2",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "output1",
+        "endPort": "__in__",
+        "startNode": "msg2",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "step7",
+        "endPort": "__in__",
+        "startNode": "coffee_d",
+        "startPort": "__out__"
+      }
+    ],
+    "nodeData": {
+      "input1": {
+        "Data": {
+          "Type": "MacroInput",
+          "desc": "",
+          "parameters": [],
+          "title": ""
+        },
+        "NodeID": "input1",
+        "Pos": [
+          -200.0,
+          -700.0
+        ],
+        "Type": "MacroInput"
+      },
+      "step1": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step1",
+        "Pos": [
+          -200.0,
+          -650.0
+        ],
+        "Type": "SayNode"
+      },
+      "msg1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "生成涩谷咖啡厅...",
+          "value": "生成涩谷咖啡厅..."
+        },
+        "NodeID": "msg1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step2": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step2",
+        "Pos": [
+          -200.0,
+          -600.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "interior_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "15 66 -55",
+          "value": "15 66 -55"
+        },
+        "NodeID": "interior_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "interior_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "30 70 -45",
+          "value": "30 70 -45"
+        },
+        "NodeID": "interior_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "interior_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "air",
+          "value": "air"
+        },
+        "NodeID": "interior_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "interior_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "内部挖空",
+          "value": "内部挖空"
+        },
+        "NodeID": "interior_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step3": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step3",
+        "Pos": [
+          -200.0,
+          -550.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "counter_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "28 66 -53",
+          "value": "28 66 -53"
+        },
+        "NodeID": "counter_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "counter_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "30 68 -47",
+          "value": "30 68 -47"
+        },
+        "NodeID": "counter_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "counter_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "brown_concrete",
+          "value": "brown_concrete"
+        },
+        "NodeID": "counter_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "counter_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "吧台",
+          "value": "吧台"
+        },
+        "NodeID": "counter_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step4": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step4",
+        "Pos": [
+          -200.0,
+          -500.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "table_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "17 66 -53",
+          "value": "17 66 -53"
+        },
+        "NodeID": "table_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "table_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "27 66 -47",
+          "value": "27 66 -47"
+        },
+        "NodeID": "table_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "table_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_slab",
+          "value": "oak_slab"
+        },
+        "NodeID": "table_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "table_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "咖啡桌",
+          "value": "咖啡桌"
+        },
+        "NodeID": "table_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step5": {
+        "Data": {
+          "Type": "SetBlockNode"
+        },
+        "NodeID": "step5",
+        "Pos": [
+          -200.0,
+          -450.0
+        ],
+        "Type": "SetBlockNode"
+      },
+      "coffee1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "22 68 -50",
+          "value": "22 68 -50"
+        },
+        "NodeID": "coffee1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "coffee2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "brown_stained_glass",
+          "value": "brown_stained_glass"
+        },
+        "NodeID": "coffee2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "coffee_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "咖啡杯装饰",
+          "value": "咖啡杯装饰"
+        },
+        "NodeID": "coffee_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step7": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step7",
+        "Pos": [
+          -200.0,
+          -350.0
+        ],
+        "Type": "SayNode"
+      },
+      "msg2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "咖啡厅生成完成！包含吧台+咖啡桌",
+          "value": "咖啡厅生成完成！包含吧台+咖啡桌"
+        },
+        "NodeID": "msg2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "output1": {
+        "Data": {
+          "Type": "MacroOutput",
+          "parameters": []
+        },
+        "NodeID": "output1",
+        "Pos": [
+          -200.0,
+          -300.0
+        ],
+        "Type": "MacroOutput"
+      }
+    },
+    "version": 3.0
+  },
+  "Type": "Macro",
+  "Version": 1.0
 }

@@ -6,3 +6,4 @@ execute as @s if score @s time_shibuya matches 7201 if score @s time_phase match
 execute as @s if score @s time_shibuya matches 9601.. run scoreboard players set @s time_shibuya 0
 execute as @s if score @s time_shibuya matches 9601.. run scoreboard players add @s day_shibuya 1
 execute as @s if score @s time_shibuya matches 9601.. run scoreboard players set @s time_phase 0
+execute as @a run scoreboard players operation #time day_shibuya = @s day_shibuya

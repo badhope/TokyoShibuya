@@ -1,54 +1,79 @@
-fill -25 65 -25 25 65 25 white_concrete
-fill -25 65 -23 -25 65 -21 white_concrete
-fill -21 65 -25 -19 65 -25 white_concrete
-fill -17 65 -25 -15 65 -25 white_concrete
-fill -13 65 -25 -11 65 -25 white_concrete
-fill -9 65 -25 -7 65 -25 white_concrete
-fill -5 65 -25 -3 65 -25 white_concrete
-fill -1 65 -25 1 65 -25 white_concrete
-fill 3 65 -25 5 65 -25 white_concrete
-fill 7 65 -25 9 65 -25 white_concrete
-fill 11 65 -25 13 65 -25 white_concrete
-fill 15 65 -25 17 65 -25 white_concrete
-fill 19 65 -25 21 65 -25 white_concrete
-fill 23 65 -25 25 65 -25 white_concrete
-fill -25 65 21 -25 65 23 white_concrete
-fill -25 65 17 -25 65 19 white_concrete
-fill -25 65 13 -25 65 15 white_concrete
-fill -25 65 9 -25 65 11 white_concrete
-fill -25 65 5 -25 65 7 white_concrete
-fill -25 65 1 -25 65 3 white_concrete
-fill -25 65 -3 -25 65 -1 white_concrete
-fill -25 65 -7 -25 65 -5 white_concrete
-fill -25 65 -11 -25 65 -9 white_concrete
-fill -25 65 -15 -25 65 -13 white_concrete
-fill -25 65 -19 -25 65 -17 white_concrete
-fill 25 65 21 25 65 23 white_concrete
-fill 25 65 17 25 65 19 white_concrete
-fill 25 65 13 25 65 15 white_concrete
-fill 25 65 9 25 65 11 white_concrete
-fill 25 65 5 25 65 7 white_concrete
-fill 25 65 1 25 65 3 white_concrete
-fill 25 65 -3 25 65 -1 white_concrete
-fill 25 65 -7 25 65 -5 white_concrete
-fill 25 65 -11 25 65 -9 white_concrete
-fill 25 65 -15 25 65 -13 white_concrete
-fill 25 65 -19 25 65 -17 white_concrete
-fill -23 65 -25 -21 65 -25 white_concrete
-fill -23 65 25 -21 65 25 white_concrete
-fill 21 65 -25 23 65 -25 white_concrete
-fill 21 65 25 23 65 25 white_concrete
-setblock -25 66 -25 iron_block
-setblock -25 67 -25 redstone_lamp
-setblock -25 66 -25 green_wool
-setblock 25 66 -25 iron_block
-setblock 25 67 -25 redstone_lamp
-setblock 25 66 25 iron_block
-setblock 25 67 25 redstone_lamp
-setblock -25 66 25 iron_block
-setblock -25 67 25 redstone_lamp
+# === 涩谷十字路口 31x31 白色混凝土地面 ===
+fill -15 65 -15 15 65 15 white_concrete
+
+# === 斑马线（白色羊毛条纹）- 北侧 ===
+fill -3 65 -16 -1 65 -16 white_wool
+fill 1 65 -16 3 65 -16 white_wool
+fill -3 65 -18 -1 65 -18 white_wool
+fill 1 65 -18 3 65 -18 white_wool
+fill -3 65 -20 -1 65 -20 white_wool
+fill 1 65 -20 3 65 -20 white_wool
+fill -3 65 -22 -1 65 -22 white_wool
+fill 1 65 -22 3 65 -22 white_wool
+fill -3 65 -24 -1 65 -24 white_wool
+fill 1 65 -24 3 65 -24 white_wool
+
+# === 斑马线 - 南侧 ===
+fill -3 65 16 -1 65 16 white_wool
+fill 1 65 16 3 65 16 white_wool
+fill -3 65 18 -1 65 18 white_wool
+fill 1 65 18 3 65 18 white_wool
+fill -3 65 20 -1 65 20 white_wool
+fill 1 65 20 3 65 20 white_wool
+fill -3 65 22 -1 65 22 white_wool
+fill 1 65 22 3 65 22 white_wool
+fill -3 65 24 -1 65 24 white_wool
+fill 1 65 24 3 65 24 white_wool
+
+# === 斑马线 - 东侧 ===
+fill 16 65 -3 16 65 -1 white_wool
+fill 16 65 1 16 65 3 white_wool
+fill 18 65 -3 18 65 -1 white_wool
+fill 18 65 1 18 65 3 white_wool
+fill 20 65 -3 20 65 -1 white_wool
+fill 20 65 1 20 65 3 white_wool
+fill 22 65 -3 22 65 -1 white_wool
+fill 22 65 1 22 65 3 white_wool
+fill 24 65 -3 24 65 -1 white_wool
+fill 24 65 1 24 65 3 white_wool
+
+# === 斑马线 - 西侧 ===
+fill -16 65 -3 -16 65 -1 white_wool
+fill -16 65 1 -16 65 3 white_wool
+fill -18 65 -3 -18 65 -1 white_wool
+fill -18 65 1 -18 65 3 white_wool
+fill -20 65 -3 -20 65 -1 white_wool
+fill -20 65 1 -20 65 3 white_wool
+fill -22 65 -3 -22 65 -1 white_wool
+fill -22 65 1 -22 65 3 white_wool
+fill -24 65 -3 -24 65 -1 white_wool
+fill -24 65 1 -24 65 3 white_wool
+
+# === 交通信号灯 - 东北角 ===
+setblock 16 66 -16 fence
+setblock 16 67 -16 sea_lantern
+setblock 16 68 -16 green_wool
+
+# === 交通信号灯 - 西北角 ===
+setblock -16 66 -16 fence
+setblock -16 67 -16 sea_lantern
+setblock -16 68 -16 red_wool
+
+# === 交通信号灯 - 东南角 ===
+setblock 16 66 16 fence
+setblock 16 67 16 sea_lantern
+setblock 16 68 16 red_wool
+
+# === 交通信号灯 - 西南角 ===
+setblock -16 66 16 fence
+setblock -16 67 16 sea_lantern
+setblock -16 68 16 green_wool
+
+# === 八公像 十字路口西北角 (-18,65,-18) 金块+铁块 ===
+fill -19 65 -19 -17 65 -17 gold_block
+setblock -18 66 -18 iron_block
+setblock -18 67 -18 iron_block
+setblock -18 68 -18 sea_lantern
+
+# === 十字路口中心装饰 ===
 fill -2 65 -2 2 65 2 polished_andesite
-fill -40 65 -30 -38 65 -28 polished_andesite
-fill -41 66 -31 -37 66 -27 air
-setblock -40 66 -30 orange_concrete
-setblock -39 66 -30 black_concrete

@@ -1,559 +1,667 @@
 {
-    "Prefabs": {},
-    "StoryTeller": {
-        "groupData": {},
-        "layoutPanels": 0,
-        "lineData": [
-            {
-                "endNode": "step1",
-                "endPort": "__in__",
-                "startNode": "input1",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "step2",
-                "endPort": "__in__",
-                "startNode": "step1",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "step3",
-                "endPort": "__in__",
-                "startNode": "step2",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "step4",
-                "endPort": "__in__",
-                "startNode": "step3",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "output1",
-                "endPort": "__in__",
-                "startNode": "step4",
-                "startPort": "__out__"
-            }
+  "Prefabs": {},
+  "StoryTeller": {
+    "groupData": {},
+    "layoutPanels": 0,
+    "lineData": [
+      {
+        "endNode": "step1",
+        "endPort": "__in__",
+        "startNode": "input1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "step2",
+        "endPort": "__in__",
+        "startNode": "step1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "step3",
+        "endPort": "__in__",
+        "startNode": "step2",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "step4",
+        "endPort": "__in__",
+        "startNode": "step3",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "output1",
+        "endPort": "__in__",
+        "startNode": "step4",
+        "startPort": "__out__"
+      }
+    ],
+    "nodeData": {
+      "input1": {
+        "Data": {
+          "Type": "MacroInput",
+          "desc": "",
+          "parameters": [],
+          "title": ""
+        },
+        "NodeID": "input1",
+        "Pos": [
+          -126.0,
+          -306.0
         ],
-        "nodeData": {
-            "input1": {
-                "Data": {
-                    "Type": "MacroInput",
-                    "desc": "",
-                    "parameters": [],
-                    "title": ""
-                },
-                "NodeID": "input1",
-                "Pos": [-126.0, -306.0],
-                "Type": "MacroInput",
-                "VarData": {
-                    "input": {},
-                    "local": {}
-                }
-            },
-            "step1": {
-                "Data": {
-                    "Type": "SayNode"
-                },
-                "NodeID": "step1",
-                "Pos": [-126.0, -282.5],
-                "Type": "SayNode",
-                "VarData": {
-                    "input": {
-                        "msg": ["titleMsg1"]
-                    },
-                    "local": {}
-                }
-            },
-            "msg1": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "msg",
-                    "parameterStyle": "Input",
-                    "parameterText": "涩谷城市生成中...",
-                    "value": "涩谷城市生成中..."
-                },
-                "NodeID": "msg1",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "涩谷城市生成中..."
-                    }
-                }
-            },
-            "step2": {
-                "Data": {
-                    "Type": "FillBlockNode"
-                },
-                "NodeID": "step2",
-                "Pos": [-126.0, -249.0],
-                "Type": "FillBlockNode",
-                "VarData": {
-                    "input": {
-                        "des": ["des1"],
-                        "from": ["from1"],
-                        "to": ["to1"],
-                        "tileName": ["tile1"]
-                    },
-                    "local": {}
-                }
-            },
-            "from1": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "from",
-                    "parameterStyle": "Input",
-                    "parameterText": "-200 64 -200",
-                    "value": "-200 64 -200"
-                },
-                "NodeID": "from1",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "-200 64 -200"
-                    }
-                }
-            },
-            "to1": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "to",
-                    "parameterStyle": "Input",
-                    "parameterText": "200 64 200",
-                    "value": "200 64 200"
-                },
-                "NodeID": "to1",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "200 64 200"
-                    }
-                }
-            },
-            "tile1": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "tileName",
-                    "parameterStyle": "Input",
-                    "parameterText": "stone",
-                    "value": "stone"
-                },
-                "NodeID": "tile1",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "stone"
-                    }
-                }
-            },
-            "des1": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "地面",
-                    "value": "地面"
-                },
-                "NodeID": "des1",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "地面"
-                    }
-                }
-            },
-            "step3": {
-                "Data": {
-                    "Type": "SetBlockNode"
-                },
-                "NodeID": "step3",
-                "Pos": [-126.0, -215.5],
-                "Type": "SetBlockNode",
-                "VarData": {
-                    "input": {
-                        "des": ["des2"],
-                        "pos": ["pos1"],
-                        "tileName": ["tile2"]
-                    },
-                    "local": {}
-                }
-            },
-            "pos1": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "0 65 0",
-                    "value": "0 65 0"
-                },
-                "NodeID": "pos1",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "0 65 0"
-                    }
-                }
-            },
-            "tile2": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "tileName",
-                    "parameterStyle": "Input",
-                    "parameterText": "gold_block",
-                    "value": "gold_block"
-                },
-                "NodeID": "tile2",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "gold_block"
-                    }
-                }
-            },
-            "des2": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "出生点标记",
-                    "value": "出生点标记"
-                },
-                "NodeID": "des2",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "出生点标记"
-                    }
-                }
-            },
-            "step4": {
-                "Data": {
-                    "Type": "SayNode"
-                },
-                "NodeID": "step4",
-                "Pos": [-126.0, -182.0],
-                "Type": "SayNode",
-                "VarData": {
-                    "input": {
-                        "msg": ["titleMsg2"]
-                    },
-                    "local": {}
-                }
-            },
-            "msg2": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "msg",
-                    "parameterStyle": "Input",
-                    "parameterText": "涩谷城市生成完成！",
-                    "value": "涩谷城市生成完成！"
-                },
-                "NodeID": "msg2",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter",
-                "VarData": {
-                    "input": {},
-                    "local": {
-                        "__out__": "涩谷城市生成完成！"
-                    }
-                }
-            },
-            "output1": {
-                "Data": {
-                    "Type": "MacroOutput",
-                    "parameters": []
-                },
-                "NodeID": "output1",
-                "Pos": [-126.0, -148.5],
-                "Type": "MacroOutput",
-                "VarData": {
-                    "input": {},
-                    "local": {}
-                }
-            }
+        "Type": "MacroInput",
+        "VarData": {
+          "input": {},
+          "local": {}
+        }
+      },
+      "step1": {
+        "Data": {
+          "Type": "SayNode"
         },
-        "variableData": {
-            "涩谷城市生成中...": "涩谷城市生成中...",
-            "涩谷城市生成完成！": "涩谷城市生成完成！",
-            "-200 64 -200": "-200 64 -200",
-            "200 64 200": "200 64 200",
-            "stone": "stone",
-            "地面": "地面",
-            "0 65 0": "0 65 0",
-            "gold_block": "gold_block",
-            "出生点标记": "出生点标记"
-        },
-        "saveTimes": 1,
-        "version": 3.0
-    },
-    "Storyline": {
-        "groupData": {},
-        "lineData": [
-            {
-                "endNode": "step1",
-                "endPort": "__in__",
-                "startNode": "input1",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "msg1",
-                "endPort": "__out__",
-                "startNode": "step1",
-                "startPort": "msg"
-            },
-            {
-                "endNode": "step2",
-                "endPort": "__in__",
-                "startNode": "msg1",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "from1",
-                "endPort": "__out__",
-                "startNode": "step2",
-                "startPort": "from"
-            },
-            {
-                "endNode": "to1",
-                "endPort": "__out__",
-                "startNode": "step2",
-                "startPort": "to"
-            },
-            {
-                "endNode": "tile1",
-                "endPort": "__out__",
-                "startNode": "step2",
-                "startPort": "tileName"
-            },
-            {
-                "endNode": "des1",
-                "endPort": "__out__",
-                "startNode": "step2",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step3",
-                "endPort": "__in__",
-                "startNode": "step2",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "pos1",
-                "endPort": "__out__",
-                "startNode": "step3",
-                "startPort": "pos"
-            },
-            {
-                "endNode": "tile2",
-                "endPort": "__out__",
-                "startNode": "step3",
-                "startPort": "tileName"
-            },
-            {
-                "endNode": "des2",
-                "endPort": "__out__",
-                "startNode": "step3",
-                "startPort": "des"
-            },
-            {
-                "endNode": "step4",
-                "endPort": "__in__",
-                "startNode": "step3",
-                "startPort": "__out__"
-            },
-            {
-                "endNode": "msg2",
-                "endPort": "__out__",
-                "startNode": "step4",
-                "startPort": "msg"
-            },
-            {
-                "endNode": "output1",
-                "endPort": "__in__",
-                "startNode": "step4",
-                "startPort": "__out__"
-            }
+        "NodeID": "step1",
+        "Pos": [
+          -126.0,
+          -282.5
         ],
-        "nodeData": {
-            "input1": {
-                "Data": {
-                    "Type": "MacroInput",
-                    "desc": "",
-                    "parameters": [],
-                    "title": ""
-                },
-                "NodeID": "input1",
-                "Pos": [-126.0, -306.0],
-                "Type": "MacroInput"
-            },
-            "step1": {
-                "Data": {
-                    "Type": "SayNode"
-                },
-                "NodeID": "step1",
-                "Pos": [-126.0, -282.5],
-                "Type": "SayNode"
-            },
-            "msg1": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "msg",
-                    "parameterStyle": "Input",
-                    "parameterText": "涩谷城市生成中...",
-                    "value": "涩谷城市生成中..."
-                },
-                "NodeID": "msg1",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter"
-            },
-            "step2": {
-                "Data": {
-                    "Type": "FillBlockNode"
-                },
-                "NodeID": "step2",
-                "Pos": [-126.0, -249.0],
-                "Type": "FillBlockNode"
-            },
-            "from1": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "from",
-                    "parameterStyle": "Input",
-                    "parameterText": "-200 64 -200",
-                    "value": "-200 64 -200"
-                },
-                "NodeID": "from1",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter"
-            },
-            "to1": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "to",
-                    "parameterStyle": "Input",
-                    "parameterText": "200 64 200",
-                    "value": "200 64 200"
-                },
-                "NodeID": "to1",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter"
-            },
-            "tile1": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "tileName",
-                    "parameterStyle": "Input",
-                    "parameterText": "stone",
-                    "value": "stone"
-                },
-                "NodeID": "tile1",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter"
-            },
-            "des1": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "地面",
-                    "value": "地面"
-                },
-                "NodeID": "des1",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter"
-            },
-            "step3": {
-                "Data": {
-                    "Type": "SetBlockNode"
-                },
-                "NodeID": "step3",
-                "Pos": [-126.0, -215.5],
-                "Type": "SetBlockNode"
-            },
-            "pos1": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "pos",
-                    "parameterStyle": "Input",
-                    "parameterText": "0 65 0",
-                    "value": "0 65 0"
-                },
-                "NodeID": "pos1",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter"
-            },
-            "tile2": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "tileName",
-                    "parameterStyle": "Input",
-                    "parameterText": "gold_block",
-                    "value": "gold_block"
-                },
-                "NodeID": "tile2",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter"
-            },
-            "des2": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "des",
-                    "parameterStyle": "Input",
-                    "parameterText": "出生点标记",
-                    "value": "出生点标记"
-                },
-                "NodeID": "des2",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter"
-            },
-            "step4": {
-                "Data": {
-                    "Type": "SayNode"
-                },
-                "NodeID": "step4",
-                "Pos": [-126.0, -182.0],
-                "Type": "SayNode"
-            },
-            "msg2": {
-                "Data": {
-                    "Type": "StrParameter",
-                    "parameterName": "msg",
-                    "parameterStyle": "Input",
-                    "parameterText": "涩谷城市生成完成！",
-                    "value": "涩谷城市生成完成！"
-                },
-                "NodeID": "msg2",
-                "Pos": [0.0, 0.0],
-                "Type": "StrParameter"
-            },
-            "output1": {
-                "Data": {
-                    "Type": "MacroOutput",
-                    "parameters": []
-                },
-                "NodeID": "output1",
-                "Pos": [-126.0, -148.5],
-                "Type": "MacroOutput"
-            }
+        "Type": "SayNode",
+        "VarData": {
+          "input": {
+            "msg": [
+              "titleMsg1"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "msg1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "涩谷城市生成中...",
+          "value": "涩谷城市生成中..."
         },
-        "version": 3.0
+        "NodeID": "msg1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "涩谷城市生成中..."
+          }
+        }
+      },
+      "step2": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step2",
+        "Pos": [
+          -126.0,
+          -249.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "des1"
+            ],
+            "from": [
+              "from1"
+            ],
+            "to": [
+              "to1"
+            ],
+            "tileName": [
+              "tile1"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "from1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-300 64 -200",
+          "value": "-300 64 -200"
+        },
+        "NodeID": "from1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-300 64 -200"
+          }
+        }
+      },
+      "to1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "300 64 200",
+          "value": "300 64 200"
+        },
+        "NodeID": "to1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "300 64 200"
+          }
+        }
+      },
+      "tile1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "stone",
+          "value": "stone"
+        },
+        "NodeID": "tile1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "stone"
+          }
+        }
+      },
+      "des1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "地面",
+          "value": "地面"
+        },
+        "NodeID": "des1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "地面"
+          }
+        }
+      },
+      "step3": {
+        "Data": {
+          "Type": "SetBlockNode"
+        },
+        "NodeID": "step3",
+        "Pos": [
+          -126.0,
+          -215.5
+        ],
+        "Type": "SetBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "des2"
+            ],
+            "pos": [
+              "pos1"
+            ],
+            "tileName": [
+              "tile2"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "pos1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "0 65 0",
+          "value": "0 65 0"
+        },
+        "NodeID": "pos1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "0 65 0"
+          }
+        }
+      },
+      "tile2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "gold_block",
+          "value": "gold_block"
+        },
+        "NodeID": "tile2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "gold_block"
+          }
+        }
+      },
+      "des2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "出生点标记",
+          "value": "出生点标记"
+        },
+        "NodeID": "des2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "出生点标记"
+          }
+        }
+      },
+      "step4": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step4",
+        "Pos": [
+          -126.0,
+          -182.0
+        ],
+        "Type": "SayNode",
+        "VarData": {
+          "input": {
+            "msg": [
+              "titleMsg2"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "msg2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "涩谷城市生成完成！",
+          "value": "涩谷城市生成完成！"
+        },
+        "NodeID": "msg2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "涩谷城市生成完成！"
+          }
+        }
+      },
+      "output1": {
+        "Data": {
+          "Type": "MacroOutput",
+          "parameters": []
+        },
+        "NodeID": "output1",
+        "Pos": [
+          -126.0,
+          -148.5
+        ],
+        "Type": "MacroOutput",
+        "VarData": {
+          "input": {},
+          "local": {}
+        }
+      }
     },
-    "Type": "Macro",
-    "Version": 1.0
+    "variableData": {
+      "涩谷城市生成中...": "涩谷城市生成中...",
+      "涩谷城市生成完成！": "涩谷城市生成完成！",
+      "stone": "stone",
+      "地面": "地面",
+      "0 65 0": "0 65 0",
+      "gold_block": "gold_block",
+      "出生点标记": "出生点标记",
+      "-300 64 -200": "-300 64 -200",
+      "300 64 200": "300 64 200"
+    },
+    "saveTimes": 1,
+    "version": 3.0
+  },
+  "Storyline": {
+    "groupData": {},
+    "lineData": [
+      {
+        "endNode": "step1",
+        "endPort": "__in__",
+        "startNode": "input1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "msg1",
+        "endPort": "__out__",
+        "startNode": "step1",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "step2",
+        "endPort": "__in__",
+        "startNode": "msg1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "from1",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "from"
+      },
+      {
+        "endNode": "to1",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "to"
+      },
+      {
+        "endNode": "tile1",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "des1",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step3",
+        "endPort": "__in__",
+        "startNode": "step2",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "pos1",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "tile2",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "des2",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step4",
+        "endPort": "__in__",
+        "startNode": "step3",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "msg2",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "output1",
+        "endPort": "__in__",
+        "startNode": "step4",
+        "startPort": "__out__"
+      }
+    ],
+    "nodeData": {
+      "input1": {
+        "Data": {
+          "Type": "MacroInput",
+          "desc": "",
+          "parameters": [],
+          "title": ""
+        },
+        "NodeID": "input1",
+        "Pos": [
+          -126.0,
+          -306.0
+        ],
+        "Type": "MacroInput"
+      },
+      "step1": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step1",
+        "Pos": [
+          -126.0,
+          -282.5
+        ],
+        "Type": "SayNode"
+      },
+      "msg1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "涩谷城市生成中...",
+          "value": "涩谷城市生成中..."
+        },
+        "NodeID": "msg1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step2": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step2",
+        "Pos": [
+          -126.0,
+          -249.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "from1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-300 64 -200",
+          "value": "-300 64 -200"
+        },
+        "NodeID": "from1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "to1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "300 64 200",
+          "value": "300 64 200"
+        },
+        "NodeID": "to1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "tile1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "stone",
+          "value": "stone"
+        },
+        "NodeID": "tile1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "des1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "地面",
+          "value": "地面"
+        },
+        "NodeID": "des1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step3": {
+        "Data": {
+          "Type": "SetBlockNode"
+        },
+        "NodeID": "step3",
+        "Pos": [
+          -126.0,
+          -215.5
+        ],
+        "Type": "SetBlockNode"
+      },
+      "pos1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "0 65 0",
+          "value": "0 65 0"
+        },
+        "NodeID": "pos1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "tile2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "gold_block",
+          "value": "gold_block"
+        },
+        "NodeID": "tile2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "des2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "出生点标记",
+          "value": "出生点标记"
+        },
+        "NodeID": "des2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step4": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step4",
+        "Pos": [
+          -126.0,
+          -182.0
+        ],
+        "Type": "SayNode"
+      },
+      "msg2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "涩谷城市生成完成！",
+          "value": "涩谷城市生成完成！"
+        },
+        "NodeID": "msg2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "output1": {
+        "Data": {
+          "Type": "MacroOutput",
+          "parameters": []
+        },
+        "NodeID": "output1",
+        "Pos": [
+          -126.0,
+          -148.5
+        ],
+        "Type": "MacroOutput"
+      }
+    },
+    "version": 3.0
+  },
+  "Type": "Macro",
+  "Version": 1.0
 }

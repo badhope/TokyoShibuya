@@ -22,4 +22,3 @@ setblock -39 66 -31 orange_tulip
 setblock -41 66 -29 red_tulip
 setblock -39 66 -29 orange_tulip
 setblock -40 68 -30 oak_sign
-scoreboard players add @a collect_shibuya 1

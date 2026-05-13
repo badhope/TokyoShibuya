@@ -69,4 +69,3 @@ fill 1 83 41 oak_stairs
 fill 1 84 41 oak_stairs
 setblock 0 66 40 oak_sign
 setblock 0 86 40 oak_sign
-scoreboard players add @a collect_shibuya 1

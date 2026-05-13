@@ -1,164 +1,1462 @@
 {
-    "Prefabs": {},
-    "StoryTeller": {
-        "groupData": {},
-        "layoutPanels": 0,
-        "lineData": [
-            {"endNode": "step1", "endPort": "__in__", "startNode": "input1", "startPort": "__out__"},
-            {"endNode": "msg1", "endPort": "__out__", "startNode": "step1", "startPort": "msg"},
-            {"endNode": "step2", "endPort": "__in__", "startNode": "msg1", "startPort": "__out__"},
-            {"endNode": "platform_f", "endPort": "__out__", "startNode": "step2", "startPort": "from"},
-            {"endNode": "platform_t", "endPort": "__out__", "startNode": "step2", "startPort": "to"},
-            {"endNode": "platform_b", "endPort": "__out__", "startNode": "step2", "startPort": "tileName"},
-            {"endNode": "platform_d", "endPort": "__out__", "startNode": "step2", "startPort": "des"},
-            {"endNode": "step3", "endPort": "__in__", "startNode": "platform_d", "startPort": "__out__"},
-            {"endNode": "wall_f", "endPort": "__out__", "startNode": "step3", "startPort": "from"},
-            {"endNode": "wall_t", "endPort": "__out__", "startNode": "step3", "startPort": "to"},
-            {"endNode": "wall_b", "endPort": "__out__", "startNode": "step3", "startPort": "tileName"},
-            {"endNode": "wall_d", "endPort": "__out__", "startNode": "step3", "startPort": "des"},
-            {"endNode": "step4", "endPort": "__in__", "startNode": "wall_d", "startPort": "__out__"},
-            {"endNode": "gate1", "endPort": "__out__", "startNode": "step4", "startPort": "from"},
-            {"endNode": "gate2", "endPort": "__out__", "startNode": "step4", "startPort": "to"},
-            {"endNode": "gate3", "endPort": "__out__", "startNode": "step4", "startPort": "tileName"},
-            {"endNode": "gate4", "endPort": "__out__", "startNode": "step4", "startPort": "des"},
-            {"endNode": "step5", "endPort": "__in__", "startNode": "gate4", "startPort": "__out__"},
-            {"endNode": "sign_pos", "endPort": "__out__", "startNode": "step5", "startPort": "pos"},
-            {"endNode": "sign_block", "endPort": "__out__", "startNode": "step5", "startPort": "tileName"},
-            {"endNode": "sign_des", "endPort": "__out__", "startNode": "step5", "startPort": "des"},
-            {"endNode": "step6", "endPort": "__in__", "startNode": "sign_des", "startPort": "__out__"},
-            {"endNode": "seat1", "endPort": "__out__", "startNode": "step6", "startPort": "from"},
-            {"endNode": "seat2", "endPort": "__out__", "startNode": "step6", "startPort": "to"},
-            {"endNode": "seat3", "endPort": "__out__", "startNode": "step6", "startPort": "tileName"},
-            {"endNode": "seat4", "endPort": "__out__", "startNode": "step6", "startPort": "des"},
-            {"endNode": "step7", "endPort": "__in__", "startNode": "seat4", "startPort": "__out__"},
-            {"endNode": "msg2", "endPort": "__out__", "startNode": "step7", "startPort": "msg"},
-            {"endNode": "output1", "endPort": "__in__", "startNode": "msg2", "startPort": "__out__"}
+  "Prefabs": {},
+  "StoryTeller": {
+    "groupData": {},
+    "layoutPanels": 0,
+    "lineData": [
+      {
+        "endNode": "step1",
+        "endPort": "__in__",
+        "startNode": "input1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "msg1",
+        "endPort": "__out__",
+        "startNode": "step1",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "step2",
+        "endPort": "__in__",
+        "startNode": "msg1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "platform_f",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "from"
+      },
+      {
+        "endNode": "platform_t",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "to"
+      },
+      {
+        "endNode": "platform_b",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "platform_d",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step3",
+        "endPort": "__in__",
+        "startNode": "platform_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "wall_f",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "from"
+      },
+      {
+        "endNode": "wall_t",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "to"
+      },
+      {
+        "endNode": "wall_b",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "wall_d",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step4",
+        "endPort": "__in__",
+        "startNode": "wall_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "gate1",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "from"
+      },
+      {
+        "endNode": "gate2",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "to"
+      },
+      {
+        "endNode": "gate3",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "gate4",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step5",
+        "endPort": "__in__",
+        "startNode": "gate4",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "sign_pos",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "sign_block",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "sign_des",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step6",
+        "endPort": "__in__",
+        "startNode": "sign_des",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "seat1",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "from"
+      },
+      {
+        "endNode": "seat2",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "to"
+      },
+      {
+        "endNode": "seat3",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "seat4",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step7",
+        "endPort": "__in__",
+        "startNode": "seat4",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "msg2",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "output1",
+        "endPort": "__in__",
+        "startNode": "msg2",
+        "startPort": "__out__"
+      }
+    ],
+    "nodeData": {
+      "input1": {
+        "Data": {
+          "Type": "MacroInput",
+          "desc": "",
+          "parameters": [],
+          "title": ""
+        },
+        "NodeID": "input1",
+        "Pos": [
+          -200.0,
+          -600.0
         ],
-        "nodeData": {
-            "input1": {"Data": {"Type": "MacroInput", "desc": "", "parameters": [], "title": ""}, "NodeID": "input1", "Pos": [-200.0, -600.0], "Type": "MacroInput", "VarData": {"input": {}, "local": {}}},
-            "step1": {"Data": {"Type": "SayNode"}, "NodeID": "step1", "Pos": [-200.0, -550.0], "Type": "SayNode", "VarData": {"input": {"msg": ["msg1"]}, "local": {}}},
-            "msg1": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "生成涩谷地铁站内部...", "value": "生成涩谷地铁站内部..."}, "NodeID": "msg1", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "生成涩谷地铁站内部..."}}},
-            "step2": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step2", "Pos": [-200.0, -500.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["platform_d"], "from": ["platform_f"], "to": ["platform_t"], "tileName": ["platform_b"]}, "local": {}}},
-            "platform_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-80 63 -30", "value": "-80 63 -30"}, "NodeID": "platform_f", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-80 63 -30"}}},
-            "platform_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-60 63 30", "value": "-60 63 30"}, "NodeID": "platform_t", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-60 63 30"}}},
-            "platform_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "stone", "value": "stone"}, "NodeID": "platform_b", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "stone"}}},
-            "platform_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "站台地面", "value": "站台地面"}, "NodeID": "platform_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "站台地面"}}},
-            "step3": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step3", "Pos": [-200.0, -460.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["wall_d"], "from": ["wall_f"], "to": ["wall_t"], "tileName": ["wall_b"]}, "local": {}}},
-            "wall_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-82 63 -32", "value": "-82 63 -32"}, "NodeID": "wall_f", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-82 63 -32"}}},
-            "wall_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-58 68 32", "value": "-58 68 32"}, "NodeID": "wall_t", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-58 68 32"}}},
-            "wall_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "gray_concrete", "value": "gray_concrete"}, "NodeID": "wall_b", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "gray_concrete"}}},
-            "wall_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "站厅墙壁", "value": "站厅墙壁"}, "NodeID": "wall_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "站厅墙壁"}}},
-            "step4": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step4", "Pos": [-200.0, -420.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["gate4"], "from": ["gate1"], "to": ["gate2"], "tileName": ["gate3"]}, "local": {}}},
-            "gate1": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-75 63 -15", "value": "-75 63 -15"}, "NodeID": "gate1", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-75 63 -15"}}},
-            "gate2": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-70 65 -5", "value": "-70 65 -5"}, "NodeID": "gate2", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-70 65 -5"}}},
-            "gate3": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "air", "value": "air"}, "NodeID": "gate3", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "air"}}},
-            "gate4": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "闸机口", "value": "闸机口"}, "NodeID": "gate4", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "闸机口"}}},
-            "step5": {"Data": {"Type": "SetBlockNode"}, "NodeID": "step5", "Pos": [-200.0, -380.0], "Type": "SetBlockNode", "VarData": {"input": {"des": ["sign_des"], "pos": ["sign_pos"], "tileName": ["sign_block"]}, "local": {}}},
-            "sign_pos": {"Data": {"Type": "StrParameter", "parameterName": "pos", "parameterStyle": "Input", "parameterText": "-70 67 -10", "value": "-70 67 -10"}, "NodeID": "sign_pos", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-70 67 -10"}}},
-            "sign_block": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "yellow_concrete", "value": "yellow_concrete"}, "NodeID": "sign_block", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "yellow_concrete"}}},
-            "sign_des": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "站名牌", "value": "站名牌"}, "NodeID": "sign_des", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "站名牌"}}},
-            "step6": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step6", "Pos": [-200.0, -340.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["seat4"], "from": ["seat1"], "to": ["seat2"], "tileName": ["seat3"]}, "local": {}}},
-            "seat1": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-65 63 15", "value": "-65 63 15"}, "NodeID": "seat1", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-65 63 15"}}},
-            "seat2": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-60 63 20", "value": "-60 63 20"}, "NodeID": "seat2", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-60 63 20"}}},
-            "seat3": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_slab", "value": "oak_slab"}, "NodeID": "seat3", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "oak_slab"}}},
-            "seat4": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "候车座椅", "value": "候车座椅"}, "NodeID": "seat4", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "候车座椅"}}},
-            "step7": {"Data": {"Type": "SayNode"}, "NodeID": "step7", "Pos": [-200.0, -300.0], "Type": "SayNode", "VarData": {"input": {"msg": ["msg2"]}, "local": {}}},
-            "msg2": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "涩谷地铁站内部生成完成！包含站台+闸机+站牌+候车座椅", "value": "涩谷地铁站内部生成完成！包含站台+闸机+站牌+候车座椅"}, "NodeID": "msg2", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "涩谷地铁站内部生成完成！包含站台+闸机+站牌+候车座椅"}}},
-            "output1": {"Data": {"Type": "MacroOutput", "parameters": []}, "NodeID": "output1", "Pos": [-200.0, -260.0], "Type": "MacroOutput", "VarData": {"input": {}, "local": {}}}
+        "Type": "MacroInput",
+        "VarData": {
+          "input": {},
+          "local": {}
+        }
+      },
+      "step1": {
+        "Data": {
+          "Type": "SayNode"
         },
-        "variableData": {
-            "生成涩谷地铁站内部...": "生成涩谷地铁站内部...",
-            "-80 63 -30": "-80 63 -30",
-            "-60 63 30": "-60 63 30",
-            "stone": "stone",
-            "站台地面": "站台地面",
-            "-82 63 -32": "-82 63 -32",
-            "-58 68 32": "-58 68 32",
-            "gray_concrete": "gray_concrete",
-            "站厅墙壁": "站厅墙壁",
-            "-75 63 -15": "-75 63 -15",
-            "-70 65 -5": "-70 65 -5",
-            "air": "air",
-            "闸机口": "闸机口",
-            "-70 67 -10": "-70 67 -10",
-            "yellow_concrete": "yellow_concrete",
-            "站名牌": "站名牌",
-            "-65 63 15": "-65 63 15",
-            "-60 63 20": "-60 63 20",
-            "oak_slab": "oak_slab",
-            "候车座椅": "候车座椅",
-            "涩谷地铁站内部生成完成！包含站台+闸机+站牌+候车座椅": "涩谷地铁站内部生成完成！包含站台+闸机+站牌+候车座椅"
-        },
-        "saveTimes": 1,
-        "version": 3.0
-    },
-    "Storyline": {
-        "groupData": {},
-        "lineData": [
-            {"endNode": "step1", "endPort": "__in__", "startNode": "input1", "startPort": "__out__"},
-            {"endNode": "msg1", "endPort": "__out__", "startNode": "step1", "startPort": "msg"},
-            {"endNode": "step2", "endPort": "__in__", "startNode": "msg1", "startPort": "__out__"},
-            {"endNode": "platform_f", "endPort": "__out__", "startNode": "step2", "startPort": "from"},
-            {"endNode": "platform_t", "endPort": "__out__", "startNode": "step2", "startPort": "to"},
-            {"endNode": "platform_b", "endPort": "__out__", "startNode": "step2", "startPort": "tileName"},
-            {"endNode": "platform_d", "endPort": "__out__", "startNode": "step2", "startPort": "des"},
-            {"endNode": "step3", "endPort": "__in__", "startNode": "platform_d", "startPort": "__out__"},
-            {"endNode": "wall_f", "endPort": "__out__", "startNode": "step3", "startPort": "from"},
-            {"endNode": "wall_t", "endPort": "__out__", "startNode": "step3", "startPort": "to"},
-            {"endNode": "wall_b", "endPort": "__out__", "startNode": "step3", "startPort": "tileName"},
-            {"endNode": "wall_d", "endPort": "__out__", "startNode": "step3", "startPort": "des"},
-            {"endNode": "step4", "endPort": "__in__", "startNode": "wall_d", "startPort": "__out__"},
-            {"endNode": "gate1", "endPort": "__out__", "startNode": "step4", "startPort": "from"},
-            {"endNode": "gate2", "endPort": "__out__", "startNode": "step4", "startPort": "to"},
-            {"endNode": "gate3", "endPort": "__out__", "startNode": "step4", "startPort": "tileName"},
-            {"endNode": "gate4", "endPort": "__out__", "startNode": "step4", "startPort": "des"},
-            {"endNode": "step5", "endPort": "__in__", "startNode": "gate4", "startPort": "__out__"},
-            {"endNode": "sign_pos", "endPort": "__out__", "startNode": "step5", "startPort": "pos"},
-            {"endNode": "sign_block", "endPort": "__out__", "startNode": "step5", "startPort": "tileName"},
-            {"endNode": "sign_des", "endPort": "__out__", "startNode": "step5", "startPort": "des"},
-            {"endNode": "step6", "endPort": "__in__", "startNode": "sign_des", "startPort": "__out__"},
-            {"endNode": "seat1", "endPort": "__out__", "startNode": "step6", "startPort": "from"},
-            {"endNode": "seat2", "endPort": "__out__", "startNode": "step6", "startPort": "to"},
-            {"endNode": "seat3", "endPort": "__out__", "startNode": "step6", "startPort": "tileName"},
-            {"endNode": "seat4", "endPort": "__out__", "startNode": "step6", "startPort": "des"},
-            {"endNode": "step7", "endPort": "__in__", "startNode": "seat4", "startPort": "__out__"},
-            {"endNode": "msg2", "endPort": "__out__", "startNode": "step7", "startPort": "msg"},
-            {"endNode": "output1", "endPort": "__in__", "startNode": "msg2", "startPort": "__out__"}
+        "NodeID": "step1",
+        "Pos": [
+          -200.0,
+          -550.0
         ],
-        "nodeData": {
-            "input1": {"Data": {"Type": "MacroInput", "desc": "", "parameters": [], "title": ""}, "NodeID": "input1", "Pos": [-200.0, -600.0], "Type": "MacroInput"},
-            "step1": {"Data": {"Type": "SayNode"}, "NodeID": "step1", "Pos": [-200.0, -550.0], "Type": "SayNode"},
-            "msg1": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "生成涩谷地铁站内部...", "value": "生成涩谷地铁站内部..."}, "NodeID": "msg1", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step2": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step2", "Pos": [-200.0, -500.0], "Type": "FillBlockNode"},
-            "platform_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-80 63 -30", "value": "-80 63 -30"}, "NodeID": "platform_f", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "platform_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-60 63 30", "value": "-60 63 30"}, "NodeID": "platform_t", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "platform_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "stone", "value": "stone"}, "NodeID": "platform_b", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "platform_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "站台地面", "value": "站台地面"}, "NodeID": "platform_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step3": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step3", "Pos": [-200.0, -460.0], "Type": "FillBlockNode"},
-            "wall_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-82 63 -32", "value": "-82 63 -32"}, "NodeID": "wall_f", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "wall_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-58 68 32", "value": "-58 68 32"}, "NodeID": "wall_t", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "wall_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "gray_concrete", "value": "gray_concrete"}, "NodeID": "wall_b", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "wall_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "站厅墙壁", "value": "站厅墙壁"}, "NodeID": "wall_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step4": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step4", "Pos": [-200.0, -420.0], "Type": "FillBlockNode"},
-            "gate1": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-75 63 -15", "value": "-75 63 -15"}, "NodeID": "gate1", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "gate2": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-70 65 -5", "value": "-70 65 -5"}, "NodeID": "gate2", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "gate3": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "air", "value": "air"}, "NodeID": "gate3", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "gate4": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "闸机口", "value": "闸机口"}, "NodeID": "gate4", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step5": {"Data": {"Type": "SetBlockNode"}, "NodeID": "step5", "Pos": [-200.0, -380.0], "Type": "SetBlockNode"},
-            "sign_pos": {"Data": {"Type": "StrParameter", "parameterName": "pos", "parameterStyle": "Input", "parameterText": "-70 67 -10", "value": "-70 67 -10"}, "NodeID": "sign_pos", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "sign_block": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "yellow_concrete", "value": "yellow_concrete"}, "NodeID": "sign_block", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "sign_des": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "站名牌", "value": "站名牌"}, "NodeID": "sign_des", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step6": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step6", "Pos": [-200.0, -340.0], "Type": "FillBlockNode"},
-            "seat1": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-65 63 15", "value": "-65 63 15"}, "NodeID": "seat1", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "seat2": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-60 63 20", "value": "-60 63 20"}, "NodeID": "seat2", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "seat3": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_slab", "value": "oak_slab"}, "NodeID": "seat3", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "seat4": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "候车座椅", "value": "候车座椅"}, "NodeID": "seat4", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step7": {"Data": {"Type": "SayNode"}, "NodeID": "step7", "Pos": [-200.0, -300.0], "Type": "SayNode"},
-            "msg2": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "涩谷地铁站内部生成完成！包含站台+闸机+站牌+候车座椅", "value": "涩谷地铁站内部生成完成！包含站台+闸机+站牌+候车座椅"}, "NodeID": "msg2", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "output1": {"Data": {"Type": "MacroOutput", "parameters": []}, "NodeID": "output1", "Pos": [-200.0, -260.0], "Type": "MacroOutput"}
+        "Type": "SayNode",
+        "VarData": {
+          "input": {
+            "msg": [
+              "msg1"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "msg1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "生成涩谷地铁站内部...",
+          "value": "生成涩谷地铁站内部..."
         },
-        "version": 3.0
+        "NodeID": "msg1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "生成涩谷地铁站内部..."
+          }
+        }
+      },
+      "step2": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step2",
+        "Pos": [
+          -200.0,
+          -500.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "platform_d"
+            ],
+            "from": [
+              "platform_f"
+            ],
+            "to": [
+              "platform_t"
+            ],
+            "tileName": [
+              "platform_b"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "platform_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-60 63 0",
+          "value": "-60 63 0"
+        },
+        "NodeID": "platform_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-60 63 0"
+          }
+        }
+      },
+      "platform_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "-30 63 30",
+          "value": "-30 63 30"
+        },
+        "NodeID": "platform_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-30 63 30"
+          }
+        }
+      },
+      "platform_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "stone",
+          "value": "stone"
+        },
+        "NodeID": "platform_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "stone"
+          }
+        }
+      },
+      "platform_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "站台地面",
+          "value": "站台地面"
+        },
+        "NodeID": "platform_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "站台地面"
+          }
+        }
+      },
+      "step3": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step3",
+        "Pos": [
+          -200.0,
+          -460.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "wall_d"
+            ],
+            "from": [
+              "wall_f"
+            ],
+            "to": [
+              "wall_t"
+            ],
+            "tileName": [
+              "wall_b"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "wall_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-62 63 -2",
+          "value": "-62 63 -2"
+        },
+        "NodeID": "wall_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-62 63 -2"
+          }
+        }
+      },
+      "wall_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "-28 68 32",
+          "value": "-28 68 32"
+        },
+        "NodeID": "wall_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-28 68 32"
+          }
+        }
+      },
+      "wall_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "gray_concrete",
+          "value": "gray_concrete"
+        },
+        "NodeID": "wall_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "gray_concrete"
+          }
+        }
+      },
+      "wall_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "站厅墙壁",
+          "value": "站厅墙壁"
+        },
+        "NodeID": "wall_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "站厅墙壁"
+          }
+        }
+      },
+      "step4": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step4",
+        "Pos": [
+          -200.0,
+          -420.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "gate4"
+            ],
+            "from": [
+              "gate1"
+            ],
+            "to": [
+              "gate2"
+            ],
+            "tileName": [
+              "gate3"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "gate1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-55 63 5",
+          "value": "-55 63 5"
+        },
+        "NodeID": "gate1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-55 63 5"
+          }
+        }
+      },
+      "gate2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "-50 65 15",
+          "value": "-50 65 15"
+        },
+        "NodeID": "gate2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-50 65 15"
+          }
+        }
+      },
+      "gate3": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "air",
+          "value": "air"
+        },
+        "NodeID": "gate3",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "air"
+          }
+        }
+      },
+      "gate4": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "闸机口",
+          "value": "闸机口"
+        },
+        "NodeID": "gate4",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "闸机口"
+          }
+        }
+      },
+      "step5": {
+        "Data": {
+          "Type": "SetBlockNode"
+        },
+        "NodeID": "step5",
+        "Pos": [
+          -200.0,
+          -380.0
+        ],
+        "Type": "SetBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "sign_des"
+            ],
+            "pos": [
+              "sign_pos"
+            ],
+            "tileName": [
+              "sign_block"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "sign_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-50 67 10",
+          "value": "-50 67 10"
+        },
+        "NodeID": "sign_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-50 67 10"
+          }
+        }
+      },
+      "sign_block": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "yellow_concrete",
+          "value": "yellow_concrete"
+        },
+        "NodeID": "sign_block",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "yellow_concrete"
+          }
+        }
+      },
+      "sign_des": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "站名牌",
+          "value": "站名牌"
+        },
+        "NodeID": "sign_des",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "站名牌"
+          }
+        }
+      },
+      "step6": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step6",
+        "Pos": [
+          -200.0,
+          -340.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "seat4"
+            ],
+            "from": [
+              "seat1"
+            ],
+            "to": [
+              "seat2"
+            ],
+            "tileName": [
+              "seat3"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "seat1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-35 63 20",
+          "value": "-35 63 20"
+        },
+        "NodeID": "seat1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-35 63 20"
+          }
+        }
+      },
+      "seat2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "-30 63 25",
+          "value": "-30 63 25"
+        },
+        "NodeID": "seat2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-30 63 25"
+          }
+        }
+      },
+      "seat3": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_slab",
+          "value": "oak_slab"
+        },
+        "NodeID": "seat3",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "oak_slab"
+          }
+        }
+      },
+      "seat4": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "候车座椅",
+          "value": "候车座椅"
+        },
+        "NodeID": "seat4",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "候车座椅"
+          }
+        }
+      },
+      "step7": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step7",
+        "Pos": [
+          -200.0,
+          -300.0
+        ],
+        "Type": "SayNode",
+        "VarData": {
+          "input": {
+            "msg": [
+              "msg2"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "msg2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "涩谷地铁站内部生成完成！包含站台+闸机+站牌+候车座椅",
+          "value": "涩谷地铁站内部生成完成！包含站台+闸机+站牌+候车座椅"
+        },
+        "NodeID": "msg2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "涩谷地铁站内部生成完成！包含站台+闸机+站牌+候车座椅"
+          }
+        }
+      },
+      "output1": {
+        "Data": {
+          "Type": "MacroOutput",
+          "parameters": []
+        },
+        "NodeID": "output1",
+        "Pos": [
+          -200.0,
+          -260.0
+        ],
+        "Type": "MacroOutput",
+        "VarData": {
+          "input": {},
+          "local": {}
+        }
+      }
     },
-    "Type": "Macro",
-    "Version": 1.0
+    "variableData": {
+      "生成涩谷地铁站内部...": "生成涩谷地铁站内部...",
+      "stone": "stone",
+      "站台地面": "站台地面",
+      "gray_concrete": "gray_concrete",
+      "站厅墙壁": "站厅墙壁",
+      "air": "air",
+      "闸机口": "闸机口",
+      "yellow_concrete": "yellow_concrete",
+      "站名牌": "站名牌",
+      "oak_slab": "oak_slab",
+      "候车座椅": "候车座椅",
+      "涩谷地铁站内部生成完成！包含站台+闸机+站牌+候车座椅": "涩谷地铁站内部生成完成！包含站台+闸机+站牌+候车座椅",
+      "-60 63 0": "-60 63 0",
+      "-30 63 30": "-30 63 30",
+      "-62 63 -2": "-62 63 -2",
+      "-28 68 32": "-28 68 32",
+      "-55 63 5": "-55 63 5",
+      "-50 65 15": "-50 65 15",
+      "-50 67 10": "-50 67 10",
+      "-35 63 20": "-35 63 20",
+      "-30 63 25": "-30 63 25"
+    },
+    "saveTimes": 1,
+    "version": 3.0
+  },
+  "Storyline": {
+    "groupData": {},
+    "lineData": [
+      {
+        "endNode": "step1",
+        "endPort": "__in__",
+        "startNode": "input1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "msg1",
+        "endPort": "__out__",
+        "startNode": "step1",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "step2",
+        "endPort": "__in__",
+        "startNode": "msg1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "platform_f",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "from"
+      },
+      {
+        "endNode": "platform_t",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "to"
+      },
+      {
+        "endNode": "platform_b",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "platform_d",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step3",
+        "endPort": "__in__",
+        "startNode": "platform_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "wall_f",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "from"
+      },
+      {
+        "endNode": "wall_t",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "to"
+      },
+      {
+        "endNode": "wall_b",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "wall_d",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step4",
+        "endPort": "__in__",
+        "startNode": "wall_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "gate1",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "from"
+      },
+      {
+        "endNode": "gate2",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "to"
+      },
+      {
+        "endNode": "gate3",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "gate4",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step5",
+        "endPort": "__in__",
+        "startNode": "gate4",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "sign_pos",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "sign_block",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "sign_des",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step6",
+        "endPort": "__in__",
+        "startNode": "sign_des",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "seat1",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "from"
+      },
+      {
+        "endNode": "seat2",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "to"
+      },
+      {
+        "endNode": "seat3",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "seat4",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step7",
+        "endPort": "__in__",
+        "startNode": "seat4",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "msg2",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "output1",
+        "endPort": "__in__",
+        "startNode": "msg2",
+        "startPort": "__out__"
+      }
+    ],
+    "nodeData": {
+      "input1": {
+        "Data": {
+          "Type": "MacroInput",
+          "desc": "",
+          "parameters": [],
+          "title": ""
+        },
+        "NodeID": "input1",
+        "Pos": [
+          -200.0,
+          -600.0
+        ],
+        "Type": "MacroInput"
+      },
+      "step1": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step1",
+        "Pos": [
+          -200.0,
+          -550.0
+        ],
+        "Type": "SayNode"
+      },
+      "msg1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "生成涩谷地铁站内部...",
+          "value": "生成涩谷地铁站内部..."
+        },
+        "NodeID": "msg1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step2": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step2",
+        "Pos": [
+          -200.0,
+          -500.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "platform_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-60 63 0",
+          "value": "-60 63 0"
+        },
+        "NodeID": "platform_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "platform_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "-30 63 30",
+          "value": "-30 63 30"
+        },
+        "NodeID": "platform_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "platform_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "stone",
+          "value": "stone"
+        },
+        "NodeID": "platform_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "platform_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "站台地面",
+          "value": "站台地面"
+        },
+        "NodeID": "platform_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step3": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step3",
+        "Pos": [
+          -200.0,
+          -460.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "wall_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-62 63 -2",
+          "value": "-62 63 -2"
+        },
+        "NodeID": "wall_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "wall_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "-28 68 32",
+          "value": "-28 68 32"
+        },
+        "NodeID": "wall_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "wall_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "gray_concrete",
+          "value": "gray_concrete"
+        },
+        "NodeID": "wall_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "wall_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "站厅墙壁",
+          "value": "站厅墙壁"
+        },
+        "NodeID": "wall_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step4": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step4",
+        "Pos": [
+          -200.0,
+          -420.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "gate1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-55 63 5",
+          "value": "-55 63 5"
+        },
+        "NodeID": "gate1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "gate2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "-50 65 15",
+          "value": "-50 65 15"
+        },
+        "NodeID": "gate2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "gate3": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "air",
+          "value": "air"
+        },
+        "NodeID": "gate3",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "gate4": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "闸机口",
+          "value": "闸机口"
+        },
+        "NodeID": "gate4",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step5": {
+        "Data": {
+          "Type": "SetBlockNode"
+        },
+        "NodeID": "step5",
+        "Pos": [
+          -200.0,
+          -380.0
+        ],
+        "Type": "SetBlockNode"
+      },
+      "sign_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-50 67 10",
+          "value": "-50 67 10"
+        },
+        "NodeID": "sign_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "sign_block": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "yellow_concrete",
+          "value": "yellow_concrete"
+        },
+        "NodeID": "sign_block",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "sign_des": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "站名牌",
+          "value": "站名牌"
+        },
+        "NodeID": "sign_des",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step6": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step6",
+        "Pos": [
+          -200.0,
+          -340.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "seat1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-35 63 20",
+          "value": "-35 63 20"
+        },
+        "NodeID": "seat1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "seat2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "-30 63 25",
+          "value": "-30 63 25"
+        },
+        "NodeID": "seat2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "seat3": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_slab",
+          "value": "oak_slab"
+        },
+        "NodeID": "seat3",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "seat4": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "候车座椅",
+          "value": "候车座椅"
+        },
+        "NodeID": "seat4",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step7": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step7",
+        "Pos": [
+          -200.0,
+          -300.0
+        ],
+        "Type": "SayNode"
+      },
+      "msg2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "涩谷地铁站内部生成完成！包含站台+闸机+站牌+候车座椅",
+          "value": "涩谷地铁站内部生成完成！包含站台+闸机+站牌+候车座椅"
+        },
+        "NodeID": "msg2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "output1": {
+        "Data": {
+          "Type": "MacroOutput",
+          "parameters": []
+        },
+        "NodeID": "output1",
+        "Pos": [
+          -200.0,
+          -260.0
+        ],
+        "Type": "MacroOutput"
+      }
+    },
+    "version": 3.0
+  },
+  "Type": "Macro",
+  "Version": 1.0
 }

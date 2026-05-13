@@ -1,159 +1,1217 @@
 {
-    "Prefabs": {},
-    "StoryTeller": {
-        "groupData": {},
-        "layoutPanels": 0,
-        "lineData": [
-            {"endNode": "step1", "endPort": "__in__", "startNode": "input1", "startPort": "__out__"},
-            {"endNode": "msg1", "endPort": "__out__", "startNode": "step1", "startPort": "msg"},
-            {"endNode": "step2", "endPort": "__in__", "startNode": "msg1", "startPort": "__out__"},
-            {"endNode": "int_f", "endPort": "__out__", "startNode": "step2", "startPort": "from"},
-            {"endNode": "int_t", "endPort": "__out__", "startNode": "step2", "startPort": "to"},
-            {"endNode": "int_b", "endPort": "__out__", "startNode": "step2", "startPort": "tileName"},
-            {"endNode": "int_d", "endPort": "__out__", "startNode": "step2", "startPort": "des"},
-            {"endNode": "step3", "endPort": "__in__", "startNode": "int_d", "startPort": "__out__"},
-            {"endNode": "counter_f", "endPort": "__out__", "startNode": "step3", "startPort": "from"},
-            {"endNode": "counter_t", "endPort": "__out__", "startNode": "step3", "startPort": "to"},
-            {"endNode": "counter_b", "endPort": "__out__", "startNode": "step3", "startPort": "tileName"},
-            {"endNode": "counter_d", "endPort": "__out__", "startNode": "step3", "startPort": "des"},
-            {"endNode": "step4", "endPort": "__in__", "startNode": "counter_d", "startPort": "__out__"},
-            {"endNode": "bowl1", "endPort": "__out__", "startNode": "step4", "startPort": "pos"},
-            {"endNode": "bowl2", "endPort": "__out__", "startNode": "step4", "startPort": "tileName"},
-            {"endNode": "bowl_d", "endPort": "__out__", "startNode": "step4", "startPort": "des"},
-            {"endNode": "step5", "endPort": "__in__", "startNode": "bowl_d", "startPort": "__out__"},
-            {"endNode": "chair_f", "endPort": "__out__", "startNode": "step5", "startPort": "from"},
-            {"endNode": "chair_t", "endPort": "__out__", "startNode": "step5", "startPort": "to"},
-            {"endNode": "chair_b", "endPort": "__out__", "startNode": "step5", "startPort": "tileName"},
-            {"endNode": "chair_d", "endPort": "__out__", "startNode": "step5", "startPort": "des"},
-            {"endNode": "step6", "endPort": "__in__", "startNode": "chair_d", "startPort": "__out__"},
-            {"endNode": "npc_pos", "endPort": "__out__", "startNode": "step6", "startPort": "pos"},
-            {"endNode": "npc_type", "endPort": "__out__", "startNode": "step6", "startPort": "entityType"},
-            {"endNode": "npc_d", "endPort": "__out__", "startNode": "step6", "startPort": "des"},
-            {"endNode": "step7", "endPort": "__in__", "startNode": "npc_d", "startPort": "__out__"},
-            {"endNode": "msg2", "endPort": "__out__", "startNode": "step7", "startPort": "msg"},
-            {"endNode": "output1", "endPort": "__in__", "startNode": "msg2", "startPort": "__out__"}
+  "Prefabs": {},
+  "StoryTeller": {
+    "groupData": {},
+    "layoutPanels": 0,
+    "lineData": [
+      {
+        "endNode": "step1",
+        "endPort": "__in__",
+        "startNode": "input1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "msg1",
+        "endPort": "__out__",
+        "startNode": "step1",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "step2",
+        "endPort": "__in__",
+        "startNode": "msg1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "int_f",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "from"
+      },
+      {
+        "endNode": "int_t",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "to"
+      },
+      {
+        "endNode": "int_b",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "int_d",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step3",
+        "endPort": "__in__",
+        "startNode": "int_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "counter_f",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "from"
+      },
+      {
+        "endNode": "counter_t",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "to"
+      },
+      {
+        "endNode": "counter_b",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "counter_d",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step4",
+        "endPort": "__in__",
+        "startNode": "counter_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "bowl1",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "bowl2",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "bowl_d",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step5",
+        "endPort": "__in__",
+        "startNode": "bowl_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "chair_f",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "from"
+      },
+      {
+        "endNode": "chair_t",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "to"
+      },
+      {
+        "endNode": "chair_b",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "chair_d",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "des"
+      },
+      {
+        "endNode": "msg2",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "output1",
+        "endPort": "__in__",
+        "startNode": "msg2",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "step7",
+        "endPort": "__in__",
+        "startNode": "chair_d",
+        "startPort": "__out__"
+      }
+    ],
+    "nodeData": {
+      "input1": {
+        "Data": {
+          "Type": "MacroInput",
+          "desc": "",
+          "parameters": [],
+          "title": ""
+        },
+        "NodeID": "input1",
+        "Pos": [
+          -200.0,
+          -700.0
         ],
-        "nodeData": {
-            "input1": {"Data": {"Type": "MacroInput", "desc": "", "parameters": [], "title": ""}, "NodeID": "input1", "Pos": [-200.0, -700.0], "Type": "MacroInput", "VarData": {"input": {}, "local": {}}},
-            "step1": {"Data": {"Type": "SayNode"}, "NodeID": "step1", "Pos": [-200.0, -650.0], "Type": "SayNode", "VarData": {"input": {"msg": ["msg1"]}, "local": {}}},
-            "msg1": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "生成涩谷拉面店...", "value": "生成涩谷拉面店..."}, "NodeID": "msg1", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "生成涩谷拉面店..."}}},
-            "step2": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step2", "Pos": [-200.0, -600.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["int_d"], "from": ["int_f"], "to": ["int_t"], "tileName": ["int_b"]}, "local": {}}},
-            "int_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-140 67 50", "value": "-140 67 50"}, "NodeID": "int_f", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-140 67 50"}}},
-            "int_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-120 70 70", "value": "-120 70 70"}, "NodeID": "int_t", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-120 70 70"}}},
-            "int_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "air", "value": "air"}, "NodeID": "int_b", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "air"}}},
-            "int_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "内部挖空", "value": "内部挖空"}, "NodeID": "int_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "内部挖空"}}},
-            "step3": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step3", "Pos": [-200.0, -550.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["counter_d"], "from": ["counter_f"], "to": ["counter_t"], "tileName": ["counter_b"]}, "local": {}}},
-            "counter_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-138 67 68", "value": "-138 67 68"}, "NodeID": "counter_f", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-138 67 68"}}},
-            "counter_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-138 68 70", "value": "-138 68 70"}, "NodeID": "counter_t", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-138 68 70"}}},
-            "counter_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "dark_oak_planks", "value": "dark_oak_planks"}, "NodeID": "counter_b", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "dark_oak_planks"}}},
-            "counter_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "厨房柜台", "value": "厨房柜台"}, "NodeID": "counter_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "厨房柜台"}}},
-            "step4": {"Data": {"Type": "SetBlockNode"}, "NodeID": "step4", "Pos": [-200.0, -500.0], "Type": "SetBlockNode", "VarData": {"input": {"des": ["bowl_d"], "pos": ["bowl1"], "tileName": ["bowl2"]}, "local": {}}},
-            "bowl1": {"Data": {"Type": "StrParameter", "parameterName": "pos", "parameterStyle": "Input", "parameterText": "-137 68 60", "value": "-137 68 60"}, "NodeID": "bowl1", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-137 68 60"}}},
-            "bowl2": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "brown_concrete", "value": "brown_concrete"}, "NodeID": "bowl2", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "brown_concrete"}}},
-            "bowl_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "拉面碗", "value": "拉面碗"}, "NodeID": "bowl_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "拉面碗"}}},
-            "step5": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step5", "Pos": [-200.0, -450.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["chair_d"], "from": ["chair_f"], "to": ["chair_t"], "tileName": ["chair_b"]}, "local": {}}},
-            "chair_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-125 67 55", "value": "-125 67 55"}, "NodeID": "chair_f", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-125 67 55"}}},
-            "chair_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-122 67 60", "value": "-122 67 60"}, "NodeID": "chair_t", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-122 67 60"}}},
-            "chair_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_slab", "value": "oak_slab"}, "NodeID": "chair_b", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "oak_slab"}}},
-            "chair_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "座位", "value": "座位"}, "NodeID": "chair_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "座位"}}},
-            "step6": {"Data": {"Type": "SpawnEntityNode"}, "NodeID": "step6", "Pos": [-200.0, -400.0], "Type": "SpawnEntityNode", "VarData": {"input": {"des": ["npc_d"], "entityType": ["npc_type"], "pos": ["npc_pos"]}, "local": {}}},
-            "npc_pos": {"Data": {"Type": "StrParameter", "parameterName": "pos", "parameterStyle": "Input", "parameterText": "-139 68 65", "value": "-139 68 65"}, "NodeID": "npc_pos", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-139 68 65"}}},
-            "npc_type": {"Data": {"Type": "StrParameter", "parameterName": "entityType", "parameterStyle": "Input", "parameterText": "villager", "value": "villager"}, "NodeID": "npc_type", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "villager"}}},
-            "npc_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "拉面厨师", "value": "拉面厨师"}, "NodeID": "npc_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "拉面厨师"}}},
-            "step7": {"Data": {"Type": "SayNode"}, "NodeID": "step7", "Pos": [-200.0, -350.0], "Type": "SayNode", "VarData": {"input": {"msg": ["msg2"]}, "local": {}}},
-            "msg2": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "拉面店生成完成！包含厨房+座位+拉面厨师", "value": "拉面店生成完成！包含厨房+座位+拉面厨师"}, "NodeID": "msg2", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "拉面店生成完成！包含厨房+座位+拉面厨师"}}},
-            "output1": {"Data": {"Type": "MacroOutput", "parameters": []}, "NodeID": "output1", "Pos": [-200.0, -300.0], "Type": "MacroOutput", "VarData": {"input": {}, "local": {}}}
+        "Type": "MacroInput",
+        "VarData": {
+          "input": {},
+          "local": {}
+        }
+      },
+      "step1": {
+        "Data": {
+          "Type": "SayNode"
         },
-        "variableData": {
-            "生成涩谷拉面店...": "生成涩谷拉面店...",
-            "-140 67 50": "-140 67 50",
-            "-120 70 70": "-120 70 70",
-            "air": "air",
-            "内部挖空": "内部挖空",
-            "-138 67 68": "-138 67 68",
-            "-138 68 70": "-138 68 70",
-            "dark_oak_planks": "dark_oak_planks",
-            "厨房柜台": "厨房柜台",
-            "-137 68 60": "-137 68 60",
-            "brown_concrete": "brown_concrete",
-            "拉面碗": "拉面碗",
-            "-125 67 55": "-125 67 55",
-            "-122 67 60": "-122 67 60",
-            "oak_slab": "oak_slab",
-            "座位": "座位",
-            "-139 68 65": "-139 68 65",
-            "villager": "villager",
-            "拉面厨师": "拉面厨师",
-            "拉面店生成完成！包含厨房+座位+拉面厨师": "拉面店生成完成！包含厨房+座位+拉面厨师"
-        },
-        "saveTimes": 1,
-        "version": 3.0
-    },
-    "Storyline": {
-        "groupData": {},
-        "lineData": [
-            {"endNode": "step1", "endPort": "__in__", "startNode": "input1", "startPort": "__out__"},
-            {"endNode": "msg1", "endPort": "__out__", "startNode": "step1", "startPort": "msg"},
-            {"endNode": "step2", "endPort": "__in__", "startNode": "msg1", "startPort": "__out__"},
-            {"endNode": "int_f", "endPort": "__out__", "startNode": "step2", "startPort": "from"},
-            {"endNode": "int_t", "endPort": "__out__", "startNode": "step2", "startPort": "to"},
-            {"endNode": "int_b", "endPort": "__out__", "startNode": "step2", "startPort": "tileName"},
-            {"endNode": "int_d", "endPort": "__out__", "startNode": "step2", "startPort": "des"},
-            {"endNode": "step3", "endPort": "__in__", "startNode": "int_d", "startPort": "__out__"},
-            {"endNode": "counter_f", "endPort": "__out__", "startNode": "step3", "startPort": "from"},
-            {"endNode": "counter_t", "endPort": "__out__", "startNode": "step3", "startPort": "to"},
-            {"endNode": "counter_b", "endPort": "__out__", "startNode": "step3", "startPort": "tileName"},
-            {"endNode": "counter_d", "endPort": "__out__", "startNode": "step3", "startPort": "des"},
-            {"endNode": "step4", "endPort": "__in__", "startNode": "counter_d", "startPort": "__out__"},
-            {"endNode": "bowl1", "endPort": "__out__", "startNode": "step4", "startPort": "pos"},
-            {"endNode": "bowl2", "endPort": "__out__", "startNode": "step4", "startPort": "tileName"},
-            {"endNode": "bowl_d", "endPort": "__out__", "startNode": "step4", "startPort": "des"},
-            {"endNode": "step5", "endPort": "__in__", "startNode": "bowl_d", "startPort": "__out__"},
-            {"endNode": "chair_f", "endPort": "__out__", "startNode": "step5", "startPort": "from"},
-            {"endNode": "chair_t", "endPort": "__out__", "startNode": "step5", "startPort": "to"},
-            {"endNode": "chair_b", "endPort": "__out__", "startNode": "step5", "startPort": "tileName"},
-            {"endNode": "chair_d", "endPort": "__out__", "startNode": "step5", "startPort": "des"},
-            {"endNode": "step6", "endPort": "__in__", "startNode": "chair_d", "startPort": "__out__"},
-            {"endNode": "npc_pos", "endPort": "__out__", "startNode": "step6", "startPort": "pos"},
-            {"endNode": "npc_type", "endPort": "__out__", "startNode": "step6", "startPort": "entityType"},
-            {"endNode": "npc_d", "endPort": "__out__", "startNode": "step6", "startPort": "des"},
-            {"endNode": "step7", "endPort": "__in__", "startNode": "npc_d", "startPort": "__out__"},
-            {"endNode": "msg2", "endPort": "__out__", "startNode": "step7", "startPort": "msg"},
-            {"endNode": "output1", "endPort": "__in__", "startNode": "msg2", "startPort": "__out__"}
+        "NodeID": "step1",
+        "Pos": [
+          -200.0,
+          -650.0
         ],
-        "nodeData": {
-            "input1": {"Data": {"Type": "MacroInput", "desc": "", "parameters": [], "title": ""}, "NodeID": "input1", "Pos": [-200.0, -700.0], "Type": "MacroInput"},
-            "step1": {"Data": {"Type": "SayNode"}, "NodeID": "step1", "Pos": [-200.0, -650.0], "Type": "SayNode"},
-            "msg1": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "生成涩谷拉面店...", "value": "生成涩谷拉面店..."}, "NodeID": "msg1", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step2": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step2", "Pos": [-200.0, -600.0], "Type": "FillBlockNode"},
-            "int_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-140 67 50", "value": "-140 67 50"}, "NodeID": "int_f", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "int_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-120 70 70", "value": "-120 70 70"}, "NodeID": "int_t", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "int_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "air", "value": "air"}, "NodeID": "int_b", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "int_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "内部挖空", "value": "内部挖空"}, "NodeID": "int_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step3": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step3", "Pos": [-200.0, -550.0], "Type": "FillBlockNode"},
-            "counter_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-138 67 68", "value": "-138 67 68"}, "NodeID": "counter_f", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "counter_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-138 68 70", "value": "-138 68 70"}, "NodeID": "counter_t", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "counter_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "dark_oak_planks", "value": "dark_oak_planks"}, "NodeID": "counter_b", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "counter_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "厨房柜台", "value": "厨房柜台"}, "NodeID": "counter_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step4": {"Data": {"Type": "SetBlockNode"}, "NodeID": "step4", "Pos": [-200.0, -500.0], "Type": "SetBlockNode"},
-            "bowl1": {"Data": {"Type": "StrParameter", "parameterName": "pos", "parameterStyle": "Input", "parameterText": "-137 68 60", "value": "-137 68 60"}, "NodeID": "bowl1", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "bowl2": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "brown_concrete", "value": "brown_concrete"}, "NodeID": "bowl2", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "bowl_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "拉面碗", "value": "拉面碗"}, "NodeID": "bowl_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step5": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step5", "Pos": [-200.0, -450.0], "Type": "FillBlockNode"},
-            "chair_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-125 67 55", "value": "-125 67 55"}, "NodeID": "chair_f", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "chair_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-122 67 60", "value": "-122 67 60"}, "NodeID": "chair_t", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "chair_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_slab", "value": "oak_slab"}, "NodeID": "chair_b", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "chair_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "座位", "value": "座位"}, "NodeID": "chair_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step6": {"Data": {"Type": "SpawnEntityNode"}, "NodeID": "step6", "Pos": [-200.0, -400.0], "Type": "SpawnEntityNode"},
-            "npc_pos": {"Data": {"Type": "StrParameter", "parameterName": "pos", "parameterStyle": "Input", "parameterText": "-139 68 65", "value": "-139 68 65"}, "NodeID": "npc_pos", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "npc_type": {"Data": {"Type": "StrParameter", "parameterName": "entityType", "parameterStyle": "Input", "parameterText": "villager", "value": "villager"}, "NodeID": "npc_type", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "npc_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "拉面厨师", "value": "拉面厨师"}, "NodeID": "npc_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step7": {"Data": {"Type": "SayNode"}, "NodeID": "step7", "Pos": [-200.0, -350.0], "Type": "SayNode"},
-            "msg2": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "拉面店生成完成！包含厨房+座位+拉面厨师", "value": "拉面店生成完成！包含厨房+座位+拉面厨师"}, "NodeID": "msg2", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "output1": {"Data": {"Type": "MacroOutput", "parameters": []}, "NodeID": "output1", "Pos": [-200.0, -300.0], "Type": "MacroOutput"}
+        "Type": "SayNode",
+        "VarData": {
+          "input": {
+            "msg": [
+              "msg1"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "msg1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "生成涩谷拉面店...",
+          "value": "生成涩谷拉面店..."
         },
-        "version": 3.0
+        "NodeID": "msg1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "生成涩谷拉面店..."
+          }
+        }
+      },
+      "step2": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step2",
+        "Pos": [
+          -200.0,
+          -600.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "int_d"
+            ],
+            "from": [
+              "int_f"
+            ],
+            "to": [
+              "int_t"
+            ],
+            "tileName": [
+              "int_b"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "int_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-15 66 -65",
+          "value": "-15 66 -65"
+        },
+        "NodeID": "int_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-15 66 -65"
+          }
+        }
+      },
+      "int_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "0 70 -55",
+          "value": "0 70 -55"
+        },
+        "NodeID": "int_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "0 70 -55"
+          }
+        }
+      },
+      "int_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "air",
+          "value": "air"
+        },
+        "NodeID": "int_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "air"
+          }
+        }
+      },
+      "int_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "内部挖空",
+          "value": "内部挖空"
+        },
+        "NodeID": "int_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "内部挖空"
+          }
+        }
+      },
+      "step3": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step3",
+        "Pos": [
+          -200.0,
+          -550.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "counter_d"
+            ],
+            "from": [
+              "counter_f"
+            ],
+            "to": [
+              "counter_t"
+            ],
+            "tileName": [
+              "counter_b"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "counter_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-13 66 -57",
+          "value": "-13 66 -57"
+        },
+        "NodeID": "counter_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-13 66 -57"
+          }
+        }
+      },
+      "counter_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "-13 68 -55",
+          "value": "-13 68 -55"
+        },
+        "NodeID": "counter_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-13 68 -55"
+          }
+        }
+      },
+      "counter_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "dark_oak_planks",
+          "value": "dark_oak_planks"
+        },
+        "NodeID": "counter_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "dark_oak_planks"
+          }
+        }
+      },
+      "counter_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "厨房柜台",
+          "value": "厨房柜台"
+        },
+        "NodeID": "counter_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "厨房柜台"
+          }
+        }
+      },
+      "step4": {
+        "Data": {
+          "Type": "SetBlockNode"
+        },
+        "NodeID": "step4",
+        "Pos": [
+          -200.0,
+          -500.0
+        ],
+        "Type": "SetBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "bowl_d"
+            ],
+            "pos": [
+              "bowl1"
+            ],
+            "tileName": [
+              "bowl2"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "bowl1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-12 68 -60",
+          "value": "-12 68 -60"
+        },
+        "NodeID": "bowl1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-12 68 -60"
+          }
+        }
+      },
+      "bowl2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "brown_concrete",
+          "value": "brown_concrete"
+        },
+        "NodeID": "bowl2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "brown_concrete"
+          }
+        }
+      },
+      "bowl_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "拉面碗",
+          "value": "拉面碗"
+        },
+        "NodeID": "bowl_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "拉面碗"
+          }
+        }
+      },
+      "step5": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step5",
+        "Pos": [
+          -200.0,
+          -450.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "chair_d"
+            ],
+            "from": [
+              "chair_f"
+            ],
+            "to": [
+              "chair_t"
+            ],
+            "tileName": [
+              "chair_b"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "chair_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-5 67 -63",
+          "value": "-5 67 -63"
+        },
+        "NodeID": "chair_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-5 67 -63"
+          }
+        }
+      },
+      "chair_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "-2 67 -58",
+          "value": "-2 67 -58"
+        },
+        "NodeID": "chair_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "-2 67 -58"
+          }
+        }
+      },
+      "chair_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_slab",
+          "value": "oak_slab"
+        },
+        "NodeID": "chair_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "oak_slab"
+          }
+        }
+      },
+      "chair_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "座位",
+          "value": "座位"
+        },
+        "NodeID": "chair_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "座位"
+          }
+        }
+      },
+      "step7": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step7",
+        "Pos": [
+          -200.0,
+          -350.0
+        ],
+        "Type": "SayNode",
+        "VarData": {
+          "input": {
+            "msg": [
+              "msg2"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "msg2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "拉面店生成完成！包含厨房+座位",
+          "value": "拉面店生成完成！包含厨房+座位"
+        },
+        "NodeID": "msg2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "拉面店生成完成！包含厨房+座位"
+          }
+        }
+      },
+      "output1": {
+        "Data": {
+          "Type": "MacroOutput",
+          "parameters": []
+        },
+        "NodeID": "output1",
+        "Pos": [
+          -200.0,
+          -300.0
+        ],
+        "Type": "MacroOutput",
+        "VarData": {
+          "input": {},
+          "local": {}
+        }
+      }
     },
-    "Type": "Macro",
-    "Version": 1.0
+    "variableData": {
+      "生成涩谷拉面店...": "生成涩谷拉面店...",
+      "air": "air",
+      "内部挖空": "内部挖空",
+      "dark_oak_planks": "dark_oak_planks",
+      "厨房柜台": "厨房柜台",
+      "brown_concrete": "brown_concrete",
+      "拉面碗": "拉面碗",
+      "oak_slab": "oak_slab",
+      "座位": "座位",
+      "-139 68 65": "-139 68 65",
+      "拉面厨师": "拉面厨师",
+      "拉面店生成完成！包含厨房+座位": "拉面店生成完成！包含厨房+座位",
+      "-15 66 -65": "-15 66 -65",
+      "0 70 -55": "0 70 -55",
+      "-13 66 -57": "-13 66 -57",
+      "-13 68 -55": "-13 68 -55",
+      "-12 68 -60": "-12 68 -60",
+      "-5 67 -63": "-5 67 -63",
+      "-2 67 -58": "-2 67 -58"
+    },
+    "saveTimes": 1,
+    "version": 3.0
+  },
+  "Storyline": {
+    "groupData": {},
+    "lineData": [
+      {
+        "endNode": "step1",
+        "endPort": "__in__",
+        "startNode": "input1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "msg1",
+        "endPort": "__out__",
+        "startNode": "step1",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "step2",
+        "endPort": "__in__",
+        "startNode": "msg1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "int_f",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "from"
+      },
+      {
+        "endNode": "int_t",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "to"
+      },
+      {
+        "endNode": "int_b",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "int_d",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step3",
+        "endPort": "__in__",
+        "startNode": "int_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "counter_f",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "from"
+      },
+      {
+        "endNode": "counter_t",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "to"
+      },
+      {
+        "endNode": "counter_b",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "counter_d",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step4",
+        "endPort": "__in__",
+        "startNode": "counter_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "bowl1",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "bowl2",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "bowl_d",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step5",
+        "endPort": "__in__",
+        "startNode": "bowl_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "chair_f",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "from"
+      },
+      {
+        "endNode": "chair_t",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "to"
+      },
+      {
+        "endNode": "chair_b",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "chair_d",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "des"
+      },
+      {
+        "endNode": "msg2",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "output1",
+        "endPort": "__in__",
+        "startNode": "msg2",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "step7",
+        "endPort": "__in__",
+        "startNode": "chair_d",
+        "startPort": "__out__"
+      }
+    ],
+    "nodeData": {
+      "input1": {
+        "Data": {
+          "Type": "MacroInput",
+          "desc": "",
+          "parameters": [],
+          "title": ""
+        },
+        "NodeID": "input1",
+        "Pos": [
+          -200.0,
+          -700.0
+        ],
+        "Type": "MacroInput"
+      },
+      "step1": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step1",
+        "Pos": [
+          -200.0,
+          -650.0
+        ],
+        "Type": "SayNode"
+      },
+      "msg1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "生成涩谷拉面店...",
+          "value": "生成涩谷拉面店..."
+        },
+        "NodeID": "msg1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step2": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step2",
+        "Pos": [
+          -200.0,
+          -600.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "int_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-15 66 -65",
+          "value": "-15 66 -65"
+        },
+        "NodeID": "int_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "int_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "0 70 -55",
+          "value": "0 70 -55"
+        },
+        "NodeID": "int_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "int_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "air",
+          "value": "air"
+        },
+        "NodeID": "int_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "int_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "内部挖空",
+          "value": "内部挖空"
+        },
+        "NodeID": "int_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step3": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step3",
+        "Pos": [
+          -200.0,
+          -550.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "counter_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-13 66 -57",
+          "value": "-13 66 -57"
+        },
+        "NodeID": "counter_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "counter_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "-13 68 -55",
+          "value": "-13 68 -55"
+        },
+        "NodeID": "counter_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "counter_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "dark_oak_planks",
+          "value": "dark_oak_planks"
+        },
+        "NodeID": "counter_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "counter_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "厨房柜台",
+          "value": "厨房柜台"
+        },
+        "NodeID": "counter_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step4": {
+        "Data": {
+          "Type": "SetBlockNode"
+        },
+        "NodeID": "step4",
+        "Pos": [
+          -200.0,
+          -500.0
+        ],
+        "Type": "SetBlockNode"
+      },
+      "bowl1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "-12 68 -60",
+          "value": "-12 68 -60"
+        },
+        "NodeID": "bowl1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "bowl2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "brown_concrete",
+          "value": "brown_concrete"
+        },
+        "NodeID": "bowl2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "bowl_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "拉面碗",
+          "value": "拉面碗"
+        },
+        "NodeID": "bowl_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step5": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step5",
+        "Pos": [
+          -200.0,
+          -450.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "chair_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "-5 67 -63",
+          "value": "-5 67 -63"
+        },
+        "NodeID": "chair_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "chair_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "-2 67 -58",
+          "value": "-2 67 -58"
+        },
+        "NodeID": "chair_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "chair_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_slab",
+          "value": "oak_slab"
+        },
+        "NodeID": "chair_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "chair_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "座位",
+          "value": "座位"
+        },
+        "NodeID": "chair_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step7": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step7",
+        "Pos": [
+          -200.0,
+          -350.0
+        ],
+        "Type": "SayNode"
+      },
+      "msg2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "拉面店生成完成！包含厨房+座位",
+          "value": "拉面店生成完成！包含厨房+座位"
+        },
+        "NodeID": "msg2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "output1": {
+        "Data": {
+          "Type": "MacroOutput",
+          "parameters": []
+        },
+        "NodeID": "output1",
+        "Pos": [
+          -200.0,
+          -300.0
+        ],
+        "Type": "MacroOutput"
+      }
+    },
+    "version": 3.0
+  },
+  "Type": "Macro",
+  "Version": 1.0
 }

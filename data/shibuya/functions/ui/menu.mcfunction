@@ -1,7 +1,7 @@
 tellraw @s {"rawtext":[{"text":"§f══════════════════════════════"}]}
 tellraw @s {"rawtext":[{"text":"§6🏙️ 涩谷城市地图 §ev2.0"}]}
 tellraw @s {"rawtext":[{"text":"§f══════════════════════════════"}]}
-tellraw @s {"rawtext":[{"text":"§7📊 城市信息: 第","clickEvent":{"action":"run_command","value":"/scoreboard players get #time day_shibuya"}},{"text":""},{"score":{"name":"#time","objective":"day_shibuya"}},{"text":"§7天 | §6¥"},{"score":{"name":"*","objective":"money_shibuya"}},{"text":"§7 | ☀️天气 | 🏢职业"}]}
+tellraw @s {"rawtext":[{"text":"§7📊 城市信息: 第","clickEvent":{"action":"run_command","value":"/scoreboard players get #time day_shibuya"}},{"text":""},{"score":{"name":"#time","objective":"day_shibuya"}},{"text":"§7天 | §6¥"},{"score":{"name":"@p","objective":"money_shibuya"}},{"text":"§7 | ☀️天气 | 🏢职业"}]}
 tellraw @s {"rawtext":[{"text":"§f══════════════════════════════"}]}
 tellraw @s {"rawtext":[{"text":"§e🏗️ [城市建设]","clickEvent":{"action":"run_command","value":"/function shibuya:world/generate_all"}},{"text":" §7→ /function shibuya:world/generate_all"}]}
 tellraw @s {"rawtext":[{"text":"§e🏢 [建筑系统]","clickEvent":{"action":"run_command","value":"/function shibuya:buildings/generate_all"}},{"text":" §7→ /function shibuya:buildings/generate_all"}]}

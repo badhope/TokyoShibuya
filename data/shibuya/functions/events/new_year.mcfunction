@@ -8,7 +8,7 @@ scoreboard players add @a rep_shibuya 10
 tellraw @a {"rawtext":[{"text":"§a+10 声望（新年参拜加成）"}]}
 tellraw @a {"rawtext":[{"text":"§e🎌 神社参拜：声望额外加成！"}]}
 scoreboard players set #shop_state shop_109 0
-scoreboard players set #shop_state shop_convenience 0
+scoreboard players set #shop_state shop_store 0
 scoreboard players set #shop_state shop_cafe 0
 scoreboard players set #shop_state shop_ramen 0
 scoreboard players set #shop_state shop_karaoke 0

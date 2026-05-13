@@ -1,7 +1,7 @@
-execute as @a at @s if entity @e[type=villager,name=涩谷向导,distance=..3] if score time_shibuya time_shibuya matches 0..2400 run tellraw @s {"rawtext":[{"text":"§e[涩谷向导] §f早安！今天要去哪里？"}]}
-execute as @a at @s if entity @e[type=villager,name=涩谷向导,distance=..3] if score time_shibuya time_shibuya matches 2401..4800 run tellraw @s {"rawtext":[{"text":"§e[涩谷向导] §f午安！需要推荐吗？"}]}
-execute as @a at @s if entity @e[type=villager,name=涩谷向导,distance=..3] if score time_shibuya time_shibuya matches 4801..7200 run tellraw @s {"rawtext":[{"text":"§e[涩谷向导] §f晚上好！涩谷的夜景很美"}]}
-execute as @a at @s if entity @e[type=villager,name=涩谷向导,distance=..3] if score time_shibuya time_shibuya matches 7201..9600 run tellraw @s {"rawtext":[{"text":"§e[涩谷向导] §f注意安全！"}]}
+execute as @a at @s if entity @e[type=villager,name=涩谷向导,distance=..3] if score #global_time time_shibuya matches 0..2400 run tellraw @s {"rawtext":[{"text":"§e[涩谷向导] §f早安！今天要去哪里？"}]}
+execute as @a at @s if entity @e[type=villager,name=涩谷向导,distance=..3] if score #global_time time_shibuya matches 2401..4800 run tellraw @s {"rawtext":[{"text":"§e[涩谷向导] §f午安！需要推荐吗？"}]}
+execute as @a at @s if entity @e[type=villager,name=涩谷向导,distance=..3] if score #global_time time_shibuya matches 4801..7200 run tellraw @s {"rawtext":[{"text":"§e[涩谷向导] §f晚上好！涩谷的夜景很美"}]}
+execute as @a at @s if entity @e[type=villager,name=涩谷向导,distance=..3] if score #global_time time_shibuya matches 7201..9600 run tellraw @s {"rawtext":[{"text":"§e[涩谷向导] §f注意安全！"}]}
 execute as @a at @s if entity @e[type=villager,name=便利店店员,distance=..3] run tellraw @s {"rawtext":[{"text":"§e[便利店店员] §f欢迎光临！今日特价便当¥250！"}]}
 execute as @a at @s if entity @e[type=villager,name=咖啡师小林,distance=..3] run tellraw @s {"rawtext":[{"text":"§e[咖啡师小林] §f来杯手冲吗？今天的豆子是埃塞俄比亚的"}]}
 execute as @a at @s if entity @e[type=villager,name=拉面师傅田中,distance=..3] run tellraw @s {"rawtext":[{"text":"§e[拉面师傅田中] §f一碗豚骨拉面，马上来！"}]}

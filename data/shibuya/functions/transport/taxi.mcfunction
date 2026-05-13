@@ -7,5 +7,5 @@ tellraw @p {"rawtext":[{"text":"§e[前往卡拉OK] §f¥400"},{"clickEvent":{"a
 tellraw @p {"rawtext":[{"text":"§e[前往酒店] §f¥300"},{"clickEvent":{"action":"run_command","value":"/tag @p add taxi_hotel"}},{"hoverEvent":{"action":"show_text","value":"点击打车前往酒店"}}]}
 tellraw @p {"rawtext":[{"text":"§e[前往公寓] §f¥250"},{"clickEvent":{"action":"run_command","value":"/tag @p add taxi_apart"}},{"hoverEvent":{"action":"show_text","value":"点击打车前往公寓"}}]}
 tellraw @p {"rawtext":[{"text":"§a当前余额："}]}
-scoreboard players get @p money
+scoreboard players get @p money_shibuya
 tellraw @p {"rawtext":[{"text":"§b═══════════════════════════"}]}

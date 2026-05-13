@@ -12,7 +12,7 @@ execute at @a run setblock ~0 ~2 ~3 pink_wool
 execute at @a run setblock ~0 ~2 ~-3 pink_wool
 give @a pink_dye 5
 give @a pink_wool 16
-scoreboard players operation #discount shop_discount = #const_20
+scoreboard players set #discount shop_discount 20
 tellraw @a {"rawtext":[{"text":"§d🌸 樱花祭期间所有商品§e8折§d优惠！"}]}
 tellraw @a {"rawtext":[{"text":"§d🌸 NPC换上了粉色装扮！"}]}
 scoreboard players add @a rep_shibuya 5

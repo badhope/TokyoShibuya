@@ -4,5 +4,5 @@ tellraw @p {"rawtext":[{"text":"§e[山手线-外环] §f¥200 → 涩谷站南�
 tellraw @p {"rawtext":[{"text":"§e[银座线] §f¥180 → 银座线站台"},{"clickEvent":{"action":"run_command","value":"/tag @p add metro_ginza"}},{"hoverEvent":{"action":"show_text","value":"点击乘坐银座线"}}]}
 tellraw @p {"rawtext":[{"text":"§e[东急东横线] §f¥220 → 东急东横线站台"},{"clickEvent":{"action":"run_command","value":"/tag @p add metro_toyoko"}},{"hoverEvent":{"action":"show_text","value":"点击乘坐东急东横线"}}]}
 tellraw @p {"rawtext":[{"text":"§a当前余额："}]}
-scoreboard players get @p money
+scoreboard players get @p money_shibuya
 tellraw @p {"rawtext":[{"text":"§b═══════════════════════════"}]}

@@ -1,208 +1,1952 @@
 {
-    "Prefabs": {},
-    "StoryTeller": {
-        "groupData": {},
-        "layoutPanels": 0,
-        "lineData": [
-            {"endNode": "step1", "endPort": "__in__", "startNode": "input1", "startPort": "__out__"},
-            {"endNode": "msg1", "endPort": "__out__", "startNode": "step1", "startPort": "msg"},
-            {"endNode": "step2", "endPort": "__in__", "startNode": "step1", "startPort": "__out__"},
-            {"endNode": "floor1_f1", "endPort": "__out__", "startNode": "step2", "startPort": "from"},
-            {"endNode": "floor1_t1", "endPort": "__out__", "startNode": "step2", "startPort": "to"},
-            {"endNode": "floor1_b1", "endPort": "__out__", "startNode": "step2", "startPort": "tileName"},
-            {"endNode": "floor1_d1", "endPort": "__out__", "startNode": "step2", "startPort": "des"},
-            {"endNode": "step3", "endPort": "__in__", "startNode": "floor1_d1", "startPort": "__out__"},
-            {"endNode": "floor1_f2", "endPort": "__out__", "startNode": "step3", "startPort": "from"},
-            {"endNode": "floor1_t2", "endPort": "__out__", "startNode": "step3", "startPort": "to"},
-            {"endNode": "floor1_b2", "endPort": "__out__", "startNode": "step3", "startPort": "tileName"},
-            {"endNode": "floor1_d2", "endPort": "__out__", "startNode": "step3", "startPort": "des"},
-            {"endNode": "step4", "endPort": "__in__", "startNode": "floor1_d2", "startPort": "__out__"},
-            {"endNode": "floor2_f", "endPort": "__out__", "startNode": "step4", "startPort": "from"},
-            {"endNode": "floor2_t", "endPort": "__out__", "startNode": "step4", "startPort": "to"},
-            {"endNode": "floor2_b", "endPort": "__out__", "startNode": "step4", "startPort": "tileName"},
-            {"endNode": "floor2_d", "endPort": "__out__", "startNode": "step4", "startPort": "des"},
-            {"endNode": "step5", "endPort": "__in__", "startNode": "floor2_d", "startPort": "__out__"},
-            {"endNode": "floor3_f", "endPort": "__out__", "startNode": "step5", "startPort": "from"},
-            {"endNode": "floor3_t", "endPort": "__out__", "startNode": "step5", "startPort": "to"},
-            {"endNode": "floor3_b", "endPort": "__out__", "startNode": "step5", "startPort": "tileName"},
-            {"endNode": "floor3_d", "endPort": "__out__", "startNode": "step5", "startPort": "des"},
-            {"endNode": "step6", "endPort": "__in__", "startNode": "floor3_d", "startPort": "__out__"},
-            {"endNode": "floor4_f", "endPort": "__out__", "startNode": "step6", "startPort": "from"},
-            {"endNode": "floor4_t", "endPort": "__out__", "startNode": "step6", "startPort": "to"},
-            {"endNode": "floor4_b", "endPort": "__out__", "startNode": "step6", "startPort": "tileName"},
-            {"endNode": "floor4_d", "endPort": "__out__", "startNode": "step6", "startPort": "des"},
-            {"endNode": "step7", "endPort": "__in__", "startNode": "floor4_d", "startPort": "__out__"},
-            {"endNode": "floor5_f", "endPort": "__out__", "startNode": "step7", "startPort": "from"},
-            {"endNode": "floor5_t", "endPort": "__out__", "startNode": "step7", "startPort": "to"},
-            {"endNode": "floor5_b", "endPort": "__out__", "startNode": "step7", "startPort": "tileName"},
-            {"endNode": "floor5_d", "endPort": "__out__", "startNode": "step7", "startPort": "des"},
-            {"endNode": "step8", "endPort": "__in__", "startNode": "floor5_d", "startPort": "__out__"},
-            {"endNode": "elevator_pos", "endPort": "__out__", "startNode": "step8", "startPort": "pos"},
-            {"endNode": "elevator_block", "endPort": "__out__", "startNode": "step8", "startPort": "tileName"},
-            {"endNode": "elevator_des", "endPort": "__out__", "startNode": "step8", "startPort": "des"},
-            {"endNode": "step9", "endPort": "__in__", "startNode": "elevator_des", "startPort": "__out__"},
-            {"endNode": "msg2", "endPort": "__out__", "startNode": "step9", "startPort": "msg"},
-            {"endNode": "output1", "endPort": "__in__", "startNode": "msg2", "startPort": "__out__"}
+  "Prefabs": {},
+  "StoryTeller": {
+    "groupData": {},
+    "layoutPanels": 0,
+    "lineData": [
+      {
+        "endNode": "step1",
+        "endPort": "__in__",
+        "startNode": "input1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "msg1",
+        "endPort": "__out__",
+        "startNode": "step1",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "step2",
+        "endPort": "__in__",
+        "startNode": "step1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "floor1_f1",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "from"
+      },
+      {
+        "endNode": "floor1_t1",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "to"
+      },
+      {
+        "endNode": "floor1_b1",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "floor1_d1",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step3",
+        "endPort": "__in__",
+        "startNode": "floor1_d1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "floor1_f2",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "from"
+      },
+      {
+        "endNode": "floor1_t2",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "to"
+      },
+      {
+        "endNode": "floor1_b2",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "floor1_d2",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step4",
+        "endPort": "__in__",
+        "startNode": "floor1_d2",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "floor2_f",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "from"
+      },
+      {
+        "endNode": "floor2_t",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "to"
+      },
+      {
+        "endNode": "floor2_b",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "floor2_d",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step5",
+        "endPort": "__in__",
+        "startNode": "floor2_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "floor3_f",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "from"
+      },
+      {
+        "endNode": "floor3_t",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "to"
+      },
+      {
+        "endNode": "floor3_b",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "floor3_d",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step6",
+        "endPort": "__in__",
+        "startNode": "floor3_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "floor4_f",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "from"
+      },
+      {
+        "endNode": "floor4_t",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "to"
+      },
+      {
+        "endNode": "floor4_b",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "floor4_d",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step7",
+        "endPort": "__in__",
+        "startNode": "floor4_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "floor5_f",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "from"
+      },
+      {
+        "endNode": "floor5_t",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "to"
+      },
+      {
+        "endNode": "floor5_b",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "floor5_d",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step8",
+        "endPort": "__in__",
+        "startNode": "floor5_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "elevator_pos",
+        "endPort": "__out__",
+        "startNode": "step8",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "elevator_block",
+        "endPort": "__out__",
+        "startNode": "step8",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "elevator_des",
+        "endPort": "__out__",
+        "startNode": "step8",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step9",
+        "endPort": "__in__",
+        "startNode": "elevator_des",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "msg2",
+        "endPort": "__out__",
+        "startNode": "step9",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "output1",
+        "endPort": "__in__",
+        "startNode": "msg2",
+        "startPort": "__out__"
+      }
+    ],
+    "nodeData": {
+      "input1": {
+        "Data": {
+          "Type": "MacroInput",
+          "desc": "",
+          "parameters": [],
+          "title": ""
+        },
+        "NodeID": "input1",
+        "Pos": [
+          -200.0,
+          -600.0
         ],
-        "nodeData": {
-            "input1": {"Data": {"Type": "MacroInput", "desc": "", "parameters": [], "title": ""}, "NodeID": "input1", "Pos": [-200.0, -600.0], "Type": "MacroInput", "VarData": {"input": {}, "local": {}}},
-            "step1": {"Data": {"Type": "SayNode"}, "NodeID": "step1", "Pos": [-200.0, -550.0], "Type": "SayNode", "VarData": {"input": {"msg": ["msg1"]}, "local": {}}},
-            "msg1": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "生成涩谷109大厦内部...", "value": "生成涩谷109大厦内部..."}, "NodeID": "msg1", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "生成涩谷109大厦内部..."}}},
-            "step2": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step2", "Pos": [-200.0, -500.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["floor1_d1"], "from": ["floor1_f1"], "to": ["floor1_t1"], "tileName": ["floor1_b1"]}, "local": {}}},
-            "floor1_f1": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-38 66 -38", "value": "-38 66 -38"}, "NodeID": "floor1_f1", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-38 66 -38"}}},
-            "floor1_t1": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-22 66 -22", "value": "-22 66 -22"}, "NodeID": "floor1_t1", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-22 66 -22"}}},
-            "floor1_b1": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_planks", "value": "oak_planks"}, "NodeID": "floor1_b1", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "oak_planks"}}},
-            "floor1_d1": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "1F地板", "value": "1F地板"}, "NodeID": "floor1_d1", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "1F地板"}}},
-            "step3": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step3", "Pos": [-200.0, -460.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["floor1_d2"], "from": ["floor1_f2"], "to": ["floor1_t2"], "tileName": ["floor1_b2"]}, "local": {}}},
-            "floor1_f2": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-38 67 -38", "value": "-38 67 -38"}, "NodeID": "floor1_f2", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-38 67 -38"}}},
-            "floor1_t2": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-22 84 -22", "value": "-22 84 -22"}, "NodeID": "floor1_t2", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-22 84 -22"}}},
-            "floor1_b2": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "air", "value": "air"}, "NodeID": "floor1_b2", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "air"}}},
-            "floor1_d2": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "内部挖空", "value": "内部挖空"}, "NodeID": "floor1_d2", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "内部挖空"}}},
-            "step4": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step4", "Pos": [-200.0, -420.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["floor2_d"], "from": ["floor2_f"], "to": ["floor2_t"], "tileName": ["floor2_b"]}, "local": {}}},
-            "floor2_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-38 71 -38", "value": "-38 71 -38"}, "NodeID": "floor2_f", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-38 71 -38"}}},
-            "floor2_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-22 71 -22", "value": "-22 71 -22"}, "NodeID": "floor2_t", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-22 71 -22"}}},
-            "floor2_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_planks", "value": "oak_planks"}, "NodeID": "floor2_b", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "oak_planks"}}},
-            "floor2_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "2F地板", "value": "2F地板"}, "NodeID": "floor2_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "2F地板"}}},
-            "step5": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step5", "Pos": [-200.0, -380.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["floor3_d"], "from": ["floor3_f"], "to": ["floor3_t"], "tileName": ["floor3_b"]}, "local": {}}},
-            "floor3_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-38 76 -38", "value": "-38 76 -38"}, "NodeID": "floor3_f", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-38 76 -38"}}},
-            "floor3_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-22 76 -22", "value": "-22 76 -22"}, "NodeID": "floor3_t", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-22 76 -22"}}},
-            "floor3_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_planks", "value": "oak_planks"}, "NodeID": "floor3_b", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "oak_planks"}}},
-            "floor3_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "3F地板", "value": "3F地板"}, "NodeID": "floor3_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "3F地板"}}},
-            "step6": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step6", "Pos": [-200.0, -340.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["floor4_d"], "from": ["floor4_f"], "to": ["floor4_t"], "tileName": ["floor4_b"]}, "local": {}}},
-            "floor4_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-38 81 -38", "value": "-38 81 -38"}, "NodeID": "floor4_f", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-38 81 -38"}}},
-            "floor4_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-22 81 -22", "value": "-22 81 -22"}, "NodeID": "floor4_t", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-22 81 -22"}}},
-            "floor4_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_planks", "value": "oak_planks"}, "NodeID": "floor4_b", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "oak_planks"}}},
-            "floor4_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "4F地板", "value": "4F地板"}, "NodeID": "floor4_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "4F地板"}}},
-            "step7": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step7", "Pos": [-200.0, -300.0], "Type": "FillBlockNode", "VarData": {"input": {"des": ["floor5_d"], "from": ["floor5_f"], "to": ["floor5_t"], "tileName": ["floor5_b"]}, "local": {}}},
-            "floor5_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-38 86 -38", "value": "-38 86 -38"}, "NodeID": "floor5_f", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-38 86 -38"}}},
-            "floor5_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-22 86 -22", "value": "-22 86 -22"}, "NodeID": "floor5_t", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-22 86 -22"}}},
-            "floor5_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_planks", "value": "oak_planks"}, "NodeID": "floor5_b", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "oak_planks"}}},
-            "floor5_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "5F地板", "value": "5F地板"}, "NodeID": "floor5_d", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "5F地板"}}},
-            "step8": {"Data": {"Type": "SetBlockNode"}, "NodeID": "step8", "Pos": [-200.0, -260.0], "Type": "SetBlockNode", "VarData": {"input": {"des": ["elevator_des"], "pos": ["elevator_pos"], "tileName": ["elevator_block"]}, "local": {}}},
-            "elevator_pos": {"Data": {"Type": "StrParameter", "parameterName": "pos", "parameterStyle": "Input", "parameterText": "-30 67 -30", "value": "-30 67 -30"}, "NodeID": "elevator_pos", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "-30 67 -30"}}},
-            "elevator_block": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "gold_block", "value": "gold_block"}, "NodeID": "elevator_block", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "gold_block"}}},
-            "elevator_des": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "电梯标记", "value": "电梯标记"}, "NodeID": "elevator_des", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "电梯标记"}}},
-            "step9": {"Data": {"Type": "SayNode"}, "NodeID": "step9", "Pos": [-200.0, -220.0], "Type": "SayNode", "VarData": {"input": {"msg": ["msg2"]}, "local": {}}},
-            "msg2": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "涩谷109大厦内部生成完成！共5层+电梯", "value": "涩谷109大厦内部生成完成！共5层+电梯"}, "NodeID": "msg2", "Pos": [0.0, 0.0], "Type": "StrParameter", "VarData": {"input": {}, "local": {"__out__": "涩谷109大厦内部生成完成！共5层+电梯"}}},
-            "output1": {"Data": {"Type": "MacroOutput", "parameters": []}, "NodeID": "output1", "Pos": [-200.0, -180.0], "Type": "MacroOutput", "VarData": {"input": {}, "local": {}}}
+        "Type": "MacroInput",
+        "VarData": {
+          "input": {},
+          "local": {}
+        }
+      },
+      "step1": {
+        "Data": {
+          "Type": "SayNode"
         },
-        "variableData": {
-            "生成涩谷109大厦内部...": "生成涩谷109大厦内部...",
-            "-38 66 -38": "-38 66 -38",
-            "-22 66 -22": "-22 66 -22",
-            "oak_planks": "oak_planks",
-            "1F地板": "1F地板",
-            "-38 67 -38": "-38 67 -38",
-            "-22 84 -22": "-22 84 -22",
-            "air": "air",
-            "内部挖空": "内部挖空",
-            "-38 71 -38": "-38 71 -38",
-            "-22 71 -22": "-22 71 -22",
-            "2F地板": "2F地板",
-            "-38 76 -38": "-38 76 -38",
-            "-22 76 -22": "-22 76 -22",
-            "3F地板": "3F地板",
-            "-38 81 -38": "-38 81 -38",
-            "-22 81 -22": "-22 81 -22",
-            "4F地板": "4F地板",
-            "-38 86 -38": "-38 86 -38",
-            "-22 86 -22": "-22 86 -22",
-            "5F地板": "5F地板",
-            "-30 67 -30": "-30 67 -30",
-            "gold_block": "gold_block",
-            "电梯标记": "电梯标记",
-            "涩谷109大厦内部生成完成！共5层+电梯": "涩谷109大厦内部生成完成！共5层+电梯"
-        },
-        "saveTimes": 1,
-        "version": 3.0
-    },
-    "Storyline": {
-        "groupData": {},
-        "lineData": [
-            {"endNode": "step1", "endPort": "__in__", "startNode": "input1", "startPort": "__out__"},
-            {"endNode": "msg1", "endPort": "__out__", "startNode": "step1", "startPort": "msg"},
-            {"endNode": "step2", "endPort": "__in__", "startNode": "msg1", "startPort": "__out__"},
-            {"endNode": "floor1_f1", "endPort": "__out__", "startNode": "step2", "startPort": "from"},
-            {"endNode": "floor1_t1", "endPort": "__out__", "startNode": "step2", "startPort": "to"},
-            {"endNode": "floor1_b1", "endPort": "__out__", "startNode": "step2", "startPort": "tileName"},
-            {"endNode": "floor1_d1", "endPort": "__out__", "startNode": "step2", "startPort": "des"},
-            {"endNode": "step3", "endPort": "__in__", "startNode": "floor1_d1", "startPort": "__out__"},
-            {"endNode": "floor1_f2", "endPort": "__out__", "startNode": "step3", "startPort": "from"},
-            {"endNode": "floor1_t2", "endPort": "__out__", "startNode": "step3", "startPort": "to"},
-            {"endNode": "floor1_b2", "endPort": "__out__", "startNode": "step3", "startPort": "tileName"},
-            {"endNode": "floor1_d2", "endPort": "__out__", "startNode": "step3", "startPort": "des"},
-            {"endNode": "step4", "endPort": "__in__", "startNode": "floor1_d2", "startPort": "__out__"},
-            {"endNode": "floor2_f", "endPort": "__out__", "startNode": "step4", "startPort": "from"},
-            {"endNode": "floor2_t", "endPort": "__out__", "startNode": "step4", "startPort": "to"},
-            {"endNode": "floor2_b", "endPort": "__out__", "startNode": "step4", "startPort": "tileName"},
-            {"endNode": "floor2_d", "endPort": "__out__", "startNode": "step4", "startPort": "des"},
-            {"endNode": "step5", "endPort": "__in__", "startNode": "floor2_d", "startPort": "__out__"},
-            {"endNode": "floor3_f", "endPort": "__out__", "startNode": "step5", "startPort": "from"},
-            {"endNode": "floor3_t", "endPort": "__out__", "startNode": "step5", "startPort": "to"},
-            {"endNode": "floor3_b", "endPort": "__out__", "startNode": "step5", "startPort": "tileName"},
-            {"endNode": "floor3_d", "endPort": "__out__", "startNode": "step5", "startPort": "des"},
-            {"endNode": "step6", "endPort": "__in__", "startNode": "floor3_d", "startPort": "__out__"},
-            {"endNode": "floor4_f", "endPort": "__out__", "startNode": "step6", "startPort": "from"},
-            {"endNode": "floor4_t", "endPort": "__out__", "startNode": "step6", "startPort": "to"},
-            {"endNode": "floor4_b", "endPort": "__out__", "startNode": "step6", "startPort": "tileName"},
-            {"endNode": "floor4_d", "endPort": "__out__", "startNode": "step6", "startPort": "des"},
-            {"endNode": "step7", "endPort": "__in__", "startNode": "floor4_d", "startPort": "__out__"},
-            {"endNode": "floor5_f", "endPort": "__out__", "startNode": "step7", "startPort": "from"},
-            {"endNode": "floor5_t", "endPort": "__out__", "startNode": "step7", "startPort": "to"},
-            {"endNode": "floor5_b", "endPort": "__out__", "startNode": "step7", "startPort": "tileName"},
-            {"endNode": "floor5_d", "endPort": "__out__", "startNode": "step7", "startPort": "des"},
-            {"endNode": "step8", "endPort": "__in__", "startNode": "floor5_d", "startPort": "__out__"},
-            {"endNode": "elevator_pos", "endPort": "__out__", "startNode": "step8", "startPort": "pos"},
-            {"endNode": "elevator_block", "endPort": "__out__", "startNode": "step8", "startPort": "tileName"},
-            {"endNode": "elevator_des", "endPort": "__out__", "startNode": "step8", "startPort": "des"},
-            {"endNode": "step9", "endPort": "__in__", "startNode": "elevator_des", "startPort": "__out__"},
-            {"endNode": "msg2", "endPort": "__out__", "startNode": "step9", "startPort": "msg"},
-            {"endNode": "output1", "endPort": "__in__", "startNode": "msg2", "startPort": "__out__"}
+        "NodeID": "step1",
+        "Pos": [
+          -200.0,
+          -550.0
         ],
-        "nodeData": {
-            "input1": {"Data": {"Type": "MacroInput", "desc": "", "parameters": [], "title": ""}, "NodeID": "input1", "Pos": [-200.0, -600.0], "Type": "MacroInput"},
-            "step1": {"Data": {"Type": "SayNode"}, "NodeID": "step1", "Pos": [-200.0, -550.0], "Type": "SayNode"},
-            "msg1": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "生成涩谷109大厦内部...", "value": "生成涩谷109大厦内部..."}, "NodeID": "msg1", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step2": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step2", "Pos": [-200.0, -500.0], "Type": "FillBlockNode"},
-            "floor1_f1": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-38 66 -38", "value": "-38 66 -38"}, "NodeID": "floor1_f1", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor1_t1": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-22 66 -22", "value": "-22 66 -22"}, "NodeID": "floor1_t1", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor1_b1": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_planks", "value": "oak_planks"}, "NodeID": "floor1_b1", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor1_d1": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "1F地板", "value": "1F地板"}, "NodeID": "floor1_d1", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step3": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step3", "Pos": [-200.0, -460.0], "Type": "FillBlockNode"},
-            "floor1_f2": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-38 67 -38", "value": "-38 67 -38"}, "NodeID": "floor1_f2", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor1_t2": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-22 84 -22", "value": "-22 84 -22"}, "NodeID": "floor1_t2", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor1_b2": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "air", "value": "air"}, "NodeID": "floor1_b2", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor1_d2": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "内部挖空", "value": "内部挖空"}, "NodeID": "floor1_d2", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step4": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step4", "Pos": [-200.0, -420.0], "Type": "FillBlockNode"},
-            "floor2_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-38 71 -38", "value": "-38 71 -38"}, "NodeID": "floor2_f", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor2_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-22 71 -22", "value": "-22 71 -22"}, "NodeID": "floor2_t", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor2_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_planks", "value": "oak_planks"}, "NodeID": "floor2_b", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor2_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "2F地板", "value": "2F地板"}, "NodeID": "floor2_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step5": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step5", "Pos": [-200.0, -380.0], "Type": "FillBlockNode"},
-            "floor3_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-38 76 -38", "value": "-38 76 -38"}, "NodeID": "floor3_f", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor3_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-22 76 -22", "value": "-22 76 -22"}, "NodeID": "floor3_t", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor3_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_planks", "value": "oak_planks"}, "NodeID": "floor3_b", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor3_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "3F地板", "value": "3F地板"}, "NodeID": "floor3_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step6": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step6", "Pos": [-200.0, -340.0], "Type": "FillBlockNode"},
-            "floor4_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-38 81 -38", "value": "-38 81 -38"}, "NodeID": "floor4_f", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor4_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-22 81 -22", "value": "-22 81 -22"}, "NodeID": "floor4_t", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor4_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_planks", "value": "oak_planks"}, "NodeID": "floor4_b", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor4_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "4F地板", "value": "4F地板"}, "NodeID": "floor4_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step7": {"Data": {"Type": "FillBlockNode"}, "NodeID": "step7", "Pos": [-200.0, -300.0], "Type": "FillBlockNode"},
-            "floor5_f": {"Data": {"Type": "StrParameter", "parameterName": "from", "parameterStyle": "Input", "parameterText": "-38 86 -38", "value": "-38 86 -38"}, "NodeID": "floor5_f", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor5_t": {"Data": {"Type": "StrParameter", "parameterName": "to", "parameterStyle": "Input", "parameterText": "-22 86 -22", "value": "-22 86 -22"}, "NodeID": "floor5_t", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor5_b": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "oak_planks", "value": "oak_planks"}, "NodeID": "floor5_b", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "floor5_d": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "5F地板", "value": "5F地板"}, "NodeID": "floor5_d", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step8": {"Data": {"Type": "SetBlockNode"}, "NodeID": "step8", "Pos": [-200.0, -260.0], "Type": "SetBlockNode"},
-            "elevator_pos": {"Data": {"Type": "StrParameter", "parameterName": "pos", "parameterStyle": "Input", "parameterText": "-30 67 -30", "value": "-30 67 -30"}, "NodeID": "elevator_pos", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "elevator_block": {"Data": {"Type": "StrParameter", "parameterName": "tileName", "parameterStyle": "Input", "parameterText": "gold_block", "value": "gold_block"}, "NodeID": "elevator_block", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "elevator_des": {"Data": {"Type": "StrParameter", "parameterName": "des", "parameterStyle": "Input", "parameterText": "电梯标记", "value": "电梯标记"}, "NodeID": "elevator_des", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "step9": {"Data": {"Type": "SayNode"}, "NodeID": "step9", "Pos": [-200.0, -220.0], "Type": "SayNode"},
-            "msg2": {"Data": {"Type": "StrParameter", "parameterName": "msg", "parameterStyle": "Input", "parameterText": "涩谷109大厦内部生成完成！共5层+电梯", "value": "涩谷109大厦内部生成完成！共5层+电梯"}, "NodeID": "msg2", "Pos": [0.0, 0.0], "Type": "StrParameter"},
-            "output1": {"Data": {"Type": "MacroOutput", "parameters": []}, "NodeID": "output1", "Pos": [-200.0, -180.0], "Type": "MacroOutput"}
+        "Type": "SayNode",
+        "VarData": {
+          "input": {
+            "msg": [
+              "msg1"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "msg1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "生成涩谷109大厦内部...",
+          "value": "生成涩谷109大厦内部..."
         },
-        "version": 3.0
+        "NodeID": "msg1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "生成涩谷109大厦内部..."
+          }
+        }
+      },
+      "step2": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step2",
+        "Pos": [
+          -200.0,
+          -500.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "floor1_d1"
+            ],
+            "from": [
+              "floor1_f1"
+            ],
+            "to": [
+              "floor1_t1"
+            ],
+            "tileName": [
+              "floor1_b1"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "floor1_f1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "32 66 -38",
+          "value": "32 66 -38"
+        },
+        "NodeID": "floor1_f1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "32 66 -38"
+          }
+        }
+      },
+      "floor1_t1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "53 66 -22",
+          "value": "53 66 -22"
+        },
+        "NodeID": "floor1_t1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "53 66 -22"
+          }
+        }
+      },
+      "floor1_b1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_planks",
+          "value": "oak_planks"
+        },
+        "NodeID": "floor1_b1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "oak_planks"
+          }
+        }
+      },
+      "floor1_d1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "1F地板",
+          "value": "1F地板"
+        },
+        "NodeID": "floor1_d1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "1F地板"
+          }
+        }
+      },
+      "step3": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step3",
+        "Pos": [
+          -200.0,
+          -460.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "floor1_d2"
+            ],
+            "from": [
+              "floor1_f2"
+            ],
+            "to": [
+              "floor1_t2"
+            ],
+            "tileName": [
+              "floor1_b2"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "floor1_f2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "32 67 -38",
+          "value": "32 67 -38"
+        },
+        "NodeID": "floor1_f2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "32 67 -38"
+          }
+        }
+      },
+      "floor1_t2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "53 89 -22",
+          "value": "53 89 -22"
+        },
+        "NodeID": "floor1_t2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "53 89 -22"
+          }
+        }
+      },
+      "floor1_b2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "air",
+          "value": "air"
+        },
+        "NodeID": "floor1_b2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "air"
+          }
+        }
+      },
+      "floor1_d2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "内部挖空",
+          "value": "内部挖空"
+        },
+        "NodeID": "floor1_d2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "内部挖空"
+          }
+        }
+      },
+      "step4": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step4",
+        "Pos": [
+          -200.0,
+          -420.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "floor2_d"
+            ],
+            "from": [
+              "floor2_f"
+            ],
+            "to": [
+              "floor2_t"
+            ],
+            "tileName": [
+              "floor2_b"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "floor2_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "32 71 -38",
+          "value": "32 71 -38"
+        },
+        "NodeID": "floor2_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "32 71 -38"
+          }
+        }
+      },
+      "floor2_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "53 71 -22",
+          "value": "53 71 -22"
+        },
+        "NodeID": "floor2_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "53 71 -22"
+          }
+        }
+      },
+      "floor2_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_planks",
+          "value": "oak_planks"
+        },
+        "NodeID": "floor2_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "oak_planks"
+          }
+        }
+      },
+      "floor2_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "2F地板",
+          "value": "2F地板"
+        },
+        "NodeID": "floor2_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "2F地板"
+          }
+        }
+      },
+      "step5": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step5",
+        "Pos": [
+          -200.0,
+          -380.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "floor3_d"
+            ],
+            "from": [
+              "floor3_f"
+            ],
+            "to": [
+              "floor3_t"
+            ],
+            "tileName": [
+              "floor3_b"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "floor3_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "32 76 -38",
+          "value": "32 76 -38"
+        },
+        "NodeID": "floor3_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "32 76 -38"
+          }
+        }
+      },
+      "floor3_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "53 76 -22",
+          "value": "53 76 -22"
+        },
+        "NodeID": "floor3_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "53 76 -22"
+          }
+        }
+      },
+      "floor3_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_planks",
+          "value": "oak_planks"
+        },
+        "NodeID": "floor3_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "oak_planks"
+          }
+        }
+      },
+      "floor3_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "3F地板",
+          "value": "3F地板"
+        },
+        "NodeID": "floor3_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "3F地板"
+          }
+        }
+      },
+      "step6": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step6",
+        "Pos": [
+          -200.0,
+          -340.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "floor4_d"
+            ],
+            "from": [
+              "floor4_f"
+            ],
+            "to": [
+              "floor4_t"
+            ],
+            "tileName": [
+              "floor4_b"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "floor4_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "32 81 -38",
+          "value": "32 81 -38"
+        },
+        "NodeID": "floor4_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "32 81 -38"
+          }
+        }
+      },
+      "floor4_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "53 81 -22",
+          "value": "53 81 -22"
+        },
+        "NodeID": "floor4_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "53 81 -22"
+          }
+        }
+      },
+      "floor4_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_planks",
+          "value": "oak_planks"
+        },
+        "NodeID": "floor4_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "oak_planks"
+          }
+        }
+      },
+      "floor4_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "4F地板",
+          "value": "4F地板"
+        },
+        "NodeID": "floor4_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "4F地板"
+          }
+        }
+      },
+      "step7": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step7",
+        "Pos": [
+          -200.0,
+          -300.0
+        ],
+        "Type": "FillBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "floor5_d"
+            ],
+            "from": [
+              "floor5_f"
+            ],
+            "to": [
+              "floor5_t"
+            ],
+            "tileName": [
+              "floor5_b"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "floor5_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "32 86 -38",
+          "value": "32 86 -38"
+        },
+        "NodeID": "floor5_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "32 86 -38"
+          }
+        }
+      },
+      "floor5_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "53 86 -22",
+          "value": "53 86 -22"
+        },
+        "NodeID": "floor5_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "53 86 -22"
+          }
+        }
+      },
+      "floor5_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_planks",
+          "value": "oak_planks"
+        },
+        "NodeID": "floor5_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "oak_planks"
+          }
+        }
+      },
+      "floor5_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "5F地板",
+          "value": "5F地板"
+        },
+        "NodeID": "floor5_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "5F地板"
+          }
+        }
+      },
+      "step8": {
+        "Data": {
+          "Type": "SetBlockNode"
+        },
+        "NodeID": "step8",
+        "Pos": [
+          -200.0,
+          -260.0
+        ],
+        "Type": "SetBlockNode",
+        "VarData": {
+          "input": {
+            "des": [
+              "elevator_des"
+            ],
+            "pos": [
+              "elevator_pos"
+            ],
+            "tileName": [
+              "elevator_block"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "elevator_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "42 67 -30",
+          "value": "42 67 -30"
+        },
+        "NodeID": "elevator_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "42 67 -30"
+          }
+        }
+      },
+      "elevator_block": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "gold_block",
+          "value": "gold_block"
+        },
+        "NodeID": "elevator_block",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "gold_block"
+          }
+        }
+      },
+      "elevator_des": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "电梯标记",
+          "value": "电梯标记"
+        },
+        "NodeID": "elevator_des",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "电梯标记"
+          }
+        }
+      },
+      "step9": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step9",
+        "Pos": [
+          -200.0,
+          -220.0
+        ],
+        "Type": "SayNode",
+        "VarData": {
+          "input": {
+            "msg": [
+              "msg2"
+            ]
+          },
+          "local": {}
+        }
+      },
+      "msg2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "涩谷109大厦内部生成完成！共5层+电梯",
+          "value": "涩谷109大厦内部生成完成！共5层+电梯"
+        },
+        "NodeID": "msg2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter",
+        "VarData": {
+          "input": {},
+          "local": {
+            "__out__": "涩谷109大厦内部生成完成！共5层+电梯"
+          }
+        }
+      },
+      "output1": {
+        "Data": {
+          "Type": "MacroOutput",
+          "parameters": []
+        },
+        "NodeID": "output1",
+        "Pos": [
+          -200.0,
+          -180.0
+        ],
+        "Type": "MacroOutput",
+        "VarData": {
+          "input": {},
+          "local": {}
+        }
+      }
     },
-    "Type": "Macro",
-    "Version": 1.0
+    "variableData": {
+      "生成涩谷109大厦内部...": "生成涩谷109大厦内部...",
+      "oak_planks": "oak_planks",
+      "1F地板": "1F地板",
+      "air": "air",
+      "内部挖空": "内部挖空",
+      "2F地板": "2F地板",
+      "3F地板": "3F地板",
+      "4F地板": "4F地板",
+      "5F地板": "5F地板",
+      "gold_block": "gold_block",
+      "电梯标记": "电梯标记",
+      "涩谷109大厦内部生成完成！共5层+电梯": "涩谷109大厦内部生成完成！共5层+电梯",
+      "32 66 -38": "32 66 -38",
+      "53 66 -22": "53 66 -22",
+      "32 67 -38": "32 67 -38",
+      "53 89 -22": "53 89 -22",
+      "32 71 -38": "32 71 -38",
+      "53 71 -22": "53 71 -22",
+      "32 76 -38": "32 76 -38",
+      "53 76 -22": "53 76 -22",
+      "32 81 -38": "32 81 -38",
+      "53 81 -22": "53 81 -22",
+      "32 86 -38": "32 86 -38",
+      "53 86 -22": "53 86 -22",
+      "42 67 -30": "42 67 -30"
+    },
+    "saveTimes": 1,
+    "version": 3.0
+  },
+  "Storyline": {
+    "groupData": {},
+    "lineData": [
+      {
+        "endNode": "step1",
+        "endPort": "__in__",
+        "startNode": "input1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "msg1",
+        "endPort": "__out__",
+        "startNode": "step1",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "step2",
+        "endPort": "__in__",
+        "startNode": "msg1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "floor1_f1",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "from"
+      },
+      {
+        "endNode": "floor1_t1",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "to"
+      },
+      {
+        "endNode": "floor1_b1",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "floor1_d1",
+        "endPort": "__out__",
+        "startNode": "step2",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step3",
+        "endPort": "__in__",
+        "startNode": "floor1_d1",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "floor1_f2",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "from"
+      },
+      {
+        "endNode": "floor1_t2",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "to"
+      },
+      {
+        "endNode": "floor1_b2",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "floor1_d2",
+        "endPort": "__out__",
+        "startNode": "step3",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step4",
+        "endPort": "__in__",
+        "startNode": "floor1_d2",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "floor2_f",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "from"
+      },
+      {
+        "endNode": "floor2_t",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "to"
+      },
+      {
+        "endNode": "floor2_b",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "floor2_d",
+        "endPort": "__out__",
+        "startNode": "step4",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step5",
+        "endPort": "__in__",
+        "startNode": "floor2_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "floor3_f",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "from"
+      },
+      {
+        "endNode": "floor3_t",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "to"
+      },
+      {
+        "endNode": "floor3_b",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "floor3_d",
+        "endPort": "__out__",
+        "startNode": "step5",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step6",
+        "endPort": "__in__",
+        "startNode": "floor3_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "floor4_f",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "from"
+      },
+      {
+        "endNode": "floor4_t",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "to"
+      },
+      {
+        "endNode": "floor4_b",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "floor4_d",
+        "endPort": "__out__",
+        "startNode": "step6",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step7",
+        "endPort": "__in__",
+        "startNode": "floor4_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "floor5_f",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "from"
+      },
+      {
+        "endNode": "floor5_t",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "to"
+      },
+      {
+        "endNode": "floor5_b",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "floor5_d",
+        "endPort": "__out__",
+        "startNode": "step7",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step8",
+        "endPort": "__in__",
+        "startNode": "floor5_d",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "elevator_pos",
+        "endPort": "__out__",
+        "startNode": "step8",
+        "startPort": "pos"
+      },
+      {
+        "endNode": "elevator_block",
+        "endPort": "__out__",
+        "startNode": "step8",
+        "startPort": "tileName"
+      },
+      {
+        "endNode": "elevator_des",
+        "endPort": "__out__",
+        "startNode": "step8",
+        "startPort": "des"
+      },
+      {
+        "endNode": "step9",
+        "endPort": "__in__",
+        "startNode": "elevator_des",
+        "startPort": "__out__"
+      },
+      {
+        "endNode": "msg2",
+        "endPort": "__out__",
+        "startNode": "step9",
+        "startPort": "msg"
+      },
+      {
+        "endNode": "output1",
+        "endPort": "__in__",
+        "startNode": "msg2",
+        "startPort": "__out__"
+      }
+    ],
+    "nodeData": {
+      "input1": {
+        "Data": {
+          "Type": "MacroInput",
+          "desc": "",
+          "parameters": [],
+          "title": ""
+        },
+        "NodeID": "input1",
+        "Pos": [
+          -200.0,
+          -600.0
+        ],
+        "Type": "MacroInput"
+      },
+      "step1": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step1",
+        "Pos": [
+          -200.0,
+          -550.0
+        ],
+        "Type": "SayNode"
+      },
+      "msg1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "生成涩谷109大厦内部...",
+          "value": "生成涩谷109大厦内部..."
+        },
+        "NodeID": "msg1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step2": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step2",
+        "Pos": [
+          -200.0,
+          -500.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "floor1_f1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "32 66 -38",
+          "value": "32 66 -38"
+        },
+        "NodeID": "floor1_f1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor1_t1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "53 66 -22",
+          "value": "53 66 -22"
+        },
+        "NodeID": "floor1_t1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor1_b1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_planks",
+          "value": "oak_planks"
+        },
+        "NodeID": "floor1_b1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor1_d1": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "1F地板",
+          "value": "1F地板"
+        },
+        "NodeID": "floor1_d1",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step3": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step3",
+        "Pos": [
+          -200.0,
+          -460.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "floor1_f2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "32 67 -38",
+          "value": "32 67 -38"
+        },
+        "NodeID": "floor1_f2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor1_t2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "53 89 -22",
+          "value": "53 89 -22"
+        },
+        "NodeID": "floor1_t2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor1_b2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "air",
+          "value": "air"
+        },
+        "NodeID": "floor1_b2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor1_d2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "内部挖空",
+          "value": "内部挖空"
+        },
+        "NodeID": "floor1_d2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step4": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step4",
+        "Pos": [
+          -200.0,
+          -420.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "floor2_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "32 71 -38",
+          "value": "32 71 -38"
+        },
+        "NodeID": "floor2_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor2_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "53 71 -22",
+          "value": "53 71 -22"
+        },
+        "NodeID": "floor2_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor2_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_planks",
+          "value": "oak_planks"
+        },
+        "NodeID": "floor2_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor2_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "2F地板",
+          "value": "2F地板"
+        },
+        "NodeID": "floor2_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step5": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step5",
+        "Pos": [
+          -200.0,
+          -380.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "floor3_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "32 76 -38",
+          "value": "32 76 -38"
+        },
+        "NodeID": "floor3_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor3_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "53 76 -22",
+          "value": "53 76 -22"
+        },
+        "NodeID": "floor3_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor3_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_planks",
+          "value": "oak_planks"
+        },
+        "NodeID": "floor3_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor3_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "3F地板",
+          "value": "3F地板"
+        },
+        "NodeID": "floor3_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step6": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step6",
+        "Pos": [
+          -200.0,
+          -340.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "floor4_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "32 81 -38",
+          "value": "32 81 -38"
+        },
+        "NodeID": "floor4_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor4_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "53 81 -22",
+          "value": "53 81 -22"
+        },
+        "NodeID": "floor4_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor4_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_planks",
+          "value": "oak_planks"
+        },
+        "NodeID": "floor4_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor4_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "4F地板",
+          "value": "4F地板"
+        },
+        "NodeID": "floor4_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step7": {
+        "Data": {
+          "Type": "FillBlockNode"
+        },
+        "NodeID": "step7",
+        "Pos": [
+          -200.0,
+          -300.0
+        ],
+        "Type": "FillBlockNode"
+      },
+      "floor5_f": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "from",
+          "parameterStyle": "Input",
+          "parameterText": "32 86 -38",
+          "value": "32 86 -38"
+        },
+        "NodeID": "floor5_f",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor5_t": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "to",
+          "parameterStyle": "Input",
+          "parameterText": "53 86 -22",
+          "value": "53 86 -22"
+        },
+        "NodeID": "floor5_t",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor5_b": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "oak_planks",
+          "value": "oak_planks"
+        },
+        "NodeID": "floor5_b",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "floor5_d": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "5F地板",
+          "value": "5F地板"
+        },
+        "NodeID": "floor5_d",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step8": {
+        "Data": {
+          "Type": "SetBlockNode"
+        },
+        "NodeID": "step8",
+        "Pos": [
+          -200.0,
+          -260.0
+        ],
+        "Type": "SetBlockNode"
+      },
+      "elevator_pos": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "pos",
+          "parameterStyle": "Input",
+          "parameterText": "42 67 -30",
+          "value": "42 67 -30"
+        },
+        "NodeID": "elevator_pos",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "elevator_block": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "tileName",
+          "parameterStyle": "Input",
+          "parameterText": "gold_block",
+          "value": "gold_block"
+        },
+        "NodeID": "elevator_block",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "elevator_des": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "des",
+          "parameterStyle": "Input",
+          "parameterText": "电梯标记",
+          "value": "电梯标记"
+        },
+        "NodeID": "elevator_des",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "step9": {
+        "Data": {
+          "Type": "SayNode"
+        },
+        "NodeID": "step9",
+        "Pos": [
+          -200.0,
+          -220.0
+        ],
+        "Type": "SayNode"
+      },
+      "msg2": {
+        "Data": {
+          "Type": "StrParameter",
+          "parameterName": "msg",
+          "parameterStyle": "Input",
+          "parameterText": "涩谷109大厦内部生成完成！共5层+电梯",
+          "value": "涩谷109大厦内部生成完成！共5层+电梯"
+        },
+        "NodeID": "msg2",
+        "Pos": [
+          0.0,
+          0.0
+        ],
+        "Type": "StrParameter"
+      },
+      "output1": {
+        "Data": {
+          "Type": "MacroOutput",
+          "parameters": []
+        },
+        "NodeID": "output1",
+        "Pos": [
+          -200.0,
+          -180.0
+        ],
+        "Type": "MacroOutput"
+      }
+    },
+    "version": 3.0
+  },
+  "Type": "Macro",
+  "Version": 1.0
 }
