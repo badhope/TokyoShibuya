@@ -32,3 +32,13 @@ scoreboard players set @s env_type 0
 scoreboard players set @s crowd_density 0
 scoreboard players set @s gen_progress 0
 tellraw @a {"rawtext":[{"text":"§6模块化系统已初始化！输入 /function shibuya:auto/help 查看命令"}]}
+# === v3.6.0 新增系统初始化 ===
+scoreboard players set @a sound_timer 0
+scoreboard players set @a time_phase 1
+scoreboard players set #time day_shibuya 1
+scoreboard players set #weather weather_shibuya 0
+scoreboard players set #system event_shibuya 0
+scoreboard players set #event_timer event_timer 0
+scoreboard players set #rand_cycle event_rand 0
+# 新手引导
+function shibuya:systems/ui/welcome_guide

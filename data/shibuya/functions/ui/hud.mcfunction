@@ -1,1 +1,2 @@
-title @a actionbar {"rawtext":[{"text":"§7第"},{"score":{"name":"#time","objective":"day_shibuya"}},{"text":"§7天 | §6¥"},{"score":{"name":"@p","objective":"money_shibuya"}},{"text":" §7| 🏢职业 | ☀️天气 | 📮印章"},{"score":{"name":"@p","objective":"stamp_shibuya"}},{"text":"§7/12"}]}
+# === HUD显示 v3.6.0 - 使用增强HUD ===
+function shibuya:systems/ui/hud_enhanced

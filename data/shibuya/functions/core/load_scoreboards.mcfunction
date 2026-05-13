@@ -53,3 +53,10 @@ scoreboard objectives add quest_foodie dummy
 scoreboard objectives add quest_employment dummy
 scoreboard objectives add quest_collector dummy
 scoreboard objectives add quest_expert dummy
+# === v3.6.0 新增计分板 ===
+scoreboard objectives add sound_timer dummy
+scoreboard objectives add weather dummy
+scoreboard objectives add building_name dummy
+scoreboard objectives add env_type dummy
+scoreboard objectives add crowd_density dummy
+scoreboard objectives add gen_progress dummy
