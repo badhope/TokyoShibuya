@@ -9,4 +9,6 @@ tellraw @a {"rawtext":[{"text":"§7生成自动贩卖机..."}]}
 function shibuya:environment/generate_vending
 tellraw @a {"rawtext":[{"text":"§7生成花坛..."}]}
 function shibuya:environment/generate_flowers
+tellraw @a {"rawtext":[{"text":"§7生成街道细节..."}]}
+function shibuya:environment/generate_street_details
 tellraw @a {"rawtext":[{"text":"§a环境装饰生成完毕！"}]}
