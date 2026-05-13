@@ -26,3 +26,9 @@ give @a compass 1
 title @a title {"rawtext":[{"text":"§6涩谷城市模拟"}]}
 title @a subtitle {"rawtext":[{"text":"§e欢迎来到涩谷"}]}
 tellraw @a {"rawtext":[{"text":"§a游戏已初始化！祝你旅途愉快！"}]}
+# === v3.2.0 模块化系统初始化 ===
+scoreboard players set @s building_name 0
+scoreboard players set @s env_type 0
+scoreboard players set @s crowd_density 0
+scoreboard players set @s gen_progress 0
+tellraw @a {"rawtext":[{"text":"§6模块化系统已初始化！输入 /function shibuya:auto/help 查看命令"}]}
