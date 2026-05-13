@@ -133,8 +133,8 @@
           "Type": "StrParameter",
           "parameterName": "from",
           "parameterStyle": "Input",
-          "parameterText": "30 65 -40",
-          "value": "30 65 -40"
+          "parameterText": "55 65 55",
+          "value": "55 65 55"
         },
         "NodeID": "from1",
         "Pos": [
@@ -145,7 +145,7 @@
         "VarData": {
           "input": {},
           "local": {
-            "__out__": "30 65 -40"
+            "__out__": "55 65 55"
           }
         }
       },
@@ -154,8 +154,8 @@
           "Type": "StrParameter",
           "parameterName": "to",
           "parameterStyle": "Input",
-          "parameterText": "55 90 -20",
-          "value": "55 90 -20"
+          "parameterText": "85 115 85",
+          "value": "85 115 85"
         },
         "NodeID": "to1",
         "Pos": [
@@ -166,7 +166,7 @@
         "VarData": {
           "input": {},
           "local": {
-            "__out__": "55 90 -20"
+            "__out__": "85 115 85"
           }
         }
       },
@@ -245,8 +245,8 @@
           "Type": "StrParameter",
           "parameterName": "from",
           "parameterStyle": "Input",
-          "parameterText": "32 66 -38",
-          "value": "32 66 -38"
+          "parameterText": "57 66 57",
+          "value": "57 66 57"
         },
         "NodeID": "from2",
         "Pos": [
@@ -257,7 +257,7 @@
         "VarData": {
           "input": {},
           "local": {
-            "__out__": "32 66 -38"
+            "__out__": "57 66 57"
           }
         }
       },
@@ -266,8 +266,8 @@
           "Type": "StrParameter",
           "parameterName": "to",
           "parameterStyle": "Input",
-          "parameterText": "53 89 -22",
-          "value": "53 89 -22"
+          "parameterText": "83 114 83",
+          "value": "83 114 83"
         },
         "NodeID": "to2",
         "Pos": [
@@ -278,7 +278,7 @@
         "VarData": {
           "input": {},
           "local": {
-            "__out__": "53 89 -22"
+            "__out__": "83 114 83"
           }
         }
       },
@@ -357,8 +357,8 @@
           "Type": "StrParameter",
           "parameterName": "from",
           "parameterStyle": "Input",
-          "parameterText": "35 91 -35",
-          "value": "35 91 -35"
+          "parameterText": "60 116 60",
+          "value": "60 116 60"
         },
         "NodeID": "from3",
         "Pos": [
@@ -369,7 +369,7 @@
         "VarData": {
           "input": {},
           "local": {
-            "__out__": "35 91 -35"
+            "__out__": "60 116 60"
           }
         }
       },
@@ -378,8 +378,8 @@
           "Type": "StrParameter",
           "parameterName": "to",
           "parameterStyle": "Input",
-          "parameterText": "50 95 -25",
-          "value": "50 95 -25"
+          "parameterText": "80 120 80",
+          "value": "80 120 80"
         },
         "NodeID": "to3",
         "Pos": [
@@ -390,7 +390,7 @@
         "VarData": {
           "input": {},
           "local": {
-            "__out__": "50 95 -25"
+            "__out__": "80 120 80"
           }
         }
       },
@@ -502,12 +502,12 @@
       "gold_block": "gold_block",
       "顶部装饰": "顶部装饰",
       "建筑生成完成！": "建筑生成完成！",
-      "30 65 -40": "30 65 -40",
-      "55 90 -20": "55 90 -20",
-      "32 66 -38": "32 66 -38",
-      "53 89 -22": "53 89 -22",
-      "35 91 -35": "35 91 -35",
-      "50 95 -25": "50 95 -25"
+      "55 65 55": "55 65 55",
+      "85 115 85": "85 115 85",
+      "57 66 57": "57 66 57",
+      "83 114 83": "83 114 83",
+      "60 116 60": "60 116 60",
+      "80 120 80": "80 120 80"
     },
     "saveTimes": 1,
     "version": 3.0
@@ -693,8 +693,8 @@
           "Type": "StrParameter",
           "parameterName": "from",
           "parameterStyle": "Input",
-          "parameterText": "30 65 -40",
-          "value": "30 65 -40"
+          "parameterText": "55 65 55",
+          "value": "55 65 55"
         },
         "NodeID": "from1",
         "Pos": [
@@ -708,8 +708,8 @@
           "Type": "StrParameter",
           "parameterName": "to",
           "parameterStyle": "Input",
-          "parameterText": "55 90 -20",
-          "value": "55 90 -20"
+          "parameterText": "85 115 85",
+          "value": "85 115 85"
         },
         "NodeID": "to1",
         "Pos": [
@@ -764,8 +764,8 @@
           "Type": "StrParameter",
           "parameterName": "from",
           "parameterStyle": "Input",
-          "parameterText": "32 66 -38",
-          "value": "32 66 -38"
+          "parameterText": "57 66 57",
+          "value": "57 66 57"
         },
         "NodeID": "from2",
         "Pos": [
@@ -779,8 +779,8 @@
           "Type": "StrParameter",
           "parameterName": "to",
           "parameterStyle": "Input",
-          "parameterText": "53 89 -22",
-          "value": "53 89 -22"
+          "parameterText": "83 114 83",
+          "value": "83 114 83"
         },
         "NodeID": "to2",
         "Pos": [
@@ -835,8 +835,8 @@
           "Type": "StrParameter",
           "parameterName": "from",
           "parameterStyle": "Input",
-          "parameterText": "35 91 -35",
-          "value": "35 91 -35"
+          "parameterText": "60 116 60",
+          "value": "60 116 60"
         },
         "NodeID": "from3",
         "Pos": [
@@ -850,8 +850,8 @@
           "Type": "StrParameter",
           "parameterName": "to",
           "parameterStyle": "Input",
-          "parameterText": "50 95 -25",
-          "value": "50 95 -25"
+          "parameterText": "80 120 80",
+          "value": "80 120 80"
         },
         "NodeID": "to3",
         "Pos": [

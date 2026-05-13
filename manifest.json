@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 - 高度还原的涩谷城市地图 | 网易MC Studio基岩版",
+        "description": "东京涩谷 - 真实比例还原 (1方块=1米) | 涩谷109高50米，涩谷天空229米，中心街350米 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [2, 0, 0],
+        "version": [3, 1, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 - 22个功能模块，包含建筑、地标、NPC、任务、经济、交通、天气等完整系统",
+            "description": "涩谷城市数据包 v3.1.0 - 真实比例：涩谷109(50米)、涩谷天空(229米)、中心街(350米)、道玄坂(500米斜坡)",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [2, 0, 0]
+            "version": [3, 1, 0]
         }
     ],
     "dependencies": []
