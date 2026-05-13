@@ -1,0 +1,19 @@
+# 额外补充道玄坂 18个
+summon villager -8 67 12 {Tags:["crowd"],CustomName:"§7路人"}
+summon villager -18 68 22 {Tags:["crowd"],CustomName:"§7上班族"}
+summon villager -28 69 32 {Tags:["crowd"],CustomName:"§7游客"}
+summon villager -38 70 42 {Tags:["crowd"],CustomName:"§7购物者"}
+summon villager -48 71 52 {Tags:["crowd"],CustomName:"§7学生"}
+summon villager -58 72 62 {Tags:["crowd"],CustomName:"§7路人"}
+summon villager -68 73 72 {Tags:["crowd"],CustomName:"§7上班族"}
+summon villager -78 74 82 {Tags:["crowd"],CustomName:"§7游客"}
+summon villager -88 75 92 {Tags:["crowd"],CustomName:"§7购物者"}
+summon villager -13 67 17 {Tags:["crowd"],CustomName:"§7学生"}
+summon villager -23 68 27 {Tags:["crowd"],CustomName:"§7路人"}
+summon villager -33 69 37 {Tags:["crowd"],CustomName:"§7上班族"}
+summon villager -43 70 47 {Tags:["crowd"],CustomName:"§7游客"}
+summon villager -53 71 57 {Tags:["crowd"],CustomName:"§7购物者"}
+summon villager -63 72 67 {Tags:["crowd"],CustomName:"§7学生"}
+summon villager -73 73 77 {Tags:["crowd"],CustomName:"§7路人"}
+summon villager -83 74 87 {Tags:["crowd"],CustomName:"§7上班族"}
+summon villager -93 75 97 {Tags:["crowd"],CustomName:"§7游客"}

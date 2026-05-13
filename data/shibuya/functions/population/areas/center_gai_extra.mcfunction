@@ -1,0 +1,22 @@
+# 额外补充中心街 20个
+summon villager 1 65 35 {Tags:["crowd"],CustomName:"§7购物者"}
+summon villager -1 65 55 {Tags:["crowd"],CustomName:"§7学生"}
+summon villager 1 65 75 {Tags:["crowd"],CustomName:"§7路人"}
+summon villager -1 65 95 {Tags:["crowd"],CustomName:"§7游客"}
+summon villager 1 65 115 {Tags:["crowd"],CustomName:"§7上班族"}
+summon villager -1 65 135 {Tags:["crowd"],CustomName:"§7购物者"}
+summon villager 1 65 155 {Tags:["crowd"],CustomName:"§7学生"}
+summon villager -1 65 175 {Tags:["crowd"],CustomName:"§7路人"}
+summon villager 1 65 195 {Tags:["crowd"],CustomName:"§7游客"}
+summon villager -1 65 215 {Tags:["crowd"],CustomName:"§7上班族"}
+summon villager 1 65 235 {Tags:["crowd"],CustomName:"§7购物者"}
+summon villager -1 65 255 {Tags:["crowd"],CustomName:"§7学生"}
+summon villager 1 65 275 {Tags:["crowd"],CustomName:"§7路人"}
+summon villager -1 65 295 {Tags:["crowd"],CustomName:"§7游客"}
+summon villager 1 65 315 {Tags:["crowd"],CustomName:"§7上班族"}
+summon villager -1 65 335 {Tags:["crowd"],CustomName:"§7购物者"}
+summon villager 1 65 355 {Tags:["crowd"],CustomName:"§7学生"}
+summon villager -1 65 375 {Tags:["crowd"],CustomName:"§7路人"}
+summon villager 1 65 395 {Tags:["crowd"],CustomName:"§7游客"}
+summon villager -1 65 415 {Tags:["crowd"],CustomName:"§7上班族"}
+summon villager 1 65 435 {Tags:["crowd"],CustomName:"§7购物者"}

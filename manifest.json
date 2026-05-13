@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 - 模块化城市还原系统 v3.2 | 真实比例+建筑内部+自动化生成+人群系统 | 网易MC Studio基岩版",
+        "description": "东京涩谷 - 高度模块化城市还原系统 v3.3 | 真实比例+建筑内部+自动化+人群 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [3, 2, 1],
+        "version": [3, 3, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v3.2.1 - 建筑内部细节: 109十层/天空塔47层+观景台/咖啡厅/拉面店/便利店/卡拉OK/酒店 | 113个函数文件",
+            "description": "涩谷城市数据包 v3.3.0 - 高度模块化: 156个函数文件/33个目录/单文件最大108行 | 一键生成/环境装饰/人群密度/建筑内部",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [3, 2, 1]
+            "version": [3, 3, 0]
         }
     ],
     "dependencies": []

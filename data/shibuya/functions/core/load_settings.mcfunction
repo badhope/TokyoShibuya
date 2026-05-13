@@ -1,0 +1,14 @@
+# === 游戏规则设置 - 玩家初始分数 ===
+scoreboard players set @a money_shibuya 1000
+scoreboard players set @a job_shibuya 0
+scoreboard players set @a weather_shibuya 0
+scoreboard players set @a day_shibuya 1
+scoreboard players set @a rep_shibuya 50
+scoreboard players set @a time_shibuya 0
+scoreboard players set @a quest_shibuya 0
+scoreboard players set @a collect_shibuya 0
+scoreboard players set @a salary_shibuya 0
+scoreboard players set @a stamp_shibuya 0
+scoreboard players set @a event_shibuya 0
+scoreboard players set @a district_shibuya 0
+scoreboard players set @a map_shibuya 0

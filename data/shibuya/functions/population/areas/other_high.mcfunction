@@ -1,0 +1,27 @@
+# 其他区域 25个
+summon villager 40 65 15 {Tags:["crowd"],CustomName:"§7上班族"}
+summon villager -40 65 -15 {Tags:["crowd"],CustomName:"§7学生"}
+summon villager 80 65 10 {Tags:["crowd"],CustomName:"§7游客"}
+summon villager -80 65 -10 {Tags:["crowd"],CustomName:"§7购物者"}
+summon villager 120 65 5 {Tags:["crowd"],CustomName:"§7路人"}
+summon villager -120 65 -5 {Tags:["crowd"],CustomName:"§7上班族"}
+summon villager 0 65 40 {Tags:["crowd"],CustomName:"§7学生"}
+summon villager 0 65 -40 {Tags:["crowd"],CustomName:"§7游客"}
+summon villager 60 65 25 {Tags:["crowd"],CustomName:"§7购物者"}
+summon villager -60 65 -25 {Tags:["crowd"],CustomName:"§7路人"}
+summon villager 100 65 15 {Tags:["crowd"],CustomName:"§7上班族"}
+summon villager -100 65 -15 {Tags:["crowd"],CustomName:"§7学生"}
+summon villager 150 65 5 {Tags:["crowd"],CustomName:"§7游客"}
+summon villager -150 65 -5 {Tags:["crowd"],CustomName:"§7购物者"}
+summon villager 200 65 0 {Tags:["crowd"],CustomName:"§7路人"}
+summon villager -200 65 0 {Tags:["crowd"],CustomName:"§7上班族"}
+summon villager 30 65 50 {Tags:["crowd"],CustomName:"§7学生"}
+summon villager -30 65 -50 {Tags:["crowd"],CustomName:"§7游客"}
+summon villager 70 65 35 {Tags:["crowd"],CustomName:"§7购物者"}
+summon villager -70 65 -35 {Tags:["crowd"],CustomName:"§7路人"}
+summon villager 110 65 20 {Tags:["crowd"],CustomName:"§7上班族"}
+summon villager -110 65 -20 {Tags:["crowd"],CustomName:"§7学生"}
+summon villager 50 65 -30 {Tags:["crowd"],CustomName:"§7游客"}
+summon villager -50 65 30 {Tags:["crowd"],CustomName:"§7购物者"}
+summon villager 90 65 -20 {Tags:["crowd"],CustomName:"§7路人"}
+summon villager -90 65 20 {Tags:["crowd"],CustomName:"§7上班族"}
