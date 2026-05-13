@@ -1,0 +1,2699 @@
+{
+    "Prefabs": {},
+    "StoryTeller": {
+        "groupData": {},
+        "layoutPanels": 0,
+        "lineData": [
+            {
+                "endNode": "step1",
+                "endPort": "__in__",
+                "startNode": "input1",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity1_pos",
+                "endPort": "__out__",
+                "startNode": "step1",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity1_type",
+                "endPort": "__out__",
+                "startNode": "step1",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity1_name",
+                "endPort": "__out__",
+                "startNode": "step1",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step2",
+                "endPort": "__in__",
+                "startNode": "entity1_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity2_pos",
+                "endPort": "__out__",
+                "startNode": "step2",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity2_type",
+                "endPort": "__out__",
+                "startNode": "step2",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity2_name",
+                "endPort": "__out__",
+                "startNode": "step2",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step3",
+                "endPort": "__in__",
+                "startNode": "entity2_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity3_pos",
+                "endPort": "__out__",
+                "startNode": "step3",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity3_type",
+                "endPort": "__out__",
+                "startNode": "step3",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity3_name",
+                "endPort": "__out__",
+                "startNode": "step3",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step4",
+                "endPort": "__in__",
+                "startNode": "entity3_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity4_pos",
+                "endPort": "__out__",
+                "startNode": "step4",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity4_type",
+                "endPort": "__out__",
+                "startNode": "step4",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity4_name",
+                "endPort": "__out__",
+                "startNode": "step4",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step5",
+                "endPort": "__in__",
+                "startNode": "entity4_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity5_pos",
+                "endPort": "__out__",
+                "startNode": "step5",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity5_type",
+                "endPort": "__out__",
+                "startNode": "step5",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity5_name",
+                "endPort": "__out__",
+                "startNode": "step5",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step6",
+                "endPort": "__in__",
+                "startNode": "entity5_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity6_pos",
+                "endPort": "__out__",
+                "startNode": "step6",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity6_type",
+                "endPort": "__out__",
+                "startNode": "step6",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity6_name",
+                "endPort": "__out__",
+                "startNode": "step6",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step7",
+                "endPort": "__in__",
+                "startNode": "entity6_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity7_pos",
+                "endPort": "__out__",
+                "startNode": "step7",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity7_type",
+                "endPort": "__out__",
+                "startNode": "step7",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity7_name",
+                "endPort": "__out__",
+                "startNode": "step7",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step8",
+                "endPort": "__in__",
+                "startNode": "entity7_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity8_pos",
+                "endPort": "__out__",
+                "startNode": "step8",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity8_type",
+                "endPort": "__out__",
+                "startNode": "step8",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity8_name",
+                "endPort": "__out__",
+                "startNode": "step8",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step9",
+                "endPort": "__in__",
+                "startNode": "entity8_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity9_pos",
+                "endPort": "__out__",
+                "startNode": "step9",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity9_type",
+                "endPort": "__out__",
+                "startNode": "step9",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity9_name",
+                "endPort": "__out__",
+                "startNode": "step9",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step10",
+                "endPort": "__in__",
+                "startNode": "entity9_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity10_pos",
+                "endPort": "__out__",
+                "startNode": "step10",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity10_type",
+                "endPort": "__out__",
+                "startNode": "step10",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity10_name",
+                "endPort": "__out__",
+                "startNode": "step10",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step11",
+                "endPort": "__in__",
+                "startNode": "entity10_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity11_pos",
+                "endPort": "__out__",
+                "startNode": "step11",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity11_type",
+                "endPort": "__out__",
+                "startNode": "step11",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity11_name",
+                "endPort": "__out__",
+                "startNode": "step11",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step12",
+                "endPort": "__in__",
+                "startNode": "entity11_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity12_pos",
+                "endPort": "__out__",
+                "startNode": "step12",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity12_type",
+                "endPort": "__out__",
+                "startNode": "step12",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity12_name",
+                "endPort": "__out__",
+                "startNode": "step12",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step13",
+                "endPort": "__in__",
+                "startNode": "entity12_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "extra_msg1",
+                "endPort": "__out__",
+                "startNode": "step13",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step14",
+                "endPort": "__in__",
+                "startNode": "extra_msg1",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "extra_msg2",
+                "endPort": "__out__",
+                "startNode": "step14",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step15",
+                "endPort": "__in__",
+                "startNode": "extra_msg2",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "extra_msg3",
+                "endPort": "__out__",
+                "startNode": "step15",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "output1",
+                "endPort": "__in__",
+                "startNode": "extra_msg3",
+                "startPort": "__out__"
+            }
+        ],
+        "nodeData": {
+            "input1": {
+                "Data": {
+                    "Type": "MacroInput",
+                    "desc": "",
+                    "parameters": [],
+                    "title": ""
+                },
+                "NodeID": "input1",
+                "Pos": [
+                    -200.0,
+                    -300.0
+                ],
+                "Type": "MacroInput",
+                "VarData": {
+                    "input": {},
+                    "local": {}
+                }
+            },
+            "step1": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step1",
+                "Pos": [
+                    -200.0,
+                    -250.0
+                ],
+                "Type": "SpawnEntityNode",
+                "VarData": {
+                    "input": {
+                        "des": [
+                            "entity1_name"
+                        ],
+                        "entityType": [
+                            "entity1_type"
+                        ],
+                        "pos": [
+                            "entity1_pos"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "entity1_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "120 68 -80",
+                    "value": "120 68 -80"
+                },
+                "NodeID": "entity1_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "120 68 -80"
+                    }
+                }
+            },
+            "entity1_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity1_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "armor_stand"
+                    }
+                }
+            },
+            "entity1_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:109大厦",
+                    "value": "印章:109大厦"
+                },
+                "NodeID": "entity1_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "印章:109大厦"
+                    }
+                }
+            },
+            "step2": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step2",
+                "Pos": [
+                    -200.0,
+                    -200.0
+                ],
+                "Type": "SpawnEntityNode",
+                "VarData": {
+                    "input": {
+                        "des": [
+                            "entity2_name"
+                        ],
+                        "entityType": [
+                            "entity2_type"
+                        ],
+                        "pos": [
+                            "entity2_pos"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "entity2_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "97 68 13",
+                    "value": "97 68 13"
+                },
+                "NodeID": "entity2_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "97 68 13"
+                    }
+                }
+            },
+            "entity2_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity2_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "armor_stand"
+                    }
+                }
+            },
+            "entity2_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:便利店",
+                    "value": "印章:便利店"
+                },
+                "NodeID": "entity2_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "印章:便利店"
+                    }
+                }
+            },
+            "step3": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step3",
+                "Pos": [
+                    -200.0,
+                    -150.0
+                ],
+                "Type": "SpawnEntityNode",
+                "VarData": {
+                    "input": {
+                        "des": [
+                            "entity3_name"
+                        ],
+                        "entityType": [
+                            "entity3_type"
+                        ],
+                        "pos": [
+                            "entity3_pos"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "entity3_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "115 68 -65",
+                    "value": "115 68 -65"
+                },
+                "NodeID": "entity3_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "115 68 -65"
+                    }
+                }
+            },
+            "entity3_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity3_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "armor_stand"
+                    }
+                }
+            },
+            "entity3_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:咖啡厅",
+                    "value": "印章:咖啡厅"
+                },
+                "NodeID": "entity3_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "印章:咖啡厅"
+                    }
+                }
+            },
+            "step4": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step4",
+                "Pos": [
+                    -200.0,
+                    -100.0
+                ],
+                "Type": "SpawnEntityNode",
+                "VarData": {
+                    "input": {
+                        "des": [
+                            "entity4_name"
+                        ],
+                        "entityType": [
+                            "entity4_type"
+                        ],
+                        "pos": [
+                            "entity4_pos"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "entity4_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "-125 68 65",
+                    "value": "-125 68 65"
+                },
+                "NodeID": "entity4_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "-125 68 65"
+                    }
+                }
+            },
+            "entity4_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity4_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "armor_stand"
+                    }
+                }
+            },
+            "entity4_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:拉面店",
+                    "value": "印章:拉面店"
+                },
+                "NodeID": "entity4_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "印章:拉面店"
+                    }
+                }
+            },
+            "step5": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step5",
+                "Pos": [
+                    -200.0,
+                    -50.0
+                ],
+                "Type": "SpawnEntityNode",
+                "VarData": {
+                    "input": {
+                        "des": [
+                            "entity5_name"
+                        ],
+                        "entityType": [
+                            "entity5_type"
+                        ],
+                        "pos": [
+                            "entity5_pos"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "entity5_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "-155 68 -115",
+                    "value": "-155 68 -115"
+                },
+                "NodeID": "entity5_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "-155 68 -115"
+                    }
+                }
+            },
+            "entity5_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity5_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "armor_stand"
+                    }
+                }
+            },
+            "entity5_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:卡拉OK",
+                    "value": "印章:卡拉OK"
+                },
+                "NodeID": "entity5_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "印章:卡拉OK"
+                    }
+                }
+            },
+            "step6": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step6",
+                "Pos": [
+                    -200.0,
+                    0.0
+                ],
+                "Type": "SpawnEntityNode",
+                "VarData": {
+                    "input": {
+                        "des": [
+                            "entity6_name"
+                        ],
+                        "entityType": [
+                            "entity6_type"
+                        ],
+                        "pos": [
+                            "entity6_pos"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "entity6_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "-70 68 5",
+                    "value": "-70 68 5"
+                },
+                "NodeID": "entity6_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "-70 68 5"
+                    }
+                }
+            },
+            "entity6_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity6_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "armor_stand"
+                    }
+                }
+            },
+            "entity6_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:涩谷站",
+                    "value": "印章:涩谷站"
+                },
+                "NodeID": "entity6_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "印章:涩谷站"
+                    }
+                }
+            },
+            "step7": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step7",
+                "Pos": [
+                    -200.0,
+                    50.0
+                ],
+                "Type": "SpawnEntityNode",
+                "VarData": {
+                    "input": {
+                        "des": [
+                            "entity7_name"
+                        ],
+                        "entityType": [
+                            "entity7_type"
+                        ],
+                        "pos": [
+                            "entity7_pos"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "entity7_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "-65 65 15",
+                    "value": "-65 65 15"
+                },
+                "NodeID": "entity7_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "-65 65 15"
+                    }
+                }
+            },
+            "entity7_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity7_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "armor_stand"
+                    }
+                }
+            },
+            "entity7_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:八公像",
+                    "value": "印章:八公像"
+                },
+                "NodeID": "entity7_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "印章:八公像"
+                    }
+                }
+            },
+            "step8": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step8",
+                "Pos": [
+                    -200.0,
+                    100.0
+                ],
+                "Type": "SpawnEntityNode",
+                "VarData": {
+                    "input": {
+                        "des": [
+                            "entity8_name"
+                        ],
+                        "entityType": [
+                            "entity8_type"
+                        ],
+                        "pos": [
+                            "entity8_pos"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "entity8_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "0 75 0",
+                    "value": "0 75 0"
+                },
+                "NodeID": "entity8_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "0 75 0"
+                    }
+                }
+            },
+            "entity8_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity8_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "armor_stand"
+                    }
+                }
+            },
+            "entity8_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:展望塔",
+                    "value": "印章:展望塔"
+                },
+                "NodeID": "entity8_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "印章:展望塔"
+                    }
+                }
+            },
+            "step9": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step9",
+                "Pos": [
+                    -200.0,
+                    150.0
+                ],
+                "Type": "SpawnEntityNode",
+                "VarData": {
+                    "input": {
+                        "des": [
+                            "entity9_name"
+                        ],
+                        "entityType": [
+                            "entity9_type"
+                        ],
+                        "pos": [
+                            "entity9_pos"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "entity9_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "-95 68 105",
+                    "value": "-95 68 105"
+                },
+                "NodeID": "entity9_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "-95 68 105"
+                    }
+                }
+            },
+            "entity9_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity9_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "armor_stand"
+                    }
+                }
+            },
+            "entity9_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:酒店",
+                    "value": "印章:酒店"
+                },
+                "NodeID": "entity9_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "印章:酒店"
+                    }
+                }
+            },
+            "step10": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step10",
+                "Pos": [
+                    -200.0,
+                    200.0
+                ],
+                "Type": "SpawnEntityNode",
+                "VarData": {
+                    "input": {
+                        "des": [
+                            "entity10_name"
+                        ],
+                        "entityType": [
+                            "entity10_type"
+                        ],
+                        "pos": [
+                            "entity10_pos"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "entity10_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "105 68 105",
+                    "value": "105 68 105"
+                },
+                "NodeID": "entity10_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "105 68 105"
+                    }
+                }
+            },
+            "entity10_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity10_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "armor_stand"
+                    }
+                }
+            },
+            "entity10_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:公寓",
+                    "value": "印章:公寓"
+                },
+                "NodeID": "entity10_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "印章:公寓"
+                    }
+                }
+            },
+            "step11": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step11",
+                "Pos": [
+                    -200.0,
+                    250.0
+                ],
+                "Type": "SpawnEntityNode",
+                "VarData": {
+                    "input": {
+                        "des": [
+                            "entity11_name"
+                        ],
+                        "entityType": [
+                            "entity11_type"
+                        ],
+                        "pos": [
+                            "entity11_pos"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "entity11_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "50 65 -30",
+                    "value": "50 65 -30"
+                },
+                "NodeID": "entity11_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "50 65 -30"
+                    }
+                }
+            },
+            "entity11_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity11_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "armor_stand"
+                    }
+                }
+            },
+            "entity11_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:樱花",
+                    "value": "印章:樱花"
+                },
+                "NodeID": "entity11_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "印章:樱花"
+                    }
+                }
+            },
+            "step12": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step12",
+                "Pos": [
+                    -200.0,
+                    300.0
+                ],
+                "Type": "SpawnEntityNode",
+                "VarData": {
+                    "input": {
+                        "des": [
+                            "entity12_name"
+                        ],
+                        "entityType": [
+                            "entity12_type"
+                        ],
+                        "pos": [
+                            "entity12_pos"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "entity12_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "-150 68 -50",
+                    "value": "-150 68 -50"
+                },
+                "NodeID": "entity12_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "-150 68 -50"
+                    }
+                }
+            },
+            "entity12_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity12_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "armor_stand"
+                    }
+                }
+            },
+            "entity12_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:神社",
+                    "value": "印章:神社"
+                },
+                "NodeID": "entity12_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "印章:神社"
+                    }
+                }
+            },
+            "step13": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step13",
+                "Pos": [
+                    -200.0,
+                    350.0
+                ],
+                "Type": "SayNode",
+                "VarData": {
+                    "input": {
+                        "msg": [
+                            "extra_msg1"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "extra_msg1": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "📮 12个涩谷印章已放置！",
+                    "value": "📮 12个涩谷印章已放置！"
+                },
+                "NodeID": "extra_msg1",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "📮 12个涩谷印章已放置！"
+                    }
+                }
+            },
+            "step14": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step14",
+                "Pos": [
+                    -200.0,
+                    400.0
+                ],
+                "Type": "SayNode",
+                "VarData": {
+                    "input": {
+                        "msg": [
+                            "extra_msg2"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "extra_msg2": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🏢109 🏪便利店 ☕咖啡厅 🍜拉面店 🎤卡拉OK",
+                    "value": "🏢109 🏪便利店 ☕咖啡厅 🍜拉面店 🎤卡拉OK"
+                },
+                "NodeID": "extra_msg2",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "🏢109 🏪便利店 ☕咖啡厅 🍜拉面店 🎤卡拉OK"
+                    }
+                }
+            },
+            "step15": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step15",
+                "Pos": [
+                    -200.0,
+                    450.0
+                ],
+                "Type": "SayNode",
+                "VarData": {
+                    "input": {
+                        "msg": [
+                            "extra_msg3"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "extra_msg3": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🚉涩谷站 🐕八公像 🗑展望塔 🏨酒店 🏠公寓 🌸樱花 🎌神社",
+                    "value": "🚉涩谷站 🐕八公像 🗑展望塔 🏨酒店 🏠公寓 🌸樱花 🎌神社"
+                },
+                "NodeID": "extra_msg3",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "🚉涩谷站 🐕八公像 🗑展望塔 🏨酒店 🏠公寓 🌸樱花 🎌神社"
+                    }
+                }
+            },
+            "output1": {
+                "Data": {
+                    "Type": "MacroOutput",
+                    "parameters": []
+                },
+                "NodeID": "output1",
+                "Pos": [
+                    -200.0,
+                    500.0
+                ],
+                "Type": "MacroOutput",
+                "VarData": {
+                    "input": {},
+                    "local": {}
+                }
+            }
+        },
+        "variableData": {
+            "120 68 -80": "120 68 -80",
+            "armor_stand": "armor_stand",
+            "印章:109大厦": "印章:109大厦",
+            "97 68 13": "97 68 13",
+            "印章:便利店": "印章:便利店",
+            "115 68 -65": "115 68 -65",
+            "印章:咖啡厅": "印章:咖啡厅",
+            "-125 68 65": "-125 68 65",
+            "印章:拉面店": "印章:拉面店",
+            "-155 68 -115": "-155 68 -115",
+            "印章:卡拉OK": "印章:卡拉OK",
+            "-70 68 5": "-70 68 5",
+            "印章:涩谷站": "印章:涩谷站",
+            "-65 65 15": "-65 65 15",
+            "印章:八公像": "印章:八公像",
+            "0 75 0": "0 75 0",
+            "印章:展望塔": "印章:展望塔",
+            "-95 68 105": "-95 68 105",
+            "印章:酒店": "印章:酒店",
+            "105 68 105": "105 68 105",
+            "印章:公寓": "印章:公寓",
+            "50 65 -30": "50 65 -30",
+            "印章:樱花": "印章:樱花",
+            "-150 68 -50": "-150 68 -50",
+            "印章:神社": "印章:神社",
+            "📮 12个涩谷印章已放置！": "📮 12个涩谷印章已放置！",
+            "🏢109 🏪便利店 ☕咖啡厅 🍜拉面店 🎤卡拉OK": "🏢109 🏪便利店 ☕咖啡厅 🍜拉面店 🎤卡拉OK",
+            "🚉涩谷站 🐕八公像 🗑展望塔 🏨酒店 🏠公寓 🌸樱花 🎌神社": "🚉涩谷站 🐕八公像 🗑展望塔 🏨酒店 🏠公寓 🌸樱花 🎌神社"
+        },
+        "saveTimes": 1,
+        "version": 3.0
+    },
+    "Storyline": {
+        "groupData": {},
+        "lineData": [
+            {
+                "endNode": "step1",
+                "endPort": "__in__",
+                "startNode": "input1",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity1_pos",
+                "endPort": "__out__",
+                "startNode": "step1",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity1_type",
+                "endPort": "__out__",
+                "startNode": "step1",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity1_name",
+                "endPort": "__out__",
+                "startNode": "step1",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step2",
+                "endPort": "__in__",
+                "startNode": "entity1_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity2_pos",
+                "endPort": "__out__",
+                "startNode": "step2",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity2_type",
+                "endPort": "__out__",
+                "startNode": "step2",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity2_name",
+                "endPort": "__out__",
+                "startNode": "step2",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step3",
+                "endPort": "__in__",
+                "startNode": "entity2_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity3_pos",
+                "endPort": "__out__",
+                "startNode": "step3",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity3_type",
+                "endPort": "__out__",
+                "startNode": "step3",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity3_name",
+                "endPort": "__out__",
+                "startNode": "step3",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step4",
+                "endPort": "__in__",
+                "startNode": "entity3_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity4_pos",
+                "endPort": "__out__",
+                "startNode": "step4",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity4_type",
+                "endPort": "__out__",
+                "startNode": "step4",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity4_name",
+                "endPort": "__out__",
+                "startNode": "step4",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step5",
+                "endPort": "__in__",
+                "startNode": "entity4_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity5_pos",
+                "endPort": "__out__",
+                "startNode": "step5",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity5_type",
+                "endPort": "__out__",
+                "startNode": "step5",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity5_name",
+                "endPort": "__out__",
+                "startNode": "step5",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step6",
+                "endPort": "__in__",
+                "startNode": "entity5_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity6_pos",
+                "endPort": "__out__",
+                "startNode": "step6",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity6_type",
+                "endPort": "__out__",
+                "startNode": "step6",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity6_name",
+                "endPort": "__out__",
+                "startNode": "step6",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step7",
+                "endPort": "__in__",
+                "startNode": "entity6_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity7_pos",
+                "endPort": "__out__",
+                "startNode": "step7",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity7_type",
+                "endPort": "__out__",
+                "startNode": "step7",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity7_name",
+                "endPort": "__out__",
+                "startNode": "step7",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step8",
+                "endPort": "__in__",
+                "startNode": "entity7_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity8_pos",
+                "endPort": "__out__",
+                "startNode": "step8",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity8_type",
+                "endPort": "__out__",
+                "startNode": "step8",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity8_name",
+                "endPort": "__out__",
+                "startNode": "step8",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step9",
+                "endPort": "__in__",
+                "startNode": "entity8_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity9_pos",
+                "endPort": "__out__",
+                "startNode": "step9",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity9_type",
+                "endPort": "__out__",
+                "startNode": "step9",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity9_name",
+                "endPort": "__out__",
+                "startNode": "step9",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step10",
+                "endPort": "__in__",
+                "startNode": "entity9_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity10_pos",
+                "endPort": "__out__",
+                "startNode": "step10",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity10_type",
+                "endPort": "__out__",
+                "startNode": "step10",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity10_name",
+                "endPort": "__out__",
+                "startNode": "step10",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step11",
+                "endPort": "__in__",
+                "startNode": "entity10_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity11_pos",
+                "endPort": "__out__",
+                "startNode": "step11",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity11_type",
+                "endPort": "__out__",
+                "startNode": "step11",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity11_name",
+                "endPort": "__out__",
+                "startNode": "step11",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step12",
+                "endPort": "__in__",
+                "startNode": "entity11_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "entity12_pos",
+                "endPort": "__out__",
+                "startNode": "step12",
+                "startPort": "pos"
+            },
+            {
+                "endNode": "entity12_type",
+                "endPort": "__out__",
+                "startNode": "step12",
+                "startPort": "entityType"
+            },
+            {
+                "endNode": "entity12_name",
+                "endPort": "__out__",
+                "startNode": "step12",
+                "startPort": "des"
+            },
+            {
+                "endNode": "step13",
+                "endPort": "__in__",
+                "startNode": "entity12_name",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "extra_msg1",
+                "endPort": "__out__",
+                "startNode": "step13",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step14",
+                "endPort": "__in__",
+                "startNode": "extra_msg1",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "extra_msg2",
+                "endPort": "__out__",
+                "startNode": "step14",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step15",
+                "endPort": "__in__",
+                "startNode": "extra_msg2",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "extra_msg3",
+                "endPort": "__out__",
+                "startNode": "step15",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "output1",
+                "endPort": "__in__",
+                "startNode": "extra_msg3",
+                "startPort": "__out__"
+            }
+        ],
+        "nodeData": {
+            "input1": {
+                "Data": {
+                    "Type": "MacroInput",
+                    "desc": "",
+                    "parameters": [],
+                    "title": ""
+                },
+                "NodeID": "input1",
+                "Pos": [
+                    -200.0,
+                    -300.0
+                ],
+                "Type": "MacroInput"
+            },
+            "step1": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step1",
+                "Pos": [
+                    -200.0,
+                    -250.0
+                ],
+                "Type": "SpawnEntityNode"
+            },
+            "entity1_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "120 68 -80",
+                    "value": "120 68 -80"
+                },
+                "NodeID": "entity1_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity1_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity1_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity1_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:109大厦",
+                    "value": "印章:109大厦"
+                },
+                "NodeID": "entity1_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step2": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step2",
+                "Pos": [
+                    -200.0,
+                    -200.0
+                ],
+                "Type": "SpawnEntityNode"
+            },
+            "entity2_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "97 68 13",
+                    "value": "97 68 13"
+                },
+                "NodeID": "entity2_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity2_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity2_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity2_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:便利店",
+                    "value": "印章:便利店"
+                },
+                "NodeID": "entity2_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step3": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step3",
+                "Pos": [
+                    -200.0,
+                    -150.0
+                ],
+                "Type": "SpawnEntityNode"
+            },
+            "entity3_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "115 68 -65",
+                    "value": "115 68 -65"
+                },
+                "NodeID": "entity3_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity3_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity3_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity3_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:咖啡厅",
+                    "value": "印章:咖啡厅"
+                },
+                "NodeID": "entity3_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step4": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step4",
+                "Pos": [
+                    -200.0,
+                    -100.0
+                ],
+                "Type": "SpawnEntityNode"
+            },
+            "entity4_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "-125 68 65",
+                    "value": "-125 68 65"
+                },
+                "NodeID": "entity4_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity4_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity4_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity4_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:拉面店",
+                    "value": "印章:拉面店"
+                },
+                "NodeID": "entity4_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step5": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step5",
+                "Pos": [
+                    -200.0,
+                    -50.0
+                ],
+                "Type": "SpawnEntityNode"
+            },
+            "entity5_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "-155 68 -115",
+                    "value": "-155 68 -115"
+                },
+                "NodeID": "entity5_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity5_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity5_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity5_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:卡拉OK",
+                    "value": "印章:卡拉OK"
+                },
+                "NodeID": "entity5_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step6": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step6",
+                "Pos": [
+                    -200.0,
+                    0.0
+                ],
+                "Type": "SpawnEntityNode"
+            },
+            "entity6_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "-70 68 5",
+                    "value": "-70 68 5"
+                },
+                "NodeID": "entity6_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity6_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity6_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity6_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:涩谷站",
+                    "value": "印章:涩谷站"
+                },
+                "NodeID": "entity6_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step7": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step7",
+                "Pos": [
+                    -200.0,
+                    50.0
+                ],
+                "Type": "SpawnEntityNode"
+            },
+            "entity7_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "-65 65 15",
+                    "value": "-65 65 15"
+                },
+                "NodeID": "entity7_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity7_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity7_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity7_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:八公像",
+                    "value": "印章:八公像"
+                },
+                "NodeID": "entity7_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step8": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step8",
+                "Pos": [
+                    -200.0,
+                    100.0
+                ],
+                "Type": "SpawnEntityNode"
+            },
+            "entity8_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "0 75 0",
+                    "value": "0 75 0"
+                },
+                "NodeID": "entity8_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity8_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity8_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity8_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:展望塔",
+                    "value": "印章:展望塔"
+                },
+                "NodeID": "entity8_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step9": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step9",
+                "Pos": [
+                    -200.0,
+                    150.0
+                ],
+                "Type": "SpawnEntityNode"
+            },
+            "entity9_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "-95 68 105",
+                    "value": "-95 68 105"
+                },
+                "NodeID": "entity9_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity9_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity9_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity9_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:酒店",
+                    "value": "印章:酒店"
+                },
+                "NodeID": "entity9_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step10": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step10",
+                "Pos": [
+                    -200.0,
+                    200.0
+                ],
+                "Type": "SpawnEntityNode"
+            },
+            "entity10_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "105 68 105",
+                    "value": "105 68 105"
+                },
+                "NodeID": "entity10_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity10_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity10_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity10_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:公寓",
+                    "value": "印章:公寓"
+                },
+                "NodeID": "entity10_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step11": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step11",
+                "Pos": [
+                    -200.0,
+                    250.0
+                ],
+                "Type": "SpawnEntityNode"
+            },
+            "entity11_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "50 65 -30",
+                    "value": "50 65 -30"
+                },
+                "NodeID": "entity11_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity11_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity11_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity11_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:樱花",
+                    "value": "印章:樱花"
+                },
+                "NodeID": "entity11_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step12": {
+                "Data": {
+                    "Type": "SpawnEntityNode"
+                },
+                "NodeID": "step12",
+                "Pos": [
+                    -200.0,
+                    300.0
+                ],
+                "Type": "SpawnEntityNode"
+            },
+            "entity12_pos": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "pos",
+                    "parameterStyle": "Input",
+                    "parameterText": "-150 68 -50",
+                    "value": "-150 68 -50"
+                },
+                "NodeID": "entity12_pos",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity12_type": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "entityType",
+                    "parameterStyle": "Input",
+                    "parameterText": "armor_stand",
+                    "value": "armor_stand"
+                },
+                "NodeID": "entity12_type",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "entity12_name": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "des",
+                    "parameterStyle": "Input",
+                    "parameterText": "印章:神社",
+                    "value": "印章:神社"
+                },
+                "NodeID": "entity12_name",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step13": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step13",
+                "Pos": [
+                    -200.0,
+                    350.0
+                ],
+                "Type": "SayNode"
+            },
+            "extra_msg1": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "📮 12个涩谷印章已放置！",
+                    "value": "📮 12个涩谷印章已放置！"
+                },
+                "NodeID": "extra_msg1",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step14": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step14",
+                "Pos": [
+                    -200.0,
+                    400.0
+                ],
+                "Type": "SayNode"
+            },
+            "extra_msg2": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🏢109 🏪便利店 ☕咖啡厅 🍜拉面店 🎤卡拉OK",
+                    "value": "🏢109 🏪便利店 ☕咖啡厅 🍜拉面店 🎤卡拉OK"
+                },
+                "NodeID": "extra_msg2",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step15": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step15",
+                "Pos": [
+                    -200.0,
+                    450.0
+                ],
+                "Type": "SayNode"
+            },
+            "extra_msg3": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🚉涩谷站 🐕八公像 🗑展望塔 🏨酒店 🏠公寓 🌸樱花 🎌神社",
+                    "value": "🚉涩谷站 🐕八公像 🗑展望塔 🏨酒店 🏠公寓 🌸樱花 🎌神社"
+                },
+                "NodeID": "extra_msg3",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "output1": {
+                "Data": {
+                    "Type": "MacroOutput",
+                    "parameters": []
+                },
+                "NodeID": "output1",
+                "Pos": [
+                    -200.0,
+                    500.0
+                ],
+                "Type": "MacroOutput"
+            }
+        },
+        "version": 3.0
+    },
+    "Type": "Macro",
+    "Version": 1.0
+}

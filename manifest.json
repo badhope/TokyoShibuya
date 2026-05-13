@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "涩谷城市地图 - 东京涩谷完整城市体验",
-        "name": "ShibuyaCityMap",
-        "uuid": "fdc938a6-258f-4b63-a100-fae1360f9826",
-        "version": [1, 0, 0],
+        "description": "东京涩谷 - 高度还原的涩谷城市地图 | 网易MC Studio基岩版",
+        "name": "TokyoShibuya",
+        "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
+        "version": [2, 0, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 - 包含建筑、地标、交通、餐饮等系统",
+            "description": "涩谷城市数据包 - 22个功能模块，包含建筑、地标、NPC、任务、经济、交通、天气等完整系统",
             "type": "data",
-            "uuid": "be8eead9-abac-4588-a3ef-f46857805416",
-            "version": [1, 0, 0]
+            "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
+            "version": [2, 0, 0]
         }
     ],
     "dependencies": []

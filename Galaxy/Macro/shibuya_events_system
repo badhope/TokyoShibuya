@@ -1,0 +1,734 @@
+{
+    "Prefabs": {},
+    "StoryTeller": {
+        "groupData": {},
+        "layoutPanels": 0,
+        "lineData": [
+            {
+                "endNode": "step1",
+                "endPort": "__in__",
+                "startNode": "input1",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg1",
+                "endPort": "__out__",
+                "startNode": "step1",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step2",
+                "endPort": "__in__",
+                "startNode": "msg1",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg2",
+                "endPort": "__out__",
+                "startNode": "step2",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step3",
+                "endPort": "__in__",
+                "startNode": "msg2",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg3",
+                "endPort": "__out__",
+                "startNode": "step3",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step4",
+                "endPort": "__in__",
+                "startNode": "msg3",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg4",
+                "endPort": "__out__",
+                "startNode": "step4",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step5",
+                "endPort": "__in__",
+                "startNode": "msg4",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg5",
+                "endPort": "__out__",
+                "startNode": "step5",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step6",
+                "endPort": "__in__",
+                "startNode": "msg5",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg6",
+                "endPort": "__out__",
+                "startNode": "step6",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step7",
+                "endPort": "__in__",
+                "startNode": "msg6",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg7",
+                "endPort": "__out__",
+                "startNode": "step7",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "output1",
+                "endPort": "__in__",
+                "startNode": "msg7",
+                "startPort": "__out__"
+            }
+        ],
+        "nodeData": {
+            "input1": {
+                "Data": {
+                    "Type": "MacroInput",
+                    "desc": "",
+                    "parameters": [],
+                    "title": ""
+                },
+                "NodeID": "input1",
+                "Pos": [
+                    -200.0,
+                    -300.0
+                ],
+                "Type": "MacroInput",
+                "VarData": {
+                    "input": {},
+                    "local": {}
+                }
+            },
+            "step1": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step1",
+                "Pos": [
+                    -200.0,
+                    -250.0
+                ],
+                "Type": "SayNode",
+                "VarData": {
+                    "input": {
+                        "msg": [
+                            "msg1"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "msg1": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🎪 涩谷活动系统",
+                    "value": "🎪 涩谷活动系统"
+                },
+                "NodeID": "msg1",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "🎪 涩谷活动系统"
+                    }
+                }
+            },
+            "step2": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step2",
+                "Pos": [
+                    -200.0,
+                    -200.0
+                ],
+                "Type": "SayNode",
+                "VarData": {
+                    "input": {
+                        "msg": [
+                            "msg2"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "msg2": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🌸 樱花祭(第1-7天) - 粉色装饰/8折优惠",
+                    "value": "🌸 樱花祭(第1-7天) - 粉色装饰/8折优惠"
+                },
+                "NodeID": "msg2",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "🌸 樱花祭(第1-7天) - 粉色装饰/8折优惠"
+                    }
+                }
+            },
+            "step3": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step3",
+                "Pos": [
+                    -200.0,
+                    -150.0
+                ],
+                "Type": "SayNode",
+                "VarData": {
+                    "input": {
+                        "msg": [
+                            "msg3"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "msg3": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🎆 夏日祭(第8-14天) - 灯笼/烟花/浴衣",
+                    "value": "🎆 夏日祭(第8-14天) - 灯笼/烟花/浴衣"
+                },
+                "NodeID": "msg3",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "🎆 夏日祭(第8-14天) - 灯笼/烟花/浴衣"
+                    }
+                }
+            },
+            "step4": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step4",
+                "Pos": [
+                    -200.0,
+                    -100.0
+                ],
+                "Type": "SayNode",
+                "VarData": {
+                    "input": {
+                        "msg": [
+                            "msg4"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "msg4": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🍂 秋叶祭(第15-21天) - 丰收/拉面大胃王",
+                    "value": "🍂 秋叶祭(第15-21天) - 丰收/拉面大胃王"
+                },
+                "NodeID": "msg4",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "🍂 秋叶祭(第15-21天) - 丰收/拉面大胃王"
+                    }
+                }
+            },
+            "step5": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step5",
+                "Pos": [
+                    -200.0,
+                    -50.0
+                ],
+                "Type": "SayNode",
+                "VarData": {
+                    "input": {
+                        "msg": [
+                            "msg5"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "msg5": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "💡 灯光节(第22-28天) - 灯光秀/热巧克力",
+                    "value": "💡 灯光节(第22-28天) - 灯光秀/热巧克力"
+                },
+                "NodeID": "msg5",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "💡 灯光节(第22-28天) - 灯光秀/热巧克力"
+                    }
+                }
+            },
+            "step6": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step6",
+                "Pos": [
+                    -200.0,
+                    0.0
+                ],
+                "Type": "SayNode",
+                "VarData": {
+                    "input": {
+                        "msg": [
+                            "msg6"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "msg6": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🎌 新年(第29-30天) - 红包¥5000/参拜神社",
+                    "value": "🎌 新年(第29-30天) - 红包¥5000/参拜神社"
+                },
+                "NodeID": "msg6",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "🎌 新年(第29-30天) - 红包¥5000/参拜神社"
+                    }
+                }
+            },
+            "step7": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step7",
+                "Pos": [
+                    -200.0,
+                    50.0
+                ],
+                "Type": "SayNode",
+                "VarData": {
+                    "input": {
+                        "msg": [
+                            "msg7"
+                        ]
+                    },
+                    "local": {}
+                }
+            },
+            "msg7": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🎲 随机事件：街头派送/音乐会/限时折扣",
+                    "value": "🎲 随机事件：街头派送/音乐会/限时折扣"
+                },
+                "NodeID": "msg7",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter",
+                "VarData": {
+                    "input": {},
+                    "local": {
+                        "__out__": "🎲 随机事件：街头派送/音乐会/限时折扣"
+                    }
+                }
+            },
+            "output1": {
+                "Data": {
+                    "Type": "MacroOutput",
+                    "parameters": []
+                },
+                "NodeID": "output1",
+                "Pos": [
+                    -200.0,
+                    100.0
+                ],
+                "Type": "MacroOutput",
+                "VarData": {
+                    "input": {},
+                    "local": {}
+                }
+            }
+        },
+        "variableData": {
+            "🎪 涩谷活动系统": "🎪 涩谷活动系统",
+            "🌸 樱花祭(第1-7天) - 粉色装饰/8折优惠": "🌸 樱花祭(第1-7天) - 粉色装饰/8折优惠",
+            "🎆 夏日祭(第8-14天) - 灯笼/烟花/浴衣": "🎆 夏日祭(第8-14天) - 灯笼/烟花/浴衣",
+            "🍂 秋叶祭(第15-21天) - 丰收/拉面大胃王": "🍂 秋叶祭(第15-21天) - 丰收/拉面大胃王",
+            "💡 灯光节(第22-28天) - 灯光秀/热巧克力": "💡 灯光节(第22-28天) - 灯光秀/热巧克力",
+            "🎌 新年(第29-30天) - 红包¥5000/参拜神社": "🎌 新年(第29-30天) - 红包¥5000/参拜神社",
+            "🎲 随机事件：街头派送/音乐会/限时折扣": "🎲 随机事件：街头派送/音乐会/限时折扣"
+        },
+        "saveTimes": 1,
+        "version": 3.0
+    },
+    "Storyline": {
+        "groupData": {},
+        "lineData": [
+            {
+                "endNode": "step1",
+                "endPort": "__in__",
+                "startNode": "input1",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg1",
+                "endPort": "__out__",
+                "startNode": "step1",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step2",
+                "endPort": "__in__",
+                "startNode": "msg1",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg2",
+                "endPort": "__out__",
+                "startNode": "step2",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step3",
+                "endPort": "__in__",
+                "startNode": "msg2",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg3",
+                "endPort": "__out__",
+                "startNode": "step3",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step4",
+                "endPort": "__in__",
+                "startNode": "msg3",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg4",
+                "endPort": "__out__",
+                "startNode": "step4",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step5",
+                "endPort": "__in__",
+                "startNode": "msg4",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg5",
+                "endPort": "__out__",
+                "startNode": "step5",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step6",
+                "endPort": "__in__",
+                "startNode": "msg5",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg6",
+                "endPort": "__out__",
+                "startNode": "step6",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "step7",
+                "endPort": "__in__",
+                "startNode": "msg6",
+                "startPort": "__out__"
+            },
+            {
+                "endNode": "msg7",
+                "endPort": "__out__",
+                "startNode": "step7",
+                "startPort": "msg"
+            },
+            {
+                "endNode": "output1",
+                "endPort": "__in__",
+                "startNode": "msg7",
+                "startPort": "__out__"
+            }
+        ],
+        "nodeData": {
+            "input1": {
+                "Data": {
+                    "Type": "MacroInput",
+                    "desc": "",
+                    "parameters": [],
+                    "title": ""
+                },
+                "NodeID": "input1",
+                "Pos": [
+                    -200.0,
+                    -300.0
+                ],
+                "Type": "MacroInput"
+            },
+            "step1": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step1",
+                "Pos": [
+                    -200.0,
+                    -250.0
+                ],
+                "Type": "SayNode"
+            },
+            "msg1": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🎪 涩谷活动系统",
+                    "value": "🎪 涩谷活动系统"
+                },
+                "NodeID": "msg1",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step2": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step2",
+                "Pos": [
+                    -200.0,
+                    -200.0
+                ],
+                "Type": "SayNode"
+            },
+            "msg2": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🌸 樱花祭(第1-7天) - 粉色装饰/8折优惠",
+                    "value": "🌸 樱花祭(第1-7天) - 粉色装饰/8折优惠"
+                },
+                "NodeID": "msg2",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step3": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step3",
+                "Pos": [
+                    -200.0,
+                    -150.0
+                ],
+                "Type": "SayNode"
+            },
+            "msg3": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🎆 夏日祭(第8-14天) - 灯笼/烟花/浴衣",
+                    "value": "🎆 夏日祭(第8-14天) - 灯笼/烟花/浴衣"
+                },
+                "NodeID": "msg3",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step4": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step4",
+                "Pos": [
+                    -200.0,
+                    -100.0
+                ],
+                "Type": "SayNode"
+            },
+            "msg4": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🍂 秋叶祭(第15-21天) - 丰收/拉面大胃王",
+                    "value": "🍂 秋叶祭(第15-21天) - 丰收/拉面大胃王"
+                },
+                "NodeID": "msg4",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step5": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step5",
+                "Pos": [
+                    -200.0,
+                    -50.0
+                ],
+                "Type": "SayNode"
+            },
+            "msg5": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "💡 灯光节(第22-28天) - 灯光秀/热巧克力",
+                    "value": "💡 灯光节(第22-28天) - 灯光秀/热巧克力"
+                },
+                "NodeID": "msg5",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step6": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step6",
+                "Pos": [
+                    -200.0,
+                    0.0
+                ],
+                "Type": "SayNode"
+            },
+            "msg6": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🎌 新年(第29-30天) - 红包¥5000/参拜神社",
+                    "value": "🎌 新年(第29-30天) - 红包¥5000/参拜神社"
+                },
+                "NodeID": "msg6",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "step7": {
+                "Data": {
+                    "Type": "SayNode"
+                },
+                "NodeID": "step7",
+                "Pos": [
+                    -200.0,
+                    50.0
+                ],
+                "Type": "SayNode"
+            },
+            "msg7": {
+                "Data": {
+                    "Type": "StrParameter",
+                    "parameterName": "msg",
+                    "parameterStyle": "Input",
+                    "parameterText": "🎲 随机事件：街头派送/音乐会/限时折扣",
+                    "value": "🎲 随机事件：街头派送/音乐会/限时折扣"
+                },
+                "NodeID": "msg7",
+                "Pos": [
+                    0.0,
+                    0.0
+                ],
+                "Type": "StrParameter"
+            },
+            "output1": {
+                "Data": {
+                    "Type": "MacroOutput",
+                    "parameters": []
+                },
+                "NodeID": "output1",
+                "Pos": [
+                    -200.0,
+                    100.0
+                ],
+                "Type": "MacroOutput"
+            }
+        },
+        "version": 3.0
+    },
+    "Type": "Macro",
+    "Version": 1.0
+}

@@ -1,0 +1,1 @@
+title @a actionbar {"rawtext":[{"text":"§7第"},{"score":{"name":"#time","objective":"day_shibuya"}},{"text":"§7天 | §6¥"},{"score":{"name":"*","objective":"money_shibuya"}},{"text":" §7| 🏢职业 | ☀️天气 | 📮印章"},{"score":{"name":"*","objective":"stamp_shibuya"}},{"text":"§7/12"}]}

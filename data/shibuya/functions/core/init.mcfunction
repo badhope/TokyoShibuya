@@ -1,0 +1,28 @@
+kill @e[type=villager,name=涩谷*]
+setworldspawn 0 68 0
+time set 1000
+weather clear
+scoreboard players set @a shop_109 1
+scoreboard players set @a shop_store 1
+scoreboard players set @a shop_cafe 1
+scoreboard players set @a shop_ramen 1
+scoreboard players set @a shop_karaoke 1
+scoreboard players set @a money_shibuya 1000
+scoreboard players set @a job_shibuya 0
+scoreboard players set @a weather_shibuya 0
+scoreboard players set @a day_shibuya 1
+scoreboard players set @a rep_shibuya 50
+scoreboard players set @a time_shibuya 0
+scoreboard players set @a quest_shibuya 0
+scoreboard players set @a collect_shibuya 0
+scoreboard players set @a salary_shibuya 0
+scoreboard players set @a stamp_shibuya 0
+scoreboard players set @a event_shibuya 0
+scoreboard players set @a district_shibuya 0
+scoreboard players set @a map_shibuya 1
+clear @a
+give @a clock 1
+give @a compass 1
+title @a title {"rawtext":[{"text":"§6涩谷城市模拟"}]}
+title @a subtitle {"rawtext":[{"text":"§e欢迎来到涩谷"}]}
+tellraw @a {"rawtext":[{"text":"§a游戏已初始化！祝你旅途愉快！"}]}

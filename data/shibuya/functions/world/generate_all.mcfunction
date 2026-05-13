@@ -1,0 +1,4 @@
+function shibuya:world/generate_ground
+function shibuya:world/generate_streets
+function shibuya:world/generate_crossing
+function shibuya:world/generate_districts

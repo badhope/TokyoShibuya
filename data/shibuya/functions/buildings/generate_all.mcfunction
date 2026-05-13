@@ -1,0 +1,11 @@
+function shibuya:buildings/commercial/shibuya_109
+function shibuya:buildings/commercial/convenience_store
+function shibuya:buildings/commercial/cafe
+function shibuya:buildings/commercial/ramen_shop
+function shibuya:buildings/transport/station
+function shibuya:buildings/transport/bus_stop
+function shibuya:buildings/residential/apartment
+function shibuya:buildings/residential/hotel
+function shibuya:buildings/entertainment/karaoke
+function shibuya:buildings/landmark/hachiko
+function shibuya:buildings/landmark/crossing_tower
