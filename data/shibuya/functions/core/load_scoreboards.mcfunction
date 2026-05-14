@@ -64,3 +64,15 @@ scoreboard objectives add gen_progress dummy
 scoreboard objectives add stamp_reward_3 dummy
 scoreboard objectives add stamp_reward_5 dummy
 scoreboard objectives add stamp_reward_10 dummy
+# === v3.8.0 NPC好感度计分板 ===
+scoreboard objectives add rel_guide dummy
+scoreboard objectives add rel_store dummy
+scoreboard objectives add rel_barista dummy
+scoreboard objectives add rel_chef dummy
+scoreboard objectives add rel_station dummy
+scoreboard objectives add rel_karaoke dummy
+scoreboard objectives add rel_tourist1 dummy
+scoreboard objectives add rel_tourist2 dummy
+scoreboard objectives add rel_worker dummy
+scoreboard objectives add rel_student dummy
+scoreboard objectives add gift_sweets_count dummy
