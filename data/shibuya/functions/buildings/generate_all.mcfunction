@@ -55,8 +55,9 @@ function shibuya:buildings/entertainment/karaoke_interior
 tellraw @a {"rawtext":[{"text":"§7[19/23] 酒店+内部..."}]}
 function shibuya:buildings/residential/hotel
 function shibuya:buildings/residential/hotel_interior
-tellraw @a {"rawtext":[{"text":"§7[20/23] 公寓..."}]}
+tellraw @a {"rawtext":[{"text":"§7[20/23] 公寓+内部..."}]}
 function shibuya:buildings/residential/apartment
+function shibuya:buildings/residential/apartment_interior
 tellraw @a {"rawtext":[{"text":"§7[21/23] 公交站..."}]}
 function shibuya:buildings/transport/bus_stop
 tellraw @a {"rawtext":[{"text":"§7[22/23] 基础设施..."}]}

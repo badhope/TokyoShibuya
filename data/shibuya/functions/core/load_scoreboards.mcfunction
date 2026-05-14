@@ -99,3 +99,15 @@ scoreboard objectives add save_slot_1_rel_guide dummy
 scoreboard objectives add save_slot_1_rel_barista dummy
 scoreboard objectives add save_slot_1_rel_chef dummy
 scoreboard objectives add auto_save_done dummy
+# === v5.0.0 经济/收藏/迷你游戏/社交系统计分板 ===
+scoreboard objectives add score_electronic dummy
+scoreboard objectives add score_points dummy
+scoreboard objectives add member_level dummy
+scoreboard objectives add collect_food dummy
+scoreboard objectives add collect_fashion dummy
+scoreboard objectives add collect_souvenir dummy
+scoreboard objectives add collect_photo dummy
+scoreboard objectives add collect_music dummy
+scoreboard objectives add minigame_best dummy
+scoreboard objectives add friend_count dummy
+scoreboard objectives add social_rating dummy

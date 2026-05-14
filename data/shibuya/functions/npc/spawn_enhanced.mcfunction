@@ -47,3 +47,7 @@ summon villager 27 65 157 {CustomName:"约会女",Profession:2}
 
 # 生成提示
 tellraw @a {"rawtext":[{"text":"§a30个增强NPC已生成！§r\n§e- 上班族在涩谷站\n§e- 学生在109周围\n§e- 游客在八公像\n§e- 街头艺人在中心街\n§e- 老人在公园\n§e- 情侣在浪漫地点"}]}
+
+# ===== 调用扩展AI行为系统 =====
+function shibuya:npc/ai/crowd_behavior
+function shibuya:npc/ai/tourist_behavior
