@@ -129,12 +129,12 @@ tellraw @s {"rawtext":[{"text":"§f[10] 涩谷交响 §7(终极收藏) §c[未�
 # =====================
 # 收藏进度总览
 # =====================
-scoreboard players set @s collect_total collect_shibuya 0
-scoreboard players operation @s collect_total collect_shibuya += @s collect_food
-scoreboard players operation @s collect_total collect_shibuya += @s collect_fashion
-scoreboard players operation @s collect_total collect_shibuya += @s collect_souvenir
-scoreboard players operation @s collect_total collect_shibuya += @s collect_photo
-scoreboard players operation @s collect_total collect_shibuya += @s collect_music
+scoreboard players set @s collect_total 0
+scoreboard players operation @s collect_total += @s collect_food
+scoreboard players operation @s collect_total += @s collect_fashion
+scoreboard players operation @s collect_total += @s collect_souvenir
+scoreboard players operation @s collect_total += @s collect_photo
+scoreboard players operation @s collect_total += @s collect_music
 
 tellraw @s {"rawtext":[{"text":"\n§6§l===== 收藏总进度 ====="}]}
 tellraw @s {"rawtext":[{"text":"§e总收集: "},{"score":{"name":"@s","objective":"collect_total"}},{"text":" / 70"}]}
