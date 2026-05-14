@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 - 完整城市还原系统 v3.9 | 23栋建筑+8大节日活动+节日奖励收集 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v4.0 | 23栋地标+夜景灯光+8大节日+NPC好感度+商店互动+拍照打卡+探索任务 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [3, 9, 0],
+        "version": [4, 0, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v3.9.0 - 23栋建筑/夜景灯光/商店互动/NPC好感度/8大节日活动/300+函数文件 | 一键生成完整涩谷",
+            "description": "涩谷城市数据包 v4.0.0 - 23栋建筑/夜景灯光/城市音效/商店互动/NPC好感度/8大节日/拍照打卡/探索任务/303+函数文件 | 一键生成完整涩谷",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [3, 9, 0]
+            "version": [4, 0, 0]
         }
     ],
     "dependencies": []
