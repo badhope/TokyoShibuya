@@ -64,4 +64,12 @@ tellraw @a {"rawtext":[{"text":"§7[22/23] 基础设施..."}]}
 function shibuya:world/infrastructure/generate_all
 tellraw @a {"rawtext":[{"text":"§7[23/23] 四季装饰..."}]}
 function shibuya:events/seasonal/generate_all
-tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市生成完毕！(23栋建筑+全部内部+基础设施+四季装饰)"}]}
+tellraw @a {"rawtext":[{"text":"§7[24/27] 建筑外部细节..."}]}
+function shibuya:buildings/details/generate_all
+tellraw @a {"rawtext":[{"text":"§7[25/27] 建筑互动系统..."}]}
+function shibuya:buildings/interactive/generate_all
+tellraw @a {"rawtext":[{"text":"§7[26/27] 粒子效果系统..."}]}
+function shibuya:systems/particles/generate_all
+tellraw @a {"rawtext":[{"text":"§7[27/27] 彩蛋系统..."}]}
+function shibuya:easter_eggs/generate_all
+tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市生成完毕！(23栋建筑+全部内部+细节增强+互动系统+彩蛋)"}]}

@@ -1,4 +1,4 @@
-# === 涩谷Tick主循环 v3.6.0 ===
+# === 涩谷Tick主循环 v5.1.0 ===
 function shibuya:time/tick
 function shibuya:npc/ai_tick
 function shibuya:quests/check
@@ -11,3 +11,7 @@ function shibuya:collectibles/check
 function shibuya:systems/lighting/tick
 function shibuya:systems/sound/tick
 function shibuya:weather/effects_tick
+# === v5.1.0 新增系统 ===
+function shibuya:npc/ai/schedule_system
+function shibuya:systems/sound/ambient_details
+function shibuya:ui/notifications
