@@ -180,14 +180,43 @@ tellraw @a {"rawtext":[{"text":"§7[56/67] 诊所+理发店..."}]}
 function shibuya:buildings/public/clinic
 function shibuya:buildings/commercial/barbershop
 
+# === 第四批：v5.4新增10栋建筑 ===
+# --- 神社 ---
+tellraw @a {"rawtext":[{"text":"§7[62/77] 涩谷神社+内部..."}]}
+function shibuya:buildings/landmark/shibuya_shrine
+function shibuya:buildings/landmark/shibuya_shrine_interior
+tellraw @a {"rawtext":[{"text":"§7[63/77] 金王八幡宫+内部..."}]}
+function shibuya:buildings/landmark/konno_hachimangu
+function shibuya:buildings/landmark/konno_hachimangu_interior
+# --- 文化/商业地标 ---
+tellraw @a {"rawtext":[{"text":"§7[64/77] 东急Hands+内部..."}]}
+function shibuya:buildings/commercial/tokyu_hands
+function shibuya:buildings/commercial/tokyu_hands_interior
+tellraw @a {"rawtext":[{"text":"§7[65/77] Bunkamura文化村+内部..."}]}
+function shibuya:buildings/landmark/bunkamura
+function shibuya:buildings/landmark/bunkamura_interior
+tellraw @a {"rawtext":[{"text":"§7[66/77] 涩谷区役所+内部..."}]}
+function shibuya:buildings/public/city_hall
+function shibuya:buildings/public/city_hall_interior
+# --- 街道/公园 ---
+tellraw @a {"rawtext":[{"text":"§7[67/77] Center Gai中心街..."}]}
+function shibuya:world/streets/center_gai
+tellraw @a {"rawtext":[{"text":"§7[68/77] 宫下公园南馆+内部..."}]}
+function shibuya:buildings/landmark/miyashita_park_south
+function shibuya:buildings/landmark/miyashita_park_south_interior
+tellraw @a {"rawtext":[{"text":"§7[69/77] 南口广场..."}]}
+function shibuya:world/streets/south_plaza
+tellraw @a {"rawtext":[{"text":"§7[70/77] 道玄坂坂道..."}]}
+function shibuya:world/streets/dogenzaka_slope
+
 # === 细节系统 ===
-tellraw @a {"rawtext":[{"text":"§7[57/67] 建筑外部细节..."}]}
+tellraw @a {"rawtext":[{"text":"§7[71/77] 建筑外部细节..."}]}
 function shibuya:buildings/details/generate_all
-tellraw @a {"rawtext":[{"text":"§7[58/67] 建筑互动系统..."}]}
+tellraw @a {"rawtext":[{"text":"§7[72/77] 建筑互动系统..."}]}
 function shibuya:buildings/interactive/generate_all
-tellraw @a {"rawtext":[{"text":"§7[59/67] 粒子效果系统..."}]}
+tellraw @a {"rawtext":[{"text":"§7[73/77] 粒子效果系统..."}]}
 function shibuya:systems/particles/generate_all
-tellraw @a {"rawtext":[{"text":"§7[60/67] 彩蛋系统..."}]}
+tellraw @a {"rawtext":[{"text":"§7[74/77] 彩蛋系统..."}]}
 function shibuya:easter_eggs/generate_all
-tellraw @a {"rawtext":[{"text":"§7[61/67] 最终确认..."}]}
-tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市生成完毕！(67栋建筑+全部内部+细节增强+互动系统+彩蛋)"}]}
+tellraw @a {"rawtext":[{"text":"§7[75/77] 最终确认..."}]}
+tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市生成完毕！(77栋建筑+全部内部+细节增强+互动系统+彩蛋)"}]}

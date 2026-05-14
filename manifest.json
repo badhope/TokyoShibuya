@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v5.3 | 城市完善版：67栋建筑还原完整涩谷城市生态 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v5.4 | 标志性建筑扩展版：77栋建筑完整还原涩谷城市 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [5, 3, 0],
+        "version": [5, 4, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v5.3.0 - 67栋建筑/NHK/代代木体育馆/DoCoMo大厦/竹下通/表参道Hills/Nonbei横丁/Love Hotel/便利店群/餐厅群/服务设施/477+函数文件 | 完整涩谷城市还原",
+            "description": "涩谷城市数据包 v5.4.0 - 77栋建筑/涩谷神社/金王八幡宫/东急Hands/Bunkamura/区役所/Center Gai/宫下公园南馆/南口广场/道玄坂坂道/490+函数文件 | 完整涩谷城市还原",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [5, 3, 0]
+            "version": [5, 4, 0]
         }
     ],
     "dependencies": []
