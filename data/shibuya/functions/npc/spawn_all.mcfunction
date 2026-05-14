@@ -19,4 +19,6 @@ summon villager 0 230 -20 {CustomName:"观景台工作人员"}
 summon villager -50 72 80 {CustomName:"路人A"}
 summon villager 5 65 250 {CustomName:"购物者"}
 summon villager 20 65 40 {CustomName:"樱花坂游客"}
-tellraw @a {"rawtext":[{"text":"§a20个NPC已生成！右键与他们互动！"}]}
+# === 增强NPC ===
+function shibuya:npc/spawn_enhanced
+tellraw @a {"rawtext":[{"text":"§a20+个NPC已生成！右键与他们互动！"}]}

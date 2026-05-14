@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v4.1 | 23栋地标+夜景灯光+8大节日+NPC好感度+成就系统+日报签到+导航地图 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v4.1.5 | 23栋地标+建筑细节强化+NPC增强+街道丰富+环境美化 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [4, 1, 0],
+        "version": [4, 1, 5],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v4.1.0 - 23栋建筑/夜景灯光/NPC好感度/成就系统/日报签到/导航地图/存档系统/330+函数文件 | 一键生成完整涩谷",
+            "description": "涩谷城市数据包 v4.1.5 - 23栋建筑细节强化/NPC情绪系统/街道丰富/环境美化/经济增强/360+函数文件 | 一键生成完整涩谷",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [4, 1, 0]
+            "version": [4, 1, 5]
         }
     ],
     "dependencies": []
