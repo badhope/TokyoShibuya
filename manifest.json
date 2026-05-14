@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v5.1 | 细节完善版：建筑外部细节+互动系统+NPC对话任务+音效粒子+UI彩蛋 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v5.2 | 城市扩展版：42栋建筑还原真实涩谷城市密度 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [5, 1, 0],
+        "version": [5, 2, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v5.1.0 - 屋顶招牌立面入口细节/电梯门照明贩卖机互动/扩展对话每日剧情任务日程/环境音效大气建筑事件粒子/增强菜单通知/彩蛋秘密/414+函数文件 | 一键生成完整涩谷",
+            "description": "涩谷城市数据包 v5.2.0 - 42栋建筑(原23+新增19)/站前4栋/道玄坂3栋/樱丘3栋/银座线2栋/住宅4栋/商业街4栋/公园1栋/447+函数文件 | 一键生成完整涩谷城市",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [5, 1, 0]
+            "version": [5, 2, 0]
         }
     ],
     "dependencies": []
