@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v6.0 | 城市自动化系统：日夜循环/NPC行为/交通时刻表/随机事件/节日系统 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v6.1 | 大规模人群系统：25种NPC类型/500+人群/真实人流密度 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [6, 0, 0],
+        "version": [6, 1, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v6.0.0 - 城市自动化(日夜循环/NPC行为/交通时刻表/随机事件/节日)/117栋建筑/800+函数文件 | 完整涩谷城市还原",
+            "description": "涩谷城市数据包 v6.1.0 - 大规模人群(25种NPC/500+人群/真实密度)/城市自动化/117栋建筑/900+函数文件 | 完整涩谷城市还原",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [6, 0, 0]
+            "version": [6, 1, 0]
         }
     ],
     "dependencies": []

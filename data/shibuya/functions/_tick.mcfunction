@@ -23,3 +23,6 @@ function shibuya:systems/automation/day_night_cycle
 function shibuya:systems/automation/npc/npc_core
 function shibuya:systems/automation/transport/schedule
 function shibuya:systems/automation/events/random_events
+# === v6.1.0 大规模人群系统 ===
+function shibuya:systems/crowd/crowd_manager
+function shibuya:systems/crowd/behavior/tick
