@@ -325,7 +325,12 @@ function shibuya:buildings/landmark_fill/generate_all
 tellraw @a {"rawtext":[{"text":"§7[120/??] 微建筑系统（屋顶结构/地下空间/小缝隙）..."}]}
 function shibuya:buildings/micro/generate_all
 
+# === v6.5.0新增：真实涩谷填充系统（符合实际布局）===
+tellraw @a {"rawtext":[{"text":"§7[121/??] 真实涩谷填充系统（神南/宇田川/道玄坂/樱丘/圆山/公园通/站前）..."}]}
+function shibuya:buildings/realistic_fill/generate_all
+
 # === 最终完成 ===
-tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市全部生成完毕！(222栋建筑+800+填充建筑+6大区域+地图1001x1001)"}]}
+tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市全部生成完毕！(222栋建筑+1000+填充建筑+8大真实区域+地图1001x1001)"}]}
 tellraw @a {"rawtext":[{"text":"§b区域：涩谷核心/代官山/惠比寿/原宿/表参道/代代木公园/千驮谷"}]}
-tellraw @a {"rawtext":[{"text":"§6填充系统：街道两旁/地标周边/微建筑 - 城市无空隙！"}]}
+tellraw @a {"rawtext":[{"text":"§6真实填充：神南精品店/宇田川时尚街/道玄坂坡道/樱丘新商业/圆山夜生活/公园通步行街"}]}
+tellraw @a {"rawtext":[{"text":"§e细节系统：招牌/窗户/空调/阳台/逃生梯/管道/屋顶设备/街道设施"}]}
