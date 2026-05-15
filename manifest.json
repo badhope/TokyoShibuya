@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v6.5 | 真实还原城市：222栋建筑+1000+真实填充/2000+NPC/细腻细节/符合实际布局 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v6.6 | 全方向扩展城市：222栋+1500+填充/2000+NPC/环形道路/全地图覆盖 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [6, 5, 0],
+        "version": [6, 6, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v6.5.0 - 真实还原城市(222栋+1000+真实填充/神南精品店/宇田川时尚街/道玄坂坡道/樱丘新商业/圆山夜生活/公园通步行街/细腻细节)/2000+NPC/1300+函数文件 | 完整涩谷城市还原",
+            "description": "涩谷城市数据包 v6.6.0 - 全方向扩展城市(222栋+1500+填充建筑/东北西北正东西南南方向/环形道路/真实区域/细腻细节)/2000+NPC/1400+函数文件 | 完整涩谷城市还原",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [6, 5, 0]
+            "version": [6, 6, 0]
         }
     ],
     "dependencies": []

@@ -329,8 +329,13 @@ function shibuya:buildings/micro/generate_all
 tellraw @a {"rawtext":[{"text":"§7[121/??] 真实涩谷填充系统（神南/宇田川/道玄坂/樱丘/圆山/公园通/站前）..."}]}
 function shibuya:buildings/realistic_fill/generate_all
 
+# === v6.6.0新增：城市外环扩展系统（向外大幅扩展）===
+tellraw @a {"rawtext":[{"text":"§7[122/??] 城市外环扩展（东北/西北/正东/西南/南方向+环形道路）..."}]}
+function shibuya:buildings/outer_ring/generate_all
+
 # === 最终完成 ===
-tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市全部生成完毕！(222栋建筑+1000+填充建筑+8大真实区域+地图1001x1001)"}]}
-tellraw @a {"rawtext":[{"text":"§b区域：涩谷核心/代官山/惠比寿/原宿/表参道/代代木公园/千驮谷"}]}
+tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市全部生成完毕！(222栋建筑+1500+填充建筑+全方向覆盖+地图1001x1001)"}]}
+tellraw @a {"rawtext":[{"text":"§b核心区域：涩谷核心/代官山/惠比寿/原宿/表参道/代代木公园/千驮谷"}]}
 tellraw @a {"rawtext":[{"text":"§6真实填充：神南精品店/宇田川时尚街/道玄坂坡道/樱丘新商业/圆山夜生活/公园通步行街"}]}
-tellraw @a {"rawtext":[{"text":"§e细节系统：招牌/窗户/空调/阳台/逃生梯/管道/屋顶设备/街道设施"}]}
+tellraw @a {"rawtext":[{"text":"§c外环扩展：东北住宅区/西北高级住宅/正东商业区/西南目黑区/南广尾区+环形道路网"}]}
+tellraw @a {"rawtext":[{"text":"§e细节系统：招牌/窗户/空调/阳台/逃生梯/管道/屋顶设备/街道设施/路灯"}]}
