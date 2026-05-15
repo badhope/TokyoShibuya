@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v5.5 | 标志性建筑扩展版：77栋建筑完整还原涩谷城市 + 街道细节全面增强 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v5.6 | 大规模区域扩展：117栋建筑/7大区域/地图1001x1001 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [5, 5, 0],
+        "version": [5, 6, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v5.5.0 - 77栋建筑/街道细节增强(道路标线/路口系统/地下设施/交通信号/公交站/自行车停放/出租车停靠/街道绿化/广告系统) | 完整涩谷城市还原",
+            "description": "涩谷城市数据包 v5.6.0 - 117栋建筑/7大区域(涩谷核心+代官山+惠比寿+原宿+表参道+代代木公园+千驮谷)/地图扩展1001x1001/540+函数文件 | 完整涩谷城市还原",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [5, 5, 0]
+            "version": [5, 6, 0]
         }
     ],
     "dependencies": []

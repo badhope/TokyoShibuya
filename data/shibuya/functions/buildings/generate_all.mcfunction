@@ -1,4 +1,4 @@
-# === 建筑生成总入口（67栋建筑 含全部内部） ===
+# === 建筑生成总入口（117栋建筑 含全部内部） ===
 # === 第一批：原有23栋建筑 ===
 tellraw @a {"rawtext":[{"text":"§7[1/67] 涩谷站+内部..."}]}
 function shibuya:buildings/landmark/shibuya_station
@@ -219,4 +219,100 @@ function shibuya:systems/particles/generate_all
 tellraw @a {"rawtext":[{"text":"§7[74/77] 彩蛋系统..."}]}
 function shibuya:easter_eggs/generate_all
 tellraw @a {"rawtext":[{"text":"§7[75/77] 最终确认..."}]}
-tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市生成完毕！(77栋建筑+全部内部+细节增强+互动系统+彩蛋)"}]}
+tellraw @a {"rawtext":[{"text":"\n§a§l涩谷核心区生成完毕！(77栋建筑)"}]}
+
+# === 第五批：v5.6新增 - 代官山区域(7栋) ===
+tellraw @a {"rawtext":[{"text":"§7[78/117] 代官山T-Site书店..."}]}
+function shibuya:buildings/commercial/daikanyama_tsite
+tellraw @a {"rawtext":[{"text":"§7[79/117] 代官山Hillside Terrace..."}]}
+function shibuya:buildings/commercial/hillside_terrace
+tellraw @a {"rawtext":[{"text":"§7[80/117] Log Road代官山..."}]}
+function shibuya:buildings/commercial/log_road_daikanyama
+tellraw @a {"rawtext":[{"text":"§7[81/117] 代官山咖啡馆1..."}]}
+function shibuya:buildings/commercial/daikanyama_cafe_1
+tellraw @a {"rawtext":[{"text":"§7[82/117] 代官山咖啡馆2..."}]}
+function shibuya:buildings/commercial/daikanyama_cafe_2
+tellraw @a {"rawtext":[{"text":"§7[83/117] 代官山精品服装店..."}]}
+function shibuya:buildings/commercial/daikanyama_boutique
+tellraw @a {"rawtext":[{"text":"§7[84/117] 犀利坂公园..."}]}
+function shibuya:buildings/commercial/saigoyama_park
+
+# === 第六批：v5.6新增 - 惠比寿区域(6栋) ===
+tellraw @a {"rawtext":[{"text":"§7[85/117] 惠比寿花园广场..."}]}
+function shibuya:buildings/landmark/yebisu_garden_place
+tellraw @a {"rawtext":[{"text":"§7[86/117] 惠比寿啤酒博物馆..."}]}
+function shibuya:buildings/landmark/yebisu_beer_museum
+tellraw @a {"rawtext":[{"text":"§7[87/117] Eight Ebisu..."}]}
+function shibuya:buildings/commercial/eight_ebisu
+tellraw @a {"rawtext":[{"text":"§7[88/117] 惠比寿站..."}]}
+function shibuya:buildings/transport/ebisu_station
+tellraw @a {"rawtext":[{"text":"§7[89/117] 惠比寿法式餐厅..."}]}
+function shibuya:buildings/commercial/ebisu_restaurant_1
+tellraw @a {"rawtext":[{"text":"§7[90/117] 惠比寿居酒屋..."}]}
+function shibuya:buildings/commercial/ebisu_restaurant_2
+
+# === 第七批：v5.6新增 - 原宿区域(8栋) ===
+tellraw @a {"rawtext":[{"text":"§7[91/117] 竹下通入口拱门..."}]}
+function shibuya:buildings/commercial/harajuku_takeshita_gate
+tellraw @a {"rawtext":[{"text":"§7[92/117] Kiddy Land玩具店..."}]}
+function shibuya:buildings/commercial/kiddy_land
+tellraw @a {"rawtext":[{"text":"§7[93/117] Laforet原宿..."}]}
+function shibuya:buildings/commercial/laforet_harajuku
+tellraw @a {"rawtext":[{"text":"§7[94/117] 原宿可丽饼店..."}]}
+function shibuya:buildings/commercial/harajuku_crepe_shop
+tellraw @a {"rawtext":[{"text":"§7[95/117] 原宿古着店..."}]}
+function shibuya:buildings/commercial/harajuku_vintage_shop
+tellraw @a {"rawtext":[{"text":"§7[96/117] 原宿街头美食区..."}]}
+function shibuya:buildings/commercial/harajuku_street_food
+tellraw @a {"rawtext":[{"text":"§7[97/117] 猫街精品店群..."}]}
+function shibuya:buildings/commercial/cat_street_shops
+tellraw @a {"rawtext":[{"text":"§7[98/117] 明治神宫..."}]}
+function shibuya:buildings/landmark/meiji_shrine
+
+# === 第八批：v5.6新增 - 表参道区域(6栋) ===
+tellraw @a {"rawtext":[{"text":"§7[99/117] Prada青山店..."}]}
+function shibuya:buildings/landmark/prada_aoyama
+tellraw @a {"rawtext":[{"text":"§7[100/117] Dior表参道店..."}]}
+function shibuya:buildings/landmark/dior_omotesando
+tellraw @a {"rawtext":[{"text":"§7[101/117] GYRE大楼..."}]}
+function shibuya:buildings/landmark/gyre_omotesando
+tellraw @a {"rawtext":[{"text":"§7[102/117] 表参道咖啡馆1..."}]}
+function shibuya:buildings/commercial/omotesando_cafe_1
+tellraw @a {"rawtext":[{"text":"§7[103/117] 表参道咖啡馆2..."}]}
+function shibuya:buildings/commercial/omotesando_cafe_2
+tellraw @a {"rawtext":[{"text":"§7[104/117] 表参道精品店..."}]}
+function shibuya:buildings/commercial/omotesando_boutique
+
+# === 第九批：v5.6新增 - 代代木公园(7栋) ===
+tellraw @a {"rawtext":[{"text":"§7[105/117] 代代木公园入口..."}]}
+function shibuya:buildings/public/yoyogi_park_entrance
+tellraw @a {"rawtext":[{"text":"§7[106/117] 代代木公园露天舞台..."}]}
+function shibuya:buildings/public/yoyogi_park_stage
+tellraw @a {"rawtext":[{"text":"§7[107/117] 代代木公园喷泉广场..."}]}
+function shibuya:buildings/public/yoyogi_park_fountain
+tellraw @a {"rawtext":[{"text":"§7[108/117] 代代木公园水池..."}]}
+function shibuya:buildings/public/yoyogi_park_pond
+tellraw @a {"rawtext":[{"text":"§7[109/117] 代代木公园日式庭园..."}]}
+function shibuya:buildings/public/yoyogi_park_garden
+tellraw @a {"rawtext":[{"text":"§7[110/117] 代代木公园大草坪..."}]}
+function shibuya:buildings/public/yoyogi_park_field
+tellraw @a {"rawtext":[{"text":"§7[111/117] 代代木公园步道系统..."}]}
+function shibuya:buildings/public/yoyogi_park_paths
+
+# === 第十批：v5.6新增 - 千驮谷/神宫外苑(6栋) ===
+tellraw @a {"rawtext":[{"text":"§7[112/117] 日本国立竞技场..."}]}
+function shibuya:buildings/landmark/national_stadium
+tellraw @a {"rawtext":[{"text":"§7[113/117] 神宫外苑银杏大道..."}]}
+function shibuya:buildings/public/jingu_gaien_avenue
+tellraw @a {"rawtext":[{"text":"§7[114/117] 明治神宫棒球场..."}]}
+function shibuya:buildings/public/meiji_jingu_stadium
+tellraw @a {"rawtext":[{"text":"§7[115/117] 秩父宫橄榄球场..."}]}
+function shibuya:buildings/public/chichibunomiya_stadium
+tellraw @a {"rawtext":[{"text":"§7[116/117] 千驮谷站..."}]}
+function shibuya:buildings/transport/sendagaya_station
+tellraw @a {"rawtext":[{"text":"§7[117/117] 千驮谷站前商业..."}]}
+function shibuya:buildings/commercial/sendagaya_shops
+
+# === 最终完成 ===
+tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市全部生成完毕！(117栋建筑+6大区域+地图1001x1001)"}]}
+tellraw @a {"rawtext":[{"text":"§b区域：涩谷核心/代官山/惠比寿/原宿/表参道/代代木公园/千驮谷"}]}

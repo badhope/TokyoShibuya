@@ -3,6 +3,10 @@ function shibuya:world/generate_ground
 function shibuya:world/generate_streets
 function shibuya:world/generate_crossing
 function shibuya:world/generate_districts
+# === v5.6.0 地图扩展 ===
+function shibuya:world/map_expansion
+function shibuya:world/extension_streets
+function shibuya:world/extension_districts
 # === 增强内容 ===
 function shibuya:world/streets/street_details
 function shibuya:environment/flowers_enhanced
@@ -14,4 +18,4 @@ function shibuya:environment/street_art
 function shibuya:environment/river_details
 function shibuya:environment/park_details
 function shibuya:environment/night_atmosphere
-tellraw @a {"rawtext":[{"text":"§a世界基础生成完毕！(含街道细节+环境增强+河岸公园+夜间氛围)"}]}
+tellraw @a {"rawtext":[{"text":"§a世界基础生成完毕！(含地图扩展1001x1001+新区域街道+环境增强)"}]}
