@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v5.8 | 真实移动系统：冒险模式/体力系统/出租车/地铁/公交/电梯/交互系统 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v5.9 | 全面交互系统：117栋建筑进门/电梯/购物/交通全覆盖 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [5, 8, 0],
+        "version": [5, 9, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v5.8.0 - 117栋建筑/真实移动系统(冒险模式/体力/出租车/地铁/公交/电梯/交互)/550+函数文件 | 完整涩谷城市还原",
+            "description": "涩谷城市数据包 v5.9.0 - 117栋建筑全面交互(进门/电梯/购物)/真实移动系统/交通系统/700+函数文件 | 完整涩谷城市还原",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [5, 8, 0]
+            "version": [5, 9, 0]
         }
     ],
     "dependencies": []
