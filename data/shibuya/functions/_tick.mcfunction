@@ -17,3 +17,9 @@ function shibuya:systems/sound/ambient_details
 function shibuya:ui/notifications
 # === v5.8.0 真实移动系统 ===
 function shibuya:systems/realistic/stamina_tick
+# === v6.0.0 城市自动化系统 ===
+function shibuya:systems/automation/time_core
+function shibuya:systems/automation/day_night_cycle
+function shibuya:systems/automation/npc/npc_core
+function shibuya:systems/automation/transport/schedule
+function shibuya:systems/automation/events/random_events
