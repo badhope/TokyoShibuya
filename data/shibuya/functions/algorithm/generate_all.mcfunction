@@ -1,30 +1,31 @@
-# === 丰富变化算法引擎入口 ===
-# v7.2.0 - 基于scoreboard random + execute positioned 的丰富变化系统
-# 30个建筑位置，5行x6列网格布局
-# 每次运行产生不同组合，1280种可能变化
-# 新增：街道生成器 + 城市细节生成器
+# === 场景感知丰富变化算法引擎入口 ===
+# v8.0.0 - 基于真实涩谷地理分区的场景感知生成系统
+# 30个建筑位置分配到8个真实场景区域
+# 每个场景有独特的建筑风格权重和专属细节
+# 新增：场景管理器 + 场景感知建筑生成器 + 场景专属细节库
 
-tellraw @a {"rawtext":[{"text":"\u00a7b\u00a7l=== 丰富变化算法引擎 v7.2.0 ==="}]}
-tellraw @a {"rawtext":[{"text":"\u00a77核心技术: scoreboard players random + execute positioned"}]}
-tellraw @a {"rawtext":[{"text":"\u00a77布局: 5行x6列网格，间距25格，覆盖-100到25区域"}]}
-tellraw @a {"rawtext":[{"text":"\u00a77组合数: 8风格 x 5高度 x 8颜色 x 4细节 = 1280种变化/栋"}]}
-tellraw @a {"rawtext":[{"text":"\u00a77总变化: 1280 x 30栋 = 38,400种城市布局"}]}
+tellraw @a {"rawtext":[{"text":"\u00a7b\u00a7l=== 场景感知算法引擎 v8.0.0 ==="}]}
+tellraw @a {"rawtext":[{"text":"\u00a77核心技术: 场景感知 + 地理位置分区 + 风格权重"}]}
+tellraw @a {"rawtext":[{"text":"\u00a77场景分区: 站前商业/道玄坂娱乐/樱丘办公/代官山住宅/原宿时尚/神社/公园/后巷"}]}
+tellraw @a {"rawtext":[{"text":"\u00a77建筑权重: 每个场景有独特的建筑风格概率分布"}]}
+tellraw @a {"rawtext":[{"text":"\u00a77细节库: 8个场景 x 16种细节 = 128种场景专属细节"}]}
 
 # 初始化
 function shibuya:algorithm/init
 
-# 生成30栋算法建筑（每栋随机选择风格+颜色+高度+细节）
-tellraw @a {"rawtext":[{"text":"\u00a77[1/3] 生成30栋算法建筑..."}]}
-function shibuya:algorithm/building_generator
+# 场景感知生成流程
+tellraw @a {"rawtext":[{"text":"\u00a77[1/4] 初始化场景管理器..."}]}
+function shibuya:algorithm/scenes/scene_manager
 
-# 生成街道系统（随机路面+路灯+行道树+斑马线）
-tellraw @a {"rawtext":[{"text":"\u00a77[2/3] 生成街道系统..."}]}
+tellraw @a {"rawtext":[{"text":"\u00a77[2/4] 生成30栋场景感知建筑..."}]}
+function shibuya:algorithm/scenes/scene_building_generator
+
+tellraw @a {"rawtext":[{"text":"\u00a77[3/4] 生成街道系统..."}]}
 function shibuya:algorithm/street_generator
 
-# 生成城市细节（自动售货机/邮箱/信号灯/电缆等）
-tellraw @a {"rawtext":[{"text":"\u00a77[3/3] 生成城市细节..."}]}
-function shibuya:algorithm/detail_generator
+tellraw @a {"rawtext":[{"text":"\u00a77[4/4] 生成场景专属细节..."}]}
+function shibuya:algorithm/scenes/scene_detail_generator
 
-tellraw @a {"rawtext":[{"text":"\u00a7a\u00a7l丰富变化算法执行完毕！"}]}
-tellraw @a {"rawtext":[{"text":"\u00a7b每次运行产生不同组合，城市永远不会完全一样"}]}
-tellraw @a {"rawtext":[{"text":"\u00a7630栋建筑 + 9条街道 + 112个随机细节 = 丰富变化城市"}]}
+tellraw @a {"rawtext":[{"text":"\u00a7a\u00a7l场景感知算法执行完毕！"}]}
+tellraw @a {"rawtext":[{"text":"\u00a7b基于真实涩谷地理的城市生成完成"}]}
+tellraw @a {"rawtext":[{"text":"\u00a7630栋建筑 + 8个场景 + 128种场景细节 = 真实涩谷城市"}]}

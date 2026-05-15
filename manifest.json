@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v7.2 | 算法增强版：117特色地标+丰富变化算法引擎 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v7.3 | 场景感知版：117特色地标+5大真实场景+8种细节库 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [7, 2, 0],
+        "version": [7, 3, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v7.2.0 - 算法增强版(117特色地标精心设计/30栋随机建筑1280种变化/9条随机街道/112个随机城市细节/简化填充) | 完整涩谷城市还原",
+            "description": "涩谷城市数据包 v7.3.0 - 场景感知版(117特色地标/5大真实场景/30栋场景感知建筑/8种场景细节库128种细节/站前商业区道玄坂娱乐区樱丘办公区代官山住宅区原宿时尚区) | 完整涩谷城市还原",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [7, 2, 0]
+            "version": [7, 3, 0]
         }
     ],
     "dependencies": []
