@@ -15,3 +15,5 @@ function shibuya:weather/effects_tick
 function shibuya:npc/ai/schedule_system
 function shibuya:systems/sound/ambient_details
 function shibuya:ui/notifications
+# === v5.8.0 真实移动系统 ===
+function shibuya:systems/realistic/stamina_tick
