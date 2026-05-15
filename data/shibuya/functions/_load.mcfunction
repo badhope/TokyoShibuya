@@ -11,3 +11,6 @@ function shibuya:systems/automation/generate_all
 # === v6.1.0 大规模人群系统初始化 ===
 function shibuya:systems/crowd/generate_all
 function shibuya:systems/crowd/behavior/generate_all
+# === v6.3.0 填充建筑+楼层NPC ===
+function shibuya:buildings/fill/generate_all
+function shibuya:systems/crowd/floor_npc
