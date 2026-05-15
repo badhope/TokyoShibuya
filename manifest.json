@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v6.3 | 超高密度城市：222栋建筑/2000+NPC/楼层NPC/真实人流密度 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v6.4 | 完全填充城市：222栋建筑+800+填充建筑/2000+NPC/零空隙城市 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [6, 3, 0],
+        "version": [6, 4, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v6.3.0 - 超高密度(222栋建筑/2000+NPC/楼层NPC/真实人流)/城市自动化/城市细节/1100+函数文件 | 完整涩谷城市还原",
+            "description": "涩谷城市数据包 v6.4.0 - 完全填充城市(222栋+800+填充建筑/街道两旁/地标周边/微建筑/零空隙)/2000+NPC/1200+函数文件 | 完整涩谷城市还原",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [6, 3, 0]
+            "version": [6, 4, 0]
         }
     ],
     "dependencies": []

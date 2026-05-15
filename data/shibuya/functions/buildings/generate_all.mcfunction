@@ -313,6 +313,19 @@ function shibuya:buildings/transport/sendagaya_station
 tellraw @a {"rawtext":[{"text":"§7[117/117] 千驮谷站前商业..."}]}
 function shibuya:buildings/commercial/sendagaya_shops
 
+# === v6.4.0新增：街道两旁填充建筑系统（约400栋）===
+tellraw @a {"rawtext":[{"text":"§7[118/??] 街道两旁填充建筑系统..."}]}
+function shibuya:buildings/street_fill/generate_all
+
+# === v6.4.0新增：标志性建筑周边360度填充 ===
+tellraw @a {"rawtext":[{"text":"§7[119/??] 标志性建筑周边密集填充..."}]}
+function shibuya:buildings/landmark_fill/generate_all
+
+# === v6.4.0新增：微建筑系统（填补小空隙）===
+tellraw @a {"rawtext":[{"text":"§7[120/??] 微建筑系统（屋顶结构/地下空间/小缝隙）..."}]}
+function shibuya:buildings/micro/generate_all
+
 # === 最终完成 ===
-tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市全部生成完毕！(117栋建筑+6大区域+地图1001x1001)"}]}
+tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市全部生成完毕！(222栋建筑+800+填充建筑+6大区域+地图1001x1001)"}]}
 tellraw @a {"rawtext":[{"text":"§b区域：涩谷核心/代官山/惠比寿/原宿/表参道/代代木公园/千驮谷"}]}
+tellraw @a {"rawtext":[{"text":"§6填充系统：街道两旁/地标周边/微建筑 - 城市无空隙！"}]}
