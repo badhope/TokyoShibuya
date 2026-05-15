@@ -337,11 +337,16 @@ function shibuya:buildings/outer_ring/generate_all
 tellraw @a {"rawtext":[{"text":"§7[123/??] 真实地理系统（河流/铁路/台地/坡道）+新宿/六本木/目黑..."}]}
 function shibuya:geography/generate_all
 
+# === v7.0.0新增：算法引擎（替代手动重复代码）===
+tellraw @a {"rawtext":[{"text":"§7[124/??] 算法引擎（数学模型+参数化生成+AI错误修复）..."}]}
+function shibuya:engine/generate_all
+
 # === 最终完成 ===
-tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市全部生成完毕！(222栋+2000+建筑+真实地理+全方向城市+地图1001x1001)"}]}
+tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市全部生成完毕！(算法驱动v7.0)"}]}
 tellraw @a {"rawtext":[{"text":"§b核心区域：涩谷核心/代官山/惠比寿/原宿/表参道/代代木公园/千驮谷"}]}
 tellraw @a {"rawtext":[{"text":"§6真实填充：神南精品店/宇田川时尚街/道玄坂坡道/樱丘新商业/圆山夜生活/公园通步行街"}]}
 tellraw @a {"rawtext":[{"text":"§c外环扩展：东北住宅区/西北高级住宅/正东商业区/西南目黑区/南广尾区+环形道路网"}]}
 tellraw @a {"rawtext":[{"text":"§d真实地理：涩谷川/目黑川/JR山手线高架/台地地形/宫益坂道玄坂坡道"}]}
 tellraw @a {"rawtext":[{"text":"§5周边城市：新宿摩天大楼群/歌舞伎町/新宿御苑/六本木Hills/东京中城/东京塔/大使馆区/目黑赏樱/世田谷住宅"}]}
-tellraw @a {"rawtext":[{"text":"§e细节系统：招牌/窗户/空调/阳台/逃生梯/管道/屋顶设备/街道设施/路灯/桥梁"}]}
+tellraw @a {"rawtext":[{"text":"§e§l算法引擎：数学模型+参数化生成+等距排列+路径参数化+类型轮换"}]}
+tellraw @a {"rawtext":[{"text":"§c§l修复：10项AI错误(坡道/方块ID/坐标重叠/装饰位置/重复命令)"}]}
