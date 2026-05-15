@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v6.6 | 全方向扩展城市：222栋+1500+填充/2000+NPC/环形道路/全地图覆盖 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v6.7 | 真实地理城市：涩谷川/目黑川/JR山手线/台地/新宿/六本木/东京塔 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [6, 6, 0],
+        "version": [6, 7, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v6.6.0 - 全方向扩展城市(222栋+1500+填充建筑/东北西北正东西南南方向/环形道路/真实区域/细腻细节)/2000+NPC/1400+函数文件 | 完整涩谷城市还原",
+            "description": "涩谷城市数据包 v6.7.0 - 真实地理城市(涩谷川/目黑川/JR山手线高架/台地地形/坡道/新宿摩天楼/歌舞伎町/新宿御苑/六本木Hills/东京中城/东京塔/大使馆区/目黑赏樱/世田谷)/2000+建筑/1500+函数文件 | 完整涩谷城市还原",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [6, 6, 0]
+            "version": [6, 7, 0]
         }
     ],
     "dependencies": []
