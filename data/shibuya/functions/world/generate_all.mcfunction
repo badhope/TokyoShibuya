@@ -18,4 +18,6 @@ function shibuya:environment/street_art
 function shibuya:environment/river_details
 function shibuya:environment/park_details
 function shibuya:environment/night_atmosphere
-tellraw @a {"rawtext":[{"text":"§a世界基础生成完毕！(含地图扩展1001x1001+新区域街道+环境增强)"}]}
+# === v5.7.0 远景系统 ===
+function shibuya:world/horizon_generate_all
+tellraw @a {"rawtext":[{"text":"§a世界基础生成完毕！(含地图扩展1001x1001+新区域街道+环境增强+远景天际线+山脉)"}]}
