@@ -313,40 +313,14 @@ function shibuya:buildings/transport/sendagaya_station
 tellraw @a {"rawtext":[{"text":"§7[117/117] 千驮谷站前商业..."}]}
 function shibuya:buildings/commercial/sendagaya_shops
 
-# === v6.4.0新增：街道两旁填充建筑系统（约400栋）===
-tellraw @a {"rawtext":[{"text":"§7[118/??] 街道两旁填充建筑系统..."}]}
-function shibuya:buildings/street_fill/generate_all
-
-# === v6.4.0新增：标志性建筑周边360度填充 ===
-tellraw @a {"rawtext":[{"text":"§7[119/??] 标志性建筑周边密集填充..."}]}
-function shibuya:buildings/landmark_fill/generate_all
-
-# === v6.4.0新增：微建筑系统（填补小空隙）===
-tellraw @a {"rawtext":[{"text":"§7[120/??] 微建筑系统（屋顶结构/地下空间/小缝隙）..."}]}
-function shibuya:buildings/micro/generate_all
-
-# === v6.5.0新增：真实涩谷填充系统（符合实际布局）===
-tellraw @a {"rawtext":[{"text":"§7[121/??] 真实涩谷填充系统（神南/宇田川/道玄坂/樱丘/圆山/公园通/站前）..."}]}
-function shibuya:buildings/realistic_fill/generate_all
-
-# === v6.6.0新增：城市外环扩展系统（向外大幅扩展）===
-tellraw @a {"rawtext":[{"text":"§7[122/??] 城市外环扩展（东北/西北/正东/西南/南方向+环形道路）..."}]}
-function shibuya:buildings/outer_ring/generate_all
-
-# === v6.7.0新增：真实地理系统+周边城市扩展 ===
-tellraw @a {"rawtext":[{"text":"§7[123/??] 真实地理系统（河流/铁路/台地/坡道）+新宿/六本木/目黑..."}]}
-function shibuya:geography/generate_all
-
-# === v7.0.0新增：算法引擎（替代手动重复代码）===
-tellraw @a {"rawtext":[{"text":"§7[124/??] 算法引擎（数学模型+参数化生成+AI错误修复）..."}]}
-function shibuya:engine/generate_all
+# === v7.1.0简化：只保留特色地标，填充极简处理 ===
+tellraw @a {"rawtext":[{"text":"§7[118/118] 简化填充（只填充空白，不做过度设计）..."}]}
+function shibuya:buildings/fill_simple/generate_all
+function shibuya:buildings/fill_simple/outer_fill
 
 # === 最终完成 ===
-tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市全部生成完毕！(算法驱动v7.0)"}]}
+tellraw @a {"rawtext":[{"text":"\n§a§l涩谷城市全部生成完毕！(v7.1简化版)"}]}
 tellraw @a {"rawtext":[{"text":"§b核心区域：涩谷核心/代官山/惠比寿/原宿/表参道/代代木公园/千驮谷"}]}
-tellraw @a {"rawtext":[{"text":"§6真实填充：神南精品店/宇田川时尚街/道玄坂坡道/樱丘新商业/圆山夜生活/公园通步行街"}]}
-tellraw @a {"rawtext":[{"text":"§c外环扩展：东北住宅区/西北高级住宅/正东商业区/西南目黑区/南广尾区+环形道路网"}]}
-tellraw @a {"rawtext":[{"text":"§d真实地理：涩谷川/目黑川/JR山手线高架/台地地形/宫益坂道玄坂坡道"}]}
-tellraw @a {"rawtext":[{"text":"§5周边城市：新宿摩天大楼群/歌舞伎町/新宿御苑/六本木Hills/东京中城/东京塔/大使馆区/目黑赏樱/世田谷住宅"}]}
-tellraw @a {"rawtext":[{"text":"§e§l算法引擎：数学模型+参数化生成+等距排列+路径参数化+类型轮换"}]}
-tellraw @a {"rawtext":[{"text":"§c§l修复：10项AI错误(坡道/方块ID/坐标重叠/装饰位置/重复命令)"}]}
+tellraw @a {"rawtext":[{"text":"§6特色地标：117栋精心设计（涩谷站/Hikarie/109/代代木体育馆等）"}]}
+tellraw @a {"rawtext":[{"text":"§7简化填充：核心区域+外围区域简单方块填充（不做重复设计）"}]}
+tellraw @a {"rawtext":[{"text":"§c设计理念：特色地标单独精心设计，填充区域简单处理"}]}

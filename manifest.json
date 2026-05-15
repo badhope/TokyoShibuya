@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v7.0 | 算法驱动城市：数学模型+参数化生成+AI修复 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v7.1 | 精简版：117特色地标+简化填充 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [7, 0, 0],
+        "version": [7, 1, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v7.0.0 - 算法驱动城市(数学模型/参数化生成/等距排列/路径参数化/类型轮换/AI修复10项/河流算法/铁路算法/街道算法)/2000+建筑/1600+函数文件 | 完整涩谷城市还原",
+            "description": "涩谷城市数据包 v7.1.0 - 精简版(117特色地标精心设计/涩谷站/Hikarie/109/代代木体育馆等/简化填充/删除重复系统) | 完整涩谷城市还原",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [7, 0, 0]
+            "version": [7, 1, 0]
         }
     ],
     "dependencies": []
