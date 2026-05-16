@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v7.5 | 全面提升版：24个文件大幅增强+交通/住宅/公共/活动系统重做 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v7.6 | 细节增强版：19个新文件+14个商业内部+5个细节系统 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [7, 5, 0],
+        "version": [7, 6, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v7.5.0 - 全面提升版(24个文件大幅增强/交通系统重写涩谷站764行/地下空间669行/活动系统3402行樱花祭夏祭冬灯饰正月/住宅楼生活细节/公共设施完善/bug修复) | 完整涩谷城市还原",
+            "description": "涩谷城市数据包 v7.6.0 - 细节增强版(14个商业内部装修/5个细节系统/招牌10色霓虹+竖式横式暖帘/窗户15种变化/阳台12种细节/屋顶设备花园酒吧/街道家具10种路灯8种长椅) | 完整涩谷城市还原",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [7, 5, 0]
+            "version": [7, 6, 0]
         }
     ],
     "dependencies": []
