@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v7.8 | 核心完善版：涩谷天空塔4层内部+十字路口系统+4个主题情人酒店 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v7.9 | 内部完善版：4栋公寓内部+5个核心地标内部+10个区域商业内部 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [7, 8, 0],
+        "version": [7, 9, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v7.8.0 - 核心完善版(涩谷天空塔4层内部2417行/十字路口系统2314行含路面信号灯建筑/4个主题情人酒店3089行宫殿森林海洋和式) | 完整涩谷城市还原",
+            "description": "涩谷城市数据包 v7.9.0 - 内部完善版(4栋公寓内部3660行/5个核心地标内部2269行/10个区域商业内部3250行/总计19个内部装修9179行) | 完整涩谷城市还原",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [7, 8, 0]
+            "version": [7, 9, 0]
         }
     ],
     "dependencies": []
