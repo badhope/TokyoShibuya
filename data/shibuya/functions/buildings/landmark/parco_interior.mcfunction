@@ -1,619 +1,555 @@
-# === 涩谷Parco 内部详细 ===
+# =====================================================
+# 涩谷Parco 内部装修
 # 坐标: (20,65,0) 到 (50,180,-20) 内部(22,66,-2)到(48,179,-18)
-# B2-B1: 地下 1-8F: 购物 9F: 餐厅 10-12F: 剧场 13-22F: 办公 屋顶: 农场
+# 22层商业设施: 1F化妆品/2-5F女装/6-8F男装/9F餐厅/10F电影院/11-14F娱乐/15-22F办公/屋顶花园
+# =====================================================
 
 # ============================================================
-# B2F 停车场入口区域 (Y=66-68)
+# 1F 化妆品+饰品 (Y=71-74)
 # ============================================================
-# B2F 地板
-fill 22 66 -2 48 66 -18 gray_concrete
-# B2F 天花板
-fill 22 68 -2 48 68 -18 gray_concrete
-# 停车位标记
-fill 24 66 -4 26 66 -6 white_concrete
-fill 28 66 -4 30 66 -6 white_concrete
-fill 32 66 -4 34 66 -6 white_concrete
-fill 36 66 -4 38 66 -6 white_concrete
-fill 40 66 -4 42 66 -6 white_concrete
-fill 44 66 -4 46 66 -6 white_concrete
-# 停车场柱子
-setblock 24 67 -8 stone
-setblock 30 67 -8 stone
-setblock 36 67 -8 stone
-setblock 42 67 -8 stone
-setblock 24 67 -14 stone
-setblock 30 67 -14 stone
-setblock 36 67 -14 stone
-setblock 42 67 -14 stone
-# 车道
-fill 22 66 -8 48 66 -10 yellow_concrete
-# 停车场灯光
-setblock 27 68 -5 glowstone
-setblock 33 68 -5 glowstone
-setblock 39 68 -5 glowstone
-setblock 45 68 -5 glowstone
-# 电梯厅
-fill 46 66 -2 48 68 -4 iron_block
-
-# ============================================================
-# B1F 年轻潮流区 (Y=69-70)
-# ============================================================
-# B1F 地板
-fill 22 69 -2 48 69 -18 black_concrete
-# B1F 天花板
-fill 22 70 -2 48 70 -18 gray_concrete
-# 街头品牌店1
-fill 24 69 -4 28 69 -8 quartz_block
-setblock 26 69 -6 oak_fence
-# 街头品牌店2
-fill 30 69 -4 34 69 -8 quartz_block
-setblock 32 69 -6 oak_fence
-# 街头品牌店3
-fill 36 69 -4 40 69 -8 quartz_block
-setblock 38 69 -6 oak_fence
-# 滑板元素装饰
-fill 24 69 -12 28 69 -14 oak_planks
-fill 30 69 -12 34 69 -14 oak_planks
-fill 36 69 -12 40 69 -14 oak_planks
-# 潮流展示墙
-fill 42 69 -4 46 70 -8 gray_concrete
-setblock 44 69 -6 glowstone
-# B1F 灯光
-setblock 27 70 -10 glowstone
-setblock 35 70 -10 glowstone
-setblock 43 70 -10 glowstone
-
-# ============================================================
-# 1F 美容/化妆品 (Y=71-74)
-# ============================================================
+# 1F 地面
 fill 22 71 -2 48 71 -18 white_concrete
+# 1F 天花板
 fill 22 74 -2 48 74 -18 white_concrete
-# 玻璃展示柜
-fill 24 72 -4 26 73 -6 glass
-fill 24 72 -8 26 73 -10 glass
-fill 24 72 -12 26 73 -14 glass
-# 镜子
-fill 30 72 -4 30 73 -6 glass
-fill 30 72 -8 30 73 -10 glass
-# 试妆区
-fill 32 72 -4 36 73 -6 white_concrete
-setblock 34 72 -5 oak_fence
-# 右侧美容区
-fill 40 72 -4 44 73 -8 glass
-fill 40 72 -10 44 73 -14 glass
-# 1F 灯光
-setblock 27 74 -10 glowstone
-setblock 35 74 -10 glowstone
-setblock 43 74 -10 glowstone
+# 1F 玻璃展示柜
+fill 22 72 -2 22 73 -4 glass_pane
+fill 22 72 -6 22 73 -8 glass_pane
+fill 22 72 -10 22 73 -12 glass_pane
+fill 48 72 -2 48 73 -4 glass_pane
+fill 48 72 -6 48 73 -8 glass_pane
+fill 48 72 -10 48 73 -12 glass_pane
+# 1F 铁块展示台 - 化妆品
+setblock 26 72 -3 iron_block
+setblock 26 72 -7 iron_block
+setblock 26 72 -11 iron_block
+setblock 30 72 -3 iron_block
+setblock 30 72 -7 iron_block
+setblock 30 72 -11 iron_block
+# 1F 镜子 - 玻璃板
+fill 34 72 -3 34 73 -3 glass_pane
+fill 34 72 -7 34 73 -7 glass_pane
+fill 34 72 -11 34 73 -11 glass_pane
+# 1F 试妆区
+fill 36 72 -3 40 73 -5 white_concrete
+setblock 38 72 -4 oak_fence
+# 1F 饰品展示区
+fill 42 72 -3 46 73 -5 quartz_block
+setblock 44 72 -4 chest
+# 1F 照明
+setblock 27 74 -10 sea_lantern
+setblock 35 74 -10 sea_lantern
+setblock 43 74 -10 sea_lantern
+# 1F 装饰
+setblock 24 71 -16 flower_pot
+setblock 46 71 -16 flower_pot
 
 # ============================================================
-# 2F 女装潮流 (Y=75-78)
+# 2F 女装区 (Y=75-78)
 # ============================================================
 fill 22 75 -2 48 75 -18 white_concrete
 fill 22 78 -2 48 78 -18 white_concrete
-# 时尚货架
-fill 24 76 -4 28 77 -6 oak_planks
-fill 24 76 -8 28 77 -10 oak_planks
-fill 24 76 -12 28 77 -14 oak_planks
-# 模特展示台
-setblock 30 76 -5 quartz_block
-setblock 30 76 -9 quartz_block
-setblock 30 76 -13 quartz_block
-# 试衣间
-fill 34 76 -4 36 77 -6 white_concrete
-setblock 35 76 -5 iron_door
-fill 34 76 -8 36 77 -10 white_concrete
-setblock 35 76 -9 iron_door
-fill 34 76 -12 36 77 -14 white_concrete
-setblock 35 76 -13 iron_door
-# 右侧展示区
-fill 40 76 -4 44 77 -8 oak_planks
-fill 40 76 -10 44 77 -14 oak_planks
-# 2F 灯光
-setblock 27 78 -10 glowstone
-setblock 35 78 -10 glowstone
-setblock 43 78 -10 glowstone
+# 2F 地毯分区
+fill 24 75 -4 34 75 -8 pink_carpet
+fill 24 75 -10 34 75 -14 white_carpet
+# 2F 铁块展示台
+setblock 26 76 -5 iron_block
+setblock 26 76 -7 iron_block
+setblock 26 76 -11 iron_block
+setblock 26 76 -13 iron_block
+setblock 30 76 -5 iron_block
+setblock 30 76 -7 iron_block
+# 2F 玻璃试衣间
+fill 36 76 -4 38 77 -6 glass_pane
+setblock 37 76 -5 iron_door
+fill 36 76 -8 38 77 -10 glass_pane
+setblock 37 76 -9 iron_door
+fill 36 76 -12 38 77 -14 glass_pane
+setblock 37 76 -13 iron_door
+# 2F 服装货架
+fill 40 76 -4 46 77 -8 oak_planks
+fill 40 76 -10 46 77 -14 oak_planks
+# 2F 照明
+setblock 27 78 -10 sea_lantern
+setblock 35 78 -10 sea_lantern
+setblock 43 78 -10 sea_lantern
 
 # ============================================================
-# 3F 男装/运动 (Y=79-82)
+# 3F 女装区 (Y=79-82)
 # ============================================================
-fill 22 79 -2 48 79 -18 dark_oak_planks
-fill 22 82 -2 48 82 -18 gray_concrete
-# 运动品牌区
-fill 24 80 -4 28 81 -6 dark_oak_planks
-fill 24 80 -8 28 81 -10 dark_oak_planks
-fill 24 80 -12 28 81 -14 dark_oak_planks
-# 运动器材展示
+fill 22 79 -2 48 79 -18 light_gray_concrete
+fill 22 82 -2 48 82 -18 white_concrete
+# 3F 地毯分区
+fill 24 79 -4 34 79 -8 red_carpet
+fill 24 79 -10 34 79 -14 blue_carpet
+# 3F 铁块展示台
+setblock 26 80 -5 iron_block
+setblock 26 80 -7 iron_block
+setblock 26 80 -11 iron_block
 setblock 30 80 -5 iron_block
-setblock 30 80 -9 iron_block
-setblock 30 80 -13 iron_block
-# 男装货架
-fill 34 80 -4 38 81 -8 dark_oak_planks
-fill 34 80 -10 38 81 -14 dark_oak_planks
-# 右侧运动区
-fill 40 80 -4 44 81 -8 spruce_planks
-fill 40 80 -10 44 81 -14 spruce_planks
-# 3F 灯光
-setblock 27 82 -10 glowstone
-setblock 35 82 -10 glowstone
-setblock 43 82 -10 glowstone
+setblock 30 80 -7 iron_block
+# 3F 玻璃试衣间
+fill 36 80 -4 38 81 -6 glass_pane
+setblock 37 80 -5 iron_door
+fill 36 80 -8 38 81 -10 glass_pane
+setblock 37 80 -9 iron_door
+# 3F 货架
+fill 40 80 -4 46 81 -8 birch_planks
+fill 40 80 -10 46 81 -14 spruce_planks
+# 3F 照明
+setblock 27 82 -10 sea_lantern
+setblock 35 82 -10 sea_lantern
+setblock 43 82 -10 sea_lantern
 
 # ============================================================
-# 4F 生活方式 (Y=83-86)
+# 4F 女装区 (Y=83-86)
 # ============================================================
 fill 22 83 -2 48 83 -18 oak_planks
 fill 22 86 -2 48 86 -18 white_concrete
-# 杂货展示
-fill 24 84 -4 28 85 -6 spruce_planks
-fill 24 84 -8 28 85 -10 spruce_planks
-fill 24 84 -12 28 85 -14 spruce_planks
-# 家居展示区
-fill 32 84 -4 36 85 -8 birch_planks
-setblock 34 84 -6 oak_log
-# 绿植装饰
-setblock 40 84 -5 flower_pot
-setblock 42 84 -5 flower_pot
-setblock 44 84 -5 flower_pot
-setblock 40 84 -9 flower_pot
-setblock 42 84 -9 flower_pot
-setblock 44 84 -9 flower_pot
-# 4F 灯光
-setblock 27 86 -10 glowstone
-setblock 35 86 -10 glowstone
-setblock 43 86 -10 glowstone
+# 4F 地毯分区
+fill 24 83 -4 34 83 -8 purple_carpet
+fill 24 83 -10 34 83 -14 cyan_carpet
+# 4F 铁块展示台
+setblock 26 84 -5 iron_block
+setblock 26 84 -7 iron_block
+setblock 26 84 -11 iron_block
+setblock 30 84 -5 iron_block
+setblock 30 84 -7 iron_block
+# 4F 玻璃试衣间
+fill 36 84 -4 38 85 -6 glass_pane
+setblock 37 84 -5 iron_door
+fill 36 84 -8 38 85 -10 glass_pane
+setblock 37 84 -9 iron_door
+# 4F 货架
+fill 40 84 -4 46 85 -8 dark_oak_planks
+fill 40 84 -10 46 85 -14 oak_planks
+# 4F 照明
+setblock 27 86 -10 sea_lantern
+setblock 35 86 -10 sea_lantern
+setblock 43 86 -10 sea_lantern
 
 # ============================================================
-# 5F 童装/玩具 (Y=87-90)
+# 5F 女装区 (Y=87-90)
 # ============================================================
-fill 22 87 -2 48 87 -18 yellow_concrete
+fill 22 87 -2 48 87 -18 quartz_block
 fill 22 90 -2 48 90 -18 white_concrete
-# 彩色装饰
-fill 24 88 -4 28 89 -6 red_wool
-fill 24 88 -8 28 89 -10 blue_wool
-fill 24 88 -12 28 89 -14 green_wool
-# 玩具展示架
-fill 32 88 -4 36 89 -8 oak_planks
-fill 32 88 -10 36 89 -14 oak_planks
-# 游乐区
-fill 40 88 -4 44 89 -8 yellow_wool
-setblock 42 88 -6 oak_fence
-# 5F 灯光
-setblock 27 90 -10 glowstone
-setblock 35 90 -10 glowstone
-setblock 43 90 -10 glowstone
+# 5F 地毯分区
+fill 24 87 -4 34 87 -8 yellow_carpet
+fill 24 87 -10 34 87 -14 green_carpet
+# 5F 铁块展示台
+setblock 26 88 -5 iron_block
+setblock 26 88 -7 iron_block
+setblock 26 88 -11 iron_block
+setblock 30 88 -5 iron_block
+setblock 30 88 -7 iron_block
+# 5F 玻璃试衣间
+fill 36 88 -4 38 89 -6 glass_pane
+setblock 37 88 -5 iron_door
+fill 36 88 -8 38 89 -10 glass_pane
+setblock 37 88 -9 iron_door
+# 5F 货架
+fill 40 88 -4 46 89 -8 oak_planks
+fill 40 88 -10 46 89 -14 spruce_planks
+# 5F 照明
+setblock 27 90 -10 sea_lantern
+setblock 35 90 -10 sea_lantern
+setblock 43 90 -10 sea_lantern
 
 # ============================================================
-# 6F 咖啡厅/书店 (Y=91-94)
+# 6F 男装区 (Y=91-94)
 # ============================================================
-fill 22 91 -2 48 91 -18 oak_planks
-fill 22 94 -2 48 94 -18 brown_concrete
-# 书架
+fill 22 91 -2 48 91 -18 dark_oak_planks
+fill 22 94 -2 48 94 -18 gray_concrete
+# 6F 橡木货架
 fill 24 92 -4 28 93 -6 oak_planks
 fill 24 92 -8 28 93 -10 oak_planks
 fill 24 92 -12 28 93 -14 oak_planks
-# 阅读区
-fill 32 92 -4 36 92 -8 oak_slab
-setblock 34 92 -6 oak_fence
-# 咖啡吧台
-fill 40 92 -4 44 93 -8 quartz_block
-setblock 42 92 -6 brewing_stand
-# 咖啡桌
-setblock 40 92 -12 oak_planks
-setblock 42 92 -12 oak_planks
-setblock 44 92 -12 oak_planks
-# 6F 灯光
-setblock 27 94 -10 glowstone
-setblock 35 94 -10 glowstone
-setblock 43 94 -10 glowstone
+# 6F 铁块展示台
+setblock 32 92 -5 iron_block
+setblock 32 92 -9 iron_block
+setblock 32 92 -13 iron_block
+# 6F 男装区2
+fill 36 92 -4 40 93 -8 dark_oak_planks
+fill 36 92 -10 40 93 -14 spruce_planks
+# 6F 配件区
+fill 42 92 -4 46 93 -8 oak_planks
+setblock 44 92 -5 chest
+setblock 44 92 -7 chest
+# 6F 照明
+setblock 27 94 -10 sea_lantern
+setblock 35 94 -10 sea_lantern
+setblock 43 94 -10 sea_lantern
 
 # ============================================================
-# 7F 美食广场 (Y=95-98)
+# 7F 男装区 (Y=95-98)
 # ============================================================
-fill 22 95 -2 48 95 -18 light_gray_concrete
+fill 22 95 -2 48 95 -18 gray_concrete
 fill 22 98 -2 48 98 -18 white_concrete
-# 美食档口1
-fill 24 96 -4 26 97 -6 iron_block
-setblock 25 96 -5 smoker
-# 美食档口2
-fill 24 96 -8 26 97 -10 iron_block
-setblock 25 96 -9 smoker
-# 美食档口3
-fill 24 96 -12 26 97 -14 iron_block
-setblock 25 96 -13 smoker
-# 美食档口4
-fill 30 96 -4 32 97 -6 iron_block
-setblock 31 96 -5 smoker
-# 美食档口5
-fill 30 96 -8 32 97 -10 iron_block
-setblock 31 96 -9 smoker
-# 公共用餐区
-fill 36 96 -4 46 96 -6 oak_planks
-fill 36 96 -8 46 96 -10 oak_planks
-fill 36 96 -12 46 96 -14 oak_planks
-# 用餐椅
-fill 36 95 -4 36 95 -6 oak_slab
-fill 46 95 -4 46 95 -6 oak_slab
-fill 36 95 -8 36 95 -10 oak_slab
-fill 46 95 -8 46 95 -10 oak_slab
-# 7F 灯光
-setblock 27 98 -10 glowstone
-setblock 35 98 -10 glowstone
-setblock 43 98 -10 glowstone
+# 7F 橡木货架
+fill 24 96 -4 28 97 -6 oak_planks
+fill 24 96 -8 28 97 -10 oak_planks
+fill 24 96 -12 28 97 -14 oak_planks
+# 7F 铁块展示台
+setblock 32 96 -5 iron_block
+setblock 32 96 -9 iron_block
+setblock 32 96 -13 iron_block
+# 7F 运动品牌区
+fill 36 96 -4 40 97 -8 spruce_planks
+fill 36 96 -10 40 97 -14 oak_planks
+# 7F 鞋区
+fill 42 96 -4 46 97 -8 dark_oak_planks
+setblock 44 96 -5 chest
+setblock 44 96 -7 chest
+# 7F 照明
+setblock 27 98 -10 sea_lantern
+setblock 35 98 -10 sea_lantern
+setblock 43 98 -10 sea_lantern
 
 # ============================================================
-# 8F 电影院入口 (Y=99-102)
+# 8F 男装区 (Y=99-102)
 # ============================================================
-fill 22 99 -2 48 99 -18 red_concrete
-fill 22 102 -2 48 102 -18 black_concrete
-# 售票处
-fill 24 100 -4 28 101 -6 quartz_block
-setblock 26 100 -5 oak_planks
-# 爆米花柜台
-fill 30 100 -4 34 101 -6 quartz_block
-setblock 32 100 -5 chest
-# 海报墙
-fill 38 99 -4 46 101 -8 white_concrete
-setblock 40 100 -5 glowstone
-setblock 42 100 -5 glowstone
-setblock 44 100 -5 glowstone
-# 影院走廊
-fill 24 100 -12 46 101 -14 red_carpet
-# 8F 灯光
-setblock 27 102 -10 redstone_lamp
-setblock 35 102 -10 redstone_lamp
-setblock 43 102 -10 redstone_lamp
-
-# ============================================================
-# 1F-8F 中庭挑空区域
-# ============================================================
-fill 30 71 -12 40 102 -8 air
-# 中庭装饰灯光
-setblock 30 74 -10 sea_lantern
-setblock 30 78 -10 sea_lantern
-setblock 30 82 -10 sea_lantern
-setblock 30 86 -10 sea_lantern
-setblock 30 90 -10 sea_lantern
-setblock 30 94 -10 sea_lantern
-setblock 30 98 -10 sea_lantern
-setblock 40 74 -10 sea_lantern
-setblock 40 78 -10 sea_lantern
-setblock 40 82 -10 sea_lantern
-setblock 40 86 -10 sea_lantern
-setblock 40 90 -10 sea_lantern
-setblock 40 94 -10 sea_lantern
-setblock 40 98 -10 sea_lantern
-
-# ============================================================
-# 1F-8F 自动扶梯 (黄色混凝土模拟)
-# ============================================================
-fill 32 71 -12 34 102 -12 yellow_concrete
-fill 36 71 -12 38 102 -12 yellow_concrete
-# 扶梯栏杆
-fill 31 71 -12 31 102 -12 iron_block
-fill 35 71 -12 35 102 -12 iron_block
-fill 39 71 -12 39 102 -12 iron_block
-
-# ============================================================
-# 1F-8F 玻璃电梯
-# ============================================================
-fill 46 71 -2 48 102 -4 glass
-fill 46 71 -2 46 102 -4 iron_block
-fill 48 71 -2 48 102 -4 iron_block
-fill 46 71 -2 48 71 -4 iron_block
-setblock 47 74 -3 sea_lantern
-setblock 47 78 -3 sea_lantern
-setblock 47 82 -3 sea_lantern
-setblock 47 86 -3 sea_lantern
-setblock 47 90 -3 sea_lantern
-setblock 47 94 -3 sea_lantern
-setblock 47 98 -3 sea_lantern
+fill 22 99 -2 48 99 -18 spruce_planks
+fill 22 102 -2 48 102 -18 white_concrete
+# 8F 橡木货架
+fill 24 100 -4 28 101 -6 oak_planks
+fill 24 100 -8 28 101 -10 oak_planks
+fill 24 100 -12 28 101 -14 oak_planks
+# 8F 铁块展示台
+setblock 32 100 -5 iron_block
+setblock 32 100 -9 iron_block
+setblock 32 100 -13 iron_block
+# 8F 商务区
+fill 36 100 -4 40 101 -8 dark_oak_planks
+fill 36 100 -10 40 101 -14 oak_planks
+# 8F 领带/配件区
+fill 42 100 -4 46 101 -8 oak_planks
+setblock 44 100 -5 chest
+setblock 44 100 -7 chest
+# 8F 照明
+setblock 27 102 -10 sea_lantern
+setblock 35 102 -10 sea_lantern
+setblock 43 102 -10 sea_lantern
 
 # ============================================================
 # 9F 餐厅层 (Y=103-106)
 # ============================================================
 fill 22 103 -2 48 103 -18 dark_oak_planks
 fill 22 106 -2 48 106 -18 brown_concrete
-# 和食餐厅
+# 9F 餐厅入口1 - 和食
 fill 24 104 -4 28 105 -6 dark_oak_planks
 setblock 26 104 -5 red_wool
-fill 24 104 -8 28 105 -10 dark_oak_planks
-setblock 26 104 -9 red_wool
-# 和食厨房
-fill 24 104 -12 28 105 -14 iron_block
+setblock 26 105 -5 cauldron
+setblock 24 104 -4 oak_sign[facing=south]{Text1:'{"text":"和食","color":"red","bold":true}',Text2:'{"text":"Japanese","color":"gray"}'}
+# 9F 餐厅入口2 - 洋食
+fill 24 104 -8 28 105 -10 quartz_block
+setblock 26 104 -9 white_wool
+setblock 26 105 -9 furnace
+setblock 24 104 -8 oak_sign[facing=south]{Text1:'{"text":"洋食","color":"gold","bold":true}',Text2:'{"text":"Western","color":"gray"}'}
+# 9F 餐厅入口3 - 中华
+fill 24 104 -12 28 105 -14 red_concrete
+setblock 26 104 -13 red_wool
 setblock 26 105 -13 campfire
-# 洋食餐厅
-fill 32 104 -4 36 105 -8 quartz_block
-setblock 34 104 -6 white_wool
-# 洋食厨房
-fill 32 104 -10 36 105 -14 iron_block
-setblock 34 105 -12 furnace
-# 中华料理
-fill 40 104 -4 44 105 -8 red_concrete
-setblock 42 104 -6 red_wool
-# 中华厨房
-fill 40 104 -10 44 105 -14 iron_block
-setblock 42 105 -12 campfire
-# 露台座位区 (南侧)
-fill 22 104 -2 48 104 -2 oak_slab
-fill 24 104 -2 24 104 -2 oak_fence
-fill 28 104 -2 28 104 -2 oak_fence
-fill 32 104 -2 32 104 -2 oak_fence
-fill 36 104 -2 36 104 -2 oak_fence
-fill 40 104 -2 40 104 -2 oak_fence
-fill 44 104 -2 44 104 -2 oak_fence
-# 9F 灯光
-setblock 27 106 -10 glowstone
-setblock 35 106 -10 glowstone
-setblock 43 106 -10 glowstone
+setblock 24 104 -12 oak_sign[facing=south]{Text1:'{"text":"中華","color":"red","bold":true}',Text2:'{"text":"Chinese","color":"gray"}'}
+# 9F 美食广场 - 公共用餐区
+fill 32 104 -4 46 104 -6 oak_planks
+fill 32 104 -8 46 104 -10 oak_planks
+fill 32 104 -12 46 104 -14 oak_planks
+# 9F 美食档口
+fill 32 105 -4 34 105 -6 iron_block
+setblock 33 105 -5 smoker
+fill 32 105 -8 34 105 -10 iron_block
+setblock 33 105 -9 smoker
+fill 32 105 -12 34 105 -14 iron_block
+setblock 33 105 -13 smoker
+# 9F 饮料区
+fill 38 105 -4 40 105 -6 quartz_block
+setblock 39 105 -5 brewing_stand
+# 9F 照明
+setblock 27 106 -10 sea_lantern
+setblock 35 106 -10 sea_lantern
+setblock 43 106 -10 sea_lantern
 
 # ============================================================
-# 10F PARCO剧场 - 舞台 (Y=107-110)
+# 10F 电影院 (Y=107-112)
 # ============================================================
-fill 22 107 -2 48 107 -18 dark_oak_planks
-fill 22 110 -2 48 110 -18 black_concrete
-# 舞台
-fill 24 107 -4 44 109 -8 dark_oak_planks
-# 舞台灯光
-setblock 28 110 -5 redstone_lamp
-setblock 34 110 -5 redstone_lamp
-setblock 40 110 -5 redstone_lamp
-# 幕布
-fill 24 107 -4 24 110 -8 red_wool
-fill 44 107 -4 44 110 -8 red_wool
-# 后台
-fill 24 107 -10 44 109 -14 iron_block
-setblock 34 107 -12 chest
-# 观众席入口
-fill 24 107 -16 44 107 -18 red_carpet
-# 10F 灯光
-setblock 34 110 -12 glowstone
-
-# ============================================================
-# 11F PARCO剧场 - 观众席 (Y=111-114)
-# ============================================================
-fill 22 111 -2 48 111 -18 red_carpet
-fill 22 114 -2 48 114 -18 black_concrete
-# 观众席座位 (阶梯式)
-fill 24 111 -4 44 111 -8 red_wool
-fill 24 112 -4 44 112 -8 red_wool
-fill 24 113 -4 44 113 -8 red_wool
-# 座位分隔
-fill 30 111 -4 30 113 -8 black_concrete
-fill 38 111 -4 38 113 -8 black_concrete
-# 走廊
-fill 24 111 -10 44 111 -14 red_carpet
-# 11F 灯光
-setblock 28 114 -6 redstone_lamp
-setblock 34 114 -6 redstone_lamp
-setblock 40 114 -6 redstone_lamp
+fill 22 107 -2 48 107 -18 red_concrete
+fill 22 112 -2 48 112 -18 black_concrete
+# 10F 售票处
+fill 24 108 -4 28 109 -6 quartz_block
+setblock 26 108 -5 oak_planks
+# 10F 爆米花柜台
+fill 30 108 -4 34 109 -6 quartz_block
+setblock 32 108 -5 chest
+# 10F 海报墙
+fill 38 107 -4 46 109 -8 white_concrete
+setblock 40 108 -5 glowstone
+setblock 42 108 -5 glowstone
+setblock 44 108 -5 glowstone
+# 10F 阶梯座位 - oak_stairs
+fill 24 109 -12 46 109 -14 oak_stairs[facing=north]
+fill 24 110 -12 46 110 -14 oak_stairs[facing=north]
+fill 24 111 -12 46 111 -14 oak_stairs[facing=north]
+# 10F 铁块屏幕
+fill 24 107 -16 46 107 -16 iron_block
+# 10F 音响 - note_block
+setblock 24 112 -12 note_block
+setblock 30 112 -12 note_block
+setblock 36 112 -12 note_block
+setblock 42 112 -12 note_block
+# 10F 排片表 - oak_sign
+setblock 24 108 -16 oak_sign[facing=north]{Text1:'{"text":"NOW SHOWING","color":"red","bold":true}',Text2:'{"text":"上映中","color":"white"}'}
+setblock 30 108 -16 oak_sign[facing=north]{Text1:'{"text":"Screen 1","color":"yellow"}',Text2:'{"text":"14:00/17:00/20:00","color":"gray"}'}
+setblock 36 108 -16 oak_sign[facing=north]{Text1:'{"text":"Screen 2","color":"yellow"}',Text2:'{"text":"13:30/16:30/19:30","color":"gray"}'}
+setblock 42 108 -16 oak_sign[facing=north]{Text1:'{"text":"Screen 3","color":"yellow"}',Text2:'{"text":"15:00/18:00/21:00","color":"gray"}'}
+# 10F 走廊
+fill 24 108 -12 46 109 -14 red_carpet
+# 10F 照明
+setblock 27 112 -10 redstone_lamp
+setblock 35 112 -10 redstone_lamp
+setblock 43 112 -10 redstone_lamp
 
 # ============================================================
-# 12F PARCO剧场 - 设备层 (Y=115-118)
+# 11F 娱乐区 - 游戏中心 (Y=113-116)
 # ============================================================
-fill 22 115 -2 48 115 -18 gray_concrete
-fill 22 118 -2 48 118 -18 gray_concrete
-# 灯光设备
-fill 24 116 -4 44 117 -8 iron_block
-setblock 28 116 -5 redstone_lamp
-setblock 34 116 -5 redstone_lamp
-setblock 40 116 -5 redstone_lamp
-# 音响设备
-fill 24 116 -10 44 117 -14 iron_block
-setblock 28 116 -12 note_block
-setblock 34 116 -12 note_block
-setblock 40 116 -12 note_block
-# 12F 灯光
-setblock 34 118 -10 glowstone
+fill 22 113 -2 48 113 -18 yellow_concrete
+fill 22 116 -2 48 116 -18 white_concrete
+# 11F 游戏机台
+fill 24 114 -4 28 115 -6 red_concrete
+setblock 26 114 -5 redstone_lamp
+fill 24 114 -8 28 115 -10 blue_concrete
+setblock 26 114 -9 redstone_lamp
+fill 24 114 -12 28 115 -14 green_concrete
+setblock 26 114 -13 redstone_lamp
+# 11F 抓娃娃机
+fill 32 114 -4 36 115 -6 glass_pane
+setblock 34 114 -5 iron_block
+# 11F 兑奖处
+fill 40 114 -4 44 115 -6 oak_planks
+setblock 42 114 -5 chest
+# 11F 照明
+setblock 27 116 -10 sea_lantern
+setblock 35 116 -10 sea_lantern
+setblock 43 116 -10 sea_lantern
 
 # ============================================================
-# 13F-22F 办公区 (Y=119-178)
+# 12F 娱乐区 - 卡拉OK (Y=117-120)
 # ============================================================
-# 办公区整体地板和天花板
-fill 22 119 -2 48 119 -18 gray_concrete
-fill 22 178 -2 48 178 -18 white_concrete
+fill 22 117 -2 48 117 -18 purple_concrete
+fill 22 120 -2 48 120 -18 white_concrete
+# 12F 卡拉OK包厢1
+fill 24 118 -4 28 119 -6 purple_wool
+setblock 26 118 -5 note_block
+# 12F 卡拉OK包厢2
+fill 24 118 -8 28 119 -10 blue_wool
+setblock 26 118 -9 note_block
+# 12F 卡拉OK包厢3
+fill 24 118 -12 28 119 -14 red_wool
+setblock 26 118 -13 note_block
+# 12F 吧台
+fill 32 118 -4 36 119 -6 quartz_block
+setblock 34 118 -5 brewing_stand
+# 12F 接待处
+fill 40 118 -4 44 119 -6 oak_planks
+setblock 42 118 -5 oak_sign[facing=south]{Text1:'{"text":"KARAOKE","color":"purple","bold":true}',Text2:'{"text":"カラオケ","color":"gray"}'}
+# 12F 照明
+setblock 27 120 -10 sea_lantern
+setblock 35 120 -10 sea_lantern
+setblock 43 120 -10 sea_lantern
 
-# 13F 标准办公层 (Y=119-122)
-fill 22 119 -2 48 119 -18 gray_concrete
-fill 22 122 -2 48 122 -18 white_concrete
-fill 24 120 -4 34 120 -16 oak_planks
-fill 24 121 -4 34 121 -16 oak_planks
-# 会议室
-fill 38 120 -4 44 121 -8 gray_concrete
-setblock 41 120 -6 oak_planks
-# 茶水间
-fill 38 120 -10 44 121 -14 quartz_block
-setblock 41 120 -12 cauldron
-setblock 34 122 -10 glowstone
+# ============================================================
+# 13F 娱乐区 - 保龄球 (Y=121-124)
+# ============================================================
+fill 22 121 -2 48 121 -18 oak_planks
+fill 22 124 -2 48 124 -18 white_concrete
+# 13F 保龄球道
+fill 24 121 -4 30 121 -8 polished_andesite
+fill 24 121 -10 30 121 -14 polished_andesite
+# 13F 保龄球瓶
+setblock 27 121 -4 iron_block
+setblock 27 121 -10 iron_block
+# 13F 座椅区
+fill 32 121 -4 36 121 -8 oak_stairs[facing=north]
+fill 32 121 -10 36 121 -14 oak_stairs[facing=north]
+# 13F 记分板
+setblock 34 122 -4 oak_sign[facing=north]{Text1:'{"text":"BOWLING","color":"blue","bold":true}',Text2:'{"text":"ボウリング","color":"gray"}'}
+# 13F 鞋柜
+fill 40 121 -4 44 122 -6 oak_planks
+setblock 42 121 -5 chest
+# 13F 照明
+setblock 27 124 -10 sea_lantern
+setblock 35 124 -10 sea_lantern
+setblock 43 124 -10 sea_lantern
 
-# 14F 标准办公层 (Y=123-126)
-fill 22 123 -2 48 123 -18 gray_concrete
-fill 22 126 -2 48 126 -18 white_concrete
-fill 24 124 -4 34 124 -16 oak_planks
-fill 24 125 -4 34 125 -16 oak_planks
-fill 38 124 -4 44 125 -8 gray_concrete
-setblock 41 124 -6 oak_planks
-fill 38 124 -10 44 125 -14 quartz_block
-setblock 34 126 -10 glowstone
+# ============================================================
+# 14F 娱乐区 - 综合娱乐 (Y=125-128)
+# ============================================================
+fill 22 125 -2 48 125 -18 cyan_concrete
+fill 22 128 -2 48 128 -18 white_concrete
+# 14F 桌球区
+fill 24 126 -4 30 126 -8 green_carpet
+setblock 27 126 -6 oak_planks
+# 14F 街机区
+fill 24 126 -10 30 127 -14 red_concrete
+setblock 26 126 -12 redstone_lamp
+setblock 28 126 -12 redstone_lamp
+# 14F 休息区
+fill 34 126 -4 38 126 -8 cyan_wool
+setblock 36 126 -6 oak_planks
+# 14F 小吃吧
+fill 40 126 -4 44 127 -6 quartz_block
+setblock 42 126 -5 chest
+# 14F 照明
+setblock 27 128 -10 sea_lantern
+setblock 35 128 -10 sea_lantern
+setblock 43 128 -10 sea_lantern
 
-# 15F 标准办公层 (Y=127-130)
-fill 22 127 -2 48 127 -18 gray_concrete
-fill 22 130 -2 48 130 -18 white_concrete
-fill 24 128 -4 34 128 -16 oak_planks
-fill 24 129 -4 34 129 -16 oak_planks
-fill 38 128 -4 44 129 -8 gray_concrete
-setblock 41 128 -6 oak_planks
-fill 38 128 -10 44 129 -14 quartz_block
-setblock 34 130 -10 glowstone
+# ============================================================
+# 15-22F 办公区 (Y=129-178)
+# ============================================================
+# 15F 标准办公层 (Y=129-132)
+fill 22 129 -2 48 129 -18 gray_concrete
+fill 22 132 -2 48 132 -18 white_concrete
+fill 24 130 -4 34 130 -16 oak_planks
+fill 24 131 -4 34 131 -16 oak_planks
+fill 38 130 -4 44 131 -8 glass_pane
+setblock 41 130 -6 oak_planks
+fill 38 130 -10 44 131 -14 quartz_block
+setblock 41 130 -12 cauldron
+setblock 34 132 -10 sea_lantern
 
-# 16F 标准办公层 (Y=131-134)
-fill 22 131 -2 48 131 -18 gray_concrete
-fill 22 134 -2 48 134 -18 white_concrete
-fill 24 132 -4 34 132 -16 oak_planks
-fill 24 133 -4 34 133 -16 oak_planks
-fill 38 132 -4 44 133 -8 gray_concrete
-setblock 41 132 -6 oak_planks
-fill 38 132 -10 44 133 -14 quartz_block
-setblock 34 134 -10 glowstone
+# 16F 标准办公层 (Y=133-136)
+fill 22 133 -2 48 133 -18 gray_concrete
+fill 22 136 -2 48 136 -18 white_concrete
+fill 24 134 -4 34 134 -16 oak_planks
+fill 24 135 -4 34 135 -16 oak_planks
+fill 38 134 -4 44 135 -8 glass_pane
+setblock 41 134 -6 oak_planks
+fill 38 134 -10 44 135 -14 quartz_block
+setblock 41 134 -12 cauldron
+setblock 34 136 -10 sea_lantern
 
-# 17F 标准办公层 (Y=135-138)
-fill 22 135 -2 48 135 -18 gray_concrete
-fill 22 138 -2 48 138 -18 white_concrete
-fill 24 136 -4 34 136 -16 oak_planks
-fill 24 137 -4 34 137 -16 oak_planks
-fill 38 136 -4 44 137 -8 gray_concrete
-setblock 41 136 -6 oak_planks
-fill 38 136 -10 44 137 -14 quartz_block
-setblock 34 138 -10 glowstone
+# 17F 标准办公层 (Y=137-140)
+fill 22 137 -2 48 137 -18 gray_concrete
+fill 22 140 -2 48 140 -18 white_concrete
+fill 24 138 -4 34 138 -16 oak_planks
+fill 24 139 -4 34 139 -16 oak_planks
+fill 38 138 -4 44 139 -8 glass_pane
+setblock 41 138 -6 oak_planks
+fill 38 138 -10 44 139 -14 quartz_block
+setblock 41 138 -12 cauldron
+setblock 34 140 -10 sea_lantern
 
-# 18F 休息区 (Y=139-142)
-fill 22 139 -2 48 139 -18 oak_planks
-fill 22 142 -2 48 142 -18 white_concrete
-# 休息沙发
-fill 24 140 -4 28 140 -8 cyan_wool
-fill 24 140 -10 28 140 -14 cyan_wool
-# 休息桌
-setblock 26 140 -6 oak_planks
-setblock 26 140 -12 oak_planks
-# 绿植
-setblock 38 140 -5 flower_pot
-setblock 40 140 -5 flower_pot
-setblock 42 140 -5 flower_pot
-# 饮水机
-setblock 44 140 -12 cauldron
-setblock 34 142 -10 glowstone
+# 18F 休息层 (Y=141-144)
+fill 22 141 -2 48 141 -18 oak_planks
+fill 22 144 -2 48 144 -18 white_concrete
+fill 24 142 -4 28 142 -8 cyan_wool
+fill 24 142 -10 28 142 -14 cyan_wool
+setblock 26 142 -6 oak_planks
+setblock 26 142 -12 oak_planks
+setblock 38 142 -5 flower_pot
+setblock 40 142 -5 flower_pot
+setblock 42 142 -5 flower_pot
+setblock 44 142 -12 cauldron
+setblock 34 144 -10 sea_lantern
 
-# 19F-22F 标准办公层
-fill 22 143 -2 48 143 -18 gray_concrete
+# 19-22F 标准办公层
+fill 22 145 -2 48 145 -18 gray_concrete
 fill 22 158 -2 48 158 -18 white_concrete
-fill 24 144 -4 34 144 -16 oak_planks
-fill 24 145 -4 34 145 -16 oak_planks
+fill 24 146 -4 34 146 -16 oak_planks
+fill 24 147 -4 34 147 -16 oak_planks
 fill 24 148 -4 34 148 -16 oak_planks
 fill 24 149 -4 34 149 -16 oak_planks
 fill 24 152 -4 34 152 -16 oak_planks
 fill 24 153 -4 34 153 -16 oak_planks
 fill 24 156 -4 34 156 -16 oak_planks
 fill 24 157 -4 34 157 -16 oak_planks
-fill 38 144 -4 44 145 -8 gray_concrete
-fill 38 148 -4 44 149 -8 gray_concrete
-fill 38 152 -4 44 153 -8 gray_concrete
-fill 38 156 -4 44 157 -8 gray_concrete
-setblock 34 146 -10 glowstone
-setblock 34 150 -10 glowstone
-setblock 34 154 -10 glowstone
-setblock 34 158 -10 glowstone
+fill 38 146 -4 44 147 -8 glass_pane
+fill 38 148 -4 44 149 -8 glass_pane
+fill 38 152 -4 44 153 -8 glass_pane
+fill 38 156 -4 44 157 -8 glass_pane
+setblock 34 150 -10 sea_lantern
+setblock 34 154 -10 sea_lantern
+setblock 34 158 -10 sea_lantern
 
 # ============================================================
-# 屋顶农场 (Y=179-181)
+# 屋顶花园 (Y=179-181)
 # ============================================================
-# 屋顶地面
+# 屋顶地面 - 草方块
 fill 22 179 -2 48 179 -18 grass_block
-# 农作物区1 - 小麦
-fill 24 180 -4 28 180 -6 farmland
-setblock 24 181 -4 wheat
-setblock 25 181 -4 wheat
-setblock 26 181 -4 wheat
-setblock 27 181 -4 wheat
-setblock 28 181 -4 wheat
-setblock 24 181 -5 wheat
-setblock 25 181 -5 wheat
-setblock 26 181 -5 wheat
-setblock 27 181 -5 wheat
-setblock 28 181 -5 wheat
-setblock 24 181 -6 wheat
-setblock 25 181 -6 wheat
-setblock 26 181 -6 wheat
-setblock 27 181 -6 wheat
-setblock 28 181 -6 wheat
-# 农作物区2 - 胡萝卜
-fill 30 180 -4 34 180 -6 farmland
-setblock 30 181 -4 carrots
-setblock 31 181 -4 carrots
-setblock 32 181 -4 carrots
-setblock 33 181 -4 carrots
-setblock 34 181 -4 carrots
-setblock 30 181 -5 carrots
-setblock 31 181 -5 carrots
-setblock 32 181 -5 carrots
-setblock 33 181 -5 carrots
-setblock 34 181 -5 carrots
-# 农作物区3 - 土豆
-fill 36 180 -4 40 180 -6 farmland
-setblock 36 181 -4 potatoes
-setblock 37 181 -4 potatoes
-setblock 38 181 -4 potatoes
-setblock 39 181 -4 potatoes
-setblock 40 181 -4 potatoes
-setblock 36 181 -5 potatoes
-setblock 37 181 -5 potatoes
-setblock 38 181 -5 potatoes
-setblock 39 181 -5 potatoes
-setblock 40 181 -5 potatoes
-# 农作物区4 - 甜菜根
-fill 42 180 -4 46 180 -6 farmland
-setblock 42 181 -4 beetroot
-setblock 43 181 -4 beetroot
-setblock 44 181 -4 beetroot
-setblock 45 181 -4 beetroot
-setblock 46 181 -4 beetroot
-setblock 42 181 -5 beetroot
-setblock 43 181 -5 beetroot
-setblock 44 181 -5 beetroot
-setblock 45 181 -5 beetroot
-setblock 46 181 -5 beetroot
-# 温室 (玻璃围栏)
-fill 24 180 -10 28 181 -14 glass
-fill 24 180 -10 24 181 -14 glass
-fill 28 180 -10 28 181 -14 glass
-fill 24 180 -10 28 180 -10 glass
-# 温室内部
-fill 25 180 -11 27 180 -13 farmland
-setblock 25 181 -11 oak_sapling
-setblock 26 181 -12 oak_sapling
-setblock 27 181 -13 oak_sapling
-# 工具棚
-fill 32 180 -10 36 181 -14 oak_planks
-setblock 34 180 -12 oak_door
-setblock 34 181 -12 chest
-setblock 33 181 -12 iron_axe
-# 水井
-fill 40 180 -10 42 180 -12 stone_slab
-setblock 41 179 -11 water
-setblock 41 180 -11 water
-setblock 41 181 -11 water
-# 休息区
-fill 44 180 -10 46 180 -14 oak_slab
-setblock 45 180 -12 oak_fence
-# 农场步道
+# 花坛
+fill 24 180 -4 28 180 -6 flower_pot
+fill 24 180 -10 28 180 -12 flower_pot
+# 草地种植
+setblock 25 180 -5 oak_sapling
+setblock 27 180 -5 birch_sapling
+setblock 25 180 -11 oak_sapling
+setblock 27 180 -11 birch_sapling
+# 长椅 - oak_stairs
+fill 32 180 -4 34 180 -6 oak_stairs[facing=east]
+fill 32 180 -10 34 180 -12 oak_stairs[facing=east]
+fill 40 180 -4 42 180 -6 oak_stairs[facing=west]
+fill 40 180 -10 42 180 -12 oak_stairs[facing=west]
+# 步道
 fill 22 180 -8 48 180 -8 stone_slab
 fill 22 180 -16 48 180 -16 stone_slab
-# 太阳能板区域
-fill 24 181 -16 28 181 -16 iron_block
-fill 30 181 -16 34 181 -16 iron_block
-fill 36 181 -16 40 181 -16 iron_block
-fill 42 181 -16 46 181 -16 iron_block
-# 屋顶灯光
-setblock 27 182 -10 glowstone
-setblock 35 182 -10 glowstone
-setblock 43 182 -10 glowstone
+# 照明 - 海晶灯
+setblock 26 181 -5 sea_lantern
+setblock 26 181 -11 sea_lantern
+setblock 36 181 -5 sea_lantern
+setblock 36 181 -11 sea_lantern
+setblock 44 181 -5 sea_lantern
+setblock 44 181 -11 sea_lantern
+# 屋顶装饰
+setblock 30 180 -16 flower_pot
+setblock 34 180 -16 flower_pot
+setblock 38 180 -16 flower_pot
+setblock 42 180 -16 flower_pot
 
 # ============================================================
-# 电梯井 (贯穿全楼)
+# 电梯厅 (贯穿全楼)
 # ============================================================
+# 电梯井结构
 fill 46 66 -2 48 179 -4 iron_block
-# 电梯内部灯光
-setblock 47 70 -3 sea_lantern
-setblock 47 80 -3 sea_lantern
-setblock 47 90 -3 sea_lantern
-setblock 47 100 -3 sea_lantern
-setblock 47 110 -3 sea_lantern
-setblock 47 120 -3 sea_lantern
-setblock 47 130 -3 sea_lantern
-setblock 47 140 -3 sea_lantern
-setblock 47 150 -3 sea_lantern
-setblock 47 160 -3 sea_lantern
-setblock 47 170 -3 sea_lantern
+# 电梯门
+setblock 46 71 -3 iron_door
+setblock 46 75 -3 iron_door
+setblock 46 79 -3 iron_door
+setblock 46 83 -3 iron_door
+setblock 46 87 -3 iron_door
+setblock 46 91 -3 iron_door
+setblock 46 95 -3 iron_door
+setblock 46 99 -3 iron_door
+setblock 46 103 -3 iron_door
+setblock 46 107 -3 iron_door
+setblock 46 113 -3 iron_door
+setblock 46 129 -3 iron_door
+setblock 46 145 -3 iron_door
+# 楼层指示牌
+setblock 45 72 -3 oak_sign[facing=east]{Text1:'{"text":"1F","color":"blue","bold":true}',Text2:'{"text":"Cosmetics","color":"gray"}'}
+setblock 45 76 -3 oak_sign[facing=east]{Text1:'{"text":"2F","color":"blue","bold":true}',Text2:'{"text":"Women","color":"gray"}'}
+setblock 45 80 -3 oak_sign[facing=east]{Text1:'{"text":"3F","color":"blue","bold":true}',Text2:'{"text":"Women","color":"gray"}'}
+setblock 45 84 -3 oak_sign[facing=east]{Text1:'{"text":"4F","color":"blue","bold":true}',Text2:'{"text":"Women","color":"gray"}'}
+setblock 45 88 -3 oak_sign[facing=east]{Text1:'{"text":"5F","color":"blue","bold":true}',Text2:'{"text":"Women","color":"gray"}'}
+setblock 45 92 -3 oak_sign[facing=east]{Text1:'{"text":"6F","color":"blue","bold":true}',Text2:'{"text":"Men","color":"gray"}'}
+setblock 45 96 -3 oak_sign[facing=east]{Text1:'{"text":"7F","color":"blue","bold":true}',Text2:'{"text":"Men","color":"gray"}'}
+setblock 45 100 -3 oak_sign[facing=east]{Text1:'{"text":"8F","color":"blue","bold":true}',Text2:'{"text":"Men","color":"gray"}'}
+setblock 45 104 -3 oak_sign[facing=east]{Text1:'{"text":"9F","color":"blue","bold":true}',Text2:'{"text":"Restaurant","color":"gray"}'}
+setblock 45 108 -3 oak_sign[facing=east]{Text1:'{"text":"10F","color":"blue","bold":true}',Text2:'{"text":"Cinema","color":"gray"}'}
+setblock 45 114 -3 oak_sign[facing=east]{Text1:'{"text":"11F","color":"blue","bold":true}',Text2:'{"text":"Amusement","color":"gray"}'}
+setblock 45 130 -3 oak_sign[facing=east]{Text1:'{"text":"15F","color":"blue","bold":true}',Text2:'{"text":"Office","color":"gray"}'}
+# 电梯厅照明
+setblock 47 75 -3 lantern
+setblock 47 85 -3 lantern
+setblock 47 95 -3 lantern
+setblock 47 105 -3 lantern
+setblock 47 115 -3 lantern
+setblock 47 125 -3 lantern
+setblock 47 135 -3 lantern
+setblock 47 145 -3 lantern
+setblock 47 155 -3 lantern
+setblock 47 165 -3 lantern
+setblock 47 175 -3 lantern
 
 # ============================================================
 # 完成提示
 # ============================================================
-tellraw @a {"rawtext":[{"text":"§c涩谷Parco内部已生成！(B2-8F购物/9F餐厅/10-12F剧场/13-22F办公/屋顶农场)"}]}
+tellraw @a {"rawtext":[{"text":"§c涩谷Parco内部装修完成！(1F化妆品/2-5F女装/6-8F男装/9F餐厅/10F电影院/11-14F娱乐/15-22F办公/屋顶花园)"}]}

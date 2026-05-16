@@ -1,222 +1,379 @@
 # =====================================================
-# Omotesando Hills Interior - 表参道Hills内部
-# 奢侈品店/咖啡厅/餐厅/螺旋坡道内部
-# 位置: (60,65,-150)~(90,85,-130)
+# 表参道Hills 内部装修
+# 坐标: (60,65,-150)~(90,85,-130) 内部(62,66,-148)到(88,84,-132)
+# 安藤忠雄设计的螺旋坡道
+# B1-B2地下商业街/1F入口大厅/2F零售区/3F零售区/4F餐厅/5F屋顶花园/螺旋坡道
 # =====================================================
 
-# === B1层 - 高端化妆品与精品店 ===
-# 楼层清空
-fill 61 65 -149 89 68 -131 air
+# ============================================================
+# B2F 地下商业街 (Y=66-68)
+# ============================================================
+# B2F 地面 - 抛光安山岩
+fill 62 66 -148 88 66 -132 polished_andesite
+# B2F 天花板
+fill 62 68 -148 88 68 -132 white_concrete
+# B2F 玻璃橱窗
+fill 62 67 -148 62 67 -132 glass_pane
+fill 88 67 -148 88 67 -132 glass_pane
+# B2F 橡木货架
+fill 64 67 -146 68 67 -144 oak_planks
+fill 64 67 -140 68 67 -138 oak_planks
+fill 64 67 -134 68 67 -132 oak_planks
+# B2F 商品
+setblock 66 67 -145 chest
+setblock 66 67 -139 chest
+setblock 66 67 -133 chest
+# B2F 店铺区
+fill 72 67 -146 76 67 -144 quartz_block
+setblock 74 67 -145 iron_block
+fill 72 67 -140 76 67 -138 birch_planks
+setblock 74 67 -139 chest
+fill 72 67 -134 76 67 -132 dark_oak_planks
+setblock 74 67 -133 chest
+# B2F 右侧商铺
+fill 80 67 -146 86 67 -144 oak_planks
+setblock 83 67 -145 chest
+fill 80 67 -140 86 67 -138 spruce_planks
+setblock 83 67 -139 chest
+fill 80 67 -134 86 67 -132 oak_planks
+setblock 83 67 -133 chest
+# B2F 照明
+setblock 70 68 -140 sea_lantern
+setblock 78 68 -140 sea_lantern
+setblock 84 68 -140 sea_lantern
+# B2F 隔墙
+fill 70 67 -148 70 68 -132 white_concrete
+fill 78 67 -148 78 67 -132 white_concrete
+# B2F 装饰
+setblock 62 66 -146 flower_pot
+setblock 62 66 -140 flower_pot
+setblock 62 66 -134 flower_pot
+setblock 88 66 -146 flower_pot
+setblock 88 66 -140 flower_pot
+setblock 88 66 -134 flower_pot
 
-# 地面铺装
-fill 61 65 -149 89 65 -131 smooth_stone
+# ============================================================
+# B1F 地下商业街 (Y=69-71)
+# ============================================================
+# B1F 地面
+fill 62 69 -148 88 69 -132 polished_andesite
+# B1F 天花板
+fill 62 71 -148 88 71 -132 white_concrete
+# B1F 玻璃橱窗
+fill 62 70 -148 62 70 -132 glass_pane
+fill 88 70 -148 88 70 -132 glass_pane
+# B1F 橡木货架
+fill 64 70 -146 68 70 -144 oak_planks
+fill 64 70 -140 68 70 -138 oak_planks
+fill 64 70 -134 68 70 -132 oak_planks
+# B1F 商品
+setblock 66 70 -145 chest
+setblock 66 70 -139 chest
+setblock 66 70 -133 chest
+# B1F 店铺区
+fill 72 70 -146 76 70 -144 white_concrete
+setblock 74 70 -145 iron_block
+fill 72 70 -140 76 70 -138 oak_planks
+setblock 74 70 -139 chest
+fill 72 70 -134 76 70 -132 quartz_block
+setblock 74 70 -133 iron_block
+# B1F 右侧商铺
+fill 80 70 -146 86 70 -144 birch_planks
+setblock 83 70 -145 chest
+fill 80 70 -140 86 70 -138 dark_oak_planks
+setblock 83 70 -139 chest
+fill 80 70 -134 86 70 -132 oak_planks
+setblock 83 70 -133 chest
+# B1F 照明
+setblock 70 71 -140 sea_lantern
+setblock 78 71 -140 sea_lantern
+setblock 84 71 -140 sea_lantern
+# B1F 隔墙
+fill 70 70 -148 70 71 -132 white_concrete
+fill 78 70 -148 78 70 -132 white_concrete
+# B1F 装饰
+setblock 62 69 -146 flower_pot
+setblock 62 69 -140 flower_pot
+setblock 62 69 -134 flower_pot
+setblock 88 69 -146 flower_pot
+setblock 88 69 -140 flower_pot
+setblock 88 69 -134 flower_pot
 
-# 化妆品店1 - Chanel
-fill 62 66 -148 68 68 -143 white_concrete
-fill 63 66 -147 67 67 -144 air
-setblock 65 66 -143 oak_sign[rotation=0]{Text1:'{"text":"CHANEL","color":"#000000","bold":true}',Text2:'{"text":"BEAUTY","color":"#000000"}'}
+# ============================================================
+# 1F 入口大厅 (Y=72-76) - 挑高设计
+# ============================================================
+# 1F 地面 - 石英块
+fill 62 72 -148 88 72 -132 quartz_block
+# 1F 天花板
+fill 62 76 -148 88 76 -132 white_concrete
+# 1F 石英柱子 (4根主柱)
+fill 64 72 -148 64 76 -148 quartz_pillar
+fill 64 72 -132 64 76 -132 quartz_pillar
+fill 86 72 -148 86 76 -148 quartz_pillar
+fill 86 72 -132 86 76 -132 quartz_pillar
+# 1F 中央装饰柱
+fill 70 72 -142 70 76 -142 quartz_pillar
+fill 80 72 -142 80 76 -142 quartz_pillar
+fill 70 72 -138 70 76 -138 quartz_pillar
+fill 80 72 -138 80 76 -138 quartz_pillar
+# 1F 挑高中庭
+fill 70 73 -142 80 76 -138 air
+# 1F 海晶灯照明
+setblock 66 76 -144 sea_lantern
+setblock 75 76 -144 sea_lantern
+setblock 84 76 -144 sea_lantern
+setblock 66 76 -140 sea_lantern
+setblock 75 76 -140 sea_lantern
+setblock 84 76 -140 sea_lantern
+setblock 66 76 -136 sea_lantern
+setblock 75 76 -136 sea_lantern
+setblock 84 76 -136 sea_lantern
+# 1F 信息台
+fill 72 72 -147 78 72 -147 quartz_block
+setblock 75 73 -147 sea_lantern
+# 1F 指引标识
+setblock 66 73 -147 oak_sign[facing=south]{Text1:'{"text":"OMOTESANDO","color":"black","bold":true}',Text2:'{"text":"HILLS","color":"black","bold":true}',Text3:'{"text":"1F Lobby","color":"gray"}'}
+setblock 82 73 -147 oak_sign[facing=south]{Text1:'{"text":"B1-B2","color":"blue"}',Text2:'{"text":"Shopping","color":"gray"}'}
+# 1F 装饰植物
+setblock 63 72 -146 flower_pot
+setblock 63 72 -140 flower_pot
+setblock 63 72 -134 flower_pot
+setblock 87 72 -146 flower_pot
+setblock 87 72 -140 flower_pot
+setblock 87 72 -134 flower_pot
+# 1F 休息座椅
+fill 72 72 -141 74 72 -141 oak_stairs[facing=east]
+fill 76 72 -141 78 72 -141 oak_stairs[facing=west]
+# 1F 入口玻璃门
+fill 74 72 -148 76 75 -148 glass_pane
+fill 74 72 -132 76 75 -132 glass_pane
 
-# 化妆品店2 - Dior
-fill 70 66 -148 76 68 -143 white_wool
-fill 71 66 -147 75 67 -144 air
-setblock 73 66 -143 oak_sign[rotation=0]{Text1:'{"text":"DIOR","color":"#000000","bold":true}',Text2:'{"text":"BEAUTY","color":"#000000"}'}
+# ============================================================
+# 2F 零售区 (Y=77-80)
+# ============================================================
+fill 62 77 -148 88 77 -132 polished_diorite
+fill 62 80 -148 88 80 -132 white_concrete
+# 2F 玻璃橱窗
+fill 62 78 -148 62 79 -148 glass_pane
+fill 62 78 -132 62 79 -132 glass_pane
+fill 88 78 -148 88 79 -148 glass_pane
+fill 88 78 -132 88 79 -132 glass_pane
+# 2F 铁块展示台
+setblock 66 78 -145 iron_block
+setblock 66 78 -139 iron_block
+setblock 66 78 -133 iron_block
+setblock 72 78 -145 iron_block
+setblock 72 78 -139 iron_block
+setblock 72 78 -133 iron_block
+# 2F 品牌店1
+fill 64 78 -146 68 79 -144 white_concrete
+setblock 66 78 -145 quartz_block
+# 2F 品牌店2
+fill 64 78 -140 68 79 -138 gray_concrete
+setblock 66 78 -139 quartz_block
+# 2F 品牌店3
+fill 64 78 -134 68 79 -132 black_concrete
+setblock 66 78 -133 quartz_block
+# 2F 右侧展示区
+fill 76 78 -146 86 79 -144 oak_planks
+setblock 81 78 -145 chest
+fill 76 78 -140 86 79 -138 birch_planks
+setblock 81 78 -139 chest
+fill 76 78 -134 86 79 -132 dark_oak_planks
+setblock 81 78 -133 chest
+# 2F 照明
+setblock 70 80 -140 sea_lantern
+setblock 78 80 -140 sea_lantern
+setblock 84 80 -140 sea_lantern
+# 2F 装饰
+setblock 62 77 -146 flower_pot
+setblock 62 77 -140 flower_pot
+setblock 62 77 -134 flower_pot
+setblock 88 77 -146 flower_pot
+setblock 88 77 -140 flower_pot
+setblock 88 77 -134 flower_pot
 
-# 化妆品店3 - SK-II
-fill 80 66 -148 86 68 -143 red_concrete
-fill 81 66 -147 85 67 -144 air
-setblock 83 66 -143 oak_sign[rotation=0]{Text1:'{"text":"SK-II","color":"#FFFFFF","bold":true}',Text2:'{"text":"PITERA","color":"#FFFFFF"}'}
+# ============================================================
+# 3F 零售区 - 不同品牌+地毯分区 (Y=81-84)
+# ============================================================
+fill 62 81 -148 88 81 -132 oak_planks
+fill 62 84 -148 88 84 -132 white_concrete
+# 3F 地毯分区
+fill 64 81 -146 70 81 -144 red_carpet
+fill 64 81 -140 70 81 -138 blue_carpet
+fill 64 81 -134 70 81 -132 green_carpet
+# 3F 铁块展示台
+setblock 66 82 -145 iron_block
+setblock 66 82 -139 iron_block
+setblock 66 82 -133 iron_block
+# 3F 玻璃橱窗
+fill 62 82 -148 62 83 -148 glass_pane
+fill 62 82 -132 62 83 -132 glass_pane
+fill 88 82 -148 88 83 -148 glass_pane
+fill 88 82 -132 88 83 -132 glass_pane
+# 3F 试衣间
+fill 74 82 -146 76 83 -144 glass_pane
+setblock 75 82 -145 iron_door
+fill 74 82 -140 76 83 -138 glass_pane
+setblock 75 82 -139 iron_door
+# 3F 货架
+fill 78 82 -146 86 83 -144 oak_planks
+fill 78 82 -140 86 83 -138 spruce_planks
+fill 78 82 -134 86 83 -132 birch_planks
+# 3F 照明
+setblock 70 84 -140 sea_lantern
+setblock 78 84 -140 sea_lantern
+setblock 84 84 -140 sea_lantern
+# 3F 装饰
+setblock 62 81 -146 flower_pot
+setblock 62 81 -140 flower_pot
+setblock 62 81 -134 flower_pot
+setblock 88 81 -146 flower_pot
+setblock 88 81 -140 flower_pot
+setblock 88 81 -134 flower_pot
 
-# 展示柜
-setblock 64 66 -144 glass
-setblock 66 66 -144 glass
-setblock 72 66 -144 glass
-setblock 74 66 -144 glass
-setblock 82 66 -144 glass
-setblock 84 66 -144 glass
+# ============================================================
+# 4F 餐厅 (Y=85-88)
+# ============================================================
+fill 62 85 -148 88 85 -132 dark_oak_planks
+fill 62 88 -148 88 88 -132 white_concrete
+# 4F 厨房设备 - 锅
+fill 64 86 -146 68 87 -144 iron_block
+setblock 66 87 -145 cauldron
+setblock 66 87 -143 furnace
+# 4F 餐桌 - 橡木木板
+fill 64 86 -140 68 86 -138 oak_planks
+setblock 66 86 -139 oak_fence
+fill 64 86 -134 68 86 -132 oak_planks
+setblock 66 86 -133 oak_fence
+# 4F 餐厅2
+fill 72 86 -146 76 87 -144 oak_planks
+setblock 74 87 -145 cauldron
+setblock 74 87 -143 campfire
+# 4F 餐桌2
+fill 72 86 -140 76 86 -138 oak_planks
+setblock 74 86 -139 oak_fence
+fill 72 86 -134 76 86 -132 oak_planks
+setblock 74 86 -133 oak_fence
+# 4F 玻璃落地窗
+fill 62 86 -148 62 87 -144 glass_pane
+fill 62 86 -140 62 87 -138 glass_pane
+fill 62 86 -134 62 87 -132 glass_pane
+fill 88 86 -148 88 87 -144 glass_pane
+fill 88 86 -140 88 87 -138 glass_pane
+fill 88 86 -134 88 87 -132 glass_pane
+# 4F 餐厅标识
+setblock 66 87 -148 oak_sign[facing=south]{Text1:'{"text":"RESTAURANT","color":"red","bold":true}',Text2:'{"text":"レストラン","color":"gray"}'}
+setblock 74 87 -148 oak_sign[facing=south]{Text1:'{"text":"CAFE","color":"brown","bold":true}',Text2:'{"text":"カフェ","color":"gray"}'}
+# 4F 照明
+setblock 70 88 -140 sea_lantern
+setblock 78 88 -140 sea_lantern
+setblock 84 88 -140 sea_lantern
+# 4F 吧台
+fill 64 86 -146 68 86 -144 quartz_block
+setblock 66 86 -145 brewing_stand
+# 4F 装饰
+setblock 62 85 -146 flower_pot
+setblock 62 85 -140 flower_pot
+setblock 62 85 -134 flower_pot
+setblock 88 85 -146 flower_pot
+setblock 88 85 -140 flower_pot
+setblock 88 85 -134 flower_pot
 
-# === 1层 - 奢侈品旗舰店 ===
-# 地面
-fill 61 70 -149 89 70 -131 polished_diorite
+# ============================================================
+# 5F 屋顶花园 (Y=89-91)
+# ============================================================
+# 屋顶地面 - 草方块
+fill 62 89 -148 88 89 -132 grass_block
+# 种植 - 橡树树苗
+setblock 66 90 -146 oak_sapling
+setblock 66 90 -140 birch_sapling
+setblock 66 90 -134 oak_sapling
+setblock 74 90 -146 birch_sapling
+setblock 74 90 -140 oak_sapling
+setblock 74 90 -134 birch_sapling
+setblock 82 90 -146 oak_sapling
+setblock 82 90 -140 birch_sapling
+setblock 82 90 -134 oak_sapling
+# 花坛 - flower_pot
+setblock 64 90 -146 flower_pot
+setblock 64 90 -140 flower_pot
+setblock 64 90 -134 flower_pot
+setblock 72 90 -146 flower_pot
+setblock 72 90 -140 flower_pot
+setblock 72 90 -134 flower_pot
+setblock 80 90 -146 flower_pot
+setblock 80 90 -140 flower_pot
+setblock 80 90 -134 flower_pot
+setblock 86 90 -146 flower_pot
+setblock 86 90 -140 flower_pot
+setblock 86 90 -134 flower_pot
+# 长椅 - oak_stairs
+fill 68 90 -144 70 90 -142 oak_stairs[facing=east]
+fill 68 90 -136 70 90 -134 oak_stairs[facing=east]
+fill 78 90 -144 80 90 -142 oak_stairs[facing=west]
+fill 78 90 -136 80 90 -134 oak_stairs[facing=west]
+# 步道
+fill 62 90 -140 88 90 -140 stone_slab
+fill 62 90 -148 88 90 -148 stone_slab
+# 照明 - 海晶灯
+setblock 66 91 -144 sea_lantern
+setblock 66 91 -138 sea_lantern
+setblock 74 91 -144 sea_lantern
+setblock 74 91 -138 sea_lantern
+setblock 82 91 -144 sea_lantern
+setblock 82 91 -138 sea_lantern
 
-# Louis Vuitton
-fill 62 71 -148 70 73 -140 brown_concrete
-fill 63 71 -147 69 72 -141 air
-setblock 66 71 -140 oak_sign[rotation=0]{Text1:'{"text":"LOUIS VUITTON","color":"#8B4513","bold":true}',Text2:'{"text":"ルイ・ヴィトン","color":"#A0522D"}'}
-
-# 展示橱窗
-fill 63 71 -141 69 72 -141 glass
-setblock 64 71 -141 item_frame{Item:{id:"minecraft:golden_chestplate",Count:1b}}
-setblock 66 71 -141 item_frame{Item:{id:"minecraft:golden_helmet",Count:1b}}
-setblock 68 71 -141 item_frame{Item:{id:"minecraft:golden_boots",Count:1b}}
-
-# Gucci
-fill 72 71 -148 80 73 -140 gold_block
-fill 73 71 -147 79 72 -141 air
-setblock 76 71 -140 oak_sign[rotation=0]{Text1:'{"text":"GUCCI","color":"#FFD700","bold":true}',Text2:'{"text":"グッチ","color":"#FFA500"}'}
-
-# 展示橱窗
-fill 73 71 -141 79 72 -141 glass
-setblock 74 71 -141 item_frame{Item:{id:"minecraft:golden_leggings",Count:1b}}
-setblock 76 71 -141 item_frame{Item:{id:"minecraft:golden_chestplate",Count:1b}}
-setblock 78 71 -141 item_frame{Item:{id:"minecraft:golden_helmet",Count:1b}}
-
-# Prada
-fill 82 71 -148 88 73 -140 black_concrete
-fill 83 71 -147 87 72 -141 air
-setblock 85 71 -140 oak_sign[rotation=0]{Text1:'{"text":"PRADA","color":"#FFFFFF","bold":true}',Text2:'{"text":"プラダ","color":"#C0C0C0"}'}
-
-# 展示橱窗
-fill 83 71 -141 87 72 -141 glass
-
-# === 2层 - 时尚品牌 ===
-# 地面
-fill 61 75 -149 89 75 -131 polished_andesite
-
-# Comme des Garcons
-fill 62 76 -148 70 78 -142 white_concrete
-fill 63 76 -147 69 77 -143 air
-setblock 66 76 -142 oak_sign[rotation=0]{Text1:'{"text":"COMME des","color":"#000000","bold":true}',Text2:'{"text":"GARÇONS","color":"#000000"}'}
-
-# Yohji Yamamoto
-fill 72 76 -148 80 78 -142 black_wool
-fill 73 76 -147 79 77 -143 air
-setblock 76 76 -142 oak_sign[rotation=0]{Text1:'{"text":"YOHJI","color":"#FFFFFF","bold":true}',Text2:'{"text":"YAMAMOTO","color":"#FFFFFF"}'}
-
-# Issey Miyake
-fill 82 76 -148 88 78 -142 gray_concrete
-fill 83 76 -147 87 77 -143 air
-setblock 85 76 -142 oak_sign[rotation=0]{Text1:'{"text":"ISSEY","color":"#FFFFFF","bold":true}',Text2:'{"text":"MIYAKE","color":"#FFFFFF"}'}
-
-# === 3层 - 咖啡厅与餐厅 ===
-# 地面
-fill 61 80 -149 89 80 -131 oak_planks
-
-# 咖啡厅1 - Starbucks Reserve
-fill 62 81 -148 72 83 -142 oak_planks
-fill 63 81 -147 71 82 -143 air
-setblock 67 81 -142 oak_sign[rotation=0]{Text1:'{"text":"STARBUCKS","color":"#006241","bold":true}',Text2:'{"text":"RESERVE","color":"#006241"}',Text3:'{"text":"Roastery","color":"#1E3932"}'}
-
-# 咖啡吧台
-fill 64 81 -147 70 81 -147 spruce_planks
-setblock 65 82 -147 brewing_stand
-setblock 67 82 -147 brewing_stand
-setblock 69 82 -147 brewing_stand
-
-# 座位区
-setblock 63 81 -145 oak_slab
-setblock 71 81 -145 oak_slab
-setblock 63 81 -144 oak_slab
-setblock 71 81 -144 oak_slab
-
-# 高级餐厅
-fill 74 81 -148 88 83 -142 dark_oak_planks
-fill 75 81 -147 87 82 -143 air
-setblock 81 81 -142 oak_sign[rotation=0]{Text1:'{"text":"FINE DINING","color":"#8B0000","bold":true}',Text2:'{"text":"高級レストラン","color":"#A52A2A"}',Text3:'{"text":"French Cuisine","color":"#CD853F"}'}
-
-# 餐厅座位
-setblock 76 81 -145 dark_oak_slab
-setblock 78 81 -145 dark_oak_slab
-setblock 80 81 -145 dark_oak_slab
-setblock 82 81 -145 dark_oak_slab
-setblock 84 81 -145 dark_oak_slab
-setblock 86 81 -145 dark_oak_slab
-
-# 餐桌
-setblock 77 81 -144 white_carpet
-setblock 81 81 -144 white_carpet
-setblock 85 81 -144 white_carpet
-
-# === 螺旋坡道内部装饰 ===
+# ============================================================
+# 螺旋坡道 (oak_stairs模拟)
+# ============================================================
+# 坡道 - 旋转上升 (安藤忠雄标志性设计)
+# B2到B1
+fill 62 66 -132 64 68 -132 oak_stairs[facing=east]
+fill 62 67 -133 64 69 -133 oak_stairs[facing=east]
+# B1到1F
+fill 62 69 -132 64 71 -132 oak_stairs[facing=east]
+fill 62 70 -133 64 72 -133 oak_stairs[facing=east]
+# 1F到2F
+fill 62 72 -132 64 76 -132 oak_stairs[facing=east]
+fill 62 74 -133 64 77 -133 oak_stairs[facing=east]
+# 2F到3F
+fill 62 77 -132 64 80 -132 oak_stairs[facing=east]
+fill 62 78 -133 64 81 -133 oak_stairs[facing=east]
+# 3F到4F
+fill 62 81 -132 64 84 -132 oak_stairs[facing=east]
+fill 62 82 -133 64 85 -133 oak_stairs[facing=east]
+# 4F到5F
+fill 62 85 -132 64 88 -132 oak_stairs[facing=east]
+fill 62 86 -133 64 89 -133 oak_stairs[facing=east]
+# 坡道内侧
+fill 64 66 -133 64 89 -133 oak_stairs[facing=south]
+# 玻璃护栏 - glass_pane
+fill 62 66 -132 62 89 -132 glass_pane
+fill 62 66 -133 62 89 -133 glass_pane
+fill 64 66 -134 64 89 -134 glass_pane
+# 灯笼照明 - lantern
+setblock 63 68 -132 lantern
+setblock 63 71 -132 lantern
+setblock 63 74 -132 lantern
+setblock 63 77 -132 lantern
+setblock 63 80 -132 lantern
+setblock 63 83 -132 lantern
+setblock 63 86 -132 lantern
+setblock 63 89 -132 lantern
+setblock 63 68 -133 lantern
+setblock 63 71 -133 lantern
+setblock 63 74 -133 lantern
+setblock 63 77 -133 lantern
+setblock 63 80 -133 lantern
+setblock 63 83 -133 lantern
+setblock 63 86 -133 lantern
+setblock 63 89 -133 lantern
 # 坡道扶手
-fill 61 66 -132 89 66 -132 stone_brick_slab
-fill 61 71 -132 89 71 -132 stone_brick_slab
-fill 61 76 -132 89 76 -132 stone_brick_slab
-fill 61 81 -132 89 81 -132 stone_brick_slab
+fill 62 66 -132 62 89 -132 iron_bars
+fill 64 66 -134 64 89 -134 iron_bars
 
-# 坡道内侧玻璃护栏
-fill 70 66 -136 80 83 -136 glass_pane
-fill 70 66 -144 80 83 -144 glass_pane
-fill 70 66 -136 70 83 -144 glass_pane
-fill 80 66 -136 80 83 -144 glass_pane
-
-# === 中庭装饰 ===
-# 中庭植物
-setblock 73 70 -140 flower_pot
-setblock 75 70 -140 flower_pot
-setblock 77 70 -140 flower_pot
-setblock 79 70 -140 flower_pot
-
-setblock 73 75 -140 flower_pot
-setblock 75 75 -140 flower_pot
-setblock 77 75 -140 flower_pot
-setblock 79 75 -140 flower_pot
-
-setblock 73 80 -140 flower_pot
-setblock 75 80 -140 flower_pot
-setblock 77 80 -140 flower_pot
-setblock 79 80 -140 flower_pot
-
-# 中庭水景
-setblock 75 65 -140 water
-setblock 76 65 -140 water
-setblock 75 65 -141 water
-setblock 76 65 -141 water
-
-# 水景装饰
-setblock 75 64 -140 stone_bricks
-setblock 76 64 -140 stone_bricks
-setblock 75 64 -141 stone_bricks
-setblock 76 64 -141 stone_bricks
-
-# === 电梯与扶梯 ===
-# 电梯井
-fill 85 66 -136 87 83 -134 stone_bricks
-fill 86 66 -135 86 83 -135 air
-
-# 电梯轿厢
-setblock 86 70 -135 stone_pressure_plate
-setblock 86 75 -135 stone_pressure_plate
-setblock 86 80 -135 stone_pressure_plate
-
-# 电梯按钮
-setblock 88 70 -135 stone_button[facing=west]
-setblock 88 75 -135 stone_button[facing=west]
-setblock 88 80 -135 stone_button[facing=west]
-
-# === 照明系统 ===
-# 天花板灯
-setblock 65 69 -145 glowstone
-setblock 75 69 -145 glowstone
-setblock 85 69 -145 glowstone
-
-setblock 65 74 -145 glowstone
-setblock 75 74 -145 glowstone
-setblock 85 74 -145 glowstone
-
-setblock 65 79 -145 glowstone
-setblock 75 79 -145 glowstone
-setblock 85 79 -145 glowstone
-
-setblock 65 84 -145 glowstone
-setblock 75 84 -145 glowstone
-setblock 85 84 -145 glowstone
-
-# 壁灯
-setblock 62 67 -146 redstone_torch
-setblock 88 67 -146 redstone_torch
-setblock 62 72 -146 redstone_torch
-setblock 88 72 -146 redstone_torch
-setblock 62 77 -146 redstone_torch
-setblock 88 77 -146 redstone_torch
-setblock 62 82 -146 redstone_torch
-setblock 88 82 -146 redstone_torch
-
-# === 指示牌 ===
-# 楼层指示牌
-setblock 70 70 -133 oak_sign[rotation=0]{Text1:'{"text":"B1","color":"#FFFFFF","bold":true}',Text2:'{"text":"Cosmetics","color":"#FFB6C1"}'}
-setblock 70 75 -133 oak_sign[rotation=0]{Text1:'{"text":"1F","color":"#FFFFFF","bold":true}',Text2:'{"text":"Luxury","color":"#FFD700"}'}
-setblock 70 80 -133 oak_sign[rotation=0]{Text1:'{"text":"2F","color":"#FFFFFF","bold":true}',Text2:'{"text":"Fashion","color":"#87CEEB"}'}
-setblock 70 85 -133 oak_sign[rotation=0]{Text1:'{"text":"3F","color":"#FFFFFF","bold":true}',Text2:'{"text":"Dining","color":"#98FB98"}'}
-
-# === 完成提示 ===
-tellraw @a {"text":"[涩谷建造系统] ","color":"gold","extra":[{"text":"表参道Hills内部装饰完成! 奢侈品店/咖啡厅/餐厅已就绪","color":"green"}]}
+# ============================================================
+# 完成提示
+# ============================================================
+tellraw @a {"rawtext":[{"text":"§b表参道Hills内部装修完成！(B1-B2地下商业/1F大厅/2-3F零售/4F餐厅/5F屋顶花园/螺旋坡道)"}]}
