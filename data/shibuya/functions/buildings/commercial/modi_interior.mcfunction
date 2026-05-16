@@ -1,201 +1,343 @@
 #
-# Shibuya MODI (涩谷MODI) - Interior
-# Position: (110,65,5) ~ (125,80,20)
-# 10F + B1 | Fashion | Sony Store | Rooftop Restaurant
+# MODI (渋谷モディ) - Interior
+# Position: (150,65,5) ~ (165,82,20)
+# 9F | Fashion | Lifestyle | Restaurant | Event
+# 方块: white_concrete, oak_planks, oak_stairs, oak_fence, oak_sign,
+#       polished_andesite, iron_block, lantern, glowstone, sea_lantern,
+#       flower_pot, glass, glass_pane, carpet, light_gray_concrete
 #
 
 # ========================================
-# B1 Basement - Parking & Storage
+# 1F Grand Entrance & Fashion
 # ========================================
-fill 111 65 6 124 65 19 polished_andesite
-# Parking lines
-fill 113 65 7 113 65 9 white_concrete
-fill 116 65 7 116 65 9 white_concrete
-fill 119 65 7 119 65 9 white_concrete
-fill 122 65 7 122 65 9 white_concrete
-fill 113 65 11 113 65 13 white_concrete
-fill 116 65 11 116 65 13 white_concrete
-fill 119 65 11 119 65 13 white_concrete
-fill 122 65 11 122 65 13 white_concrete
-# Storage room walls
-fill 111 65 15 115 65 19 light_gray_concrete
-fill 117 65 15 124 65 19 light_gray_concrete
-# Elevator shaft
-fill 124 65 6 124 66 8 iron_block
-fill 124 67 6 124 79 8 iron_block
+# 地板(抛光安山石)
+fill 151 65 6 164 65 19 polished_andesite
+# 地板装饰线
+fill 151 65 6 164 65 6 white_concrete
+fill 151 65 19 164 65 19 white_concrete
+fill 151 65 6 151 65 19 white_concrete
+fill 164 65 6 164 65 19 white_concrete
+# 主通道(白色)
+fill 154 65 6 161 65 12 white_concrete
+# 时尚展示台(入口两侧)
+fill 153 65 14 155 65 15 polished_andesite
+fill 158 65 14 160 65 15 polished_andesite
+fill 153 66 14 155 66 15 white_concrete
+fill 158 66 14 160 66 15 white_concrete
+# 服装展示(玻璃)
+fill 152 65 14 152 65 18 glass
+fill 163 65 14 163 65 18 glass
+# 咨询柜台
+fill 156 65 17 159 65 18 oak_planks
+fill 156 66 17 159 66 18 oak_planks
+fill 156 67 17 159 67 18 polished_andesite
+setblock 157 67 17 sea_lantern
+setblock 158 67 18 sea_lantern
+# 导览板
+fill 152 66 6 white_concrete
+fill 153 66 6 white_concrete
+# 装饰柱子(铁块)
+setblock 154 65 8 iron_block
+setblock 161 65 8 iron_block
+setblock 154 66 8 iron_block
+setblock 161 66 8 iron_block
+setblock 154 67 8 iron_block
+setblock 161 67 8 iron_block
+setblock 154 65 16 iron_block
+setblock 161 65 16 iron_block
+setblock 154 66 16 iron_block
+setblock 161 66 16 iron_block
+setblock 154 67 16 iron_block
+setblock 161 67 16 iron_block
+# 休息区
+fill 151 65 17 152 65 19 carpet
+fill 151 66 17 152 66 19 white_concrete
+fill 163 65 17 164 65 19 carpet
+fill 163 66 17 164 66 19 white_concrete
+# 电梯井
+fill 163 65 6 164 65 8 iron_block
+fill 163 66 6 164 81 8 iron_block
+# 照明
+setblock 157 68 10 glowstone
+setblock 157 68 15 glowstone
+# 装饰花盆
+setblock 151 66 7 flower_pot
+setblock 164 66 7 flower_pot
+# 楼层标识
+setblock 151 67 19 oak_sign[rotation=0]{Text1:'{"text":"1F 时尚","color":"black","bold":true}',Text2:'{"text":"Fashion","color":"gray"}'}
 
 # ========================================
-# 1F Entrance Lobby
+# 2F Women's Fashion (Young)
 # ========================================
-fill 111 67 6 124 67 19 polished_granite
-# Entrance pathway
-fill 114 67 6 121 67 10 quartz_block
-# Reception desk
-fill 118 67 12 121 67 13 quartz_block
-fill 118 68 12 121 68 13 quartz_block
-fill 118 69 12 121 69 13 quartz_block
-# Information board
-setblock 113 68 6 oak_planks
-setblock 113 69 6 oak_planks
-# Seating area
-fill 111 67 15 114 67 17 white_concrete
-fill 116 67 15 119 67 17 white_concrete
-# Decorative plants
-setblock 111 68 6 flower_pot
-setblock 124 68 6 flower_pot
-setblock 111 68 19 flower_pot
-setblock 124 68 19 flower_pot
+# 地板
+fill 151 68 6 164 68 19 white_concrete
+# 地板装饰线
+fill 151 68 6 164 68 6 light_gray_concrete
+fill 151 68 19 164 68 19 light_gray_concrete
+# 展示货架(沿墙)
+fill 152 68 7 152 68 10 oak_planks
+fill 152 68 12 152 68 15 oak_planks
+fill 163 68 7 163 68 10 oak_planks
+fill 163 68 12 163 68 15 oak_planks
+# 货架顶部
+fill 152 69 7 152 69 10 white_concrete
+fill 152 69 12 152 69 15 white_concrete
+fill 163 69 7 163 69 10 white_concrete
+fill 163 69 12 163 69 15 white_concrete
+# 服装衣架(中央)
+fill 155 68 8 156 68 11 iron_bars
+fill 159 68 8 160 68 11 iron_bars
+fill 155 68 13 156 68 16 iron_bars
+fill 159 68 13 160 68 16 iron_bars
+# 试衣间
+fill 152 68 17 154 68 18 oak_planks
+fill 156 68 17 158 68 18 oak_planks
+fill 160 68 17 162 68 18 oak_planks
+# 收银台
+fill 163 68 17 164 68 19 oak_planks
+fill 163 69 17 164 69 19 polished_andesite
+setblock 163 69 18 sea_lantern
+# 照明
+setblock 157 69 10 glowstone
+setblock 157 69 15 glowstone
+# 楼层标识
+setblock 151 69 19 oak_sign[rotation=0]{Text1:'{"text":"2F 女装","color":"black","bold":true}',Text2:'{"text":"Young","color":"gray"}'}
 
 # ========================================
-# 2F Fashion Boutique
+# 3F Women's Fashion (Designer)
 # ========================================
-fill 111 69 6 124 69 19 white_concrete
-# Display shelves (north side)
-fill 112 69 7 112 69 9 spruce_planks
-fill 115 69 7 115 69 9 spruce_planks
-fill 118 69 7 118 69 9 spruce_planks
-fill 121 69 7 121 69 9 spruce_planks
-# Clothing racks (center)
-fill 113 69 11 114 69 14 iron_bars
-fill 117 69 11 118 69 14 iron_bars
-fill 121 69 11 122 69 14 iron_bars
-# Fitting rooms (south side)
-fill 112 69 17 114 69 18 oak_planks
-fill 116 69 17 118 69 18 oak_planks
-fill 120 69 17 122 69 18 oak_planks
-# Cashier counter
-fill 123 69 7 124 69 9 spruce_planks
-fill 123 70 7 124 70 9 spruce_planks
+# 地板
+fill 151 70 6 164 70 19 white_concrete
+# 地板装饰线
+fill 151 70 6 164 70 6 light_gray_concrete
+fill 151 70 19 164 70 19 light_gray_concrete
+# 高级展示台(四组)
+fill 154 70 8 156 70 10 polished_andesite
+fill 159 70 8 161 70 10 polished_andesite
+fill 154 70 13 156 70 15 polished_andesite
+fill 159 70 13 161 70 15 polished_andesite
+# 墙壁展示壁龛
+fill 152 70 7 152 70 11 oak_planks
+fill 163 70 7 163 70 11 oak_planks
+fill 152 70 13 152 70 18 oak_planks
+fill 163 70 13 163 70 18 oak_planks
+# VIP试衣间
+fill 152 70 17 156 70 18 oak_planks
+fill 152 71 17 156 71 18 polished_andesite
+# 装饰植物
+setblock 151 71 7 flower_pot
+setblock 164 71 7 flower_pot
+setblock 151 71 18 flower_pot
+setblock 164 71 18 flower_pot
+# 照明
+setblock 157 71 10 glowstone
+setblock 157 71 15 glowstone
+# 楼层标识
+setblock 151 71 19 oak_sign[rotation=0]{Text1:'{"text":"3F 品牌女装","color":"black","bold":true}',Text2:'{"text":"Designer","color":"gray"}'}
 
 # ========================================
-# 3F Sony Experience Store
+# 4F Men's Fashion
 # ========================================
-fill 111 71 6 124 71 19 dark_oak_planks
-# Product display tables
-fill 113 71 8 115 71 10 spruce_planks
-fill 118 71 8 120 71 10 spruce_planks
-fill 113 71 13 115 71 15 spruce_planks
-fill 118 71 13 120 71 15 spruce_planks
-# TV/Screen display wall
-fill 112 71 6 123 71 6 black_concrete
-fill 113 72 6 114 72 6 sea_lantern
-fill 116 72 6 117 72 6 sea_lantern
-fill 119 72 6 120 72 6 sea_lantern
-fill 122 72 6 123 72 6 sea_lantern
-# Gaming demo area
-fill 112 71 17 116 71 19 gray_wool
-fill 118 71 17 122 71 19 gray_wool
-# Headphone display
-fill 123 71 11 124 71 14 dark_oak_planks
+# 地板(浅灰色)
+fill 151 72 6 164 72 19 light_gray_concrete
+# 地板装饰线
+fill 151 72 6 164 72 6 white_concrete
+fill 151 72 19 164 72 19 white_concrete
+# 展示墙
+fill 152 72 7 152 72 11 oak_planks
+fill 163 72 7 163 72 11 oak_planks
+fill 152 72 13 152 72 18 oak_planks
+fill 163 72 13 163 72 18 oak_planks
+# 货架顶部
+fill 152 73 7 152 73 11 white_concrete
+fill 163 73 7 163 73 11 white_concrete
+# 中央展示台
+fill 155 72 8 157 72 10 polished_andesite
+fill 159 72 8 161 72 10 polished_andesite
+fill 155 72 13 157 72 15 polished_andesite
+fill 159 72 13 161 72 15 polished_andesite
+# 配饰展示
+fill 153 72 17 156 72 18 oak_planks
+fill 153 73 17 156 73 18 polished_andesite
+fill 158 72 17 161 72 18 oak_planks
+fill 158 73 17 161 73 18 polished_andesite
+# 照明
+setblock 157 73 10 glowstone
+setblock 157 73 15 glowstone
+# 楼层标识
+setblock 151 73 19 oak_sign[rotation=0]{Text1:'{"text":"4F 男装","color":"black","bold":true}',Text2:'{"text":"Men","color":"gray"}'}
 
 # ========================================
-# 4F Lifestyle & Design
+# 5F Lifestyle & Household
 # ========================================
-fill 111 73 6 124 73 19 birch_planks
-# Display islands
-fill 114 73 8 116 73 10 white_concrete
-fill 119 73 8 121 73 10 white_concrete
-fill 114 73 14 116 73 16 white_concrete
-fill 119 73 14 121 73 16 white_concrete
-# Wall shelving
-fill 112 73 7 112 73 18 oak_planks
-fill 123 73 7 123 73 18 oak_planks
-# Decorative plants
-setblock 111 74 7 flower_pot
-setblock 124 74 7 flower_pot
-setblock 111 74 18 flower_pot
-setblock 124 74 18 flower_pot
+# 地板(橡木)
+fill 151 74 6 164 74 19 oak_planks
+# 地板装饰
+fill 151 74 6 164 74 6 carpet
+fill 151 74 19 164 74 19 carpet
+# 商品展示岛(四组)
+fill 154 74 8 156 74 10 polished_andesite
+fill 159 74 8 161 74 10 polished_andesite
+fill 154 74 14 156 74 16 polished_andesite
+fill 159 74 14 161 74 16 polished_andesite
+# 墙壁货架
+fill 152 74 7 152 74 18 oak_planks
+fill 163 74 7 163 74 18 oak_planks
+# 货架顶部
+fill 152 75 7 152 75 18 white_concrete
+fill 163 75 7 163 75 18 white_concrete
+# 厨房用品展示
+fill 152 74 8 153 74 10 oak_planks
+fill 152 75 8 153 75 10 polished_andesite
+fill 152 74 14 153 74 16 oak_planks
+fill 152 75 14 153 75 16 polished_andesite
+# 装饰植物
+setblock 151 75 7 flower_pot
+setblock 164 75 7 flower_pot
+# 照明
+setblock 157 75 10 glowstone
+setblock 157 75 15 glowstone
+# 楼层标识
+setblock 151 75 19 oak_sign[rotation=0]{Text1:'{"text":"5F 生活杂货","color":"black","bold":true}',Text2:'{"text":"Lifestyle","color":"gray"}'}
 
 # ========================================
-# 5F Cafe & Rest Area
+# 6F Restaurant Floor
 # ========================================
-fill 111 75 6 124 75 19 spruce_planks
-# Cafe counter
-fill 112 75 7 114 75 9 dark_oak_planks
-fill 112 76 7 114 76 9 dark_oak_planks
-# Kitchen area
-fill 112 75 10 114 75 12 iron_block
-# Seating tables
-fill 117 75 7 118 75 8 oak_planks
-fill 121 75 7 122 75 8 oak_planks
-fill 117 75 11 118 75 12 oak_planks
-fill 121 75 11 122 75 12 oak_planks
-# Lounge sofa area
-fill 117 75 15 122 75 19 white_wool
-fill 117 76 15 122 76 15 white_wool
-# Menu board
-fill 115 76 7 116 76 9 black_concrete
+# 地板(橡木)
+fill 151 76 6 164 76 19 oak_planks
+# 地板装饰
+fill 151 76 6 164 76 6 carpet
+fill 151 76 19 164 76 19 carpet
+# 餐厅1(北侧厨房)
+fill 152 76 7 155 76 10 iron_block
+fill 152 77 7 155 77 10 iron_block
+setblock 153 77 8 furnace
+setblock 154 77 9 chest
+# 餐桌1
+fill 157 76 7 158 76 9 oak_planks
+fill 161 76 7 162 76 9 oak_planks
+fill 157 77 7 158 77 9 carpet
+fill 161 77 7 162 77 9 carpet
+# 餐桌2
+fill 157 76 12 158 76 14 oak_planks
+fill 161 76 12 162 76 14 oak_planks
+fill 157 77 12 158 77 14 carpet
+fill 161 77 12 162 77 14 carpet
+# 餐厅2(南侧厨房)
+fill 152 76 15 155 76 17 iron_block
+fill 152 77 15 155 77 17 iron_block
+setblock 153 77 16 furnace
+setblock 154 77 16 chest
+# 餐桌3
+fill 157 76 17 158 76 19 oak_planks
+fill 161 76 17 162 76 19 oak_planks
+fill 157 77 17 158 77 19 carpet
+fill 161 77 17 162 77 19 carpet
+# 中央走廊(石英)
+fill 156 76 10 160 76 11 white_concrete
+# 照明
+setblock 157 77 8 glowstone
+setblock 157 77 13 glowstone
+setblock 157 77 17 glowstone
+# 楼层标识
+setblock 151 77 19 oak_sign[rotation=0]{Text1:'{"text":"6F 餐厅","color":"black","bold":true}',Text2:'{"text":"Restaurant","color":"gray"}'}
 
 # ========================================
-# 6F Restaurant
+# 7F Culture & Books
 # ========================================
-fill 111 77 6 124 77 19 dark_oak_planks
-# Kitchen
-fill 112 77 7 115 77 10 iron_block
-fill 112 78 7 115 78 10 iron_block
-# Dining tables
-fill 117 77 7 118 77 9 oak_planks
-fill 121 77 7 122 77 9 oak_planks
-fill 117 77 11 118 77 13 oak_planks
-fill 121 77 11 122 77 13 oak_planks
-fill 117 77 15 118 77 17 oak_planks
-fill 121 77 15 122 77 17 oak_planks
-# Bar counter
-fill 123 77 7 124 77 12 spruce_planks
-fill 123 78 7 124 78 12 spruce_planks
-# Decorative lighting
-setblock 119 78 8 glowstone
-setblock 119 78 12 glowstone
-setblock 119 78 16 glowstone
+# 地板
+fill 151 78 6 164 78 19 light_gray_concrete
+# 地板装饰线
+fill 151 78 6 164 78 6 white_concrete
+fill 151 78 19 164 78 19 white_concrete
+# 书架(北侧)
+fill 152 78 7 152 78 11 oak_planks
+fill 155 78 7 155 78 11 oak_planks
+fill 158 78 7 158 78 11 oak_planks
+fill 161 78 7 161 78 11 oak_planks
+# 书架顶部
+fill 152 79 7 152 79 11 white_concrete
+fill 155 79 7 155 79 11 white_concrete
+fill 158 79 7 158 79 11 white_concrete
+fill 161 79 7 161 79 11 white_concrete
+# 阅读区(地毯)
+fill 153 78 13 162 78 15 carpet
+fill 153 79 13 162 79 15 white_concrete
+# 书架(南侧)
+fill 152 78 17 152 78 19 oak_planks
+fill 155 78 17 155 78 19 oak_planks
+fill 158 78 17 158 78 19 oak_planks
+fill 161 78 17 161 78 19 oak_planks
+# 照明
+setblock 157 79 10 glowstone
+setblock 157 79 15 glowstone
+# 楼层标识
+setblock 151 79 19 oak_sign[rotation=0]{Text1:'{"text":"7F 书店","color":"black","bold":true}',Text2:'{"text":"Books","color":"gray"}'}
 
 # ========================================
-# RF Rooftop Garden Restaurant
+# 8F Event & Exhibition Space
 # ========================================
-fill 111 79 6 124 79 19 grass_block
-# Outdoor dining area
-fill 115 79 7 120 79 10 light_gray_concrete
-fill 115 79 15 120 79 18 light_gray_concrete
-# Dining tables
-fill 116 79 8 117 79 9 spruce_planks
-fill 118 79 8 119 79 9 spruce_planks
-fill 116 79 16 117 79 17 spruce_planks
-fill 118 79 16 119 79 17 spruce_planks
-# Garden paths
-fill 114 79 11 121 79 14 gravel
-# Flower beds
-setblock 111 79 7 red_flower
-setblock 111 79 9 yellow_flower
-setblock 124 79 7 red_flower
-setblock 124 79 9 yellow_flower
-setblock 111 79 17 red_flower
-setblock 111 79 19 yellow_flower
-setblock 124 79 17 red_flower
-setblock 124 79 19 yellow_flower
-# Outdoor bar
-fill 122 79 11 124 79 14 spruce_planks
-fill 122 80 11 124 80 14 spruce_planks
-# Umbrella poles
-setblock 117 80 8 oak_fence
-setblock 119 80 16 oak_fence
+# 地板
+fill 151 80 6 164 80 19 light_gray_concrete
+# 地板装饰线
+fill 151 80 6 164 80 6 white_concrete
+fill 151 80 19 164 80 19 white_concrete
+# 舞台区域
+fill 155 80 7 160 80 10 oak_planks
+fill 155 81 7 160 81 10 polished_andesite
+# 座位排(三排)
+fill 153 80 12 162 80 13 carpet
+fill 153 81 12 162 81 13 white_concrete
+fill 153 80 15 162 80 16 carpet
+fill 153 81 15 162 81 16 white_concrete
+fill 153 80 18 162 80 19 carpet
+fill 153 81 18 162 81 19 white_concrete
+# 展示板
+fill 152 80 7 152 80 10 white_concrete
+fill 163 80 7 163 80 10 white_concrete
+# 照明
+setblock 157 81 10 glowstone
+setblock 157 81 15 glowstone
+# 楼层标识
+setblock 151 81 19 oak_sign[rotation=0]{Text1:'{"text":"8F 活动","color":"black","bold":true}',Text2:'{"text":"Event","color":"gray"}'}
 
 # ========================================
-# Stairwell & Elevator
+# 9F Rooftop Rest Area
 # ========================================
-# Stairs from 1F to RF (east side)
-fill 123 67 18 124 67 19 oak_stairs
-fill 123 68 18 124 68 19 oak_stairs
-fill 123 69 18 124 69 19 oak_stairs
-fill 123 70 18 124 70 19 oak_stairs
-fill 123 71 18 124 71 19 oak_stairs
-fill 123 72 18 124 72 19 oak_stairs
-fill 123 73 18 124 73 19 oak_stairs
-fill 123 74 18 124 74 19 oak_stairs
-fill 123 75 18 124 75 19 oak_stairs
-fill 123 76 18 124 76 19 oak_stairs
-fill 123 77 18 124 77 19 oak_stairs
-fill 123 78 18 124 78 19 oak_stairs
+# 地面(草地块)
+fill 151 82 6 164 82 19 grass_block
+# 休息甲板
+fill 154 82 8 161 82 11 polished_andesite
+fill 154 82 14 161 82 17 polished_andesite
+# 休息长椅
+fill 156 82 9 157 82 10 oak_planks
+fill 158 82 9 159 82 10 oak_planks
+fill 156 82 15 157 82 16 oak_planks
+fill 158 82 15 159 82 16 oak_planks
+# 花坛
+setblock 151 82 7 flower_pot
+setblock 164 82 7 flower_pot
+setblock 151 82 18 flower_pot
+setblock 164 82 18 flower_pot
+setblock 152 82 12 flower_pot
+setblock 163 82 13 flower_pot
+# 屋顶照明
+setblock 157 83 10 glowstone
+setblock 157 83 15 glowstone
+
+# ========================================
+# Stairwell (west side)
+# ========================================
+fill 151 66 18 152 66 19 oak_stairs
+fill 151 68 18 152 68 19 oak_stairs
+fill 151 70 18 152 70 19 oak_stairs
+fill 151 72 18 152 72 19 oak_stairs
+fill 151 74 18 152 74 19 oak_stairs
+fill 151 76 18 152 76 19 oak_stairs
+fill 151 78 18 152 78 19 oak_stairs
+fill 151 80 18 152 80 19 oak_stairs
 
 # ========================================
 # Completion message
 # ========================================
-tellraw @a {"text":"§a§l Shibuya MODI 内部构建完成 §7| B1停车场 | 1F大厅 | 2F时尚店 | 3F Sony体验店 | 4-5F生活/咖啡 | 6F餐厅 | RF屋顶花园"}
+tellraw @a {"text":"§c§l 渋谷モディ 内部构建完成 §7| 1F时尚 | 2F年轻女装 | 3F品牌女装 | 4F男装 | 5F生活杂货 | 6F餐厅 | 7F书店 | 8F活动 | 9F屋顶花园"}

@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v8.2 | 细节大增强版：23个薄弱文件全面重写 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v8.2.1 | 细节深度优化版：33个薄弱文件全面增强 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [8, 2, 0],
+        "version": [8, 2, 1],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v8.2.0 - 细节大增强版(23个薄弱文件全面重写+10商业外观增强+9地标内部增强+109三层增强+惠比寿站增强) | 完整涩谷城市还原",
+            "description": "涩谷城市数据包 v8.2.1 - 细节深度优化版(33个文件增强+20商业外观+3地标外观+10商业内部) | 完整涩谷城市还原",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [8, 2, 0]
+            "version": [8, 2, 1]
         }
     ],
     "dependencies": []
