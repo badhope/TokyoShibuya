@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v8.1.1 | 真实比对完善版：修复坐标冲突+补充真实缺失地标 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v8.2 | 细节大增强版：23个薄弱文件全面重写 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [8, 1, 1],
+        "version": [8, 2, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v8.1.1 - 真实比对完善版(修复cerulean_tower坐标typo/7处坐标冲突/幽灵引用/孤儿文件/新增Cross Tower+Cast+South Tower+原宿站+代代木站+西班牙坂+宫益坂+Moyai像/151栋建筑) | 完整涩谷城市还原",
+            "description": "涩谷城市数据包 v8.2.0 - 细节大增强版(23个薄弱文件全面重写+10商业外观增强+9地标内部增强+109三层增强+惠比寿站增强) | 完整涩谷城市还原",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [8, 1, 1]
+            "version": [8, 2, 0]
         }
     ],
     "dependencies": []
