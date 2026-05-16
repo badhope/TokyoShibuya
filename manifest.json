@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v8.0 | 大扩展版：8新地标+17商业内部增强+8地标内部+3地标内部补全 | 网易MC Studio基岩版",
+        "description": "东京涩谷 v8.1 | 城市生态完善版：修复\"有门无建筑\"问题+7个关键公共服务建筑 | 网易MC Studio基岩版",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [8, 0, 0],
+        "version": [8, 1, 0],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v8.0.0 - 大扩展版(8新地标3021行/17商业内部增强5694行/8地标内部补全3197行/3地标内部引用修复/134栋建筑全覆盖) | 完整涩谷城市还原",
+            "description": "涩谷城市数据包 v8.1.0 - 城市生态完善版(7新公共服务建筑4224行/修复有门无建筑问题/143栋建筑全覆盖) | 完整涩谷城市还原",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [8, 0, 0]
+            "version": [8, 1, 0]
         }
     ],
     "dependencies": []
