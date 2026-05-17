@@ -20,25 +20,25 @@ fill -140 65 30 -120 65 50 grass_block replace air
 # 大鸟居 (红色) - 参道入口南侧
 # ============================================
 # 鸟居柱子 (红色混凝土)
-setblock -137 65 31 concrete 14
-setblock -137 66 31 concrete 14
-setblock -137 67 31 concrete 14
-setblock -137 68 31 concrete 14
-setblock -137 69 31 concrete 14
-setblock -137 70 31 concrete 14
-setblock -137 71 31 concrete 14
-setblock -133 65 31 concrete 14
-setblock -133 66 31 concrete 14
-setblock -133 67 31 concrete 14
-setblock -133 68 31 concrete 14
-setblock -133 69 31 concrete 14
-setblock -133 70 31 concrete 14
-setblock -133 71 31 concrete 14
+setblock -137 65 31 red_concrete
+setblock -137 66 31 red_concrete
+setblock -137 67 31 red_concrete
+setblock -137 68 31 red_concrete
+setblock -137 69 31 red_concrete
+setblock -137 70 31 red_concrete
+setblock -137 71 31 red_concrete
+setblock -133 65 31 red_concrete
+setblock -133 66 31 red_concrete
+setblock -133 67 31 red_concrete
+setblock -133 68 31 red_concrete
+setblock -133 69 31 red_concrete
+setblock -133 70 31 red_concrete
+setblock -133 71 31 red_concrete
 # 鸟居横梁 (笠木 - 上横)
-fill -138 71 31 -132 71 31 concrete 14
-fill -138 72 31 -132 72 31 concrete 14
+fill -138 71 31 -132 71 31 red_concrete
+fill -138 72 31 -132 72 31 red_concrete
 # 鸟居横梁 (貫 - 下横)
-fill -137 69 31 -133 69 31 concrete 14
+fill -137 69 31 -133 69 31 red_concrete
 # 鸟居柱础石
 setblock -137 64 31 stone
 setblock -133 64 31 stone
@@ -46,17 +46,17 @@ setblock -133 64 31 stone
 # ============================================
 # 第二鸟居 - 中段
 # ============================================
-setblock -137 65 39 concrete 14
-setblock -137 66 39 concrete 14
-setblock -137 67 39 concrete 14
-setblock -137 68 39 concrete 14
-setblock -133 65 39 concrete 14
-setblock -133 66 39 concrete 14
-setblock -133 67 39 concrete 14
-setblock -133 68 39 concrete 14
-fill -138 68 39 -132 68 39 concrete 14
-fill -138 69 39 -132 69 39 concrete 14
-fill -137 67 39 -133 67 39 concrete 14
+setblock -137 65 39 red_concrete
+setblock -137 66 39 red_concrete
+setblock -137 67 39 red_concrete
+setblock -137 68 39 red_concrete
+setblock -133 65 39 red_concrete
+setblock -133 66 39 red_concrete
+setblock -133 67 39 red_concrete
+setblock -133 68 39 red_concrete
+fill -138 68 39 -132 68 39 red_concrete
+fill -138 69 39 -132 69 39 red_concrete
+fill -137 67 39 -133 67 39 red_concrete
 setblock -137 64 39 stone
 setblock -133 64 39 stone
 
@@ -123,10 +123,10 @@ setblock -124 66 47 stone_wall[west=true]
 fill -130 65 46 -124 65 50 stone
 fill -131 65 46 -123 65 50 stone
 # 本殿墙壁 (白色混凝土)
-fill -130 66 46 -124 66 50 concrete replace air
-fill -130 67 46 -124 67 50 concrete replace air
-fill -130 68 46 -124 68 50 concrete replace air
-fill -130 69 46 -124 69 50 concrete replace air
+fill -130 66 46 -124 66 50 white_concrete replace air
+fill -130 67 46 -124 67 50 white_concrete replace air
+fill -130 68 46 -124 68 50 white_concrete replace air
+fill -130 69 46 -124 69 50 white_concrete replace air
 # 本殿入口 (橡木门)
 setblock -127 66 47 oak_door[half=lower,facing=south]
 setblock -127 67 47 oak_door[half=upper,facing=south]

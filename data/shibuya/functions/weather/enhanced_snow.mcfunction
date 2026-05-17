@@ -12,7 +12,7 @@ tellraw @s {"rawtext":[{"text":"§b❄️ 下雪了！涩谷银装素裹"}]}
 execute at @a run particle minecraft:snowflake ~0 ~5 ~0 15 5 15 0 50
 
 # 地面积雪效果
-fill -170 68 -170 170 68 170 snow_layer 0 replace air
+fill -170 68 -170 170 68 170 snow_layer replace air
 
 # 屋顶积雪效果（涩谷109附近建筑顶部）
 fill 55 116 55 85 116 85 snow_layer replace air
@@ -21,7 +21,7 @@ fill 55 116 55 85 116 85 snow_layer replace air
 fill -15 295 -35 15 295 -5 snow_layer replace air
 
 # 街道积雪（中心街区域）
-fill -30 68 -30 30 68 30 snow_layer 0 replace air
+fill -30 68 -30 30 68 30 snow_layer replace air
 
 # === 雪天特殊事件 ===
 

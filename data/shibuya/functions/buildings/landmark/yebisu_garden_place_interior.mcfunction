@@ -222,8 +222,8 @@ setblock 410 68 351 oak_sign[facing=south]{Text1:'{"text":"2F","color":"red","bo
 # 3F 惠比寿啤酒博物馆内部
 # ============================================
 # 博物馆内部地板 (石砖)
-fill 352 66 422 357 66 428 stone_bricks replace brick_block
-# 博物馆红砖墙装饰 (已有brick_block外墙)
+fill 352 66 422 357 66 428 stone_bricks replace bricks
+# 博物馆红砖墙装饰 (已有bricks外墙)
 # 啤酒酿造展示区
 setblock 352 67 422 barrel
 setblock 352 68 422 barrel

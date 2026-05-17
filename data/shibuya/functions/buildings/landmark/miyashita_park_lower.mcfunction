@@ -7,7 +7,7 @@
 # 主体结构 - 白色混凝土+灰色混凝土混合
 # ========================================
 # 北侧商业区 (红砖风格)
-fill 40 66 -60 50 78 -50 brick_block
+fill 40 66 -60 50 78 -50 bricks
 fill 42 67 -58 48 77 -52 air
 # 南侧商业区 (现代混凝土风格)
 fill 50 66 -60 60 78 -50 white_concrete
@@ -23,11 +23,11 @@ fill 50 66 -60 50 78 -50 red_nether_bricks
 # 西面红砖墙
 fill 40 66 -60 40 78 -50 red_nether_bricks
 # 红砖装饰带 (每隔3层)
-fill 40 69 -60 50 69 -60 brick_block
-fill 40 72 -60 50 72 -60 brick_block
-fill 40 75 -60 50 75 -60 brick_block
+fill 40 69 -60 50 69 -60 bricks
+fill 40 72 -60 50 72 -60 bricks
+fill 40 75 -60 50 75 -60 bricks
 # 南面红砖墙 (与白色区交界)
-fill 40 66 -50 50 78 -50 brick_block
+fill 40 66 -50 50 78 -50 bricks
 
 # ========================================
 # 现代混凝土外墙 - 南侧商业区

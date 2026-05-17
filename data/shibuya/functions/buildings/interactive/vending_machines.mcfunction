@@ -5,7 +5,7 @@
 
 # ===== 饮料机 - 红色 (可乐机) =====
 # 机身
-fill ~ ~ ~ ~1 ~2 ~1 concrete 14
+fill ~ ~ ~ ~1 ~2 ~1 red_concrete
 
 # 玻璃展示窗
 setblock ~0 ~1 ~1 glass
@@ -29,11 +29,11 @@ setblock ~1 ~0 ~1 hopper
 setblock ~0 ~3 ~1 sea_lantern
 
 # 品牌标识
-setblock ~-1 ~1 ~1 oak_wall_sign 4 replace {"Text1":"{\"text\":\"可口可乐\"}","Text2":"{\"text\":\"Coca-Cola\"}"}
+setblock ~-1 ~1 ~1 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"可口可乐\"}","Text2":"{\"text\":\"Coca-Cola\"}"}
 
 # ===== 饮料机 - 蓝色 (矿泉水机) =====
 # 机身
-fill ~5 ~ ~ ~6 ~2 ~1 concrete 3
+fill ~5 ~ ~ ~6 ~2 ~1 light_blue_concrete
 
 # 玻璃展示窗
 setblock ~5 ~1 ~1 glass
@@ -57,11 +57,11 @@ setblock ~6 ~0 ~1 hopper
 setblock ~5 ~3 ~1 sea_lantern
 
 # 品牌标识
-setblock ~4 ~1 ~1 oak_wall_sign 4 replace {"Text1":"{\"text\":\"矿泉水\"}","Text2":"{\"text\":\"Water\"}"}
+setblock ~4 ~1 ~1 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"矿泉水\"}","Text2":"{\"text\":\"Water\"}"}
 
 # ===== 饮料机 - 绿色 (茶饮料机) =====
 # 机身
-fill ~10 ~ ~ ~11 ~2 ~1 concrete 5
+fill ~10 ~ ~ ~11 ~2 ~1 lime_concrete
 
 # 玻璃展示窗
 setblock ~10 ~1 ~1 glass
@@ -85,11 +85,11 @@ setblock ~11 ~0 ~1 hopper
 setblock ~10 ~3 ~1 sea_lantern
 
 # 品牌标识
-setblock ~9 ~1 ~1 oak_wall_sign 4 replace {"Text1":"{\"text\":\"绿茶\"}","Text2":"{\"text\":\"Green Tea\"}"}
+setblock ~9 ~1 ~1 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"绿茶\"}","Text2":"{\"text\":\"Green Tea\"}"}
 
 # ===== 饮料机 - 黑色 (咖啡机) =====
 # 机身
-fill ~15 ~ ~ ~16 ~2 ~1 concrete 15
+fill ~15 ~ ~ ~16 ~2 ~1 black_concrete
 
 # 玻璃展示窗
 setblock ~15 ~1 ~1 glass
@@ -113,11 +113,11 @@ setblock ~16 ~0 ~1 hopper
 setblock ~15 ~3 ~1 sea_lantern
 
 # 品牌标识
-setblock ~14 ~1 ~1 oak_wall_sign 4 replace {"Text1":"{\"text\":\"咖啡\"}","Text2":"{\"text\":\"Coffee\"}"}
+setblock ~14 ~1 ~1 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"咖啡\"}","Text2":"{\"text\":\"Coffee\"}"}
 
 # ===== 零食机 =====
 # 机身
-fill ~20 ~ ~ ~22 ~3 ~1 concrete 4
+fill ~20 ~ ~ ~22 ~3 ~1 yellow_concrete
 
 # 玻璃展示窗
 fill ~20 ~1 ~1 ~22 ~2 ~1 glass
@@ -140,7 +140,7 @@ setblock ~21 ~-1 ~1 hopper
 setblock ~21 ~3 ~1 sea_lantern
 
 # 品牌标识
-setblock ~19 ~1 ~1 oak_wall_sign 4 replace {"Text1":"{\"text\":\"零食\"}","Text2":"{\"text\":\"Snacks\"}"}
+setblock ~19 ~1 ~1 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"零食\"}","Text2":"{\"text\":\"Snacks\"}"}
 
 # ===== 冰淇淋机 =====
 # 机身
@@ -167,7 +167,7 @@ setblock ~26 ~-1 ~1 hopper
 setblock ~26 ~3 ~1 sea_lantern
 
 # 品牌标识
-setblock ~24 ~1 ~1 oak_wall_sign 4 replace {"Text1":"{\"text\":\"冰淇淋\"}","Text2":"{\"text\":\"Ice Cream\"}"}
+setblock ~24 ~1 ~1 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"冰淇淋\"}","Text2":"{\"text\":\"Ice Cream\"}"}
 
 # ===== 香烟机 =====
 # 机身 (铁栅栏遮挡)
@@ -183,7 +183,7 @@ setblock ~31 ~0 ~1 stone_button[facing=south]
 setblock ~31 ~-1 ~1 hopper
 
 # 年龄限制标识
-setblock ~29 ~2 ~1 oak_wall_sign 4 replace {"Text1":"{\"text\":\"20岁以上\"}","Text2":"{\"text\":\"20+ ONLY\"}","Text3":"{\"text\":\"香烟\"}","Text4":"{\"text\":\"Cigarettes\"}"}
+setblock ~29 ~2 ~1 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"20岁以上\"}","Text2":"{\"text\":\"20+ ONLY\"}","Text3":"{\"text\":\"香烟\"}","Text4":"{\"text\":\"Cigarettes\"}"}
 
 # 照明
 setblock ~31 ~3 ~1 redstone_lamp
@@ -210,11 +210,11 @@ setblock ~36 ~-1 ~1 hopper
 setblock ~36 ~3 ~1 sea_lantern
 
 # 品牌标识
-setblock ~34 ~1 ~1 oak_wall_sign 4 replace {"Text1":"{\"text\":\"扭蛋机\"}","Text2":"{\"text\":\"Gashapon\"}"}
+setblock ~34 ~1 ~1 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"扭蛋机\"}","Text2":"{\"text\":\"Gashapon\"}"}
 
 # ===== 热饮机 =====
 # 机身
-fill ~40 ~ ~ ~41 ~2 ~1 concrete 1
+fill ~40 ~ ~ ~41 ~2 ~1 orange_concrete
 
 # 玻璃展示窗
 setblock ~40 ~1 ~1 glass
@@ -236,11 +236,11 @@ setblock ~41 ~0 ~1 hopper
 setblock ~40 ~3 ~1 sea_lantern
 
 # 品牌标识
-setblock ~39 ~1 ~1 oak_wall_sign 4 replace {"Text1":"{\"text\":\"热饮\"}","Text2":"{\"text\":\"Hot Drinks\"}"}
+setblock ~39 ~1 ~1 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"热饮\"}","Text2":"{\"text\":\"Hot Drinks\"}"}
 
 # ===== 果汁机 =====
 # 机身
-fill ~45 ~ ~ ~46 ~2 ~1 concrete 6
+fill ~45 ~ ~ ~46 ~2 ~1 pink_concrete
 
 # 玻璃展示窗
 setblock ~45 ~1 ~1 glass
@@ -264,7 +264,7 @@ setblock ~46 ~0 ~1 hopper
 setblock ~45 ~3 ~1 sea_lantern
 
 # 品牌标识
-setblock ~44 ~1 ~1 oak_wall_sign 4 replace {"Text1":"{\"text\":\"果汁\"}","Text2":"{\"text\":\"Juice\"}"}
+setblock ~44 ~1 ~1 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"果汁\"}","Text2":"{\"text\":\"Juice\"}"}
 
 # ===== 贩卖机排列区 =====
 # 地面

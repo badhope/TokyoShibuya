@@ -10,18 +10,18 @@ setblock ~1 ~ ~ stone_button[facing=south]
 setblock ~2 ~ ~ stone_button[facing=south]
 
 # 开关标识牌
-setblock ~ ~1 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"主照明\"}","Text2":"{\"text\":\"MAIN\"}"}
-setblock ~1 ~1 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"氛围灯\"}","Text2":"{\"text\":\"AMBIENT\"}"}
-setblock ~2 ~1 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"应急灯\"}","Text2":"{\"text\":\"EMERGENCY\"}"}
+setblock ~ ~1 ~ oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"主照明\"}","Text2":"{\"text\":\"MAIN\"}"}
+setblock ~1 ~1 ~ oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"氛围灯\"}","Text2":"{\"text\":\"AMBIENT\"}"}
+setblock ~2 ~1 ~ oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"应急灯\"}","Text2":"{\"text\":\"EMERGENCY\"}"}
 
 # 区域开关
 setblock ~5 ~ ~ stone_button[facing=south]
 setblock ~6 ~ ~ stone_button[facing=south]
 setblock ~7 ~ ~ stone_button[facing=south]
 
-setblock ~5 ~1 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"大厅\"}"}
-setblock ~6 ~1 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"走廊\"}"}
-setblock ~7 ~1 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"楼梯\"}"}
+setblock ~5 ~1 ~ oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"大厅\"}"}
+setblock ~6 ~1 ~ oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"走廊\"}"}
+setblock ~7 ~1 ~ oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"楼梯\"}"}
 
 # ===== 主照明系统 (Main Lighting) =====
 # 大厅主灯
@@ -65,10 +65,10 @@ setblock ~42 ~ ~ stone_button[facing=south]
 setblock ~44 ~ ~ stone_button[facing=south]
 setblock ~46 ~ ~ stone_button[facing=south]
 
-setblock ~40 ~1 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"100%\"}"}
-setblock ~42 ~1 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"75%\"}"}
-setblock ~44 ~1 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"50%\"}"}
-setblock ~46 ~1 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"25%\"}"}
+setblock ~40 ~1 ~ oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"100%\"}"}
+setblock ~42 ~1 ~ oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"75%\"}"}
+setblock ~44 ~1 ~ oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"50%\"}"}
+setblock ~46 ~1 ~ oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"25%\"}"}
 
 # ===== 场景模式 (Scene Modes) =====
 # 明亮模式 (Bright Mode)
@@ -95,9 +95,9 @@ setblock ~50 ~ ~ stone_button[facing=south]
 setblock ~55 ~ ~ stone_button[facing=south]
 setblock ~60 ~ ~ stone_button[facing=south]
 
-setblock ~50 ~1 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"明亮模式\"}","Text2":"{\"text\":\"BRIGHT\"}"}
-setblock ~55 ~1 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"温馨模式\"}","Text2":"{\"text\":\"COZY\"}"}
-setblock ~60 ~1 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"夜间模式\"}","Text2":"{\"text\":\"NIGHT\"}"}
+setblock ~50 ~1 ~ oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"明亮模式\"}","Text2":"{\"text\":\"BRIGHT\"}"}
+setblock ~55 ~1 ~ oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"温馨模式\"}","Text2":"{\"text\":\"COZY\"}"}
+setblock ~60 ~1 ~ oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"夜间模式\"}","Text2":"{\"text\":\"NIGHT\"}"}
 
 # ===== 应急照明 (Emergency Lighting) =====
 # 红色应急灯
@@ -116,7 +116,7 @@ setblock ~75 ~3 ~15 redstone_lamp
 setblock ~80 ~3 ~15 redstone_lamp
 
 # 应急灯标识
-setblock ~70 ~5 ~10 oak_wall_sign 2 replace {"Text1":"{\"text\":\"应急照明\"}","Text2":"{\"text\":\"EMERGENCY\"}","Text3":"{\"text\":\"LIGHT\"}"}
+setblock ~70 ~5 ~10 oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"应急照明\"}","Text2":"{\"text\":\"EMERGENCY\"}","Text3":"{\"text\":\"LIGHT\"}"}
 
 # ===== 指示灯系统 (Indicator Lights) =====
 # 出口指示灯
@@ -125,23 +125,23 @@ setblock ~85 ~3 ~10 sea_lantern
 setblock ~85 ~3 ~15 sea_lantern
 
 # 出口标识
-setblock ~86 ~3 ~5 oak_wall_sign 4 replace {"Text1":"{\"text\":\"出口\"}","Text2":"{\"text\":\"EXIT\"}","Text3":"{\"text\":\"→\"}"}
-setblock ~86 ~3 ~10 oak_wall_sign 4 replace {"Text1":"{\"text\":\"出口\"}","Text2":"{\"text\":\"EXIT\"}","Text3":"{\"text\":\"→\"}"}
-setblock ~86 ~3 ~15 oak_wall_sign 4 replace {"Text1":"{\"text\":\"出口\"}","Text2":"{\"text\":\"EXIT\"}","Text3":"{\"text\":\"→\"}"}
+setblock ~86 ~3 ~5 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"出口\"}","Text2":"{\"text\":\"EXIT\"}","Text3":"{\"text\":\"→\"}"}
+setblock ~86 ~3 ~10 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"出口\"}","Text2":"{\"text\":\"EXIT\"}","Text3":"{\"text\":\"→\"}"}
+setblock ~86 ~3 ~15 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"出口\"}","Text2":"{\"text\":\"EXIT\"}","Text3":"{\"text\":\"→\"}"}
 
 # 洗手间指示灯
 setblock ~90 ~3 ~5 sea_lantern
 setblock ~95 ~3 ~5 sea_lantern
 
-setblock ~91 ~3 ~5 oak_wall_sign 4 replace {"Text1":"{\"text\":\"洗手间\"}","Text2":"{\"text\":\"TOILET\"}"}
-setblock ~96 ~3 ~5 oak_wall_sign 4 replace {"Text1":"{\"text\":\"洗手间\"}","Text2":"{\"text\":\"TOILET\"}"}
+setblock ~91 ~3 ~5 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"洗手间\"}","Text2":"{\"text\":\"TOILET\"}"}
+setblock ~96 ~3 ~5 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"洗手间\"}","Text2":"{\"text\":\"TOILET\"}"}
 
 # 电梯指示灯
 setblock ~100 ~3 ~5 sea_lantern
 setblock ~100 ~3 ~10 sea_lantern
 
-setblock ~101 ~3 ~5 oak_wall_sign 4 replace {"Text1":"{\"text\":\"电梯\"}","Text2":"{\"text\":\"ELEVATOR\"}"}
-setblock ~101 ~3 ~10 oak_wall_sign 4 replace {"Text1":"{\"text\":\"电梯\"}","Text2":"{\"text\":\"ELEVATOR\"}"}
+setblock ~101 ~3 ~5 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"电梯\"}","Text2":"{\"text\":\"ELEVATOR\"}"}
+setblock ~101 ~3 ~10 oak_wall_sign[facing=east] replace {"Text1":"{\"text\":\"电梯\"}","Text2":"{\"text\":\"ELEVATOR\"}"}
 
 # ===== 定时开关 (Timer Control) =====
 # 根据时间的自动开关
@@ -155,7 +155,7 @@ setblock ~112 ~1 ~ redstone_torch
 setblock ~112 ~2 ~ redstone_lamp
 
 # 定时器标识
-setblock ~110 ~2 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"自动照明\"}","Text2":"{\"text\":\"AUTO LIGHT\"}"}
+setblock ~110 ~2 ~ oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"自动照明\"}","Text2":"{\"text\":\"AUTO LIGHT\"}"}
 
 # ===== 运动感应 (Motion Sensor) =====
 # 玩家靠近自动亮灯
@@ -172,7 +172,7 @@ setblock ~124 ~3 ~10 redstone_lamp
 setblock ~124 ~2 ~ stone_pressure_plate
 
 # 感应标识
-setblock ~120 ~4 ~10 oak_wall_sign 2 replace {"Text1":"{\"text\":\"感应照明\"}","Text2":"{\"text\":\"MOTION\"}}"
+setblock ~120 ~4 ~10 oak_wall_sign[facing=south] replace {"Text1":"{\"text\":\"感应照明\"}","Text2":"{\"text\":\"MOTION\"}}"
 
 # ===== 装饰照明 =====
 # 壁灯

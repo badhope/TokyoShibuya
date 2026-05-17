@@ -18,16 +18,16 @@ fill -438 66 -351 -438 66 -339 stone_bricks
 # 樱花树（密集种植，赏樱名所）
 setblock -452 67 -348 oak_log
 setblock -452 68 -348 oak_leaves
-setblock -452 69 -348 pink_leaves
+setblock -452 69 -348 cherry_leaves
 setblock -452 67 -344 oak_log
 setblock -452 68 -344 oak_leaves
-setblock -452 69 -344 pink_leaves
+setblock -452 69 -344 cherry_leaves
 setblock -438 67 -348 oak_log
 setblock -438 68 -348 oak_leaves
-setblock -438 69 -348 pink_leaves
+setblock -438 69 -348 cherry_leaves
 setblock -438 67 -344 oak_log
 setblock -438 68 -344 oak_leaves
-setblock -438 69 -344 pink_leaves
+setblock -438 69 -344 cherry_leaves
 
 # 中上游
 fill -400 63 -350 -390 63 -340 water
@@ -39,10 +39,10 @@ fill -402 66 -351 -402 66 -339 stone_bricks
 fill -388 66 -351 -388 66 -339 stone_bricks
 setblock -402 67 -348 oak_log
 setblock -402 68 -348 oak_leaves
-setblock -402 69 -348 pink_leaves
+setblock -402 69 -348 cherry_leaves
 setblock -388 67 -348 oak_log
 setblock -388 68 -348 oak_leaves
-setblock -388 69 -348 pink_leaves
+setblock -388 69 -348 cherry_leaves
 
 fill -350 63 -350 -340 63 -340 water
 fill -350 64 -350 -340 64 -340 water
@@ -53,10 +53,10 @@ fill -352 66 -351 -352 66 -339 stone_bricks
 fill -338 66 -351 -338 66 -339 stone_bricks
 setblock -352 67 -348 oak_log
 setblock -352 68 -348 oak_leaves
-setblock -352 69 -348 pink_leaves
+setblock -352 69 -348 cherry_leaves
 setblock -338 67 -348 oak_log
 setblock -338 68 -348 oak_leaves
-setblock -338 69 -348 pink_leaves
+setblock -338 69 -348 cherry_leaves
 
 fill -300 63 -350 -290 63 -340 water
 fill -300 64 -350 -290 64 -340 water
@@ -67,10 +67,10 @@ fill -302 66 -351 -302 66 -339 stone_bricks
 fill -288 66 -351 -288 66 -339 stone_bricks
 setblock -302 67 -348 oak_log
 setblock -302 68 -348 oak_leaves
-setblock -302 69 -348 pink_leaves
+setblock -302 69 -348 cherry_leaves
 setblock -288 67 -348 oak_log
 setblock -288 68 -348 oak_leaves
-setblock -288 69 -348 pink_leaves
+setblock -288 69 -348 cherry_leaves
 
 # 中游（惠比寿/广尾附近）
 fill -250 63 -350 -240 63 -340 water
@@ -82,10 +82,10 @@ fill -252 66 -351 -252 66 -339 stone_bricks
 fill -238 66 -351 -238 66 -339 stone_bricks
 setblock -252 67 -348 oak_log
 setblock -252 68 -348 oak_leaves
-setblock -252 69 -348 pink_leaves
+setblock -252 69 -348 cherry_leaves
 setblock -238 67 -348 oak_log
 setblock -238 68 -348 oak_leaves
-setblock -238 69 -348 pink_leaves
+setblock -238 69 -348 cherry_leaves
 
 # 桥梁（目黑桥）
 fill -220 66 -348 -210 66 -342 stone_bricks
@@ -104,10 +104,10 @@ fill -202 66 -351 -202 66 -339 stone_bricks
 fill -188 66 -351 -188 66 -339 stone_bricks
 setblock -202 67 -348 oak_log
 setblock -202 68 -348 oak_leaves
-setblock -202 69 -348 pink_leaves
+setblock -202 69 -348 cherry_leaves
 setblock -188 67 -348 oak_log
 setblock -188 68 -348 oak_leaves
-setblock -188 69 -348 pink_leaves
+setblock -188 69 -348 cherry_leaves
 
 fill -150 63 -350 -140 63 -340 water
 fill -150 64 -350 -140 64 -340 water
@@ -118,10 +118,10 @@ fill -152 66 -351 -152 66 -339 stone_bricks
 fill -138 66 -351 -138 66 -339 stone_bricks
 setblock -152 67 -348 oak_log
 setblock -152 68 -348 oak_leaves
-setblock -152 69 -348 pink_leaves
+setblock -152 69 -348 cherry_leaves
 setblock -138 67 -348 oak_log
 setblock -138 68 -348 oak_leaves
-setblock -138 69 -348 pink_leaves
+setblock -138 69 -348 cherry_leaves
 
 fill -100 63 -350 -90 63 -340 water
 fill -100 64 -350 -90 64 -340 water
@@ -132,7 +132,7 @@ fill -102 66 -351 -102 66 -339 stone_bricks
 fill -88 66 -351 -88 66 -339 stone_bricks
 setblock -102 67 -348 oak_log
 setblock -102 68 -348 oak_leaves
-setblock -102 69 -348 pink_leaves
+setblock -102 69 -348 cherry_leaves
 
 # 下游（继续向东，流向品川区）
 fill -50 63 -350 -40 63 -340 water

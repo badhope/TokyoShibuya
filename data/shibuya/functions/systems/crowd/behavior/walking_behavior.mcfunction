@@ -26,7 +26,7 @@ execute as @e[type=shibuya:npc,tag=obstacle_ahead] at @s run tag @s remove obsta
 # 检测墙壁和建筑物
 execute as @e[type=shibuya:npc] at @s if block ^ ^1 ^1 stone run tp @s ~ ~ ~ ~45 ~
 execute as @e[type=shibuya:npc] at @s if block ^ ^1 ^1 concrete run tp @s ~ ~ ~ ~45 ~
-execute as @e[type=shibuya:npc] at @s if block ^ ^1 ^1 brick_block run tp @s ~ ~ ~ ~45 ~
+execute as @e[type=shibuya:npc] at @s if block ^ ^1 ^1 bricks run tp @s ~ ~ ~ ~45 ~
 
 # 人群聚集时减速 - 周围NPC超过3个时减速
 execute as @e[type=shibuya:npc] at @s store result score @s nearby_npcs if entity @e[type=shibuya:npc,distance=..2]

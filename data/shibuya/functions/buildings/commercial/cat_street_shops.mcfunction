@@ -79,16 +79,16 @@ setblock -451 71 -83 oak_sign[rotation=0]{Text1:'{"text":"SELECT SHOP","color":"
 # 地板
 fill -444 65 -90 -440 65 -76 stone_bricks
 # 东墙
-fill -444 66 -90 -444 69 -76 brick_block
+fill -444 66 -90 -444 69 -76 bricks
 # 西墙
-fill -440 66 -90 -440 69 -76 brick_block
+fill -440 66 -90 -440 69 -76 bricks
 # 北墙
 fill -444 66 -90 -440 66 -90 gray_concrete
 # 南墙
 fill -444 66 -76 -440 66 -76 gray_concrete
 # 屋顶
 fill -445 70 -91 -439 70 -75 gray_concrete
-fill -444 70 -90 -440 70 -76 brick_block
+fill -444 70 -90 -440 70 -76 bricks
 # 入口
 setblock -442 66 -76 iron_door[half=lower,facing=south]
 setblock -442 67 -76 iron_door[half=upper,facing=south]

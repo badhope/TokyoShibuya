@@ -12,11 +12,11 @@
 fill 442 66 362 468 66 388 oak_planks
 # 大厅天花板
 fill 442 70 362 468 70 388 white_concrete
-# 大厅红砖墙 - brick_block
-fill 442 67 362 442 69 388 brick_block
-fill 468 67 362 468 69 388 brick_block
-fill 442 67 362 468 67 362 brick_block
-fill 442 67 388 468 67 388 brick_block
+# 大厅红砖墙 - bricks
+fill 442 67 362 442 69 388 bricks
+fill 468 67 362 468 69 388 bricks
+fill 442 67 362 468 67 362 bricks
+fill 442 67 388 468 67 388 bricks
 # 大厅灯笼照明 - lantern
 setblock 446 69 364 lantern
 setblock 446 69 370 lantern
@@ -228,8 +228,8 @@ setblock 462 67 364 furnace
 # 酿造区装饰
 fill 444 66 364 464 66 364 cobblestone
 # 酿造区展示墙
-fill 444 67 362 444 69 362 brick_block
-fill 468 67 362 468 69 362 brick_block
+fill 444 67 362 444 69 362 bricks
+fill 468 67 362 468 69 362 bricks
 # 酿造区地面装饰
 fill 444 66 363 464 66 363 stone_bricks
 # 酿造区管道装饰

@@ -53,16 +53,16 @@ fill -89 70 96 -81 70 104 black_concrete
 
 # 建筑4: 餐厅D (X:-80~-70, Z:60~70, Y:66~68)
 # 砖石+暖光
-fill -80 66 60 -70 68 70 brick_block
+fill -80 66 60 -70 68 70 bricks
 fill -79 66 61 -71 67 69 glass
 fill -80 67 60 -80 68 70 spruce_planks
 setblock -75 66 60 spruce_door
 setblock -74 66 60 spruce_door
-fill -77 66 59 -73 66 59 brick_block
+fill -77 66 59 -73 66 59 bricks
 setblock -75 69 61 oak_sign
 setblock -76 68 60 sea_lantern
 setblock -73 68 60 sea_lantern
-fill -79 68 61 -71 68 69 brick_block
+fill -79 68 61 -71 68 69 bricks
 setblock -79 66 65 flower_pot
 setblock -71 66 65 flower_pot
 
@@ -278,16 +278,16 @@ setblock -97 84 180 spruce_fence
 
 # 建筑13: 铁板烧店 (X:-55~-45, Z:55~65, Y:66~68)
 # 砖石+暖光
-fill -55 66 55 -45 68 65 brick_block
+fill -55 66 55 -45 68 65 bricks
 fill -54 66 56 -46 67 64 glass
 fill -55 67 55 -55 68 65 spruce_planks
 setblock -50 66 55 spruce_door
 setblock -49 66 55 spruce_door
-fill -52 66 54 -48 66 54 brick_block
+fill -52 66 54 -48 66 54 bricks
 setblock -50 69 56 oak_sign
 setblock -51 68 55 sea_lantern
 setblock -48 68 55 sea_lantern
-fill -54 68 56 -46 68 64 brick_block
+fill -54 68 56 -46 68 64 bricks
 setblock -54 66 60 flower_pot
 setblock -46 66 60 flower_pot
 
