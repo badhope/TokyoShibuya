@@ -96,13 +96,13 @@ execute if entity @s[tag=hidden_stairs_piston] positioned ~~~ run {
     # 楼梯方块
     setblock ~~~ minecraft:stone_brick_stairs
     # 控制活塞
-    setblock ~ ~-1 ~-1 minecraft:sticky_piston 1
+    setblock ~ ~-1 ~-1 minecraft:sticky_piston
 }
 
 # 旋转楼梯机关
 execute if entity @s[tag=hidden_stairs_rotate] positioned ~~~ run {
     # 中心柱
-    setblock ~~~ minecraft:stonebrick
+    setblock ~~~ minecraft:stone_bricks
     # 楼梯
     setblock ~1 ~1 ~ minecraft:stone_brick_stairs
     setblock ~ ~2 ~1 minecraft:stone_brick_stairs
@@ -111,10 +111,10 @@ execute if entity @s[tag=hidden_stairs_rotate] positioned ~~~ run {
 
 # 隐藏螺旋楼梯
 execute if entity @s[tag=hidden_stairs_spiral] positioned ~~~ run {
-    setblock ~~~ minecraft:stone_brick_stairs 0
-    setblock ~1 ~1 ~ minecraft:stone_brick_stairs 1
-    setblock ~ ~2 ~1 minecraft:stone_brick_stairs 2
-    setblock ~-1 ~3 ~ minecraft:stone_brick_stairs 3
+    setblock ~~~ minecraft:stone_brick_stairs
+    setblock ~1 ~1 ~ minecraft:stone_brick_stairs
+    setblock ~ ~2 ~1 minecraft:stone_brick_stairs
+    setblock ~-1 ~3 ~ minecraft:stone_brick_stairs
 }
 
 # --------------------------------------------
@@ -124,13 +124,13 @@ execute if entity @s[tag=hidden_stairs_spiral] positioned ~~~ run {
 # 活塞门 - 2x2
 execute if entity @s[tag=hidden_door_piston] positioned ~~~ run {
     # 门框
-    setblock ~-1~~ minecraft:stonebrick
-    setblock ~1~~ minecraft:stonebrick
-    setblock ~-1~1~ minecraft:stonebrick
-    setblock ~1~1~ minecraft:stonebrick
+    setblock ~-1~~ minecraft:stone_bricks
+    setblock ~1~~ minecraft:stone_bricks
+    setblock ~-1~1~ minecraft:stone_bricks
+    setblock ~1~1~ minecraft:stone_bricks
     # 活塞
-    setblock ~-2~~ minecraft:sticky_piston 5
-    setblock ~-2~1~ minecraft:sticky_piston 5
+    setblock ~-2~~ minecraft:sticky_piston
+    setblock ~-2~1~ minecraft:sticky_piston
     # 红石控制
     setblock ~-2~-1~ minecraft:redstone_wire
 }
@@ -141,23 +141,23 @@ execute if entity @s[tag=hidden_door_slime] positioned ~~~ run {
     setblock ~~~ minecraft:slime
     setblock ~ ~1 ~ minecraft:slime
     # 活塞推动器
-    setblock ~-1~~ minecraft:sticky_piston 5
+    setblock ~-1~~ minecraft:sticky_piston
 }
 
 # 观察者检测门
 execute if entity @s[tag=hidden_door_observer] positioned ~~~ run {
     # 观察者
-    setblock ~~~ minecraft:observer 0
+    setblock ~~~ minecraft:observer
     # 活塞
-    setblock ~1~~ minecraft:sticky_piston 5
+    setblock ~1~~ minecraft:sticky_piston
 }
 
 # 密码门控制
 execute if entity @s[tag=hidden_door_code] positioned ~~~ run {
     # 按钮
-    setblock ~~~ minecraft:stone_button 4
-    setblock ~1~~ minecraft:stone_button 4
-    setblock ~2~~ minecraft:stone_button 4
+    setblock ~~~ minecraft:stone_button
+    setblock ~1~~ minecraft:stone_button
+    setblock ~2~~ minecraft:stone_button
     # 红石比较器
     setblock ~ ~-1 ~ minecraft:comparator
 }
@@ -167,10 +167,10 @@ execute if entity @s[tag=hidden_door_code] positioned ~~~ run {
 # --------------------------------------------
 
 # 拉杆开关
-execute if entity @s[tag=hidden_lever] run setblock ~~~ minecraft:lever 0
+execute if entity @s[tag=hidden_lever] run setblock ~~~ minecraft:lever
 
 # 按钮开关
-execute if entity @s[tag=hidden_button] run setblock ~~~ minecraft:stone_button 0
+execute if entity @s[tag=hidden_button] run setblock ~~~ minecraft:stone_button
 
 # 压力板触发
 execute if entity @s[tag=hidden_pressure] run setblock ~~~ minecraft:stone_pressure_plate
@@ -192,7 +192,7 @@ execute if entity @s[tag=hidden_comparator] run setblock ~~~ minecraft:comparato
 # --------------------------------------------
 
 # 墙壁 - 石砖
-execute if entity @s[tag=hidden_wall] run setblock ~~~ minecraft:stonebrick
+execute if entity @s[tag=hidden_wall] run setblock ~~~ minecraft:stone_bricks
 
 # 地面 - 石砖台阶
 execute if entity @s[tag=hidden_floor] run setblock ~~~ minecraft:stone_brick_slab
@@ -217,8 +217,8 @@ execute if score hidden_state hidden_state matches 1 run {
 # 关闭隐藏门
 execute if score hidden_state hidden_state matches 0 run {
     tag @s remove hidden_door_open
-    setblock ~~~ minecraft:stonebrick
-    setblock ~ ~1 ~ minecraft:stonebrick
+    setblock ~~~ minecraft:stone_bricks
+    setblock ~ ~1 ~ minecraft:stone_bricks
 }
 
 # --------------------------------------------

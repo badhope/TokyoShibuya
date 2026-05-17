@@ -232,12 +232,12 @@ setblock 410 79 430 sea_lantern
 # 惠比寿啤酒博物馆 (红砖建筑, 西南角)
 # ============================================
 # 博物馆外墙
-fill 351 66 421 358 74 429 brick_block
+fill 351 66 421 358 74 429 bricks
 # 博物馆屋顶
 fill 351 75 421 358 75 429 dark_oak_planks
 # 博物馆窗户
-fill 353 68 429 354 72 429 glass_pane replace brick_block
-fill 356 68 429 357 72 429 glass_pane replace brick_block
+fill 353 68 429 354 72 429 glass_pane replace bricks
+fill 356 68 429 357 72 429 glass_pane replace bricks
 # 博物馆入口
 setblock 354 66 429 iron_door[facing=south,half=lower]
 setblock 354 67 429 iron_door[half=upper,facing=south]

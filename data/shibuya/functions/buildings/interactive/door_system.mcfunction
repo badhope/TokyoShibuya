@@ -71,12 +71,12 @@ setblock ~25 ~ ~ iron_door[facing=south,half=lower,open=false]
 setblock ~25 ~1 ~ iron_door[facing=south,half=upper,open=false]
 
 # 防火标识牌
-setblock ~25 ~2 ~ wall_sign 2 replace {"Text1":"{\"text\":\"防火门\"}","Text2":"{\"text\":\"FIRE DOOR\"}","Text3":"{\"text\":\"保持关闭\"}","Text4":"{\"text\":\"KEEP CLOSED\"}"}
+setblock ~25 ~2 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"防火门\"}","Text2":"{\"text\":\"FIRE DOOR\"}","Text3":"{\"text\":\"保持关闭\"}","Text4":"{\"text\":\"KEEP CLOSED\"}"}
 
 # 防火门2
 setblock ~27 ~ ~ iron_door[facing=south,half=lower,open=false]
 setblock ~27 ~1 ~ iron_door[facing=south,half=upper,open=false]
-setblock ~27 ~2 ~ wall_sign 2 replace {"Text1":"{\"text\":\"防火门\"}","Text2":"{\"text\":\"FIRE DOOR\"}"}
+setblock ~27 ~2 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"防火门\"}","Text2":"{\"text\":\"FIRE DOOR\"}"}
 
 # 防火门警示条
 setblock ~24 ~ ~ concrete 14
@@ -88,7 +88,7 @@ setblock ~30 ~ ~ iron_door[facing=east,half=lower,open=true]
 setblock ~30 ~1 ~ iron_door[facing=east,half=upper,open=true]
 
 # 紧急出口标识
-setblock ~31 ~2 ~ wall_sign 4 replace {"Text1":"{\"text\":\"紧急出口\"}","Text2":"{\"text\":\"EXIT\"}","Text3":"{\"text\":\"→\"}","Text4":"{\"text\":\"→\"}"}
+setblock ~31 ~2 ~ oak_wall_sign 4 replace {"Text1":"{\"text\":\"紧急出口\"}","Text2":"{\"text\":\"EXIT\"}","Text3":"{\"text\":\"→\"}","Text4":"{\"text\":\"→\"}"}
 
 # 绿色出口灯
 setblock ~31 ~1 ~ sea_lantern
@@ -99,7 +99,7 @@ setblock ~29 ~1 ~ lever[facing=west]
 # 第二个紧急出口
 setblock ~35 ~ ~ iron_door[facing=west,half=lower,open=true]
 setblock ~35 ~1 ~ iron_door[facing=west,half=upper,open=true]
-setblock ~34 ~2 ~ wall_sign 5 replace {"Text1":"{\"text\":\"紧急出口\"}","Text2":"{\"text\":\"EXIT\"}"}
+setblock ~34 ~2 ~ oak_wall_sign 5 replace {"Text1":"{\"text\":\"紧急出口\"}","Text2":"{\"text\":\"EXIT\"}"}
 
 # ===== 员工通道 (Staff Only) =====
 # 需要权限的门
@@ -107,7 +107,7 @@ setblock ~40 ~ ~ iron_door[facing=south,half=lower,open=false]
 setblock ~40 ~1 ~ iron_door[facing=south,half=upper,open=false]
 
 # 员工通道标识
-setblock ~40 ~2 ~ wall_sign 2 replace {"Text1":"{\"text\":\"员工专用\"}","Text2":"{\"text\":\"STAFF ONLY\"}","Text3":"{\"text\":\"禁止入内\"}"}
+setblock ~40 ~2 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"员工专用\"}","Text2":"{\"text\":\"STAFF ONLY\"}","Text3":"{\"text\":\"禁止入内\"}"}
 
 # 门禁读卡器 (按钮模拟)
 setblock ~39 ~1 ~ stone_button[facing=east]
@@ -136,7 +136,7 @@ setblock ~55 ~1 ~ stone_button[facing=south]
 setblock ~55 ~2 ~ note_block
 
 # 门铃声音
-execute @e[type=armor_stand,tag=doorbell] ~ ~ ~ playsound block.note.pling block @a ~ ~ ~ 1 1.5
+execute as @e[type=armor_stand,tag=doorbell] at @s run playsound block.note.pling block @a ~ ~ ~ 1 1.5
 
 # 公寓门铃
 setblock ~58 ~1 ~ stone_button[facing=south]
@@ -166,7 +166,7 @@ setblock ~74 ~1 ~ iron_block
 setblock ~76 ~1 ~ iron_block
 
 # 金库标识
-setblock ~75 ~2 ~ wall_sign 2 replace {"Text1":"{\"text\":\"金库\"}","Text2":"{\"text\":\"VAULT\"}","Text3":"{\"text\":\"高度安全\"}"}
+setblock ~75 ~2 ~ oak_wall_sign 2 replace {"Text1":"{\"text\":\"金库\"}","Text2":"{\"text\":\"VAULT\"}","Text3":"{\"text\":\"高度安全\"}"}
 
 # ===== 门廊装饰 =====
 # 入口门廊
@@ -183,8 +183,8 @@ setblock ~4 ~2 ~ stone_bricks
 
 # ===== 门状态检测 =====
 # 检测门是否打开
-execute @e[type=player] ~ ~ ~ detect ~ ~ ~ wooden_door -1 say 木门已打开
-execute @e[type=player] ~ ~ ~ detect ~ ~ ~ iron_door -1 say 铁门已打开
+execute as @e[type=player] at @s if block ~ ~ ~ oak_door run say 木门已打开
+execute as @e[type=player] at @s if block ~ ~ ~ iron_door run say 铁门已打开
 
 # ===== 自动关门系统 =====
 # 延迟关门 (命令方块模拟)

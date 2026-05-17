@@ -68,7 +68,7 @@ execute as @a[x=150,y=64,z=150,distance=..50] run playsound block.anvil.use @s ~
 execute as @a[x=150,y=64,z=150,distance=..50] run playsound block.stone.break @s ~ ~ ~ 0.1 0.5
 
 # 电钻声
-execute as @a[x=155,y=70,z=155,distance=..30] run playsound entity.zombie.attack_wooden_door @s ~ ~ ~ 0.2 1.5
+execute as @a[x=155,y=70,z=155,distance=..30] run playsound entity.zombie.attack_oak_door @s ~ ~ ~ 0.2 1.5
 
 # 起重机运作
 execute as @a[x=160,y=80,z=160,distance=..40] run playsound block.piston.extend @s ~ ~ ~ 0.1 0.6

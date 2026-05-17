@@ -28,18 +28,18 @@ fill -279 73 -44 -269 73 -34 gray_concrete
 
 # 建筑2: 餐厅 (X:-260~-250, Z:-40~-28, 2层)
 # 砖石+暖光
-fill -260 66 -40 -250 67 -28 brick_block
+fill -260 66 -40 -250 67 -28 bricks
 fill -259 66 -39 -251 66 -29 glass
 fill -260 67 -40 -260 67 -28 spruce_planks
 setblock -255 66 -40 spruce_door
 setblock -254 66 -40 spruce_door
-fill -257 66 -41 -253 66 -41 brick_block
+fill -257 66 -41 -253 66 -41 bricks
 fill -257 67 -41 -253 67 -41 spruce_planks
 setblock -255 68 -39 oak_sign
 setblock -256 67 -40 sea_lantern
 setblock -253 67 -40 sea_lantern
-fill -259 67 -39 -251 67 -29 brick_block
-fill -259 68 -39 -251 68 -29 brick_block
+fill -259 67 -39 -251 67 -29 bricks
+fill -259 68 -39 -251 68 -29 bricks
 setblock -259 66 -34 flower_pot
 setblock -251 66 -34 flower_pot
 
@@ -137,17 +137,17 @@ fill -279 74 31 -269 74 41 gray_concrete
 
 # 建筑9: 餐厅 (X:-260~-250, Z:25~35, 2层)
 # 砖石风格
-fill -260 66 25 -250 67 35 brick_block
+fill -260 66 25 -250 67 35 bricks
 fill -259 66 26 -251 66 34 glass
 fill -260 67 25 -260 67 35 spruce_planks
 setblock -255 66 25 spruce_door
 setblock -254 66 25 spruce_door
-fill -257 66 24 -253 66 24 brick_block
+fill -257 66 24 -253 66 24 bricks
 setblock -255 68 26 oak_sign
 setblock -256 67 25 sea_lantern
 setblock -253 67 25 sea_lantern
-fill -259 67 26 -251 67 34 brick_block
-fill -259 68 26 -251 68 34 brick_block
+fill -259 67 26 -251 67 34 bricks
+fill -259 68 26 -251 68 34 bricks
 
 # 建筑10: 便利店 (X:-242~-234, Z:20~30, 2层)
 fill -242 66 20 -234 67 30 white_concrete
@@ -288,17 +288,17 @@ fill -167 69 36 -159 69 44 white_concrete
 
 # 建筑14: 餐厅 (X:-150~-140, Z:30~40, 2层)
 # 砖石+暖光
-fill -150 66 30 -140 67 40 brick_block
+fill -150 66 30 -140 67 40 bricks
 fill -149 66 31 -141 66 39 glass
 fill -150 67 30 -150 67 40 spruce_planks
 setblock -145 66 30 spruce_door
 setblock -144 66 30 spruce_door
-fill -147 66 29 -143 66 29 brick_block
+fill -147 66 29 -143 66 29 bricks
 setblock -145 68 31 oak_sign
 setblock -146 67 30 sea_lantern
 setblock -143 67 30 sea_lantern
-fill -149 67 31 -141 67 39 brick_block
-fill -149 68 31 -141 68 39 brick_block
+fill -149 67 31 -141 67 39 bricks
+fill -149 68 31 -141 68 39 bricks
 setblock -149 66 35 flower_pot
 setblock -141 66 35 flower_pot
 

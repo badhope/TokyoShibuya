@@ -21,20 +21,20 @@ scoreboard objectives add nonbei_build dummy "醉汉小巷建造"
 # --------------------------------------------
 
 # 主通道地面 - 石砖台阶
-execute if entity @s[tag=nonbei_floor_main] run setblock ~~~ minecraft:stone_brick_stairs 0
+execute if entity @s[tag=nonbei_floor_main] run setblock ~~~ minecraft:stone_brick_stairs
 
 # 侧边地面 - 圆石
-execute if entity @s[tag=nonbei_floor_side] run setblock ~~~ minecraft:cobblestone 0
+execute if entity @s[tag=nonbei_floor_side] run setblock ~~~ minecraft:cobblestone
 
 # 石板装饰 - 石英台阶
-execute if entity @s[tag=nonbei_floor_decor] run setblock ~~~ minecraft:stone_slab 0
+execute if entity @s[tag=nonbei_floor_decor] run setblock ~~~ minecraft:stone_slab
 
 # 地面材质混合模式
 # 格式: 石砖(主) + 圆石(边) + 石板(装饰)
 execute if entity @s[tag=nonbei_path] positioned ~~~ run {
-    setblock ~~~ minecraft:stonebrick 0
-    setblock ~1~~ minecraft:cobblestone 0
-    setblock ~-1~~ minecraft:cobblestone 0
+    setblock ~~~ minecraft:stone_bricks
+    setblock ~1~~ minecraft:cobblestone
+    setblock ~-1~~ minecraft:cobblestone
 }
 
 # --------------------------------------------
@@ -42,19 +42,19 @@ execute if entity @s[tag=nonbei_path] positioned ~~~ run {
 # --------------------------------------------
 
 # 木质招牌框架
-execute if entity @s[tag=nonbei_sign_wood] run setblock ~~~ minecraft:spruce_fence 0
+execute if entity @s[tag=nonbei_sign_wood] run setblock ~~~ minecraft:spruce_fence
 
 # 招牌面板 - 木牌
-execute if entity @s[tag=nonbei_sign_board] run setblock ~~~ minecraft:spruce_planks 0
+execute if entity @s[tag=nonbei_sign_board] run setblock ~~~ minecraft:spruce_planks
 
 # 招牌文字 - 使用告示牌
-execute if entity @s[tag=nonbei_sign_text] run setblock ~~~ minecraft:standing_sign 0
+execute if entity @s[tag=nonbei_sign_text] run setblock ~~~ minecraft:oak_sign
 
 # 霓虹招牌 - 发光方块
-execute if entity @s[tag=nonbei_sign_neon] run setblock ~~~ minecraft:sea_lantern 0
+execute if entity @s[tag=nonbei_sign_neon] run setblock ~~~ minecraft:sea_lantern
 
 # 日式灯笼招牌
-execute if entity @s[tag=nonbei_sign_lantern] run setblock ~~~ minecraft:redstone_lamp 0
+execute if entity @s[tag=nonbei_sign_lantern] run setblock ~~~ minecraft:redstone_lamp
 
 # --------------------------------------------
 # 红灯笼 (Red Lanterns)
@@ -94,26 +94,26 @@ execute if entity @s[tag=nonbei_entrance_lantern] positioned ~~~ run {
 # --------------------------------------------
 
 # 居酒屋小桌 - 橡木活板门
-execute if entity @s[tag=nonbei_table] run setblock ~~~ minecraft:oak_trapdoor 0
+execute if entity @s[tag=nonbei_table] run setblock ~~~ minecraft:oak_trapdoor
 
 # 桌腿 - 栅栏
-execute if entity @s[tag=nonbei_table_leg] run setblock ~ ~-1 ~ minecraft:oak_fence 0
+execute if entity @s[tag=nonbei_table_leg] run setblock ~ ~-1 ~ minecraft:oak_fence
 
 # 椅子 - 楼梯方块
-execute if entity @s[tag=nonbei_chair] run setblock ~~~ minecraft:oak_stairs 0
+execute if entity @s[tag=nonbei_chair] run setblock ~~~ minecraft:oak_stairs
 
 # 吧台座位
-execute if entity @s[tag=nonbei_counter_seat] run setblock ~~~ minecraft:spruce_stairs 0
+execute if entity @s[tag=nonbei_counter_seat] run setblock ~~~ minecraft:spruce_stairs
 
 # 完整桌椅组合
 execute if entity @s[tag=nonbei_table_set] positioned ~~~ run {
     # 桌子
     setblock ~~~ minecraft:oak_fence
-    setblock ~ ~1 ~ minecraft:oak_trapdoor 0
+    setblock ~ ~1 ~ minecraft:oak_trapdoor
     # 椅子1
-    setblock ~1~~ minecraft:oak_stairs 0
+    setblock ~1~~ minecraft:oak_stairs
     # 椅子2
-    setblock ~-1~~ minecraft:oak_stairs 0
+    setblock ~-1~~ minecraft:oak_stairs
 }
 
 # --------------------------------------------
@@ -121,23 +121,23 @@ execute if entity @s[tag=nonbei_table_set] positioned ~~~ run {
 # --------------------------------------------
 
 # 标准酒桶 - 木桶方块
-execute if entity @s[tag=nonbei_barrel] run setblock ~~~ minecraft:barrel 0
+execute if entity @s[tag=nonbei_barrel] run setblock ~~~ minecraft:barrel
 
 # 堆叠酒桶
 execute if entity @s[tag=nonbei_barrel_stack] positioned ~~~ run {
-    setblock ~~~ minecraft:barrel 0
-    setblock ~ ~1 ~ minecraft:barrel 0
+    setblock ~~~ minecraft:barrel
+    setblock ~ ~1 ~ minecraft:barrel
 }
 
 # 酒桶陈列架
 execute if entity @s[tag=nonbei_barrel_rack] positioned ~~~ run {
     setblock ~~~ minecraft:spruce_planks
-    setblock ~ ~1 ~ minecraft:barrel 0
-    setblock ~1 ~1 ~ minecraft:barrel 0
+    setblock ~ ~1 ~ minecraft:barrel
+    setblock ~1 ~1 ~ minecraft:barrel
 }
 
 # 传统清酒桶装饰
-execute if entity @s[tag=nonbei_sake_barrel] run setblock ~~~ minecraft:wood 1
+execute if entity @s[tag=nonbei_sake_barrel] run setblock ~~~ minecraft:spruce_wood
 
 # --------------------------------------------
 # 居酒屋门面装饰
@@ -150,20 +150,20 @@ execute if entity @s[tag=nonbei_noren] run setblock ~~~ minecraft:brown_wool
 execute if entity @s[tag=nonbei_door_frame] run setblock ~~~ minecraft:dark_oak_planks
 
 # 推拉门
-execute if entity @s[tag=nonbei_sliding_door] run setblock ~~~ minecraft:dark_oak_door 0
+execute if entity @s[tag=nonbei_sliding_door] run setblock ~~~ minecraft:dark_oak_door
 
 # --------------------------------------------
 # 氛围细节
 # --------------------------------------------
 
 # 菜单牌
-execute if entity @s[tag=nonbei_menu] run setblock ~~~ minecraft:wall_sign 0
+execute if entity @s[tag=nonbei_menu] run setblock ~~~ oak_wall_sign
 
 # 竹帘
-execute if entity @s[tag=nonbei_bamboo_blind] run setblock ~~~ minecraft:bamboo 0
+execute if entity @s[tag=nonbei_bamboo_blind] run setblock ~~~ minecraft:bamboo
 
 # 盆栽装饰
-execute if entity @s[tag=nonbei_plant] run setblock ~~~ minecraft:flower_pot 0
+execute if entity @s[tag=nonbei_plant] run setblock ~~~ minecraft:flower_pot
 
 # --------------------------------------------
 # 照明系统
@@ -176,7 +176,7 @@ execute as @e[tag=nonbei_light_main] at @s run {
 
 # 辅助照明 - 壁灯
 execute as @e[tag=nonbei_light_wall] at @s run {
-    setblock ~~~ minecraft:torch 4
+    setblock ~~~ minecraft:torch
 }
 
 # --------------------------------------------

@@ -258,7 +258,7 @@ setblock -220 74 -208 white_concrete
 # 主体
 fill -245 66 -215 -230 69 -203 dark_oak_planks
 # 砖石底层
-fill -245 66 -215 -230 67 -203 brick_block
+fill -245 66 -215 -230 67 -203 bricks
 # 窗户
 fill -244 67 -214 -231 68 -204 glass
 # 窗框
@@ -268,7 +268,7 @@ fill -231 67 -214 -231 68 -204 dark_oak_log
 setblock -237 66 -215 spruce_door
 setblock -236 66 -215 spruce_door
 # 入口门廊
-fill -239 66 -216 -234 66 -216 brick_block
+fill -239 66 -216 -234 66 -216 bricks
 fill -239 67 -216 -234 67 -216 dark_oak_planks
 # 门廊柱
 setblock -239 66 -216 dark_oak_log
@@ -284,8 +284,8 @@ setblock -235 67 -215 sea_lantern
 setblock -244 67 -214 flower_pot
 setblock -231 67 -214 flower_pot
 # 侧面装饰
-fill -245 67 -213 -245 68 -207 brick_block
-fill -230 67 -213 -230 68 -207 brick_block
+fill -245 67 -213 -245 68 -207 bricks
+fill -230 67 -213 -230 68 -207 bricks
 # 屋顶
 fill -244 70 -214 -231 70 -204 dark_oak_planks
 

@@ -8,7 +8,7 @@
 # 砖石+暖光，经典法式风格
 # ============================================
 # 主体
-fill 200 66 -100 212 68 -90 brick_block
+fill 200 66 -100 212 68 -90 bricks
 # 窗户
 fill 201 67 -99 211 67 -91 glass
 # 入口
@@ -40,7 +40,7 @@ setblock 211 67 -99 flower_pot
 fill 200 67 -95 200 67 -95 glass
 fill 212 67 -95 212 67 -95 glass
 # 屋顶
-fill 201 69 -99 211 69 -91 brick_block
+fill 201 69 -99 211 69 -91 bricks
 
 # ============================================
 # 建筑2: 中层办公楼 (X:218~230, Z:-105~-93, 8层)
@@ -211,7 +211,7 @@ fill 219 73 -127 229 73 -119 light_gray_concrete
 # 暖色砖石+木质，意式风格
 # ============================================
 # 主体
-fill 200 66 -140 210 68 -130 brick_block
+fill 200 66 -140 210 68 -130 bricks
 # 木质装饰
 fill 200 68 -140 210 68 -130 spruce_planks
 # 窗户
@@ -219,13 +219,13 @@ fill 201 67 -139 209 67 -131 glass
 # 入口
 setblock 205 66 -140 spruce_door
 # 入口门廊
-fill 207 66 -141 203 66 -141 brick_block
+fill 207 66 -141 203 66 -141 bricks
 fill 207 67 -141 203 67 -141 spruce_planks
 # 门廊柱
-setblock 207 66 -141 brick_block
-setblock 207 67 -141 brick_block
-setblock 203 66 -141 brick_block
-setblock 203 67 -141 brick_block
+setblock 207 66 -141 bricks
+setblock 207 67 -141 bricks
+setblock 203 66 -141 bricks
+setblock 203 67 -141 bricks
 # 招牌
 setblock 205 69 -139 oak_sign
 # 照明
@@ -385,14 +385,14 @@ fill 198 65 -90 230 65 -90 stone_bricks
 # 主体
 fill 200 66 -164 210 67 -154 dark_oak_planks
 # 砖石底层
-fill 200 66 -164 210 66 -154 brick_block
+fill 200 66 -164 210 66 -154 bricks
 # 窗户
 fill 201 66 -163 209 66 -155 glass
 # 入口
 setblock 205 66 -164 spruce_door
 setblock 204 66 -164 spruce_door
 # 入口门廊
-fill 207 66 -165 203 66 -165 brick_block
+fill 207 66 -165 203 66 -165 bricks
 fill 207 67 -165 203 67 -165 dark_oak_planks
 # 门廊柱
 setblock 207 66 -165 dark_oak_log

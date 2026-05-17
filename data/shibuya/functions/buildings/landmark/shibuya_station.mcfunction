@@ -8,10 +8,10 @@ fill -28 66 -38 28 84 8 air
 
 # --- [2] 站舍外墙细节 - 石砖覆层 + 深板岩装饰条 ---
 # 四面石砖外墙
-fill -30 65 -40 30 85 -40 stonebrick
-fill -30 65 10 30 85 10 stonebrick
-fill 30 65 -40 30 85 10 stonebrick
-fill -30 65 -40 -30 85 10 stonebrick
+fill -30 65 -40 30 85 -40 stone_bricks
+fill -30 65 10 30 85 10 stone_bricks
+fill 30 65 -40 30 85 10 stone_bricks
+fill -30 65 -40 -30 85 10 stone_bricks
 # 深板岩水平装饰条 (北/南/东/西, 70/75/80层)
 fill -30 70 -41 30 70 -41 dark_prismarine
 fill -30 75 -41 30 75 -41 dark_prismarine
@@ -103,7 +103,7 @@ setblock 5 69 -42 oak_sign
 
 # --- [10] 站前广场 (南侧) ---
 # 广场地砖 + 边框 + 中央装饰线
-fill -25 64 -55 25 64 -42 stonebrick
+fill -25 64 -55 25 64 -42 stone_bricks
 fill -25 64 -55 25 64 -42 stone_brick_slab
 fill -26 64 -56 26 64 -41 dark_prismarine
 fill 0 64 -55 0 64 -42 polished_andesite

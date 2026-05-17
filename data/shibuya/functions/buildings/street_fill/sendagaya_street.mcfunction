@@ -207,7 +207,7 @@ setblock 335 66 -424 spruce_fence
 
 # 建筑11: 烘焙店 (X:300~310, Z:-420~-412, 2层)
 # 砖石+木质，温馨烘焙
-fill 300 66 -420 310 67 -412 brick_block
+fill 300 66 -420 310 67 -412 bricks
 fill 301 66 -419 309 66 -413 glass
 fill 300 67 -420 300 67 -412 spruce_planks
 setblock 305 66 -420 spruce_door
@@ -215,7 +215,7 @@ fill 307 65 -420 303 65 -420 brick_slab
 setblock 305 68 -419 oak_sign
 setblock 306 67 -420 sea_lantern
 setblock 304 67 -420 sea_lantern
-fill 301 67 -419 309 67 -413 brick_block
+fill 301 67 -419 309 67 -413 bricks
 fill 301 68 -419 309 68 -413 spruce_planks
 setblock 301 66 -416 flower_pot
 setblock 309 66 -416 flower_pot

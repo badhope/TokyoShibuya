@@ -30,10 +30,10 @@ scoreboard players set #hidden alley_type 4
 # 氛围: 繁忙、商业化
 
 # 地面铺设 - 石砖与圆石混合
-execute if entity @s[tag=alley_dogenzaka] run setblock ~~~ minecraft:stonebrick 0
+execute if entity @s[tag=alley_dogenzaka] run setblock ~~~ minecraft:stone_bricks
 
 # 墙壁 - 混凝土与砖块
-execute if entity @s[tag=alley_dogenzaka] run setblock ~ ~1 ~ minecraft:concrete 8
+execute if entity @s[tag=alley_dogenzaka] run setblock ~ ~1 ~ minecraft:light_gray_concrete
 
 # 照明 - 壁挂灯笼
 execute if entity @s[tag=alley_dogenzaka] run setblock ~ ~2 ~ minecraft:lantern

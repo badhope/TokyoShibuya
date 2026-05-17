@@ -46,23 +46,23 @@ setblock ~22 ~2 ~2 concrete 14
 # ===== 楼层按钮面板 =====
 # 1楼按钮
 setblock ~3 ~1 ~1 stone_button[facing=east]
-setblock ~4 ~1 ~1 wall_sign 5 replace {"Text1":"{\"text\":\"1F\"}","Text2":"{\"text\":\"大厅\"}"}
+setblock ~4 ~1 ~1 oak_wall_sign 5 replace {"Text1":"{\"text\":\"1F\"}","Text2":"{\"text\":\"大厅\"}"}
 
 # 2楼按钮
 setblock ~3 ~2 ~1 stone_button[facing=east]
-setblock ~4 ~2 ~1 wall_sign 5 replace {"Text1":"{\"text\":\"2F\"}","Text2":"{\"text\":\"购物\"}"}
+setblock ~4 ~2 ~1 oak_wall_sign 5 replace {"Text1":"{\"text\":\"2F\"}","Text2":"{\"text\":\"购物\"}"}
 
 # 3楼按钮
 setblock ~3 ~3 ~1 stone_button[facing=east]
-setblock ~4 ~3 ~1 wall_sign 5 replace {"Text1":"{\"text\":\"3F\"}","Text2":"{\"text\":\"餐饮\"}"}
+setblock ~4 ~3 ~1 oak_wall_sign 5 replace {"Text1":"{\"text\":\"3F\"}","Text2":"{\"text\":\"餐饮\"}"}
 
 # 4楼按钮
 setblock ~3 ~4 ~1 stone_button[facing=east]
-setblock ~4 ~4 ~1 wall_sign 5 replace {"Text1":"{\"text\":\"4F\"}","Text2":"{\"text\":\"办公\"}"}
+setblock ~4 ~4 ~1 oak_wall_sign 5 replace {"Text1":"{\"text\":\"4F\"}","Text2":"{\"text\":\"办公\"}"}
 
 # 5楼按钮
 setblock ~3 ~5 ~1 stone_button[facing=east]
-setblock ~4 ~5 ~1 wall_sign 5 replace {"Text1":"{\"text\":\"5F\"}","Text2":"{\"text\":\"观景\"}"}
+setblock ~4 ~5 ~1 oak_wall_sign 5 replace {"Text1":"{\"text\":\"5F\"}","Text2":"{\"text\":\"观景\"}"}
 
 # ===== 电梯内部 =====
 # 地板
@@ -90,7 +90,7 @@ setblock ~2 ~5 ~1 redstone_lamp
 
 # ===== 紧急呼叫按钮 =====
 setblock ~0 ~1 ~2 stone_button[facing=west]
-setblock ~-1 ~1 ~2 wall_sign 4 replace {"Text1":"{\"text\":\"紧急呼叫\"}","Text2":"{\"text\":\"EMERGENCY\"}","Text3":"{\"text\":\"\",\"color\":\"red\"}"}
+setblock ~-1 ~1 ~2 oak_wall_sign 4 replace {"Text1":"{\"text\":\"紧急呼叫\"}","Text2":"{\"text\":\"EMERGENCY\"}","Text3":"{\"text\":\"\",\"color\":\"red\"}"}
 
 # 紧急警报灯
 setblock ~0 ~2 ~2 redstone_lamp
@@ -129,7 +129,7 @@ setblock ~13 ~6 ~2 redstone_lamp
 setblock ~23 ~6 ~1 redstone_lamp
 
 # 到达提示音
-execute @e[type=armor_stand,tag=elevator_cart] ~ ~ ~ playsound block.note.pling block @a ~ ~ ~ 1 2
+execute as @e[type=armor_stand,tag=elevator_cart] at @s run playsound block.note.pling block @a ~ ~ ~ 1 2
 
 # ===== 货梯专用设施 =====
 # 货梯内部更大空间

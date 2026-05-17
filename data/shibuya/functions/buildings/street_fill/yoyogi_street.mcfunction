@@ -115,17 +115,17 @@ setblock -91 66 -479 flower_pot
 
 # 建筑8: 餐厅 (X:-90~-80, Z:-460~-450, 2层)
 # 砖石+木质
-fill -90 66 -460 -80 67 -450 brick_block
+fill -90 66 -460 -80 67 -450 bricks
 fill -89 66 -459 -81 66 -451 glass
 fill -90 67 -460 -90 67 -450 spruce_planks
 setblock -85 66 -460 spruce_door
 setblock -84 66 -460 spruce_door
-fill -87 66 -461 -83 66 -461 brick_block
+fill -87 66 -461 -83 66 -461 bricks
 setblock -85 68 -459 oak_sign
 setblock -86 67 -460 sea_lantern
 setblock -83 67 -460 sea_lantern
-fill -89 67 -459 -81 67 -451 brick_block
-fill -89 68 -459 -81 68 -451 brick_block
+fill -89 67 -459 -81 67 -451 bricks
+fill -89 68 -459 -81 68 -451 bricks
 setblock -89 66 -455 flower_pot
 setblock -81 66 -455 flower_pot
 

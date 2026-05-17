@@ -20,19 +20,19 @@ scoreboard objectives add backstreet_build dummy "后巷建造"
 # --------------------------------------------
 
 # 主通道 - 混凝土
-execute if entity @s[tag=backstreet_floor_main] run setblock ~~~ minecraft:concrete 7
+execute if entity @s[tag=backstreet_floor_main] run setblock ~~~ minecraft:gray_concrete
 
 # 服务区域 - 石砖
-execute if entity @s[tag=backstreet_floor_service] run setblock ~~~ minecraft:stonebrick 0
+execute if entity @s[tag=backstreet_floor_service] run setblock ~~~ minecraft:stone_bricks
 
 # 排水沟 - 混凝土台阶
-execute if entity @s[tag=backstreet_drain] run setblock ~~~ minecraft:concrete_slab 7
+execute if entity @s[tag=backstreet_drain] run setblock ~~~ minecraft:gray_concrete_slab
 
 # 地面纹理变化
 execute if entity @s[tag=backstreet_floor_varied] positioned ~~~ run {
-    setblock ~~~ minecraft:concrete 7
-    setblock ~1~~ minecraft:stonebrick 0
-    setblock ~-1~~ minecraft:cobblestone 0
+    setblock ~~~ minecraft:gray_concrete
+    setblock ~1~~ minecraft:stone_bricks
+    setblock ~-1~~ minecraft:cobblestone
 }
 
 # --------------------------------------------
@@ -40,63 +40,63 @@ execute if entity @s[tag=backstreet_floor_varied] positioned ~~~ run {
 # --------------------------------------------
 
 # 基础墙壁 - 混凝土
-execute if entity @s[tag=backstreet_wall_base] run setblock ~ ~1 ~ minecraft:concrete 8
+execute if entity @s[tag=backstreet_wall_base] run setblock ~ ~1 ~ minecraft:light_gray_concrete
 
 # 涂鸦墙面
-execute if entity @s[tag=backstreet_wall_graffiti] run setblock ~ ~1 ~ minecraft:concrete 14
+execute if entity @s[tag=backstreet_wall_graffiti] run setblock ~ ~1 ~ minecraft:red_concrete
 
 # 海报墙
 execute if entity @s[tag=backstreet_wall_poster] run setblock ~ ~1 ~ minecraft:painting
 
 # 招牌附着
-execute if entity @s[tag=backstreet_wall_sign] run setblock ~ ~1 ~ minecraft:wall_sign 0
+execute if entity @s[tag=backstreet_wall_sign] run setblock ~ ~1 ~ oak_wall_sign
 
 # 砖墙区域
-execute if entity @s[tag=backstreet_wall_brick] run setblock ~ ~1 ~ minecraft:bricks 0
+execute if entity @s[tag=backstreet_wall_brick] run setblock ~ ~1 ~ minecraft:bricks
 
 # --------------------------------------------
 # 空调外机 (AC Units)
 # --------------------------------------------
 
 # 标准空调外机 - 铁块
-execute if entity @s[tag=backstreet_ac_unit] run setblock ~ ~1 ~ minecraft:iron_block 0
+execute if entity @s[tag=backstreet_ac_unit] run setblock ~ ~1 ~ minecraft:iron_block
 
 # 空调支架 - 铁栏杆
-execute if entity @s[tag=backstreet_ac_bracket] run setblock ~~~ minecraft:iron_bars 0
+execute if entity @s[tag=backstreet_ac_bracket] run setblock ~~~ minecraft:iron_bars
 
 # 挂墙空调
 execute if entity @s[tag=backstreet_ac_wall] positioned ~~~ run {
     # 支架
-    setblock ~~~ minecraft:iron_trapdoor 0
+    setblock ~~~ minecraft:iron_trapdoor
     # 外机
-    setblock ~ ~1 ~ minecraft:iron_block 0
+    setblock ~ ~1 ~ minecraft:iron_block
 }
 
 # 多台空调排列
 execute if entity @s[tag=backstreet_ac_row] positioned ~~~ run {
-    setblock ~ ~1 ~ minecraft:iron_block 0
-    setblock ~1 ~1 ~ minecraft:iron_block 0
-    setblock ~2 ~1 ~ minecraft:iron_block 0
+    setblock ~ ~1 ~ minecraft:iron_block
+    setblock ~1 ~1 ~ minecraft:iron_block
+    setblock ~2 ~1 ~ minecraft:iron_block
 }
 
 # 空调管道
-execute if entity @s[tag=backstreet_ac_pipe] run setblock ~~~ minecraft:iron_bars 0
+execute if entity @s[tag=backstreet_ac_pipe] run setblock ~~~ minecraft:iron_bars
 
 # --------------------------------------------
 # 管道系统 (Pipes)
 # --------------------------------------------
 
 # 水管 - 铁栏杆
-execute if entity @s[tag=backstreet_pipe_water] run setblock ~~~ minecraft:iron_bars 0
+execute if entity @s[tag=backstreet_pipe_water] run setblock ~~~ minecraft:iron_bars
 
 # 燃气管 - 铁块
-execute if entity @s[tag=backstreet_pipe_gas] run setblock ~~~ minecraft:iron_block 0
+execute if entity @s[tag=backstreet_pipe_gas] run setblock ~~~ minecraft:iron_block
 
 # 排水管 - 粘土
-execute if entity @s[tag=backstreet_pipe_drain] run setblock ~~~ minecraft:hardened_clay 0
+execute if entity @s[tag=backstreet_pipe_drain] run setblock ~~~ minecraft:terracotta
 
 # 管道支架
-execute if entity @s[tag=backstreet_pipe_bracket] run setblock ~~~ minecraft:iron_trapdoor 0
+execute if entity @s[tag=backstreet_pipe_bracket] run setblock ~~~ minecraft:iron_trapdoor
 
 # 复杂管道系统
 execute if entity @s[tag=backstreet_pipe_complex] positioned ~~~ run {
@@ -113,10 +113,10 @@ execute if entity @s[tag=backstreet_pipe_complex] positioned ~~~ run {
 # --------------------------------------------
 
 # 标准垃圾桶 - 铁活板门
-execute if entity @s[tag=backstreet_trash_bin] run setblock ~~~ minecraft:iron_trapdoor 0
+execute if entity @s[tag=backstreet_trash_bin] run setblock ~~~ minecraft:iron_trapdoor
 
 # 大型垃圾箱
-execute if entity @s[tag=backstreet_trash_large] run setblock ~~~ minecraft:cauldron 0
+execute if entity @s[tag=backstreet_trash_large] run setblock ~~~ minecraft:cauldron
 
 # 可回收垃圾桶
 execute if entity @s[tag=backstreet_trash_recycle] run setblock ~~~ minecraft:blue_wool
@@ -136,7 +136,7 @@ execute if entity @s[tag=backstreet_trash_area] positioned ~~~ run {
 # --------------------------------------------
 
 # 自行车架 - 铁栏杆
-execute if entity @s[tag=backstreet_bike_rack] run setblock ~~~ minecraft:iron_bars 0
+execute if entity @s[tag=backstreet_bike_rack] run setblock ~~~ minecraft:iron_bars
 
 # 停放的自行车
 execute if entity @s[tag=backstreet_bicycle] run setblock ~~~ minecraft:armor_stand
@@ -158,23 +158,23 @@ execute if entity @s[tag=backstreet_motorcycle] run setblock ~~~ minecraft:armor
 # --------------------------------------------
 
 # 配电箱
-execute if entity @s[tag=backstreet_electric_box] run setblock ~~~ minecraft:iron_block 0
+execute if entity @s[tag=backstreet_electric_box] run setblock ~~~ minecraft:iron_block
 
 # 消防栓
 execute if entity @s[tag=backstreet_fire_hydrant] run setblock ~~~ minecraft:red_wool
 
 # 水表箱
-execute if entity @s[tag=backstreet_water_meter] run setblock ~~~ minecraft:iron_trapdoor 0
+execute if entity @s[tag=backstreet_water_meter] run setblock ~~~ minecraft:iron_trapdoor
 
 # 燃气表
-execute if entity @s[tag=backstreet_gas_meter] run setblock ~~~ minecraft:iron_block 0
+execute if entity @s[tag=backstreet_gas_meter] run setblock ~~~ minecraft:iron_block
 
 # --------------------------------------------
 # 照明系统
 # --------------------------------------------
 
 # 墙壁照明
-execute if entity @s[tag=backstreet_light_wall] run setblock ~ ~2 ~ minecraft:torch 4
+execute if entity @s[tag=backstreet_light_wall] run setblock ~ ~2 ~ minecraft:torch
 
 # 地面照明
 execute if entity @s[tag=backstreet_light_ground] run setblock ~~~ minecraft:sea_lantern

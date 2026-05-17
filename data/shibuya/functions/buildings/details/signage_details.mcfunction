@@ -116,7 +116,7 @@ setblock ~-2 ~2 ~-4 oak_sign[rotation=8]{Text1:'{"text":"ATM","color":"dark_blue
 # 暖帘 (使用旗帜模拟)
 setblock ~-3 ~2 ~-3 red_banner[rotation=8]{Patterns:[{Pattern:cs,Color:0},{Pattern:sc,Color:14}]}
 setblock ~-2 ~2 ~-3 red_banner[rotation=8]{Patterns:[{Pattern:cs,Color:0},{Pattern:sc,Color:14}]}
-setblock ~-1 ~2 ~-3 red_banner[rotation:8]{Patterns:[{Pattern:cs,Color:0},{Pattern:sc,Color:14}]}
+setblock ~-1 ~2 ~-3 red_banner[rotation=8]{Patterns:[{Pattern:cs,Color:0},{Pattern:sc,Color:14}]}
 
 # 灯笼
 setblock ~0 ~3 ~-3 lantern

@@ -26,14 +26,14 @@ fill -497 66 -281 -493 66 -282 white_concrete
 
 # 建筑2: 古着店 (X:-490~-480, Z:-260~-250, 2层)
 # 复古砖红+木质
-fill -490 66 -260 -480 67 -250 brick_block
+fill -490 66 -260 -480 67 -250 bricks
 fill -489 66 -259 -481 66 -251 glass
 fill -490 67 -260 -490 67 -250 dark_oak_planks
 setblock -485 66 -260 spruce_door
 setblock -485 68 -259 oak_sign
 setblock -486 67 -260 sea_lantern
 setblock -484 67 -260 sea_lantern
-fill -489 67 -259 -481 67 -251 brick_block
+fill -489 67 -259 -481 67 -251 bricks
 fill -489 68 -259 -481 68 -251 dark_oak_planks
 setblock -490 67 -255 orange_wool
 setblock -490 67 -254 purple_wool

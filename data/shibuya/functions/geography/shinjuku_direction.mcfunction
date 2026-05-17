@@ -106,16 +106,16 @@ fill -340 67 170 -310 67 200 water
 # 樱花树林
 setblock -330 67 180 oak_log
 setblock -330 68 180 oak_leaves
-setblock -330 69 180 pink_leaves
+setblock -330 69 180 cherry_leaves
 setblock -320 67 185 oak_log
 setblock -320 68 185 oak_leaves
-setblock -320 69 185 pink_leaves
+setblock -320 69 185 cherry_leaves
 setblock -310 67 175 oak_log
 setblock -310 68 175 oak_leaves
-setblock -310 69 175 pink_leaves
+setblock -310 69 175 cherry_leaves
 setblock -300 67 190 oak_log
 setblock -300 68 190 oak_leaves
-setblock -300 69 190 pink_leaves
+setblock -300 69 190 cherry_leaves
 # 法式庭园
 fill -280 66 170 -260 66 200 grass_block
 setblock -270 67 180 rose_bush

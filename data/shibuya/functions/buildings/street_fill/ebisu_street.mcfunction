@@ -9,7 +9,7 @@
 
 # 建筑1: 西餐厅 (X:300~312, Z:320~330, 3层)
 # 砖石+暖光
-fill 300 66 320 312 68 330 brick_block
+fill 300 66 320 312 68 330 bricks
 fill 301 66 321 311 67 329 glass
 fill 300 67 320 300 68 330 spruce_planks
 setblock 306 66 320 spruce_door
@@ -20,7 +20,7 @@ setblock 306 69 321 oak_sign
 setblock 307 68 320 sea_lantern
 setblock 304 68 320 sea_lantern
 fill 301 68 321 311 68 329 stone_bricks
-fill 301 69 321 311 69 329 brick_block
+fill 301 69 321 311 69 329 bricks
 setblock 301 66 325 flower_pot
 setblock 311 66 325 flower_pot
 
@@ -196,7 +196,7 @@ setblock 345 66 383 spruce_fence
 
 # 建筑11: 法国餐厅 (X:300~310, Z:390~400, 3层)
 # 砖石+木质，法式风格
-fill 300 66 390 310 68 400 brick_block
+fill 300 66 390 310 68 400 bricks
 fill 301 66 391 309 67 399 glass
 fill 300 67 390 300 68 400 spruce_planks
 setblock 305 66 390 spruce_door
@@ -207,7 +207,7 @@ setblock 305 69 391 oak_sign
 setblock 306 68 390 sea_lantern
 setblock 303 68 390 sea_lantern
 fill 301 68 391 309 68 399 stone_bricks
-fill 301 69 391 309 69 399 brick_block
+fill 301 69 391 309 69 399 bricks
 setblock 301 66 395 flower_pot
 setblock 309 66 395 flower_pot
 fill 301 66 401 309 66 403 brick_slab
