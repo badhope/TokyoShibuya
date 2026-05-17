@@ -1,294 +1,182 @@
-# 🗼 东京涩谷 TokyoShibuya
+# Tokyo Shibuya Minecraft Datapack
 
-> 高度还原的东京涩谷城市地图 | 网易MC Studio基岩版 | 创造模式 | **v6.3**
+[![Version](https://img.shields.io/badge/version-8.2.3-blue.svg)](https://github.com/badhope/TokyoShibuya)
+[![Minecraft](https://img.shields.io/badge/Minecraft-Bedrock%20Edition-green.svg)](https://minecraft.net)
+[![Platform](https://img.shields.io/badge/Platform-NetEase%20MC%20Studio-orange.svg)]()
 
-## 📖 项目介绍
+A meticulously crafted 1:1 scale reproduction of Tokyo's iconic Shibuya district for Minecraft Bedrock Edition. This datapack features 151 handcrafted buildings, authentic landmarks, and a living city ecosystem.
 
-这是一个为网易MC Studio基岩版开发的沉浸式涩谷城市地图，以真实东京涩谷为蓝本，1:1还原23栋地标建筑、完整街道系统、真实NPC生态。玩家可以在这个世界最繁忙的十字路口漫步，登上229米的涩谷天空观景台，或与性格各异的NPC建立友谊。
+![Tokyo Shibuya](https://raw.githubusercontent.com/badhope/TokyoShibuya/main/screenshots/shibuya_crossing.jpg)
 
-**v5.0全面扩展版**新增：19个建筑内部大幅增强、街道系统细节、河岸公园、夜间氛围、雷暴天气、人群行为AI、游客AI、店主AI、实时事件、货币系统、收藏图鉴、迷你游戏、社交系统。
+## Features
 
-## 🗺️ 城市布局
+### Landmarks & Architecture
+- **Shibuya Station** - The iconic transit hub with 7 railway lines
+- **Shibuya Scramble Square** - 47-story skyscraper with SHIBUYA SKY observation deck
+- **Shibuya Hikarie** - 34-story commercial and office complex
+- **Shibuya 109 & Magnet** - Fashion mecca for Tokyo youth culture
+- **Shibuya Parco** - 22-story department store with cinema
+- **Shibuya Stream & Sakura Stage** - Modern redevelopment projects
+- **QFRONT** - Famous Starbucks overlooking the scramble crossing
+- **Tower Records** - Iconic music store
+- **Don Quijote** - 24-hour discount megastore
 
-以涩谷十字路口为中心，参考真实地理位置：
+### Districts Covered
+- Shibuya Core (涩谷核心)
+- Dogenzaka (道玄坂) - Love hotel district
+- Center Gai (センター街) - Youth culture street
+- Harajuku (原宿) - Fashion and pop culture
+- Omotesando (表参道) - Luxury shopping boulevard
+- Daikanyama (代官山) - Upscale residential
+- Ebisu (恵比寿) - Trendy dining and nightlife
+- Yoyogi (代々木) - Parks and recreation
+- Sendagaya (千駄ヶ谷) - Residential area
 
+### Transportation
+- **7 Railway Stations**: Shibuya, Harajuku, Yoyogi, Ebisu, Sendagaya, Yoyogi-Uehara, Meiji-Jingumae
+- **JR Lines**: Yamanote, Chuo-Sobu, Saikyo, Shonan-Shinjuku
+- **Metro Lines**: Ginza, Hanzomon, Fukutoshin, Chiyoda
+- **Private Lines**: Tokyu Toyoko, Tokyu Den-en-toshi, Keio Inokashira
+
+### City Systems
+- **Day/Night Cycle** - 7 time periods with dynamic lighting
+- **Crowd System** - 25 NPC types with behaviors
+- **Economy System** - Currency, Suica cards, banking, employment
+- **Achievement System** - 50+ unlockable achievements
+- **Quest System** - Landmark tours, food crawls, exploration
+- **Festival System** - Seasonal events (Sakura, Summer, Autumn, Winter Lights)
+- **Photo System** - 10 photo spots with rewards
+- **Scene-Aware Algorithm** - 5 distinct area styles with 128 detail variations
+
+## Statistics
+
+| Category | Count |
+|----------|-------|
+| Handcrafted Buildings | 151 |
+| Railway Stations | 7 |
+| Street Scenes | 24 |
+| NPC Types | 25 |
+| Achievement Categories | 6 |
+| Quest Types | 4 |
+| Festival Events | 8 |
+| Photo Spots | 10 |
+| Total Lines of Code | ~150,000+ |
+
+## Installation
+
+### NetEase MC Studio (China)
+1. Download the latest release from GitHub
+2. Import into MC Studio as a Bedrock Edition behavior pack
+3. Apply to your world
+4. Run `/function shibuya:init` to initialize the city
+
+### Standard Bedrock Edition
+1. Download `TokyoShibuya.mcpack`
+2. Double-click to import into Minecraft
+3. Enable the behavior pack in world settings
+4. Run `/function shibuya:init`
+
+## Usage
+
+### Generate the City
 ```
-                      ┌─────────────┐
-                      │   涩谷神社   │  (-120,-80)~(-90,-50)
-                      └─────────────┘
-
-  ┌──────────┐  ┌──────────┐  ┌──────────┐
-  │ 涩谷公寓  │  │  涩谷站   │  │  涩谷酒店  │
-  │(-55,-35) │  │(-60,0)   │  │(-55,35)  │
-  └──────────┘  └──────────┘  └──────────┘
-
-       ┌──────────────────────────────┐
-       │        涩谷109大厦            │  (55,65,55)~(85,115,85)
-       └──────────────────────────────┘
-
-  ┌──────────┐  ┌──────────┐  ┌──────────┐
-  │  拉面店   │  │涩谷十字路口│  │  咖啡厅   │
-  │  涩谷站   │  │  (0,0)   │  │  便利店   │
-  │  卡拉OK   │  │  八公像   │  │  展望塔   │
-  └──────────┘  │(-18,-18) │  └──────────┘
-                 └──────────┘
-
-                 ┌──────────┐
-                 │ 樱花公园   │  (40,30)~(70,60)
-                 └──────────┘
-```
-
-## ✨ 功能特色
-
-### 🏗️ 建筑系统（23栋地标建筑 + 20个详细内部）
-
-| 建筑 | 层数/高度 | 特点 | 内部详情 |
-|------|----------|------|----------|
-| 涩谷109 | 10层/50m | 圆柱形地标，每层不同主题 | v5.0: 796行详细内部 |
-| 涩谷天空(Scramble Square) | 47层/229.7m | 全球最高观景台，真实高度 | v5.0: 569行含Shibuya Sky观景台 |
-| Hikarie | 34层/182m | 玻璃幕墙现代建筑 | v5.0: 608行完整商场+办公 |
-| Parco | 22层/110m | 屋顶花园+PARCO剧场 | v5.0: 619行含剧场/农场 |
-| QFRONT | 8层/40m | 星巴克+TSUTAYA | v5.0: 161行7层内部 |
-| Shibuya Stream | 35层/183m | 办公+商业 | v5.0: 160行35层 |
-| Tower Records | 7层/30m | 全球最大唱片店 | v5.0: 175行7层音乐主题 |
-| 唐吉诃德 | 9层/45m | 深夜折扣迷宫 | v5.0: 620行迷宫式购物 |
-| Loft | 6层/25m | 生活杂货天堂 | v5.0: 158行6层杂货 |
-| UNIQLO | 4层/20m | 全球最大旗舰店 | v5.0: 140行4层服装 |
-| 西武涩谷店 | 10层/50m | 车站直连百货 | v5.0: 200行10层百货 |
-| Miyashita Park | 3层/15m | 屋顶滑板公园 | v5.0: 124行运动设施 |
-| 涩谷站 | 地上+地下 | 8线交汇枢纽 | v5.0: 400行B1F-5F完整车站 |
-| 八公像 | 雕塑 | 忠犬铜像 | - |
-| 咖啡厅 | 2层 | 手冲咖啡专门店 | v5.0: 301行多种座位/吧台 |
-| 便利店 | 1层 | 24小时营业 | v5.0: 329行完整商品分类 |
-| 拉面店 | 2层 | 豚骨拉面 | v5.0: 315行L型吧台/包间 |
-| 卡拉OK | 3层 | 霓虹灯包间 | v5.0: 464行8间差异化包间 |
-| 酒店 | 10层 | 商务酒店 | v5.0: 889行含温泉/健身房 |
-| 公寓 | 5层 | 住宅单元 | v5.0: 470行8户差异化公寓 |
-| 公交站 | 4个站点 | 城市公交 | - |
-
-### 🛣️ 街道系统（v5.0新增）
-
-- **十字路口细节** - 精确斑马线、信号灯、倒计时显示器、八公广场、方向指示牌
-- **人行道细节** - 盲道、行道树、电话亭、消火栓、邮筒、长椅
-- **地下通道** - 四方向入口、商店角落、壁画广告、无障碍电梯
-- **步行天桥** - 涩谷站周边连廊、遮阳顶棚、连接各建筑2F
-
-### 🌿 环境系统（v5.0新增）
-
-- **涩谷川河岸** - 河道、樱花树、观景平台、石灯笼、锦鲤池
-- **周边公园** - 儿童游乐场、喷泉广场、健身器材区、狗狗公园、野餐区
-- **夜间氛围** - 霓虹灯招牌、便利店灯光、居家窗户灯、居酒屋灯笼、出租车灯
-- **雷暴天气** - 闪电效果、水坑、风效果、撑伞NPC、安全避难提示
-
-### 👥 NPC系统（v5.0大幅增强）
-
-- **10个可交互NPC** - 向导、店员、咖啡师、厨师等
-- **好感度系统** - 0-100数值，影响对话和奖励
-- **赠礼系统** - 8种礼物，送对类型获得更高好感
-- **性格系统** - 9种性格类型，专属喜好和对话
-- **深入对话** - 多选项剧情分支，解锁NPC背景故事
-- **人群行为AI** - 早高峰/午间/晚高峰/周末/深夜不同时段人群密度和行为
-- **游客AI** - 多语言游客（中/英/韩/日）、拍照行为、问路、购物、迷路
-- **店主AI** - 开店准备、迎客、商品推荐、打折促销、收银、关店
-
-### 🌃 夜景灯光系统
-
-- **建筑窗户灯** - 23栋建筑外墙sea_lantern模拟亮灯窗户
-- **街道路灯** - 4条主干道每隔10格sea_lantern
-- **霓虹灯效果** - 中心街霓虹招牌（彩色stained_glass）
-- **十字路口灯** - 四角高杆灯+地面反光
-- **自动开关** - 傍晚自动亮灯，早晨自动熄灭
-
-### 🎵 城市音效系统
-
-- **环境音** - 十字路口人群声、商业区背景音
-- **交通音** - 公交到站、地铁轰鸣、出租车喇叭
-- **信号灯音** - 十字路口"啾啾啾"行人提示音
-- **店铺音效** - 商店门铃、自动门、音乐
-
-### 🌤️ 增强天气系统
-
-| 天气 | 视觉效果 | 特殊效果 |
-|------|---------|---------|
-| 晴天 | 阳光粒子 | 户外咖啡座开放 |
-| 雨天 | 雨滴粒子+水洼 | 便利店打折、雨伞特供 |
-| 雪天 | 雪花粒子+积雪 | 屋顶雪景、热拉面 |
-| 雷暴 | 闪电+暴雨+风 | v5.0: 店铺关门、撑伞NPC、安全避难 |
-
-### 💰 经济系统（v5.0新增）
-
-- **货币系统** - 日元/游戏币兑换、零钱分类
-- **电子支付** - Suica/Pasmo模拟、余额管理
-- **积分系统** - 消费积分累积、会员等级（普通/银/金/白金）
-- **物价指数** - 根据天气/时段/节日动态变化
-- **外币兑换** - USD/CNY/EUR/KRW/TWD汇率
-
-### 🎮 游戏系统（v5.0新增）
-
-- **收藏图鉴** - 70项收藏（食物20/服装15/纪念品10/拍照15/音乐10）
-- **迷你游戏** - 7种游戏（十字路口挑战/记忆/方向/拉面制作/拍照评分/节奏/寻宝）
-- **实时事件** - 早间新闻/午间特惠/下午茶/黄昏灯光/安全提示/末班车/午夜氛围
-- **社交系统** - 好友系统、位置共享、聊天频道、表情动作、赠送礼物、协作任务
-
-### 🛍️ 商店互动系统
-
-- **多楼层购物** - 109大厦/Tower Records/UNIQLO等楼层导航
-- **限时特惠** - 根据时段和天气动态变化
-- **商店评价** - 8家涩谷商店评价一览
-
-### 📸 拍照打卡系统
-
-- **10个打卡点** - 涩谷十字路口、八公像、天空观景台等
-- **GPS位置检测** - 到达对应位置才能打卡
-- **阶梯奖励** - 3/5/10打卡分别解锁不同奖励
-
-### 🗺️ 探索任务系统
-
-- **地标巡礼** - 三阶段探索23栋建筑
-- **美食探索** - 6种涩谷美食
-- **夜间探索** - 6个夜间活动
-- **隐藏宝藏** - 5个隐藏打卡点
-
-### 🚃 交通体验系统
-
-- **地铁** - 9条线路（JR+Metro+私铁）
-- **公交** - 4条线路+深夜巴士
-- **出租车** - 4种距离+深夜加价
-
-### 🎊 8大节日活动
-
-| 节日 | 日期 | 特色 |
-|------|------|------|
-| 圣诞节 | 12月24-26日 | 圣诞树、礼物、特惠 |
-| 新年 | 1月1-3日 | 鸟居祈福、敲钟 |
-| 情人节 | 2月14日 | 爱心装饰、告白加成 |
-| 白色情人节 | 3月14日 | 回礼、双倍好感 |
-| 樱花祭 | 3月20日-4月10日 | 花瓣粒子、花见派对 |
-| 夏日祭 | 7月15日-8月31日 | 烟花、庙会、浴衣 |
-| 红叶祭 | 11月 | 红叶隧道、温泉 |
-| 冬日灯光节 | 11月-2月 | 璀璨灯海、圣诞市集 |
-
-### ⏰ 时间系统
-
-四阶段循环（每9600tick=一天）：
-- 🌅 早晨(0-2400) - 店铺开门，NPC通勤
-- ☀️ 正午(2401-4800) - 商业高峰，午餐时间
-- 🌆 傍晚(4801-7200) - 霓虹灯亮，夜生活开始
-- 🌙 深夜(7201-9600) - 店铺打烊，便利店营业
-
-## 🎮 使用方法
-
-### 一键生成
-```
-/function shibuya:auto/generate_all
+/function shibuya:buildings/generate_all
 ```
 
-### 分步生成
+### Quick Teleport
 ```
-/function shibuya:world/generate_all      # 生成地面、街道、环境
-/function shibuya:buildings/generate_all   # 生成所有23栋建筑+内部
-/function shibuya:npc/spawn_all            # 生成NPC
-/function shibuya:environment/generate_all # 生成环境装饰
+/function shibuya:systems/map/quick_teleport
 ```
 
-### 游戏内菜单
+### View Achievements
 ```
-/function shibuya:ui/menu                  # 主菜单
-/function shibuya:systems/ui/info_panel    # 信息面板
-/function shibuya:systems/ui/quick_actions  # 快捷操作
+/function shibuya:systems/achievements/achievements_menu
 ```
 
-### v5.0新增功能
+### Start a Quest
 ```
-/function shibuya:economy/currency_system           # 货币系统
-/function shibuya:systems/achievements/collection_system  # 收藏图鉴
-/function shibuya:systems/daily/minigames           # 迷你游戏
-/function shibuya:systems/social/social_system      # 社交系统
-/function shibuya:systems/interactions/real_time_events   # 实时事件
+/function shibuya:systems/quests/landmark_tour
 ```
 
-## 📁 项目结构
+## Project Structure
 
 ```
 TokyoShibuya/
-├── manifest.json              # 行为包配置 v5.0
-├── pack.mcmeta                # 数据包元数据 v5.0
-├── Galaxy/
-│   ├── repository.json        # Macro功能索引
-│   └── Macro/                 # 视觉模块
-├── data/shibuya/functions/    # mcfunction命令函数 (389个文件)
-│   ├── _load.mcfunction       # 数据包入口
-│   ├── _tick.mcfunction       # 每tick循环
-│   ├── auto/                  # 自动化生成
-│   ├── buildings/             # 建筑系统(23栋+20内部)
-│   ├── core/                  # 核心系统
-│   ├── economy/               # 经济系统
-│   ├── environment/           # 环境装饰
-│   ├── events/                # 节日活动
-│   ├── npc/                   # NPC系统
-│   ├── population/            # 人群密度
-│   ├── quests/                # 任务系统
-│   ├── save/                  # 存档系统
-│   ├── systems/               # 增强系统
-│   │   ├── achievements/      # 成就/收藏系统
-│   │   ├── daily/             # 日常/迷你游戏
-│   │   ├── festivals/         # 节日系统
-│   │   ├── interactions/      # 实时事件
-│   │   ├── lighting/          # 夜景灯光
-│   │   ├── map/               # 地图导航
-│   │   ├── npc/               # NPC增强
-│   │   ├── photo/             # 拍照打卡
-│   │   ├── quests/            # 探索任务
-│   │   ├── shop/              # 商店互动
-│   │   ├── social/            # 社交系统
-│   │   ├── sound/             # 音效系统
-│   │   ├── transport/         # 交通增强
-│   │   └── ui/                # UI增强
-│   ├── time/                  # 时间系统
-│   ├── transport/             # 交通系统
-│   ├── ui/                    # UI系统
-│   ├── weather/               # 天气系统
-│   └── world/                 # 世界生成
-├── README.md
-└── MC_STUDIO_FORMAT.md        # 发布格式规范
+├── data/
+│   └── shibuya/
+│       ├── functions/
+│       │   ├── buildings/          # 151 building functions
+│       │   │   ├── landmark/       # 78 landmarks
+│       │   │   ├── commercial/     # 60 commercial buildings
+│       │   │   ├── public/         # 22 public facilities
+│       │   │   ├── transport/      # 7 transport hubs
+│       │   │   └── ...
+│       │   ├── systems/            # Game systems
+│       │   │   ├── automation/     # Day/night, weather
+│       │   │   ├── crowd/          # NPC management
+│       │   │   ├── economy/        # Currency, banking
+│       │   │   └── ...
+│       │   ├── world/              # World generation
+│       │   └── algorithm/          # Procedural generation
+│       └── structures/             # Structure files
+├── manifest.json
+├── pack.mcmeta
+└── README.md
 ```
 
-## 📋 发布规范
+## Version History
 
-本项目遵循网易MC Studio基岩版发布规范，详见 [MC_STUDIO_FORMAT.md](./MC_STUDIO_FORMAT.md)
+### v8.2.3 (Current)
+- MC Studio compatibility fixes
+- Fixed 200+ block name errors
+- Updated execute syntax for Bedrock 1.19+
+- All concrete color values converted to named blocks
 
-## 🔧 技术要求
+### v8.2.2
+- Enhanced 33 weak building files
+- Average detail increase: +200%
 
-- **最低引擎版本**: 1.18.0
-- **平台**: 网易MC Studio基岩版
-- **创造模式**: 是
-- **函数文件数**: 389+
-- **计分板数**: 155+
-- **目录数**: 280+
+### v8.2.1
+- Added Cross Tower, Shibuya Cast, Tokyu South Tower
+- Added Harajuku Station, Yoyogi Station
+- Added Spanish Slope, Miyamasuzaka, Moyai Statue
 
-## 📜 版本历史
+### v8.2.0
+- Fixed coordinate conflicts (7 locations)
+- Added Fire Station, Library, Hospital, Police Station, School
+- Added Gas Station, Waste Station, Cinema, Game Center
 
-| 版本 | 日期 | 更新内容 |
-|------|------|----------|
-| **v5.0.0** | 2024-05 | **全面扩展版**：19个建筑内部大幅增强(400-889行)、街道系统(十字路口/人行道/地下通道/天桥)、环境系统(河岸/公园/夜间氛围/雷暴)、NPC系统(人群/游客/店主AI)、经济/收藏/迷你游戏/社交/实时事件系统 |
-| v4.0.0 | 2024-05 | 完整版：夜景灯光/音效/NPC好感度/商店互动/拍照打卡/8大节日/探索任务 |
-| v3.9.0 | 2024-05 | 8大节日活动增强系统 |
-| v3.8.0 | 2024-05 | NPC好感度/赠礼/性格/深入对话系统 |
-| v3.7.0 | 2024-05 | 商店互动/拍照打卡/探索任务/交通增强 |
-| v3.6.0 | 2024-05 | 夜景灯光/音效/增强天气/UI系统 |
-| v3.5.0 | 2024-05 | 23栋建筑+基础设施+四季装饰 |
-| v3.4.0 | 2024-05 | 5栋新地标/街道细节/NPC巡逻AI |
-| v3.3.0 | 2024-05 | 模块化拆分：274行→108行，43个文件 |
-| v3.2.0 | 2024-05 | 模块化框架/自动化生成/建筑内部 |
-| v3.1.0 | 2024-05 | 真实规模：1:1还原涩谷尺寸 |
-| v3.0.0 | 2024-05 | 全面重构：修复19个bug，601x601大地图 |
-| v2.0.0 | 2024-05 | 合并两个项目，22个功能模块 |
-| v1.0.0 | 2024-04 | 初始版本 |
+### v8.1.0
+- Added 8 new landmarks (Tokyu Honten, Excel, etc.)
+- Added 17 commercial interiors
+- Added 8 landmark interiors
 
-## 📄 许可证
+[View full changelog](CHANGELOG.md)
 
-本项目仅供学习交流使用。
+## Credits
+
+- **Project Lead**: TokyoShibuya Project Team
+- **Architecture Research**: Based on real Shibuya district maps and photography
+- **Special Thanks**: Minecraft Bedrock Edition community, NetEase MC Studio
+
+## Legal
+
+**Copyright © 2024 TokyoShibuya Project**
+
+This project is **NOT** for personal or commercial use.
+
+**Authorization Required**: To use this datapack, you must contact the author for explicit written permission.
+
+Contact: [Create an issue on GitHub](https://github.com/badhope/TokyoShibuya/issues)
+
+All rights reserved. Unauthorized distribution, modification, or use is strictly prohibited.
+
+## Links
+
+- [GitHub Repository](https://github.com/badhope/TokyoShibuya)
+- [Report Issues](https://github.com/badhope/TokyoShibuya/issues)
+- [Releases](https://github.com/badhope/TokyoShibuya/releases)
 
 ---
 
-**🗼 TokyoShibuya v5.0 - 在Minecraft中漫步真实的涩谷！**
+*This is a fan-made project. Not affiliated with Mojang, Microsoft, or the Tokyo Metropolitan Government.*

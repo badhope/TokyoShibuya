@@ -1,19 +1,26 @@
 {
     "format_version": 1,
     "header": {
-        "description": "东京涩谷 v8.2.2 | MC Studio兼容修复版：修复200+处方块名称错误 | 网易MC Studio基岩版",
+        "description": "Tokyo Shibuya v8.2.3 | A meticulously crafted 1:1 scale reproduction of Tokyo's Shibuya district for Minecraft Bedrock Edition | 151 handcrafted buildings | NetEase MC Studio compatible",
         "name": "TokyoShibuya",
         "uuid": "a7b3c9d1-5e2f-4a8b-9c6d-1e3f5a7b9c2d",
-        "version": [8, 2, 2],
+        "version": [8, 2, 3],
         "min_engine_version": [1, 18, 0]
     },
     "modules": [
         {
-            "description": "涩谷城市数据包 v8.2.2 - MC Studio兼容修复版(brick_block→bricks/pink_leaves→cherry_leaves/stonebrick→stone_bricks/数据值语法/execute语法) | 完整涩谷城市还原",
+            "description": "Tokyo Shibuya City Datapack v8.2.3 - Featuring 151 detailed buildings, 7 railway stations, scene-aware algorithms, and authentic Shibuya landmarks. Compatible with NetEase MC Studio Bedrock Edition.",
             "type": "data",
             "uuid": "b8c4d0e2-6f3a-5b9c-0d7e-2f4a6b8c0d2e",
-            "version": [8, 2, 2]
+            "version": [8, 2, 3]
         }
     ],
-    "dependencies": []
+    "dependencies": [],
+    "metadata": {
+        "authors": ["TokyoShibuya Project"],
+        "license": "Contact for authorization - Not for personal or commercial use",
+        "url": "https://github.com/badhope/TokyoShibuya",
+        "categories": ["City", "Japan", "Tokyo", "Shibuya", "Landmark", "Architecture"],
+        "keywords": ["shibuya", "tokyo", "japan", "city", "landmark", "scramble", "hikarie", "109", "parco"]
+    }
 }
