@@ -1,0 +1,14 @@
+# Ignore temporary and auto-generated files
+.trae/
+*.zip
+*.rar
+*.7z
+
+# Ignore test and verification directories
+verify_test/
+verify_final/
+
+# Ignore other temporary directories
+TokyoShibuya/
+TokyoShibuya_temp/
+BitNet/
